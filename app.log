@@ -1,0 +1,247 @@
+2025-07-01 17:42:25 [error] uncaughtException: looger is not defined
+ReferenceError: looger is not defined
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\app.js:135:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\index.js:1:13) ReferenceError: looger is not defined
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\app.js:135:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\index.js:1:13)
+2025-07-01 17:42:38 [error] uncaughtException: looger is not defined
+ReferenceError: looger is not defined
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\app.js:136:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\index.js:1:13) ReferenceError: looger is not defined
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\app.js:136:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\index.js:1:13)
+2025-07-01 17:42:40 [error] uncaughtException: looger is not defined
+ReferenceError: looger is not defined
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\app.js:137:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\index.js:1:13) ReferenceError: looger is not defined
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\app.js:137:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\index.js:1:13)
+2025-07-01 17:42:56 [error] uncaughtException: looger is not defined
+ReferenceError: looger is not defined
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\app.js:137:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\index.js:1:13) ReferenceError: looger is not defined
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\app.js:137:5)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\proyectos\iotWaterEjemplo\src\index.js:1:13)
+2025-07-02 15:41:02 [info] ::1 - - [02/Jul/2025:20:41:02 +0000] "OPTIONS /preferences HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:41:07 [info] ::1 - - [02/Jul/2025:20:41:07 +0000] "OPTIONS /auth/login HTTP/1.1" 404 153 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:41:11 [info] ::1 - - [02/Jul/2025:20:41:11 +0000] "OPTIONS /auth/login HTTP/1.1" 404 153 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:41:24 [info] ::1 - - [02/Jul/2025:20:41:24 +0000] "OPTIONS /auth/register HTTP/1.1" 404 156 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:41:28 [info] ::1 - - [02/Jul/2025:20:41:28 +0000] "OPTIONS /news HTTP/1.1" 200 13 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:41:30 [info] ::1 - - [02/Jul/2025:20:41:30 +0000] "OPTIONS /teams HTTP/1.1" 200 13 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:41:33 [info] ::1 - - [02/Jul/2025:20:41:33 +0000] "OPTIONS /users/me HTTP/1.1" 404 151 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:41:33 [info] ::1 - - [02/Jul/2025:20:41:33 +0000] "OPTIONS /preferences/me HTTP/1.1" 404 157 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:46:53 [info] ::1 - - [02/Jul/2025:20:46:53 +0000] "OPTIONS /preferences HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:47:07 [info] ::1 - - [02/Jul/2025:20:47:07 +0000] "OPTIONS /auth/register HTTP/1.1" 404 156 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:47:09 [info] ::1 - - [02/Jul/2025:20:47:09 +0000] "OPTIONS /teams HTTP/1.1" 200 13 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 15:47:16 [info] ::1 - - [02/Jul/2025:20:47:16 +0000] "OPTIONS /auth/login HTTP/1.1" 404 153 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 16:05:10 [info] ::1 - - [02/Jul/2025:21:05:10 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 16:05:30 [info] ::1 - - [02/Jul/2025:21:05:30 +0000] "OPTIONS /auth/register HTTP/1.1" 200 4 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 21:21:44 [info] ::1 - - [03/Jul/2025:02:21:44 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 21:27:20 [info] ::ffff:127.0.0.1 - - [03/Jul/2025:02:27:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "Thunder Client (https://www.thunderclient.com)" 
+2025-07-02 21:29:49 [info] ::ffff:127.0.0.1 - - [03/Jul/2025:02:29:49 +0000] "POST /user-preferences HTTP/1.1" 403 - "-" "Thunder Client (https://www.thunderclient.com)" 
+2025-07-02 21:30:03 [info] ::ffff:127.0.0.1 - - [03/Jul/2025:02:30:03 +0000] "GET /auth/register HTTP/1.1" 404 152 "-" "Thunder Client (https://www.thunderclient.com)" 
+2025-07-02 21:30:09 [info] ::ffff:127.0.0.1 - - [03/Jul/2025:02:30:09 +0000] "POST /auth/register HTTP/1.1" 400 28 "-" "Thunder Client (https://www.thunderclient.com)" 
+2025-07-02 21:31:56 [info] ::ffff:127.0.0.1 - - [03/Jul/2025:02:31:56 +0000] "POST /auth/register HTTP/1.1" 201 45 "-" "Thunder Client (https://www.thunderclient.com)" 
+2025-07-02 21:36:30 [info] ::1 - - [03/Jul/2025:02:36:30 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 21:36:32 [info] ::1 - - [03/Jul/2025:02:36:32 +0000] "GET /teams HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 21:36:34 [info] ::1 - - [03/Jul/2025:02:36:34 +0000] "GET /players HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 21:36:35 [info] ::1 - - [03/Jul/2025:02:36:35 +0000] "GET /matches HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 22:32:56 [info] ::1 - - [03/Jul/2025:03:32:56 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 22:32:58 [info] ::1 - - [03/Jul/2025:03:32:58 +0000] "GET /teams HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 22:33:01 [info] ::1 - - [03/Jul/2025:03:33:01 +0000] "GET /players HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 22:33:02 [info] ::1 - - [03/Jul/2025:03:33:02 +0000] "GET /matches HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 22:33:03 [info] ::1 - - [03/Jul/2025:03:33:03 +0000] "GET /news HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 22:33:05 [info] ::1 - - [03/Jul/2025:03:33:05 +0000] "OPTIONS /referees HTTP/1.1" 200 13 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 22:33:06 [info] ::1 - - [03/Jul/2025:03:33:06 +0000] "GET /standings HTTP/1.1" 500 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 22:33:31 [info] ::1 - - [03/Jul/2025:03:33:31 +0000] "OPTIONS /auth/register HTTP/1.1" 200 4 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-02 23:07:19 [info] ::ffff:127.0.0.1 - - [03/Jul/2025:04:07:19 +0000] "POST /auth/register HTTP/1.1" 400 33 "-" "Thunder Client (https://www.thunderclient.com)" 
+2025-07-02 23:07:27 [info] ::ffff:127.0.0.1 - - [03/Jul/2025:04:07:27 +0000] "POST /auth/register HTTP/1.1" 201 45 "-" "Thunder Client (https://www.thunderclient.com)" 
+2025-07-02 23:21:28 [info] ::ffff:127.0.0.1 - - [03/Jul/2025:04:21:28 +0000] "POST /auth/register HTTP/1.1" 400 33 "-" "Thunder Client (https://www.thunderclient.com)" 
+2025-07-03 17:58:26 [info] ::1 - - [03/Jul/2025:22:58:26 +0000] "GET /teams HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 17:58:31 [info] ::1 - - [03/Jul/2025:22:58:31 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 17:58:39 [info] ::1 - - [03/Jul/2025:22:58:39 +0000] "GET /matches HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 17:58:43 [info] ::1 - - [03/Jul/2025:22:58:43 +0000] "GET /players HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 18:12:31 [info] ::1 - - [03/Jul/2025:23:12:31 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 18:12:36 [info] ::1 - - [03/Jul/2025:23:12:36 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 18:13:05 [info] ::1 - - [03/Jul/2025:23:13:05 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:13:05 [info] ::1 - - [03/Jul/2025:23:13:05 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:13:57 [info] ::1 - - [03/Jul/2025:23:13:57 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:13:57 [info] ::1 - - [03/Jul/2025:23:13:57 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:22:36 [info] ::1 - - [03/Jul/2025:23:22:36 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:22:36 [info] ::1 - - [03/Jul/2025:23:22:36 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:25:53 [info] ::1 - - [03/Jul/2025:23:25:53 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:25:53 [info] ::1 - - [03/Jul/2025:23:25:53 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:30:42 [info] ::1 - - [03/Jul/2025:23:30:42 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:30:42 [info] ::1 - - [03/Jul/2025:23:30:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:31:03 [info] ::1 - - [03/Jul/2025:23:31:03 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:31:03 [info] ::1 - - [03/Jul/2025:23:31:03 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:38:18 [info] ::1 - - [03/Jul/2025:23:38:18 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:39:00 [info] ::1 - - [03/Jul/2025:23:39:00 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:39:00 [info] ::1 - - [03/Jul/2025:23:39:00 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:39:14 [info] ::1 - - [03/Jul/2025:23:39:14 +0000] "POST /auth/register HTTP/1.1" 201 45 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:39:50 [info] ::1 - - [03/Jul/2025:23:39:50 +0000] "POST /auth/login HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:41:08 [info] ::1 - - [03/Jul/2025:23:41:08 +0000] "GET /auth/login HTTP/1.1" 404 149 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 18:44:40 [info] ::1 - - [03/Jul/2025:23:44:40 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 18:44:49 [info] ::1 - - [03/Jul/2025:23:44:49 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:01:21 [info] ::1 - - [04/Jul/2025:00:01:21 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:01:21 [info] ::1 - - [04/Jul/2025:00:01:21 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:01:27 [info] ::1 - - [04/Jul/2025:00:01:27 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:01:34 [info] ::1 - - [04/Jul/2025:00:01:34 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:01:34 [info] ::1 - - [04/Jul/2025:00:01:34 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:01:41 [info] ::1 - - [04/Jul/2025:00:01:41 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:01:53 [info] ::1 - - [04/Jul/2025:00:01:53 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:02:36 [info] ::1 - - [04/Jul/2025:00:02:36 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:02:45 [info] ::1 - - [04/Jul/2025:00:02:45 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:02:45 [info] ::1 - - [04/Jul/2025:00:02:45 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:02:52 [info] ::1 - - [04/Jul/2025:00:02:52 +0000] "POST /login HTTP/1.1" 404 145 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:03:13 [info] ::1 - - [04/Jul/2025:00:03:13 +0000] "GET /login HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 19:03:34 [info] ::1 - - [04/Jul/2025:00:03:34 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:03:42 [info] ::1 - - [04/Jul/2025:00:03:42 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:03:42 [info] ::1 - - [04/Jul/2025:00:03:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:03:50 [info] ::1 - - [04/Jul/2025:00:03:50 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:04:29 [info] ::1 - - [04/Jul/2025:00:04:29 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:04:29 [info] ::1 - - [04/Jul/2025:00:04:29 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:04:37 [info] ::1 - - [04/Jul/2025:00:04:37 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:05:43 [info] ::1 - - [04/Jul/2025:00:05:43 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:05:43 [info] ::1 - - [04/Jul/2025:00:05:43 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:05:44 [info] ::1 - - [04/Jul/2025:00:05:44 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:05:44 [info] ::1 - - [04/Jul/2025:00:05:44 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:05:51 [info] ::1 - - [04/Jul/2025:00:05:51 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:06:00 [info] ::1 - - [04/Jul/2025:00:06:00 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:06:05 [info] ::1 - - [04/Jul/2025:00:06:05 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:06:10 [info] ::1 - - [04/Jul/2025:00:06:10 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:06:10 [info] ::1 - - [04/Jul/2025:00:06:10 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:06:17 [info] ::1 - - [04/Jul/2025:00:06:17 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:07:00 [info] ::1 - - [04/Jul/2025:00:07:00 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:09:55 [info] ::1 - - [04/Jul/2025:00:09:55 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:10:04 [info] ::1 - - [04/Jul/2025:00:10:04 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:10:20 [info] ::1 - - [04/Jul/2025:00:10:20 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:10:20 [info] ::1 - - [04/Jul/2025:00:10:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:10:24 [info] ::1 - - [04/Jul/2025:00:10:24 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:10:25 [info] ::1 - - [04/Jul/2025:00:10:25 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:10:33 [info] ::1 - - [04/Jul/2025:00:10:33 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:11:08 [info] ::1 - - [04/Jul/2025:00:11:08 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:11:08 [info] ::1 - - [04/Jul/2025:00:11:08 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:11:24 [info] ::1 - - [04/Jul/2025:00:11:24 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:11:24 [info] ::1 - - [04/Jul/2025:00:11:24 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:11:35 [info] ::1 - - [04/Jul/2025:00:11:35 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:12:09 [info] ::1 - - [04/Jul/2025:00:12:09 +0000] "GET /auth/login HTTP/1.1" 404 149 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 19:18:26 [info] ::1 - - [04/Jul/2025:00:18:26 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:26 [info] ::1 - - [04/Jul/2025:00:18:26 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:28 [info] ::1 - - [04/Jul/2025:00:18:28 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:28 [info] ::1 - - [04/Jul/2025:00:18:28 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:37 [info] ::1 - - [04/Jul/2025:00:18:37 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:37 [info] ::1 - - [04/Jul/2025:00:18:37 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:38 [info] ::1 - - [04/Jul/2025:00:18:38 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:38 [info] ::1 - - [04/Jul/2025:00:18:38 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:44 [info] ::1 - - [04/Jul/2025:00:18:44 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:47 [info] ::1 - - [04/Jul/2025:00:18:47 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:18:57 [info] ::1 - - [04/Jul/2025:00:18:57 +0000] "GET /auth/login HTTP/1.1" 404 149 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-03 19:19:00 [info] ::1 - - [04/Jul/2025:00:19:00 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:00 [info] ::1 - - [04/Jul/2025:00:19:00 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:07 [info] ::1 - - [04/Jul/2025:00:19:07 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:11 [info] ::1 - - [04/Jul/2025:00:19:11 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:11 [info] ::1 - - [04/Jul/2025:00:19:11 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:17 [info] ::1 - - [04/Jul/2025:00:19:17 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:17 [info] ::1 - - [04/Jul/2025:00:19:17 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:25 [info] ::1 - - [04/Jul/2025:00:19:25 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:29 [info] ::1 - - [04/Jul/2025:00:19:29 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:29 [info] ::1 - - [04/Jul/2025:00:19:29 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:35 [info] ::1 - - [04/Jul/2025:00:19:35 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:39 [info] ::1 - - [04/Jul/2025:00:19:39 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:39 [info] ::1 - - [04/Jul/2025:00:19:39 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:40 [info] ::1 - - [04/Jul/2025:00:19:40 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:40 [info] ::1 - - [04/Jul/2025:00:19:40 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:40 [info] ::1 - - [04/Jul/2025:00:19:40 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:40 [info] ::1 - - [04/Jul/2025:00:19:40 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:40 [info] ::1 - - [04/Jul/2025:00:19:40 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:40 [info] ::1 - - [04/Jul/2025:00:19:40 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:40 [info] ::1 - - [04/Jul/2025:00:19:40 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:40 [info] ::1 - - [04/Jul/2025:00:19:40 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:41 [info] ::1 - - [04/Jul/2025:00:19:41 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:42 [info] ::1 - - [04/Jul/2025:00:19:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-03 19:19:49 [info] ::1 - - [04/Jul/2025:00:19:49 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
