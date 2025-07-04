@@ -1,5 +1,6 @@
 const bcrypt = require('bcrypt');
 const db = require('../dataBase/dataBase.orm');  // Importas instancia y modelos
+const UserPreferences = require('../model/userPreferences.model'); // Agrega esta línea
 
 const User = db.users;  // Modelo ya definido y sincronizado
 const Role = db.rol;
@@ -85,4 +86,28 @@ async function login(req, res) {
   }
 }
 
-module.exports = { register, login };
+// Guardar o actualizar preferencias de usuario
+async function savePreferences(req, res) {
+  try {
+    const { theme, font, mainColor } = req.body;
+    const user = req.session.user;
+
+    if (!user) {
+      return res.status(401).json({ message: 'No autenticado' });
+    }
+
+    // Busca o crea las preferencias en MongoDB
+    const prefs = await UserPreferences.findOneAndUpdate(
+      { userId: user.id },
+      { theme, font, mainColor },
+      { new: true, upsert: true }
+    );
+
+    res.json({ message: 'Preferencias guardadas', preferences: prefs });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Error al guardar preferencias' });
+  }
+}
+
+module.exports = { register, login, savePreferences };
