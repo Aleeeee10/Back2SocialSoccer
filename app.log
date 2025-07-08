@@ -445,3 +445,298 @@ ReferenceError: looger is not defined
 2025-07-03 22:32:59 [info] ::1 - - [04/Jul/2025:03:32:59 +0000] "GET /news HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
 2025-07-03 22:33:00 [info] ::1 - - [04/Jul/2025:03:33:00 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
 2025-07-03 22:33:07 [info] ::1 - - [04/Jul/2025:03:33:07 +0000] "POST /teams HTTP/1.1" 403 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-04 10:08:26 [info] ::1 - - [04/Jul/2025:15:08:26 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-04 10:08:26 [info] ::1 - - [04/Jul/2025:15:08:26 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-04 10:11:20 [info] ::1 - - [04/Jul/2025:15:11:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 16:46:41 [info] ::1 - - [07/Jul/2025:21:46:41 +0000] "POST /auth/login HTTP/1.1" 403 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:11 [info] ::1 - - [07/Jul/2025:21:47:11 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:11 [info] ::1 - - [07/Jul/2025:21:47:11 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:16 [info] ::1 - - [07/Jul/2025:21:47:16 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:16 [info] ::1 - - [07/Jul/2025:21:47:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:16 [info] ::1 - - [07/Jul/2025:21:47:16 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:16 [info] ::1 - - [07/Jul/2025:21:47:16 +0000] "GET /news HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:22 [info] ::1 - - [07/Jul/2025:21:47:22 +0000] "GET /users/me HTTP/1.1" 404 147 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:22 [info] ::1 - - [07/Jul/2025:21:47:22 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:27 [info] ::1 - - [07/Jul/2025:21:47:27 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:27 [info] ::1 - - [07/Jul/2025:21:47:27 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:47:27 [info] ::1 - - [07/Jul/2025:21:47:27 +0000] "GET /news HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 16:56:17 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:12:31 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:12:39 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:12:50 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:18:59 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:19:04 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:20:18 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:20:26 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:20:36 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:20:40 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:20:51 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:21:17 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:21:26 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:21:28 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:22:56 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:22:57 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:03 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:04 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:23 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:36 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:38 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:44 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:47 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:56 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:23:58 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:26:01 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:26:05 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:26:35 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:26:37 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:27:00 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:28:24 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:28:34 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:30:43 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:34:59 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:35:01 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:35:13 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:35:18 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:36:03 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:36:04 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:36:14 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:36:15 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:36:33 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:36:36 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:37:20 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:39:04 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:39:06 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:39:09 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:39:55 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:40:55 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:41:04 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:41:27 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:41:31 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:44:42 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:44:44 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:44:50 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:50:46 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:50:48 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:51:02 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 17:51:03 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:01:43 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:01:51 [info] ::1 - - [07/Jul/2025:23:01:51 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:01:57 [info] ::1 - - [07/Jul/2025:23:01:57 +0000] "GET /preferences HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:01:57 [info] ::1 - - [07/Jul/2025:23:01:57 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:02:07 [info] ::1 - - [07/Jul/2025:23:02:07 +0000] "GET /preferences HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:02:12 [info] ::1 - - [07/Jul/2025:23:02:12 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:02:21 [info] ::1 - - [07/Jul/2025:23:02:21 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:02:28 [info] ::1 - - [07/Jul/2025:23:02:28 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:02:29 [info] ::1 - - [07/Jul/2025:23:02:29 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:03:01 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:03:04 [info] ::1 - - [07/Jul/2025:23:03:04 +0000] "GET /preferences HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:03:05 [info] ::1 - - [07/Jul/2025:23:03:05 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:05:57 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:05:57 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.createTable (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async detalle_estadisticas.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:06:11 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:06:11 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.createTable (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async detalle_estadisticas.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:06:21 [info] ::1 - - [07/Jul/2025:23:06:21 +0000] "GET /preferences HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:06:24 [info] ::1 - - [07/Jul/2025:23:06:24 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:06:25 [info] ::1 - - [07/Jul/2025:23:06:25 +0000] "GET /api/csrf-token HTTP/1.1" 500 1447 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:09:18 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:09:18 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.createTable (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async detalle_estadisticas.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:10:11 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:10:11 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.createTable (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async detalle_estadisticas.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:10:21 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:10:21 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.createTable (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async detalle_estadisticas.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:10:28 [info] ::1 - - [07/Jul/2025:23:10:28 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:10:30 [info] ::1 - - [07/Jul/2025:23:10:30 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:10:31 [info] ::1 - - [07/Jul/2025:23:10:31 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:11:12 [error] Unhandled Rejection at: [object Promise], reason: TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at register (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\controller\auth.controller.js:9:11)
+    at Layer.handle [as handle_request] (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:47:12) 
+2025-07-07 18:11:15 [error] Unhandled Rejection at: [object Promise], reason: TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at register (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\controller\auth.controller.js:9:11)
+    at Layer.handle [as handle_request] (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\express\lib\router\index.js:47:12) 
+2025-07-07 18:14:51 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:14:51 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.showIndex (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:254:12)
+    at async news.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:988:29)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:14:55 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:14:55 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.createTable (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async detalle_estadisticas.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:15:32 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:15:32 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.createTable (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async detalle_estadisticas.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:16:38 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:16:38 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.createTable (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async detalle_estadisticas.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:16:55 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:16:55 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.showIndex (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:254:12)
+    at async news.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:988:29)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:19:50 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:19:50 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.showIndex (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:254:12)
+    at async roles.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\model.js:988:29)
+    at async Sequelize.sync (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-07 18:23:56 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:23:56 [info] Sincronización de la base de datos completada. 
+2025-07-07 18:24:25 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 18:24:25 [info] Sincronización de la base de datos completada. 
+2025-07-07 18:24:36 [info] ::1 - - [07/Jul/2025:23:24:36 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:24:39 [info] ::1 - - [07/Jul/2025:23:24:39 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:24:41 [info] ::1 - - [07/Jul/2025:23:24:41 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:24:59 [info] ::1 - - [07/Jul/2025:23:24:59 +0000] "POST /auth/register HTTP/1.1" 400 28 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 18:46:12 [info] ::1 - - [07/Jul/2025:23:46:12 +0000] "POST /rol/add/1 HTTP/1.1" 403 1449 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 18:46:25 [info] ::1 - - [07/Jul/2025:23:46:25 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 18:46:36 [info] ::1 - - [07/Jul/2025:23:46:36 +0000] "POST /rol/add/1 HTTP/1.1" 404 149 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 18:47:07 [info] ::1 - - [07/Jul/2025:23:47:07 +0000] "POST /roles/add/1 HTTP/1.1" 404 151 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 18:49:53 [info] ::1 - - [07/Jul/2025:23:49:53 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 18:50:32 [info] ::1 - - [07/Jul/2025:23:50:32 +0000] "POST /roles HTTP/1.1" 404 145 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:05:11 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:05:11 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:05:22 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:05:22 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:05:26 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:05:26 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:06:01 [info] ::1 - - [08/Jul/2025:00:06:01 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:06:14 [info] ::1 - - [08/Jul/2025:00:06:14 +0000] "POST /roles HTTP/1.1" 404 145 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:07:09 [info] ::1 - - [08/Jul/2025:00:07:09 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:07:21 [info] ::1 - - [08/Jul/2025:00:07:21 +0000] "POST /roles/add/1 HTTP/1.1" 404 151 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:07:31 [info] ::1 - - [08/Jul/2025:00:07:31 +0000] "POST /roles HTTP/1.1" 404 145 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:07:37 [info] ::1 - - [08/Jul/2025:00:07:37 +0000] "POST /role HTTP/1.1" 404 144 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:07:39 [info] ::1 - - [08/Jul/2025:00:07:39 +0000] "POST /rol HTTP/1.1" 404 143 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:07:48 [info] ::1 - - [08/Jul/2025:00:07:48 +0000] "POST /roles/add HTTP/1.1" 404 149 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:07:54 [info] ::1 - - [08/Jul/2025:00:07:54 +0000] "POST /roles HTTP/1.1" 404 145 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:09:20 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:09:20 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:09:21 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:09:21 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:10:36 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:10:36 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:10:37 [info] ::1 - - [08/Jul/2025:00:10:37 +0000] "POST /roles HTTP/1.1" 302 33 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:10:37 [info] ::1 - - [08/Jul/2025:00:10:37 +0000] "GET /rol/listar HTTP/1.1" 404 149 "http://localhost:3000/roles" "PostmanRuntime/7.44.1" 
+2025-07-07 19:10:47 [info] ::1 - - [08/Jul/2025:00:10:47 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:11:01 [info] ::1 - - [08/Jul/2025:00:11:01 +0000] "POST /roles HTTP/1.1" 302 33 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:11:01 [info] ::1 - - [08/Jul/2025:00:11:01 +0000] "GET /rol/listar HTTP/1.1" 404 149 "http://localhost:3000/roles" "PostmanRuntime/7.44.1" 
+2025-07-07 19:11:06 [info] ::1 - - [08/Jul/2025:00:11:06 +0000] "POST /rol HTTP/1.1" 404 143 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:11:09 [info] ::1 - - [08/Jul/2025:00:11:09 +0000] "POST / HTTP/1.1" 404 140 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:11:13 [info] ::1 - - [08/Jul/2025:00:11:13 +0000] "POST /roles HTTP/1.1" 302 33 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:11:13 [info] ::1 - - [08/Jul/2025:00:11:13 +0000] "GET /rol/listar HTTP/1.1" 404 149 "http://localhost:3000/roles" "PostmanRuntime/7.44.1" 
+2025-07-07 19:11:57 [info] ::1 - - [08/Jul/2025:00:11:57 +0000] "POST /roles%0A HTTP/1.1" 404 148 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:12:05 [info] ::1 - - [08/Jul/2025:00:12:05 +0000] "POST /roles/add/1%0A HTTP/1.1" 404 154 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:12:11 [info] ::1 - - [08/Jul/2025:00:12:11 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:12:22 [info] ::1 - - [08/Jul/2025:00:12:22 +0000] "POST /roles/add/1%0A HTTP/1.1" 404 154 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:12:25 [info] ::1 - - [08/Jul/2025:00:12:25 +0000] "POST /roles/add%0A HTTP/1.1" 404 152 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:12:28 [info] ::1 - - [08/Jul/2025:00:12:28 +0000] "POST /roles%0A HTTP/1.1" 404 148 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:14:32 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:14:32 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:14:35 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:14:35 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:15:59 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:15:59 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:17:02 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:17:02 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:17:08 [info] ::1 - - [08/Jul/2025:00:17:08 +0000] "POST /roles%0A HTTP/1.1" 404 148 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:17:17 [info] ::1 - - [08/Jul/2025:00:17:17 +0000] "POST /roles1%0A HTTP/1.1" 404 149 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:17:23 [info] ::1 - - [08/Jul/2025:00:17:23 +0000] "POST /roles/1%0A HTTP/1.1" 404 150 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:17:38 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:17:38 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:22:23 [info] ::1 - - [08/Jul/2025:00:22:23 +0000] "POST /roles%0A HTTP/1.1" 404 148 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:22:50 [info] ::1 - - [08/Jul/2025:00:22:50 +0000] "POST /roles%0A HTTP/1.1" 404 148 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:24:41 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:24:41 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:25:12 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:25:12 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:25:36 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:25:36 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:26:33 [info] ::1 - - [08/Jul/2025:00:26:33 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:26:57 [info] ::1 - - [08/Jul/2025:00:26:57 +0000] "POST /roles%0A HTTP/1.1" 404 148 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:29:46 [info] ::1 - - [08/Jul/2025:00:29:46 +0000] "POST /roles HTTP/1.1" 302 0 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:29:46 [info] ::1 - - [08/Jul/2025:00:29:46 +0000] "GET /rol/listar HTTP/1.1" 404 149 "http://localhost:3000/roles" "PostmanRuntime/7.44.1" 
+2025-07-07 19:30:41 [info] ::1 - - [08/Jul/2025:00:30:41 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:30:54 [info] ::1 - - [08/Jul/2025:00:30:54 +0000] "POST /roles HTTP/1.1" 302 0 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:30:54 [info] ::1 - - [08/Jul/2025:00:30:54 +0000] "GET /rol/listar HTTP/1.1" 404 149 "http://localhost:3000/roles" "PostmanRuntime/7.44.1" 
+2025-07-07 19:42:29 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 19:42:29 [info] Sincronización de la base de datos completada. 
+2025-07-07 19:42:42 [info] ::1 - - [08/Jul/2025:00:42:42 +0000] "POST /roles HTTP/1.1" 201 38 "-" "PostmanRuntime/7.44.1" 
+2025-07-07 19:42:50 [info] ::1 - - [08/Jul/2025:00:42:50 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 19:42:50 [info] ::1 - - [08/Jul/2025:00:42:50 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 19:43:05 [info] ::1 - - [08/Jul/2025:00:43:05 +0000] "POST /auth/register HTTP/1.1" 201 45 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 19:43:05 [info] ::1 - - [08/Jul/2025:00:43:05 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 19:43:12 [info] ::1 - - [08/Jul/2025:00:43:12 +0000] "POST /auth/login HTTP/1.1" 200 109 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 19:43:12 [info] ::1 - - [08/Jul/2025:00:43:12 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 19:43:12 [info] ::1 - - [08/Jul/2025:00:43:12 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 19:43:12 [info] ::1 - - [08/Jul/2025:00:43:12 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-07 21:36:06 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 21:36:06 [info] Sincronización de la base de datos completada. 
+2025-07-07 21:49:49 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-07 21:49:49 [info] Sincronización de la base de datos completada. 

@@ -10,6 +10,9 @@ app.use(cors({
   credentials: true
 }));
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 const morgan = require('morgan');
 const path = require('path');
 const session = require('express-session');
@@ -89,30 +92,13 @@ app.use(session({
     saveUninitialized: false,
 }))
 
-app.set('port', process.env.PORT || 3000);
-
-//midelwares
-app.use(cookieParser());
-app.use(fileUpload({ createParentPath: true }));
-app.use(express.json({ limit: '300mb' }));
-app.use(express.urlencoded({ limit: '300mb', extended: true }));
-app.use(flash());
-app.use(passport.initialize());
-app.use(passport.session());
-
-app.use(compression());
-
-//loger
+// Winston logger (ya lo tienes configurado)
 const logger = witson.createLogger({
     level: 'info',
     format: witson.format.combine(
-        witson.format.timestamp({
-            format: 'YYYY-MM-DD HH:mm:ss'
-        }),
-        witson.format.errors({ stack: true }), // Añade esto para capturar stack traces
-        witson.format.printf(info => {
-            return `${info.timestamp} [${info.level}] ${info.message} ${info.stack || ''}`;
-        })
+        witson.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
+        witson.format.errors({ stack: true }),
+        witson.format.printf(info => `${info.timestamp} [${info.level}] ${info.message} ${info.stack || ''}`)
     ),
     transports: [
         new witson.transports.File({
@@ -122,25 +108,39 @@ const logger = witson.createLogger({
             maxFiles: 5,
         })
     ],
-    exceptionHandlers: [  // Cambia 'exceptions' por 'exceptionHandlers'
-        new witson.transports.File({
-            filename: 'app.log'
-        })
+    exceptionHandlers: [
+        new witson.transports.File({ filename: 'app.log' })
     ]
 });
 
+// Log de inicio de servidor
+app.set('port', process.env.PORT || 3000);
 
-// Configuración corregida de Morgan
-const morganStream = {
-    write: (message) => {
-        logger.info(message.trim()); // Remueve 'http: ' para formato más limpio
-    }
+// Log de conexión a base de datos relacional (MySQL/Sequelize)
+const db = require('./dataBase/dataBase.orm');
+if (db.sequelize && db.sequelize.authenticate) {
+    db.sequelize.authenticate()
+        .then(() => logger.info('Conexión a la base de datos MySQL establecida correctamente.'))
+        .catch(err => logger.error('Error al conectar a la base de datos MySQL: ' + err.stack));
+
+    // 👉 Agrega este bloque para capturar errores de sincronización
+    db.sequelize.sync()
+        .then(() => logger.info('Sincronización de la base de datos completada.'))
+        .catch(err => logger.error('Error al sincronizar la base de datos: ' + err.stack));
 }
 
+
+
+// Morgan para logs HTTP
+const morganStream = {
+    write: (message) => {
+        logger.info(message.trim());
+    }
+};
 app.use(morgan('combined', { stream: morganStream }));
 
-// logs en consola
-if(process.env.NODE_ENV !== 'production') {
+// Logs en consola si no es producción
+if (process.env.NODE_ENV !== 'production') {
     logger.add(new witson.transports.Console({
         format: witson.format.combine(
             witson.format.colorize(),
@@ -148,44 +148,45 @@ if(process.env.NODE_ENV !== 'production') {
         )
     }));
 }
-// mildelwar error
 
+// Middleware de errores globales
 app.use((err, req, res, next) => {
-    if(res.headersSent) {
-        return next(err);
-    }
-    
-    // Registra TODOS los errores con stack trace
+    if (res.headersSent) return next(err);
     logger.error(`${err.message}\n${err.stack}`);
-    
-    if(err.code === 'ValidationError') {
+    if (err.code === 'ValidationError') {
         return res.status(400).json({ error: err.message });
-    } 
-
-    if(err.code === 'EBADCSRFTOKEN') {
-        return res.status(403).send('Invalid CSRF token');
-    } else {
-        return res.status(500).send('Internal Server Error');
     }
+    if (err.code === 'EBADCSRFTOKEN') {
+        return res.status(403).send('Invalid CSRF token');
+    }
+    return res.status(500).send('Internal Server Error');
 });
 
-// Añade esto para capturar excepciones no manejadas
+// Captura excepciones no manejadas
 process.on('uncaughtException', (error) => {
     logger.error(`Uncaught Exception: ${error.stack}`);
     process.exit(1);
 });
-
 process.on('unhandledRejection', (reason, promise) => {
-    logger.error(`Unhandled Rejection at: ${promise}, reason: ${reason.stack}`);
+    logger.error(`Unhandled Rejection at: ${promise}, reason: ${reason.stack || reason}`);
 });
 
 // variables globales
+// variables globales con protección por si no existe req.flash
 app.use((req, res, next) => {
     res.locals.user = req.user || null;
-    res.locals.success = req.flash('success');
-    res.locals.error = req.flash('error');
+
+    if (typeof req.flash === 'function') {
+        res.locals.success = req.flash('success');
+        res.locals.error = req.flash('error');
+    } else {
+        res.locals.success = [];
+        res.locals.error = [];
+    }
+
     next();
 });
+
 
 //midelwar proteccion o token 
 const milderwarCsrf = csrf({ cookie: true });
@@ -204,7 +205,7 @@ app.get('/api/csrf-token', (req, res) => {
 });
 
 // rutas
-app.use('/rol', require('./router/rol.router'));
+app.use('/roles', require('./router/rol.router'));
 app.use('/teams', require('./router/teams.router'));
 app.use('/players', require('./router/players.router'));
 app.use('/referees', require('./router/referees.router'));
@@ -222,8 +223,20 @@ app.use('/canchas', require('./router/canchas.router'));
 app.use('/detalle-jugadores', require('./router/detalleJugadores.router'));
 app.use('/auth', require('./router/auth.router'));
 
-// Base de datos MongoDB
+// Base de datos MongoDB sincronización
 const connectMongoDB = require('./dataBase/dataBase.mongo');
-connectMongoDB(); // Conectar a MongoDB
+connectMongoDB().then(async () => {
+    // Aquí puedes crear colecciones vacías si lo deseas
+    try {
+        const UserPreferences = require('./model/userPreferences.model');
+        await UserPreferences.createCollection();
+        // Repite para otros modelos si lo necesitas
+        // const OtroModelo = require('./model/otroModelo');
+        // await OtroModelo.createCollection();
+        console.log('Colecciones de MongoDB listas.');
+    } catch (err) {
+        console.error('Error creando colecciones en MongoDB:', err);
+    }
+});
 
 module.exports = app;

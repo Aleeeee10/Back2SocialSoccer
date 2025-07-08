@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-const { mandar } = require('../controller/rol.controller');
+const { mandar, listar } = require('../controller/rol.controller');
 
-router.post('/add/:id', mandar)
+router.post('/', mandar);
+router.get('/listar', listar);
 
 module.exports = router;

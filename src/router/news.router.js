@@ -1,10 +1,11 @@
+// Router para el recurso: Noticias (News)
 const express = require('express');
 const router = express.Router();
 const controller = require('../controller/news.controller');
 
-router.get('/', controller.listar);
-router.post('/', controller.crear);
-router.put('/:id', controller.actualizar);
-router.delete('/:id', controller.eliminar);
+router.get('/news', controller.listar);
+router.post('/news', controller.crear);
+router.put('/news/:id', controller.actualizar);
+router.delete('/news/:id', controller.eliminar);
 
 module.exports = router;

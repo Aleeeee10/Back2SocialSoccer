@@ -32,7 +32,7 @@ sequelize.authenticate()
     .then(() => console.log('Conexión a la base de datos establecida correctamente.'))
     .catch(err => console.error('No se pudo conectar a la base de datos:', err));
 
-const syngOptions = process.env.NODE_ENV === 'development' ? { force: true } : { alter: true };
+const syngOptions = process.env.NODE_ENV === 'development' ? { force: true } : { alter : true };
 
 sequelize.sync(syngOptions)
     .then(() => console.log('Sincronización de la base de datos completada.'))

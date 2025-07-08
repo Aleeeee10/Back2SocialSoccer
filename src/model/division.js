@@ -6,7 +6,7 @@ const division = (sequelize, type) => {
       autoIncrement: true
     },
     name: type.STRING,
-    description: type.TEXT
+    description: type.TEXT,
   }, {
     timestamps: false,
     tableName: 'division'  // <-- Fija el nombre exacto

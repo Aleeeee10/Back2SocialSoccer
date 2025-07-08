@@ -21,19 +21,19 @@ rolController.mandar = async (req, res) => {
             updateRole
         });
 
-        // Si tuvieras una base MongoDB, aquí podrías insertar también
-        // await mongo.rol.create({ ... });
+        // ⚠️ Detección si es API o formulario HTML tradicional
+        const isApiRequest = req.headers.accept && req.headers.accept.includes('application/json');
 
-        // Si usas flash y vistas:
-        if (req.flash) req.flash('success', 'Rol creado correctamente');
-        // Si usas vistas:
-        if (res.redirect) return res.redirect('/rol/listar');
-        // Si es API:
-        return res.status(201).json({ message: "Rol creado correctamente" });
+        if (isApiRequest) {
+            return res.status(201).json({ message: "Rol creado correctamente" });
+        } else {
+            if (req.flash) req.flash('success', 'Rol creado correctamente');
+            return res.redirect('/rol/listar');
+        }
 
     } catch (error) {
         console.error("Error en rolController.mandar:", error);
-        res.status(500).json({ error: "Error al crear el rol" });
+        return res.status(500).json({ error: "Error al crear el rol" });
     }
 };
 
@@ -41,10 +41,22 @@ rolController.mandar = async (req, res) => {
 rolController.listar = async (req, res) => {
     try {
         const roles = await orm.rol.findAll();
-        res.render('rol/listar', { roles }); // o res.json(roles) si es API
+
+        // Ver si es petición API
+        const isApiRequest = req.headers.accept && req.headers.accept.includes('application/json');
+
+        if (isApiRequest) {
+            return res.status(200).json(roles);
+        } else {
+            // Si usas vistas con EJS o similar, descomenta esto
+            // res.render('rol/listar', { roles });
+
+            // Pero si no tienes vistas, manda texto plano para evitar 404
+            return res.send('Lista de roles mostrada aquí (vista no implementada)');
+        }
     } catch (error) {
         console.error("Error en rolController.listar:", error);
-        res.status(500).json({ error: "Error al listar roles" });
+        return res.status(500).json({ error: "Error al listar roles" });
     }
 };
 
