@@ -740,3 +740,834 @@ ReferenceError: looger is not defined
 2025-07-07 21:36:06 [info] Sincronización de la base de datos completada. 
 2025-07-07 21:49:49 [info] Conexión a la base de datos MySQL establecida correctamente. 
 2025-07-07 21:49:49 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:22:42 [error] uncaughtException: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:133:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:133:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-08 21:24:24 [error] uncaughtException: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:133:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:133:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-08 21:24:38 [error] uncaughtException: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:133:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:133:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-08 21:26:55 [error] uncaughtException: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:140:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:140:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-08 21:27:11 [error] uncaughtException: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:140:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:140:19)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-08 21:29:30 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:29:30 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:29:30 [error] Error al sincronizar la base de datos: Error: Cannot find module './utils/initRoles'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js:132:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) 
+2025-07-08 21:35:08 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:35:08 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:35:08 [error] Error al sincronizar la base de datos: Error: Cannot find module '../dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:35:10 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:35:10 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:35:10 [error] Error al sincronizar la base de datos: Error: Cannot find module '../dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:37:11 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:37:11 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:37:11 [error] Error al sincronizar la base de datos: Error: Cannot find module '../dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:38:48 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:38:48 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:38:48 [error] Error al sincronizar la base de datos: Error: Cannot find module '../dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:38:50 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:38:50 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:38:50 [error] Error al sincronizar la base de datos: Error: Cannot find module '../dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:39:19 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:39:19 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:39:19 [error] Error al sincronizar la base de datos: Error: Cannot find module '../dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:43:29 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:43:29 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:43:29 [error] Error al sincronizar la base de datos: Error: Cannot find module '../src/controller/dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:43:55 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:43:55 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:43:55 [error] Error al sincronizar la base de datos: Error: Cannot find module '../src/controller/dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:44:36 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:44:36 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:44:36 [error] Error al sincronizar la base de datos: Error: Cannot find module '../../src/controller/dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:44:47 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:44:47 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:44:47 [error] Error al sincronizar la base de datos: Error: Cannot find module '../../src/controller/dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:45:24 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:45:24 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:45:24 [error] Error al sincronizar la base de datos: Error: Cannot find module '../src/controller/dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:45:36 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:45:36 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:45:36 [error] Error al sincronizar la base de datos: Error: Cannot find module '../src/controller/dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:46:06 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:46:06 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:46:06 [error] Error al sincronizar la base de datos: Error: Cannot find module '../src/controller/dataBase/dataBase.orm'
+Require stack:
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\app.js
+- C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\AlejandroPC\OneDrive\Desktop\FFSS\Back\utils\initRoles.js:1:13)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) 
+2025-07-08 21:49:02 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:49:02 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:49:03 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:49:03 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:50:01 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 21:50:01 [info] Sincronización de la base de datos completada. 
+2025-07-08 21:58:25 [info] ::1 - - [09/Jul/2025:02:58:25 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 21:58:32 [info] ::1 - - [09/Jul/2025:02:58:32 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 21:58:42 [info] ::1 - - [09/Jul/2025:02:58:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 21:59:04 [info] ::1 - - [09/Jul/2025:02:59:04 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 21:59:04 [info] ::1 - - [09/Jul/2025:02:59:04 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 21:59:16 [info] ::1 - - [09/Jul/2025:02:59:16 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 21:59:16 [info] ::1 - - [09/Jul/2025:02:59:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:01:04 [info] ::1 - - [09/Jul/2025:03:01:04 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:01:04 [info] ::1 - - [09/Jul/2025:03:01:04 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:01:07 [info] ::1 - - [09/Jul/2025:03:01:07 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:01:07 [info] ::1 - - [09/Jul/2025:03:01:07 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:02:39 [info] ::1 - - [09/Jul/2025:03:02:39 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:02:39 [info] ::1 - - [09/Jul/2025:03:02:39 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:07:03 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:07:03 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:07:10 [info] ::1 - - [09/Jul/2025:03:07:10 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:07:10 [info] ::1 - - [09/Jul/2025:03:07:10 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:07:16 [info] ::1 - - [09/Jul/2025:03:07:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:18 [info] ::1 - - [09/Jul/2025:03:07:18 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:31 [info] ::1 - - [09/Jul/2025:03:07:31 +0000] "POST /auth/register HTTP/1.1" 201 45 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:31 [info] ::1 - - [09/Jul/2025:03:07:31 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:40 [info] ::1 - - [09/Jul/2025:03:07:40 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:40 [info] ::1 - - [09/Jul/2025:03:07:40 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:40 [info] ::1 - - [09/Jul/2025:03:07:40 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:40 [info] ::1 - - [09/Jul/2025:03:07:40 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:47 [info] ::1 - - [09/Jul/2025:03:07:47 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:07:47 [info] ::1 - - [09/Jul/2025:03:07:47 +0000] "GET /users/me HTTP/1.1" 404 147 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:08:32 [info] ::1 - - [09/Jul/2025:03:08:32 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:12:54 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:12:54 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:12:56 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:12:56 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:15:08 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:15:08 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:15:19 [info] ::1 - - [09/Jul/2025:03:15:19 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:21 [info] ::1 - - [09/Jul/2025:03:15:21 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:22 [info] ::1 - - [09/Jul/2025:03:15:22 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:34 [info] ::1 - - [09/Jul/2025:03:15:34 +0000] "POST /auth/register HTTP/1.1" 201 45 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:34 [info] ::1 - - [09/Jul/2025:03:15:34 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:39 [info] ::1 - - [09/Jul/2025:03:15:39 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:39 [info] ::1 - - [09/Jul/2025:03:15:39 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:39 [info] ::1 - - [09/Jul/2025:03:15:39 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:39 [info] ::1 - - [09/Jul/2025:03:15:39 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:42 [info] ::1 - - [09/Jul/2025:03:15:42 +0000] "POST /teams HTTP/1.1" 403 1448 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:57 [info] ::1 - - [09/Jul/2025:03:15:57 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:15:57 [info] ::1 - - [09/Jul/2025:03:15:57 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:16:02 [info] ::1 - - [09/Jul/2025:03:16:02 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:16:02 [info] ::1 - - [09/Jul/2025:03:16:02 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:16:02 [info] ::1 - - [09/Jul/2025:03:16:02 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:16:02 [info] ::1 - - [09/Jul/2025:03:16:02 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:16:05 [info] ::1 - - [09/Jul/2025:03:16:05 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:16:22 [info] ::1 - - [09/Jul/2025:03:16:22 +0000] "POST /teams HTTP/1.1" 403 1448 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:16:57 [info] ::1 - - [09/Jul/2025:03:16:57 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:16:57 [info] ::1 - - [09/Jul/2025:03:16:57 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:17:08 [info] ::1 - - [09/Jul/2025:03:17:08 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:17:08 [info] ::1 - - [09/Jul/2025:03:17:08 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:17:08 [info] ::1 - - [09/Jul/2025:03:17:08 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:17:08 [info] ::1 - - [09/Jul/2025:03:17:08 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:17:12 [info] ::1 - - [09/Jul/2025:03:17:12 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:17:39 [info] ::1 - - [09/Jul/2025:03:17:39 +0000] "POST /teams HTTP/1.1" 403 1448 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:17:45 [info] ::1 - - [09/Jul/2025:03:17:45 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:17:46 [info] ::1 - - [09/Jul/2025:03:17:46 +0000] "POST /teams HTTP/1.1" 403 1448 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:20:05 [info] ::1 - - [09/Jul/2025:03:20:05 +0000] "POST /teams HTTP/1.1" 403 1448 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:20:08 [info] ::1 - - [09/Jul/2025:03:20:08 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:20:08 [info] ::1 - - [09/Jul/2025:03:20:08 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:20:14 [info] ::1 - - [09/Jul/2025:03:20:14 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:20:14 [info] ::1 - - [09/Jul/2025:03:20:14 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:20:14 [info] ::1 - - [09/Jul/2025:03:20:14 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:20:14 [info] ::1 - - [09/Jul/2025:03:20:14 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:20:19 [info] ::1 - - [09/Jul/2025:03:20:19 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:22:53 [info] ::1 - - [09/Jul/2025:03:22:53 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:22:53 [info] ::1 - - [09/Jul/2025:03:22:53 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:09 [info] ::1 - - [09/Jul/2025:03:23:09 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:17 [info] ::1 - - [09/Jul/2025:03:23:17 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:17 [info] ::1 - - [09/Jul/2025:03:23:17 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:17 [info] ::1 - - [09/Jul/2025:03:23:17 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:17 [info] ::1 - - [09/Jul/2025:03:23:17 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:18 [info] ::1 - - [09/Jul/2025:03:23:18 +0000] "GET /players HTTP/1.1" 404 146 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:18 [info] ::1 - - [09/Jul/2025:03:23:18 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:20 [info] ::1 - - [09/Jul/2025:03:23:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:20 [info] ::1 - - [09/Jul/2025:03:23:20 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:23:36 [info] ::1 - - [09/Jul/2025:03:23:36 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:36 [info] ::1 - - [09/Jul/2025:03:23:36 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:42 [info] ::1 - - [09/Jul/2025:03:23:42 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:42 [info] ::1 - - [09/Jul/2025:03:23:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:42 [info] ::1 - - [09/Jul/2025:03:23:42 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:42 [info] ::1 - - [09/Jul/2025:03:23:42 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:44 [info] ::1 - - [09/Jul/2025:03:23:44 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:44 [info] ::1 - - [09/Jul/2025:03:23:44 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:50 [info] ::1 - - [09/Jul/2025:03:23:50 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:50 [info] ::1 - - [09/Jul/2025:03:23:50 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:55 [info] ::1 - - [09/Jul/2025:03:23:55 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:55 [info] ::1 - - [09/Jul/2025:03:23:55 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:55 [info] ::1 - - [09/Jul/2025:03:23:55 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:55 [info] ::1 - - [09/Jul/2025:03:23:55 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:58 [info] ::1 - - [09/Jul/2025:03:23:58 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:23:58 [info] ::1 - - [09/Jul/2025:03:23:58 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:24:06 [info] ::1 - - [09/Jul/2025:03:24:06 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:24:06 [info] ::1 - - [09/Jul/2025:03:24:06 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:24:06 [info] ::1 - - [09/Jul/2025:03:24:06 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:24:06 [info] ::1 - - [09/Jul/2025:03:24:06 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:24:10 [info] ::1 - - [09/Jul/2025:03:24:10 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:24:10 [info] ::1 - - [09/Jul/2025:03:24:10 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:29:30 [info] ::1 - - [09/Jul/2025:03:29:30 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:29:30 [info] ::1 - - [09/Jul/2025:03:29:30 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:29:36 [info] ::1 - - [09/Jul/2025:03:29:36 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:29:36 [info] ::1 - - [09/Jul/2025:03:29:36 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:29:36 [info] ::1 - - [09/Jul/2025:03:29:36 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:29:36 [info] ::1 - - [09/Jul/2025:03:29:36 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:29:38 [info] ::1 - - [09/Jul/2025:03:29:38 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:29:38 [info] ::1 - - [09/Jul/2025:03:29:38 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5174/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:31:02 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:31:02 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:31:49 [info] ::1 - - [09/Jul/2025:03:31:49 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:33:56 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:33:56 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:34:05 [info] ::1 - - [09/Jul/2025:03:34:05 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:08 [info] ::1 - - [09/Jul/2025:03:34:08 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:13 [info] ::1 - - [09/Jul/2025:03:34:13 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:13 [info] ::1 - - [09/Jul/2025:03:34:13 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:13 [info] ::1 - - [09/Jul/2025:03:34:13 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:13 [info] ::1 - - [09/Jul/2025:03:34:13 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:16 [info] ::1 - - [09/Jul/2025:03:34:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:16 [info] ::1 - - [09/Jul/2025:03:34:16 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:26 [info] ::1 - - [09/Jul/2025:03:34:26 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:27 [info] ::1 - - [09/Jul/2025:03:34:27 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:32 [info] ::1 - - [09/Jul/2025:03:34:32 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:32 [info] ::1 - - [09/Jul/2025:03:34:32 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:32 [info] ::1 - - [09/Jul/2025:03:34:32 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:32 [info] ::1 - - [09/Jul/2025:03:34:32 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:35 [info] ::1 - - [09/Jul/2025:03:34:35 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:35 [info] ::1 - - [09/Jul/2025:03:34:35 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:34:51 [info] ::1 - - [09/Jul/2025:03:34:51 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:34:51 [info] ::1 - - [09/Jul/2025:03:34:51 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:34:56 [info] ::1 - - [09/Jul/2025:03:34:56 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:34:56 [info] ::1 - - [09/Jul/2025:03:34:56 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:34:56 [info] ::1 - - [09/Jul/2025:03:34:56 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:34:56 [info] ::1 - - [09/Jul/2025:03:34:56 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:34:59 [info] ::1 - - [09/Jul/2025:03:34:59 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:34:59 [info] ::1 - - [09/Jul/2025:03:34:59 +0000] "GET /teams HTTP/1.1" 404 144 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:38:30 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:38:30 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:38:32 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:38:32 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:38:51 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:38:51 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:38:57 [info] ::1 - - [09/Jul/2025:03:38:57 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:38:57 [info] ::1 - - [09/Jul/2025:03:38:57 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:05 [info] ::1 - - [09/Jul/2025:03:39:05 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:05 [info] ::1 - - [09/Jul/2025:03:39:05 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:05 [info] ::1 - - [09/Jul/2025:03:39:05 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:05 [info] ::1 - - [09/Jul/2025:03:39:05 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:06 [info] ::1 - - [09/Jul/2025:03:39:06 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:06 [info] ::1 - - [09/Jul/2025:03:39:06 +0000] "GET /teams HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:44 [info] ::1 - - [09/Jul/2025:03:39:44 +0000] "POST /teams HTTP/1.1" 201 190 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:44 [info] ::1 - - [09/Jul/2025:03:39:44 +0000] "GET /teams HTTP/1.1" 200 210 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:51 [info] ::1 - - [09/Jul/2025:03:39:51 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:39:51 [info] ::1 - - [09/Jul/2025:03:39:51 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:12 [info] ::1 - - [09/Jul/2025:03:42:12 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:12 [info] ::1 - - [09/Jul/2025:03:42:12 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:12 [info] ::1 - - [09/Jul/2025:03:42:12 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:15 [info] ::1 - - [09/Jul/2025:03:42:15 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:15 [info] ::1 - - [09/Jul/2025:03:42:15 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:16 [info] ::1 - - [09/Jul/2025:03:42:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:16 [info] ::1 - - [09/Jul/2025:03:42:16 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:17 [info] ::1 - - [09/Jul/2025:03:42:17 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:17 [info] ::1 - - [09/Jul/2025:03:42:17 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:17 [info] ::1 - - [09/Jul/2025:03:42:17 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:18 [info] ::1 - - [09/Jul/2025:03:42:18 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:18 [info] ::1 - - [09/Jul/2025:03:42:18 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:19 [info] ::1 - - [09/Jul/2025:03:42:19 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:19 [info] ::1 - - [09/Jul/2025:03:42:19 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:21 [info] ::1 - - [09/Jul/2025:03:42:21 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:21 [info] ::1 - - [09/Jul/2025:03:42:21 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:21 [info] ::1 - - [09/Jul/2025:03:42:21 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:22 [info] ::1 - - [09/Jul/2025:03:42:22 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:22 [info] ::1 - - [09/Jul/2025:03:42:22 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:42:30 [info] ::1 - - [09/Jul/2025:03:42:30 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:42:30 [info] ::1 - - [09/Jul/2025:03:42:30 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:42:30 [info] ::1 - - [09/Jul/2025:03:42:30 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:42:30 [info] ::1 - - [09/Jul/2025:03:42:30 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:42:32 [info] ::1 - - [09/Jul/2025:03:42:32 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:42:32 [info] ::1 - - [09/Jul/2025:03:42:32 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:51:31 [info] ::1 - - [09/Jul/2025:03:51:31 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:51:31 [info] ::1 - - [09/Jul/2025:03:51:31 +0000] "GET /players HTTP/1.1" 404 146 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:51:31 [info] ::1 - - [09/Jul/2025:03:51:31 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:52:10 [info] ::1 - - [09/Jul/2025:03:52:10 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:52:10 [info] ::1 - - [09/Jul/2025:03:52:10 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:52:18 [info] ::1 - - [09/Jul/2025:03:52:18 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:52:18 [info] ::1 - - [09/Jul/2025:03:52:18 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:52:18 [info] ::1 - - [09/Jul/2025:03:52:18 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:52:18 [info] ::1 - - [09/Jul/2025:03:52:18 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:52:21 [info] ::1 - - [09/Jul/2025:03:52:21 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:52:21 [info] ::1 - - [09/Jul/2025:03:52:21 +0000] "GET /players HTTP/1.1" 404 146 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:52:21 [info] ::1 - - [09/Jul/2025:03:52:21 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:56:35 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:56:35 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:56:37 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:56:37 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:56:53 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 22:56:53 [info] Sincronización de la base de datos completada. 
+2025-07-08 22:57:24 [info] ::1 - - [09/Jul/2025:03:57:24 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:24 [info] ::1 - - [09/Jul/2025:03:57:24 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:30 [info] ::1 - - [09/Jul/2025:03:57:30 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:30 [info] ::1 - - [09/Jul/2025:03:57:30 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:30 [info] ::1 - - [09/Jul/2025:03:57:30 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:30 [info] ::1 - - [09/Jul/2025:03:57:30 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:32 [info] ::1 - - [09/Jul/2025:03:57:32 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:32 [info] ::1 - - [09/Jul/2025:03:57:32 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:34 [info] ::1 - - [09/Jul/2025:03:57:34 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:34 [info] ::1 - - [09/Jul/2025:03:57:34 +0000] "GET /players HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:57:34 [info] ::1 - - [09/Jul/2025:03:57:34 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 22:58:06 [info] ::1 - - [09/Jul/2025:03:58:06 +0000] "POST /players HTTP/1.1" 201 211 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 22:58:06 [info] ::1 - - [09/Jul/2025:03:58:06 +0000] "GET /players HTTP/1.1" 200 429 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:08 [info] ::1 - - [09/Jul/2025:04:00:08 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:08 [info] ::1 - - [09/Jul/2025:04:00:08 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:12 [info] ::1 - - [09/Jul/2025:04:00:12 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:12 [info] ::1 - - [09/Jul/2025:04:00:12 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:12 [info] ::1 - - [09/Jul/2025:04:00:12 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:12 [info] ::1 - - [09/Jul/2025:04:00:12 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:16 [info] ::1 - - [09/Jul/2025:04:00:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:16 [info] ::1 - - [09/Jul/2025:04:00:16 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:16 [info] ::1 - - [09/Jul/2025:04:00:16 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:19 [info] ::1 - - [09/Jul/2025:04:00:19 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:19 [info] ::1 - - [09/Jul/2025:04:00:19 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:56 [info] ::1 - - [09/Jul/2025:04:00:56 +0000] "GET /matches HTTP/1.1" 404 146 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:58 [info] ::1 - - [09/Jul/2025:04:00:58 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:00:58 [info] ::1 - - [09/Jul/2025:04:00:58 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:14 [info] ::1 - - [09/Jul/2025:04:06:14 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:18 [info] ::1 - - [09/Jul/2025:04:06:18 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:18 [info] ::1 - - [09/Jul/2025:04:06:18 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:18 [info] ::1 - - [09/Jul/2025:04:06:18 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:18 [info] ::1 - - [09/Jul/2025:04:06:18 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:21 [info] ::1 - - [09/Jul/2025:04:06:21 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:21 [info] ::1 - - [09/Jul/2025:04:06:21 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:21 [info] ::1 - - [09/Jul/2025:04:06:21 +0000] "GET /standings HTTP/1.1" 404 148 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:06:28 [info] ::1 - - [09/Jul/2025:04:06:28 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:06:29 [info] ::1 - - [09/Jul/2025:04:06:29 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:06:34 [info] ::1 - - [09/Jul/2025:04:06:34 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:06:34 [info] ::1 - - [09/Jul/2025:04:06:34 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:06:34 [info] ::1 - - [09/Jul/2025:04:06:34 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:06:34 [info] ::1 - - [09/Jul/2025:04:06:34 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:06:35 [info] ::1 - - [09/Jul/2025:04:06:35 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:06:35 [info] ::1 - - [09/Jul/2025:04:06:35 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:06:35 [info] ::1 - - [09/Jul/2025:04:06:35 +0000] "GET /standings HTTP/1.1" 404 148 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:08:03 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:08:03 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:08:26 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:08:26 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:08:28 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:08:28 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:08:53 [info] ::1 - - [09/Jul/2025:04:08:53 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:08:53 [info] ::1 - - [09/Jul/2025:04:08:53 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:09:04 [info] ::1 - - [09/Jul/2025:04:09:04 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:09:04 [info] ::1 - - [09/Jul/2025:04:09:04 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:09:04 [info] ::1 - - [09/Jul/2025:04:09:04 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:09:04 [info] ::1 - - [09/Jul/2025:04:09:04 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:09:05 [info] ::1 - - [09/Jul/2025:04:09:05 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:09:05 [info] ::1 - - [09/Jul/2025:04:09:05 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:09:05 [info] ::1 - - [09/Jul/2025:04:09:05 +0000] "GET /standings HTTP/1.1" 500 25 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:14:32 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:14:33 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:14:34 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:14:34 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:14:43 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:14:43 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:14:58 [info] ::1 - - [09/Jul/2025:04:14:58 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:11 [info] ::1 - - [09/Jul/2025:04:15:11 +0000] "POST /auth/register HTTP/1.1" 201 45 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:11 [info] ::1 - - [09/Jul/2025:04:15:11 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:17 [info] ::1 - - [09/Jul/2025:04:15:17 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:17 [info] ::1 - - [09/Jul/2025:04:15:17 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:17 [info] ::1 - - [09/Jul/2025:04:15:17 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:17 [info] ::1 - - [09/Jul/2025:04:15:17 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:18 [info] ::1 - - [09/Jul/2025:04:15:18 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:18 [info] ::1 - - [09/Jul/2025:04:15:18 +0000] "GET /teams HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:18 [info] ::1 - - [09/Jul/2025:04:15:18 +0000] "GET /standings HTTP/1.1" 500 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:27 [info] ::1 - - [09/Jul/2025:04:15:27 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:27 [info] ::1 - - [09/Jul/2025:04:15:27 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:33 [info] ::1 - - [09/Jul/2025:04:15:33 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:33 [info] ::1 - - [09/Jul/2025:04:15:33 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:33 [info] ::1 - - [09/Jul/2025:04:15:33 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:33 [info] ::1 - - [09/Jul/2025:04:15:33 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:34 [info] ::1 - - [09/Jul/2025:04:15:34 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:34 [info] ::1 - - [09/Jul/2025:04:15:34 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:34 [info] ::1 - - [09/Jul/2025:04:15:34 +0000] "GET /standings HTTP/1.1" 500 25 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:15:57 [info] ::1 - - [09/Jul/2025:04:15:57 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:57 [info] ::1 - - [09/Jul/2025:04:15:57 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:59 [info] ::1 - - [09/Jul/2025:04:15:59 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:59 [info] ::1 - - [09/Jul/2025:04:15:59 +0000] "GET /players HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:15:59 [info] ::1 - - [09/Jul/2025:04:15:59 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:01 [info] ::1 - - [09/Jul/2025:04:16:01 +0000] "GET /referees HTTP/1.1" 404 147 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:03 [info] ::1 - - [09/Jul/2025:04:16:03 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:03 [info] ::1 - - [09/Jul/2025:04:16:03 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:03 [info] ::1 - - [09/Jul/2025:04:16:03 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:04 [info] ::1 - - [09/Jul/2025:04:16:04 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:04 [info] ::1 - - [09/Jul/2025:04:16:04 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:04 [info] ::1 - - [09/Jul/2025:04:16:04 +0000] "GET /standings HTTP/1.1" 500 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:08 [info] ::1 - - [09/Jul/2025:04:16:08 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:08 [info] ::1 - - [09/Jul/2025:04:16:08 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:09 [info] ::1 - - [09/Jul/2025:04:16:09 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:09 [info] ::1 - - [09/Jul/2025:04:16:09 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:09 [info] ::1 - - [09/Jul/2025:04:16:09 +0000] "GET /standings HTTP/1.1" 500 25 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:11 [info] ::1 - - [09/Jul/2025:04:16:11 +0000] "GET /referees HTTP/1.1" 404 147 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:15 [info] ::1 - - [09/Jul/2025:04:16:15 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:15 [info] ::1 - - [09/Jul/2025:04:16:15 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:20 [info] ::1 - - [09/Jul/2025:04:16:20 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:20 [info] ::1 - - [09/Jul/2025:04:16:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:20 [info] ::1 - - [09/Jul/2025:04:16:20 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:20 [info] ::1 - - [09/Jul/2025:04:16:20 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:21 [info] ::1 - - [09/Jul/2025:04:16:21 +0000] "GET /referees HTTP/1.1" 404 147 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:16:33 [info] ::1 - - [09/Jul/2025:04:16:33 +0000] "POST /referees HTTP/1.1" 403 1449 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:20:25 [info] ::1 - - [09/Jul/2025:04:20:25 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:20:25 [info] ::1 - - [09/Jul/2025:04:20:25 +0000] "GET /referees HTTP/1.1" 404 147 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:21:16 [info] ::1 - - [09/Jul/2025:04:21:16 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:21:16 [info] ::1 - - [09/Jul/2025:04:21:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:21:21 [info] ::1 - - [09/Jul/2025:04:21:21 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:21:21 [info] ::1 - - [09/Jul/2025:04:21:21 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:21:21 [info] ::1 - - [09/Jul/2025:04:21:21 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:21:21 [info] ::1 - - [09/Jul/2025:04:21:21 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:21:23 [info] ::1 - - [09/Jul/2025:04:21:23 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:21:23 [info] ::1 - - [09/Jul/2025:04:21:23 +0000] "GET /referees HTTP/1.1" 404 147 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:22:24 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:22:24 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:22:30 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:22:30 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:22:31 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:22:31 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:22:59 [info] ::1 - - [09/Jul/2025:04:22:59 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:22:59 [info] ::1 - - [09/Jul/2025:04:22:59 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:23:04 [info] ::1 - - [09/Jul/2025:04:23:04 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:23:04 [info] ::1 - - [09/Jul/2025:04:23:04 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:23:04 [info] ::1 - - [09/Jul/2025:04:23:04 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:23:04 [info] ::1 - - [09/Jul/2025:04:23:04 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:23:06 [info] ::1 - - [09/Jul/2025:04:23:06 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:23:07 [info] ::1 - - [09/Jul/2025:04:23:07 +0000] "GET /referees HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:23:30 [info] ::1 - - [09/Jul/2025:04:23:30 +0000] "POST /referees HTTP/1.1" 201 174 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:23:30 [info] ::1 - - [09/Jul/2025:04:23:30 +0000] "GET /referees HTTP/1.1" 200 176 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:22 [info] ::1 - - [09/Jul/2025:04:27:22 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:22 [info] ::1 - - [09/Jul/2025:04:27:22 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:27 [info] ::1 - - [09/Jul/2025:04:27:27 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:27 [info] ::1 - - [09/Jul/2025:04:27:27 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:27 [info] ::1 - - [09/Jul/2025:04:27:27 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:27 [info] ::1 - - [09/Jul/2025:04:27:27 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:29 [info] ::1 - - [09/Jul/2025:04:27:29 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:29 [info] ::1 - - [09/Jul/2025:04:27:29 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:33 [info] ::1 - - [09/Jul/2025:04:27:33 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:33 [info] ::1 - - [09/Jul/2025:04:27:33 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:40 [info] ::1 - - [09/Jul/2025:04:27:40 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:40 [info] ::1 - - [09/Jul/2025:04:27:40 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:40 [info] ::1 - - [09/Jul/2025:04:27:40 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:42 [info] ::1 - - [09/Jul/2025:04:27:42 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:42 [info] ::1 - - [09/Jul/2025:04:27:42 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:54 [info] ::1 - - [09/Jul/2025:04:27:54 +0000] "PUT /referees/1 HTTP/1.1" 200 34 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:54 [info] ::1 - - [09/Jul/2025:04:27:54 +0000] "GET /referees HTTP/1.1" 200 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:57 [info] ::1 - - [09/Jul/2025:04:27:57 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:27:57 [info] ::1 - - [09/Jul/2025:04:27:57 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:01 [info] ::1 - - [09/Jul/2025:04:28:01 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:01 [info] ::1 - - [09/Jul/2025:04:28:01 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:01 [info] ::1 - - [09/Jul/2025:04:28:01 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:04 [info] ::1 - - [09/Jul/2025:04:28:04 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:04 [info] ::1 - - [09/Jul/2025:04:28:04 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:30 [info] ::1 - - [09/Jul/2025:04:28:30 +0000] "POST /referees HTTP/1.1" 201 201 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:30 [info] ::1 - - [09/Jul/2025:04:28:30 +0000] "GET /referees HTTP/1.1" 200 370 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:33 [info] ::1 - - [09/Jul/2025:04:28:33 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:33 [info] ::1 - - [09/Jul/2025:04:28:33 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:55 [info] ::1 - - [09/Jul/2025:04:28:55 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:55 [info] ::1 - - [09/Jul/2025:04:28:55 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:55 [info] ::1 - - [09/Jul/2025:04:28:55 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:57 [info] ::1 - - [09/Jul/2025:04:28:57 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:28:57 [info] ::1 - - [09/Jul/2025:04:28:57 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:29:00 [info] ::1 - - [09/Jul/2025:04:29:00 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:29:00 [info] ::1 - - [09/Jul/2025:04:29:00 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:29:08 [info] ::1 - - [09/Jul/2025:04:29:08 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:29:08 [info] ::1 - - [09/Jul/2025:04:29:08 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:29:08 [info] ::1 - - [09/Jul/2025:04:29:08 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:29:23 [info] ::1 - - [09/Jul/2025:04:29:23 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:29:23 [info] ::1 - - [09/Jul/2025:04:29:23 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:29:23 [info] ::1 - - [09/Jul/2025:04:29:23 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:29:32 [info] ::1 - - [09/Jul/2025:04:29:32 +0000] "GET /preferences HTTP/1.1" 404 150 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:29:32 [info] ::1 - - [09/Jul/2025:04:29:32 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:29:32 [info] ::1 - - [09/Jul/2025:04:29:32 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36" 
+2025-07-08 23:32:11 [info] ::1 - - [09/Jul/2025:04:32:11 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:11 [info] ::1 - - [09/Jul/2025:04:32:11 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:12 [info] ::1 - - [09/Jul/2025:04:32:12 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:12 [info] ::1 - - [09/Jul/2025:04:32:12 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:13 [info] ::1 - - [09/Jul/2025:04:32:13 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:13 [info] ::1 - - [09/Jul/2025:04:32:13 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:14 [info] ::1 - - [09/Jul/2025:04:32:14 +0000] "GET /matches HTTP/1.1" 404 146 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:16 [info] ::1 - - [09/Jul/2025:04:32:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:16 [info] ::1 - - [09/Jul/2025:04:32:16 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:16 [info] ::1 - - [09/Jul/2025:04:32:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:16 [info] ::1 - - [09/Jul/2025:04:32:16 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:17 [info] ::1 - - [09/Jul/2025:04:32:17 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:17 [info] ::1 - - [09/Jul/2025:04:32:17 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:20 [info] ::1 - - [09/Jul/2025:04:32:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:25 [info] ::1 - - [09/Jul/2025:04:32:25 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:25 [info] ::1 - - [09/Jul/2025:04:32:25 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:25 [info] ::1 - - [09/Jul/2025:04:32:25 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:25 [info] ::1 - - [09/Jul/2025:04:32:25 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:27 [info] ::1 - - [09/Jul/2025:04:32:27 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:27 [info] ::1 - - [09/Jul/2025:04:32:27 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:28 [info] ::1 - - [09/Jul/2025:04:32:28 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:28 [info] ::1 - - [09/Jul/2025:04:32:28 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:28 [info] ::1 - - [09/Jul/2025:04:32:28 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:32:28 [info] ::1 - - [09/Jul/2025:04:32:28 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:02 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-08 23:33:02 [info] Sincronización de la base de datos completada. 
+2025-07-08 23:33:07 [info] ::1 - - [09/Jul/2025:04:33:07 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:16 [info] ::1 - - [09/Jul/2025:04:33:16 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:28 [info] ::1 - - [09/Jul/2025:04:33:28 +0000] "POST /auth/register HTTP/1.1" 201 45 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:28 [info] ::1 - - [09/Jul/2025:04:33:28 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:34 [info] ::1 - - [09/Jul/2025:04:33:34 +0000] "POST /auth/login HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:34 [info] ::1 - - [09/Jul/2025:04:33:34 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:34 [info] ::1 - - [09/Jul/2025:04:33:34 +0000] "GET /admin/dashboard HTTP/1.1" 404 154 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:34 [info] ::1 - - [09/Jul/2025:04:33:34 +0000] "GET /news HTTP/1.1" 404 143 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:38 [info] ::1 - - [09/Jul/2025:04:33:38 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:38 [info] ::1 - - [09/Jul/2025:04:33:38 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:56 [info] ::1 - - [09/Jul/2025:04:33:56 +0000] "POST /teams HTTP/1.1" 201 186 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:56 [info] ::1 - - [09/Jul/2025:04:33:56 +0000] "GET /teams HTTP/1.1" 200 206 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:58 [info] ::1 - - [09/Jul/2025:04:33:58 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:58 [info] ::1 - - [09/Jul/2025:04:33:58 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:33:58 [info] ::1 - - [09/Jul/2025:04:33:58 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:17 [info] ::1 - - [09/Jul/2025:04:34:17 +0000] "POST /players HTTP/1.1" 201 250 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:17 [info] ::1 - - [09/Jul/2025:04:34:17 +0000] "GET /players HTTP/1.1" 200 464 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:19 [info] ::1 - - [09/Jul/2025:04:34:19 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:19 [info] ::1 - - [09/Jul/2025:04:34:19 +0000] "GET /referees HTTP/1.1" 200 2 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:25 [info] ::1 - - [09/Jul/2025:04:34:25 +0000] "POST /referees HTTP/1.1" 201 203 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:25 [info] ::1 - - [09/Jul/2025:04:34:25 +0000] "GET /referees HTTP/1.1" 200 205 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:29 [info] ::1 - - [09/Jul/2025:04:34:29 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:29 [info] ::1 - - [09/Jul/2025:04:34:29 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:32 [info] ::1 - - [09/Jul/2025:04:34:32 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:32 [info] ::1 - - [09/Jul/2025:04:34:32 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:34 [info] ::1 - - [09/Jul/2025:04:34:34 +0000] "GET /matches HTTP/1.1" 404 146 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:35 [info] ::1 - - [09/Jul/2025:04:34:35 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-08 23:34:35 [info] ::1 - - [09/Jul/2025:04:34:35 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 

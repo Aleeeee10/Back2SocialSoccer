@@ -117,7 +117,7 @@ const logger = witson.createLogger({
 app.set('port', process.env.PORT || 3000);
 
 // Log de conexión a base de datos relacional (MySQL/Sequelize)
-const db = require('./dataBase/dataBase.orm');
+const db = require('../src/dataBase/dataBase.orm');
 if (db.sequelize && db.sequelize.authenticate) {
     db.sequelize.authenticate()
         .then(() => logger.info('Conexión a la base de datos MySQL establecida correctamente.'))
@@ -125,8 +125,15 @@ if (db.sequelize && db.sequelize.authenticate) {
 
     // 👉 Agrega este bloque para capturar errores de sincronización
     db.sequelize.sync()
-        .then(() => logger.info('Sincronización de la base de datos completada.'))
-        .catch(err => logger.error('Error al sincronizar la base de datos: ' + err.stack));
+  .then(async () => {
+    logger.info('Sincronización de la base de datos completada.');
+
+    // ✅ Ejecutar creación de roles después de que Sequelize esté sincronizado
+    const initRoles = require('../utils/initRoles');
+    await initRoles();
+  })
+  .catch(err => logger.error('Error al sincronizar la base de datos: ' + err.stack));
+
 }
 
 

@@ -3,60 +3,70 @@ const standingsController = {};
 
 standingsController.listar = async (req, res) => {
   try {
-    const data = await orm.standings.findAll({
-      include: [
-        { model: orm.teams },
-        { model: orm.division }
-      ]
+    const standings = await orm.standings.findAll({
+      include: [{ model: orm.teams, as: 'team' }]
     });
-    res.json(data);
-  } catch (error) {
-    console.error('Error al listar posiciones:', error);
-    res.status(500).json({ error: 'Error interno' });
+    res.json(standings);
+  } catch (err) {
+    console.error("Error al listar posiciones", err);
+    res.status(500).json({ error: "Error interno" });
   }
 };
 
 standingsController.crear = async (req, res) => {
+  const t = await orm.sequelize.transaction();
   try {
-    const { teamId, divisionId, games_played, wins, losses, draws, goals_for, goals_against, points } = req.body;
-    const nuevo = await orm.standings.create({
-      teamId,
-      divisionId,
-      games_played,
-      wins,
-      losses,
-      draws,
-      goals_for,
-      goals_against,
-      points
-    });
-    res.status(201).json(nuevo);
-  } catch (error) {
-    console.error('Error al crear posición:', error);
-    res.status(500).json({ error: 'Error interno' });
+    const { nombre, puntos, equipoId } = req.body;
+    const nuevaPosicion = await orm.standings.create(
+      { nombre, puntos, equipoId },
+      { transaction: t }
+    );
+    await t.commit();
+    res.status(201).json(nuevaPosicion);
+  } catch (err) {
+    await t.rollback();
+    console.error("Error al crear posicion", err);
+    res.status(500).json({ error: "Error interno" });
   }
 };
 
 standingsController.actualizar = async (req, res) => {
+  const t = await orm.sequelize.transaction();
   try {
     const { id } = req.params;
-    const data = req.body;
-    await orm.standings.update(data, { where: { id } });
-    res.json({ mensaje: 'Posición actualizada' });
-  } catch (error) {
-    console.error('Error al actualizar posición:', error);
-    res.status(500).json({ error: 'Error interno' });
+    const { nombre, puntos, equipoId } = req.body;
+    const posicion = await orm.standings.findByPk(id);
+    if (!posicion) {
+      return res.status(404).json({ error: "Posicion no encontrada" });
+    }
+    await posicion.update(
+      { nombre, puntos, equipoId },
+      { transaction: t }
+    );
+    await t.commit();
+    res.json(posicion);
+  } catch (err) {
+    await t.rollback();
+    console.error("Error al actualizar posicion", err);
+    res.status(500).json({ error: "Error interno" });
   }
 };
 
 standingsController.eliminar = async (req, res) => {
+  const t = await orm.sequelize.transaction();
   try {
     const { id } = req.params;
-    await orm.standings.destroy({ where: { id } });
-    res.json({ mensaje: 'Posición eliminada' });
-  } catch (error) {
-    console.error('Error al eliminar posición:', error);
-    res.status(500).json({ error: 'Error interno' });
+    const posicion = await orm.standings.findByPk(id);
+    if (!posicion) {
+      return res.status(404).json({ error: "Posicion no encontrada" });
+    }
+    await posicion.destroy({ transaction: t });
+    await t.commit();
+    res.status(204).send();
+  } catch (err) {
+    await t.rollback();
+    console.error("Error al eliminar posicion", err);
+    res.status(500).json({ error: "Error interno" });
   }
 };
 

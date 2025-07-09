@@ -1,55 +1,15 @@
-const posiciones = (sequelize, type) => {
+const standings = (sequelize, type) => {
   return sequelize.define('standings', {
-    id: {
-      type: type.INTEGER,
-      autoIncrement: true,
-      primaryKey: true
-    },
-    teamId: {
-      type: type.INTEGER,
-      references: {
-        model: 'teams',
-        key: 'id'
-      }
-    },
-    divisionId: {
-      type: type.INTEGER,
-      references: {
-        model: 'division',
-        key: 'id'
-      }
-    },
-    games_played: {
-      type: type.INTEGER,
-      defaultValue: 0
-    },
-    wins: {
-      type: type.INTEGER,
-      defaultValue: 0
-    },
-    losses: {
-      type: type.INTEGER,
-      defaultValue: 0
-    },
-    draws: {
-      type: type.INTEGER,
-      defaultValue: 0
-    },
-    goals_for: {
-      type: type.INTEGER,
-      defaultValue: 0
-    },
-    goals_against: {
-      type: type.INTEGER,
-      defaultValue: 0
-    },
-    points: {
-      type: type.INTEGER,
-      defaultValue: 0
-    }
-  }, {
-    timestamps: false
-  });
+    id: { type: type.INTEGER, primaryKey: true, autoIncrement: true },
+    teamId: { type: type.INTEGER, allowNull: false },
+    games_played: type.INTEGER,
+    wins: type.INTEGER,
+    draws: type.INTEGER,
+    losses: type.INTEGER,
+    goals_for: type.INTEGER,
+    goals_against: type.INTEGER,
+    points: type.INTEGER
+  }, { timestamps: false });
 };
 
-module.exports = posiciones;
+module.exports = standings;

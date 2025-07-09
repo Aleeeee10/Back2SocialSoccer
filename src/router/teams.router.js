@@ -5,15 +5,15 @@ const router = express.Router();
 const controller = require('../controller/teams.controller');
 
 // Listar todos los equipos
-router.get('/teams', controller.listar);
+router.get('/', controller.listar);
 
 // Crear un nuevo equipo
-router.post('/teams', controller.crear);
+router.post('/', controller.crear);
 
 // Actualizar un equipo por ID
-router.put('/teams/:id', controller.actualizar);
+router.put('/:id', controller.actualizar);
 
 // Eliminar un equipo por ID
-router.delete('/teams/:id', controller.eliminar);
+router.delete('/:id', controller.eliminar);
 
 module.exports = router;

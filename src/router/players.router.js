@@ -4,9 +4,9 @@ const express = require('express');
 const router = express.Router();
 const controller = require('../controller/players.controller');
 
-router.get('/players', controller.listar);
-router.post('/players', controller.crear);
-router.put('/players/:id', controller.actualizar);
-router.delete('/players/:id', controller.eliminar);
+router.get('/', controller.listar);
+router.post('/', controller.crear);
+router.put('/:id', controller.actualizar);
+router.delete('/:id', controller.eliminar);
 
 module.exports = router;
