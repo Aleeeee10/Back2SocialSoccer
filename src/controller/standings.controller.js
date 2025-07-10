@@ -16,9 +16,27 @@ standingsController.listar = async (req, res) => {
 standingsController.crear = async (req, res) => {
   const t = await orm.sequelize.transaction();
   try {
-    const { nombre, puntos, equipoId } = req.body;
+    const {
+      teamId,
+      games_played,
+      wins,
+      draws,
+      losses,
+      goals_for,
+      goals_against,
+      points
+    } = req.body;
     const nuevaPosicion = await orm.standings.create(
-      { nombre, puntos, equipoId },
+      {
+        teamId,
+        games_played,
+        wins,
+        draws,
+        losses,
+        goals_for,
+        goals_against,
+        points
+      },
       { transaction: t }
     );
     await t.commit();
@@ -34,13 +52,31 @@ standingsController.actualizar = async (req, res) => {
   const t = await orm.sequelize.transaction();
   try {
     const { id } = req.params;
-    const { nombre, puntos, equipoId } = req.body;
+    const {
+      teamId,
+      games_played,
+      wins,
+      draws,
+      losses,
+      goals_for,
+      goals_against,
+      points
+    } = req.body;
     const posicion = await orm.standings.findByPk(id);
     if (!posicion) {
       return res.status(404).json({ error: "Posicion no encontrada" });
     }
     await posicion.update(
-      { nombre, puntos, equipoId },
+      {
+        teamId,
+        games_played,
+        wins,
+        draws,
+        losses,
+        goals_for,
+        goals_against,
+        points
+      },
       { transaction: t }
     );
     await t.commit();

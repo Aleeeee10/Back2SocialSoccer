@@ -96,10 +96,18 @@ async function savePreferences(req, res) {
       return res.status(401).json({ message: 'No autenticado' });
     }
 
-    // Busca o crea las preferencias en MongoDB
+    // Incluye los campos requeridos por el esquema de MongoDB
     const prefs = await UserPreferences.findOneAndUpdate(
       { userId: user.id },
-      { theme, font, mainColor },
+      {
+        userId: user.id,
+        email: user.email,
+        role: user.role,
+        name: user.name,
+        theme,
+        font,
+        mainColor
+      },
       { new: true, upsert: true }
     );
 
@@ -110,4 +118,52 @@ async function savePreferences(req, res) {
   }
 }
 
-module.exports = { register, login, savePreferences };
+// Obtener preferencias de usuario
+async function getPreferences(req, res) {
+  try {
+    const user = req.session.user;
+    if (!user) return res.status(401).json({ message: 'No autenticado' });
+    const prefs = await UserPreferences.findOne({ userId: user.id });
+    res.json({ preferences: prefs });
+  } catch (error) {
+    res.status(500).json({ message: 'Error al obtener preferencias' });
+  }
+}
+
+// Obtener perfil de usuario
+async function getProfile(req, res) {
+  const user = req.session.user;
+  if (!user) return res.status(401).json({ message: 'No autenticado' });
+  res.json({ user });
+}
+
+// Actualizar perfil de usuario
+async function updateProfile(req, res) {
+  try {
+    const user = req.session.user;
+    if (!user) return res.status(401).json({ message: 'No autenticado' });
+
+    const { email, name, role, password } = req.body;
+    const updates = { email, name, role };
+
+    if (password && password.trim() !== '') {
+      updates.password = await bcrypt.hash(password, 10);
+    }
+
+    // Busca y actualiza el usuario en MySQL
+    const dbUser = await User.findByPk(user.id);
+    if (!dbUser) return res.status(404).json({ message: 'Usuario no encontrado' });
+
+    await dbUser.update(updates);
+
+    // Actualiza la sesión
+    req.session.user = { ...user, email, name, role };
+
+    res.json({ message: 'Perfil actualizado', user: req.session.user });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Error al actualizar perfil' });
+  }
+}
+
+module.exports = { register, login, savePreferences, getPreferences, getProfile, updateProfile };

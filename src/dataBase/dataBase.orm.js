@@ -153,5 +153,6 @@ module.exports = {
     posiciones,
     division,
     detalleDivision,
-    canchas
+    canchas,
+    standings: posiciones, // <--- agrega este alias
 };
