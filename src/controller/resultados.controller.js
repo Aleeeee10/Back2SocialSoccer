@@ -4,7 +4,7 @@ const controller = {};
 controller.listar = async (req, res) => {
   try {
     const data = await orm.resultados.findAll({
-      include: [orm.matches]
+      include: [{ model: orm.matches, as: 'match' }]
     });
     res.json(data);
   } catch (error) {

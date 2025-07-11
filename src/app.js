@@ -193,14 +193,12 @@ app.get('/api/csrf-token', (req, res) => {
   res.json({ csrfToken: req.csrfToken() });
 });
 
-
 // ✅ RUTAS ADICIONALES
-const usersRoutes = require('./router/users.routes')
-app.use('/users', usersRoutes)
+const usersRoutes = require('./router/users.routes');
+app.use('/users', usersRoutes);
 
-const rolRoutes = require('./router/rol.router'); // ✅ CORREGIDO
+const rolRoutes = require('./router/rol.router');
 app.use('/roles', rolRoutes);
-
 
 // ✅ RUTAS PRINCIPALES
 app.use('/teams', require('./router/teams.router'));
@@ -219,6 +217,10 @@ app.use('/tarjetas', require('./router/tarjetas.router'));
 app.use('/canchas', require('./router/canchas.router'));
 app.use('/detalle-jugadores', require('./router/detalleJugadores.router'));
 app.use('/auth', require('./router/auth.router'));
+
+// ✅ RUTA DASHBOARD
+const dashboardRoutes = require('./router/dashboard.routes');
+app.use('/admin/dashboard', dashboardRoutes);
 
 // Conexión Mongo
 const connectMongoDB = require('./dataBase/dataBase.mongo');

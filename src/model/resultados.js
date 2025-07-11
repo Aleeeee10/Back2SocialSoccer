@@ -14,7 +14,7 @@ const resultados = (sequelize, type) => {
     },
     team1_goals: type.INTEGER,
     team2_goals: type.INTEGER,
-    winner: type.STRING // puede ser "Team 1", "Team 2" o "Empate"
+    winner: type.STRING // 'team1', 'team2' o 'draw'
   }, {
     timestamps: false
   });
