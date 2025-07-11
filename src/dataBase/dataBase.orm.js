@@ -60,9 +60,9 @@ const canchas = require('../model/canchas')(sequelize, Sequelize.DataTypes);
 
 // RELACIONES
 
-// Users & Roles (agregada asociación directa)
-users.belongsTo(rol, { foreignKey: 'idRole', as: 'role' });
-rol.hasMany(users, { foreignKey: 'idRole', as: 'users' });
+// Users & Roles (👈 aquí el ajuste que pediste: usar 'idRol' en lugar de 'idRole')
+users.belongsTo(rol, { foreignKey: 'idRol', as: 'rol' });
+rol.hasMany(users, { foreignKey: 'idRol', as: 'users' });
 
 // Users & detalleRol
 users.hasMany(detalleRol, { foreignKey: 'idUsers' });
@@ -154,5 +154,5 @@ module.exports = {
     division,
     detalleDivision,
     canchas,
-    standings: posiciones, // <--- agrega este alias
+    standings: posiciones, // <--- alias para usar en otros módulos
 };
