@@ -4149,3 +4149,25 @@ Error: listen EADDRINUSE: address already in use :::3000
 2025-07-15 12:15:44 [info] Sincronización de la base de datos completada. 
 2025-07-15 12:15:58 [info] Conexión a la base de datos MySQL establecida correctamente. 
 2025-07-15 12:15:58 [info] Sincronización de la base de datos completada. 
+2025-07-15 14:33:24 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 14:33:29 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.showIndex (C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:254:12)
+    at async resultados.sync (C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\model.js:988:29)
+    at async Sequelize.sync (C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-15 14:34:10 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 14:34:10 [error] Error al sincronizar la base de datos: Error
+    at Query.run (C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.showIndex (C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\dialects\abstract\query-interface.js:254:12)
+    at async users.sync (C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\model.js:988:29)
+    at async Sequelize.sync (C:\Users\User\Desktop\BACK\Back\node_modules\sequelize\lib\sequelize.js:377:9) 
+2025-07-15 14:37:11 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 14:37:12 [info] Sincronización de la base de datos completada. 
+2025-07-15 14:42:49 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 14:42:49 [info] Sincronización de la base de datos completada. 
+2025-07-15 14:43:12 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 14:43:12 [info] Sincronización de la base de datos completada. 

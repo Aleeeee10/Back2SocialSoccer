@@ -4,26 +4,20 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const {
-    MYSQLHOST,
-    MYSQLUSER,
-    MYSQLPASSWORD,
-    MYSQLDATABASE,
-    MYSQLPORT,
-    MYSQL_URI
-} = require("../keys");
+const { MYSQLHOST, MYSQLUSER, MYSQLPASSWORD, MYSQLDATABASE, MYSQLPORT, MYSQL_URI } = require("../keys");
 
 let pool;
 
 if (MYSQL_URI) {
     pool = createPool(MYSQL_URI);
 } else {
+    // Crear el pool de conexión a la base de datos
     pool = createPool({
-        host: MYSQLHOST,
         user: MYSQLUSER,
         password: MYSQLPASSWORD,
-        database: MYSQLDATABASE,
+        host: MYSQLHOST,
         port: MYSQLPORT,
+        database: MYSQLDATABASE
     });
 }
 
@@ -47,10 +41,10 @@ pool.getConnection((err, connection) => {
     if (connection) {
         connection.release();
         console.log('Base de datos conectada');
-        return;
     }
 });
 
+// Promisify el método query para usar async/await
 pool.query = promisify(pool.query);
 
 module.exports = pool;

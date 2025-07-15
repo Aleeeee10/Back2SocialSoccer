@@ -1,68 +1,111 @@
 const { Sequelize } = require("sequelize");
-const {
-    MYSQLHOST,
-    MYSQLUSER,
-    MYSQLPASSWORD,
-    MYSQLDATABASE,
-    MYSQLPORT,
-    MYSQL_URI
-} = require("../keys");
+const { MYSQLHOST, MYSQLUSER, MYSQLPASSWORD, MYSQLDATABASE, MYSQLPORT, MYSQL_URI } = require("../keys");
 
 let sequelize;
 
+// Usar URI de conexión si está disponible
 if (MYSQL_URI) {
     sequelize = new Sequelize(MYSQL_URI, {
         dialect: 'mysql',
-        dialectOptions: { charset: 'utf8mb4' },
-        pool: { max: 20, min: 5, acquire: 30000, idle: 10000 },
-        logging: false,
+        dialectOptions: {
+            charset: 'utf8mb4', // Soporte para caracteres especiales
+        },
+        pool: {
+            max: 20, // Número máximo de conexiones
+            min: 5,  // Número mínimo de conexiones
+            acquire: 30000, // Tiempo máximo en ms para obtener una conexión
+            idle: 10000 // Tiempo máximo en ms que una conexión puede estar inactiva
+        },
+        logging: false // Desactiva el logging para mejorar el rendimiento
     });
 } else {
+    // Configuración para parámetros individuales
     sequelize = new Sequelize(MYSQLDATABASE, MYSQLUSER, MYSQLPASSWORD, {
         host: MYSQLHOST,
         port: MYSQLPORT,
         dialect: 'mysql',
-        dialectOptions: { charset: 'utf8mb4' },
-        pool: { max: 20, min: 5, acquire: 30000, idle: 10000 },
-        logging: false,
+        dialectOptions: {
+            charset: 'utf8mb4', // Soporte para caracteres especiales
+        },
+        pool: {
+            max: 20, // Número máximo de conexiones
+            min: 5,  // Número mínimo de conexiones
+            acquire: 30000, // Tiempo máximo en ms para obtener una conexión
+            idle: 10000 // Tiempo máximo en ms que una conexión puede estar inactiva
+        },
+        logging: false // Desactiva el logging para mejorar el rendimiento
     });
 }
 
+// Autenticar y sincronizar
 sequelize.authenticate()
-    .then(() => console.log('Conexión a la base de datos establecida correctamente.'))
-    .catch(err => console.error('No se pudo conectar a la base de datos:', err));
+    .then(() => {
+        console.log("Conexión establecida con la base de datos");
+    })
+    .catch((err) => {
+        console.error("No se pudo conectar a la base de datos:", err.message);
+    });
 
-const syngOptions = process.env.NODE_ENV === 'development' ? { force: true } : { alter : true };
+// Sincronización de la base de datos
+const syncOptions = process.env.NODE_ENV === 'development' ? { force: true } : { alter: true };
 
-sequelize.sync(syngOptions)
-    .then(() => console.log('Sincronización de la base de datos completada.'))
-    .catch(err => console.error('Error al sincronizar la base de datos:', err));
+sequelize.sync(syncOptions)
+    .then(() => {
+        console.log('Base de Datos sincronizadas');
+    })
+    .catch((error) => {
+        console.error('Error al sincronizar la Base de Datos:', error);
+    });
 
-// MODELOS
-const users = require('../model/relational/users')(sequelize, Sequelize.DataTypes);
-const roles = require('../model/relational/roles')(sequelize, Sequelize.DataTypes);
-const detalleRol = require('../model/relational/detalleRol')(sequelize, Sequelize.DataTypes);
-const teams = require('../model/relational/teams')(sequelize, Sequelize.DataTypes);
-const players = require('../model/relational/players')(sequelize, Sequelize.DataTypes);
-const referees = require('../model/relational/referees')(sequelize, Sequelize.DataTypes);
-const matches = require('../model/relational/matches')(sequelize, Sequelize.DataTypes);
-const news = require('../model/relational/news')(sequelize, Sequelize.DataTypes);
-const division = require('../model/relational/division')(sequelize, Sequelize.DataTypes);
-const posiciones = require('../model/relational/posiciones')(sequelize, Sequelize.DataTypes);
-const estadisticas = require('../model/relational/estadisticas')(sequelize, Sequelize.DataTypes);
-const detalleEstadisticas = require('../model/relational/detalleEstadisticas')(sequelize, Sequelize.DataTypes);
-const resultados = require('../model/relational/resultados')(sequelize, Sequelize.DataTypes);
-const detalleResultados = require('../model/relational/detalleResultados')(sequelize, Sequelize.DataTypes);
-const tarjetas = require('../model/relational/tarjetas')(sequelize, Sequelize.DataTypes);
-const canchas = require('../model/relational/canchas')(sequelize, Sequelize.DataTypes);
-const detalleJugadores = require('../model/relational/detalleJugadores')(sequelize, Sequelize.DataTypes);
-const detalleDivision = require('../model/relational/detalleDivision')(sequelize, Sequelize.DataTypes);
-const torneos = require('../model/relational/torneos')(sequelize, Sequelize.DataTypes);
-const inscripcionesTorneo = require('../model/relational/inscripcionesTorneo')(sequelize, Sequelize.DataTypes);
-const agendaEntrenamientos = require('../model/relational/agendaEntrenamientos')(sequelize, Sequelize.DataTypes);
-const comentarios = require('../model/relational/comentarios')(sequelize, Sequelize.DataTypes);
+// Extracción de modelos
+const usersModel = require('../model/relational/users')
+const rolesModel = require('../model/relational/roles')
+const detalleRolModel = require('../model/relational/detalleRol')
+const teamsModel = require('../model/relational/teams')
+const playersModel = require('../model/relational/players')
+const refereesModel = require('../model/relational/referees')
+const matchesModel = require('../model/relational/matches')
+const newsModel = require('../model/relational/news')
+const divisionModel = require('../model/relational/division')
+const posicionesModel = require('../model/relational/posiciones')
+const estadisticasModel = require('../model/relational/estadisticas')
+const detalleEstadisticasModel = require('../model/relational/detalleEstadisticas')
+const resultadosModel = require('../model/relational/resultados')
+const detalleResultadosModel = require('../model/relational/detalleResultados')
+const tarjetasModel = require('../model/relational/tarjetas')
+const canchasModel = require('../model/relational/canchas')
+const detalleJugadoresModel = require('../model/relational/detalleJugadores')
+const detalleDivisionModel = require('../model/relational/detalleDivision')
+const torneosModel = require('../model/relational/torneos')
+const inscripcionesTorneoModel = require('../model/relational/inscripcionesTorneo')
+const agendaEntrenamientosModel = require('../model/relational/agendaEntrenamientos')
+const comentariosModel = require('../model/relational/comentarios')
 
-// RELACIONES
+// Instanciar los modelos a sincronizar
+const users = usersModel(sequelize, Sequelize)
+const roles = rolesModel(sequelize, Sequelize)
+const detalleRol = detalleRolModel(sequelize, Sequelize)
+const teams = teamsModel(sequelize, Sequelize)
+const players = playersModel(sequelize, Sequelize)
+const referees = refereesModel(sequelize, Sequelize)
+const matches = matchesModel(sequelize, Sequelize)
+const news = newsModel(sequelize, Sequelize)
+const division = divisionModel(sequelize, Sequelize)
+const posiciones = posicionesModel(sequelize, Sequelize)
+const estadisticas = estadisticasModel(sequelize, Sequelize)
+const detalleEstadisticas = detalleEstadisticasModel(sequelize, Sequelize)
+const resultados = resultadosModel(sequelize, Sequelize)
+const detalleResultados = detalleResultadosModel(sequelize, Sequelize)
+const tarjetas = tarjetasModel(sequelize, Sequelize)
+const canchas = canchasModel(sequelize, Sequelize)
+const detalleJugadores = detalleJugadoresModel(sequelize, Sequelize)
+const detalleDivision = detalleDivisionModel(sequelize, Sequelize)
+const torneos = torneosModel(sequelize, Sequelize)
+const inscripcionesTorneo = inscripcionesTorneoModel(sequelize, Sequelize)
+const agendaEntrenamientos = agendaEntrenamientosModel(sequelize, Sequelize)
+const comentarios = comentariosModel(sequelize, Sequelize)
+
+// Relaciones o foreingKeys
 users.belongsTo(roles, { foreignKey: 'idRol', as: 'rol' });
 roles.hasMany(users, { foreignKey: 'idRol', as: 'users' });
 
@@ -121,9 +164,8 @@ detalleDivision.belongsTo(players);
 teams.hasMany(agendaEntrenamientos);
 agendaEntrenamientos.belongsTo(teams);
 
-// EXPORT
+// Exportar el objeto sequelize
 module.exports = {
-    sequelize,
     users,
     roles,
     detalleRol,

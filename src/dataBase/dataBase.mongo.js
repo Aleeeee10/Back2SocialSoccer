@@ -1,44 +1,62 @@
 const mongoose = require('mongoose');
 const { MONGO_URI } = require('../keys');
 
-// Opciones de conexión actualizadas para Mongoose
-const MONGODB_OPTIONS = {
-  serverSelectionTimeoutMS: 5000, // 5 segundos para selección de servidor
-  socketTimeoutMS: 45000,         // 45 segundos para timeout de operaciones
-  family: 4,                      // Usar IPv4
-  maxPoolSize: 10,               // Máximo de conexiones en el pool
-  retryWrites: true,
-  w: 'majority'
-};
-
-const connectDB = async () => {
-  try {
-    await mongoose.connect(MONGO_URI, MONGODB_OPTIONS);
-    console.log('✅ MongoDB Connected...');
-  } catch (err) {
-    console.error('❌ MongoDB Connection Error:', err);
-    process.exit(1);
-  }
-};
-
-// Manejo de eventos de conexión
+// 1. Configuración de eventos de conexión
 mongoose.connection.on('connected', () => {
-  console.log('🟢 Mongoose connected to DB');
+  console.log('✅ Mongoose conectado a MongoDB en:', mongoose.connection.host);
 });
 
-mongoose.connection.on('error', err => {
-  console.error('🔴 Mongoose connection error:', err);
+mongoose.connection.on('error', (err) => {
+  console.error('❌ Error de conexión en Mongoose:', err);
 });
 
 mongoose.connection.on('disconnected', () => {
-  console.log('🟡 Mongoose disconnected');
+  console.log('⚠️  Mongoose desconectado de MongoDB');
 });
 
-// Manejo de cierre de aplicación
+// 2. Función de conexión mejorada
+const connectDB = async () => {
+  try {
+    await mongoose.connect(MONGO_URI, {
+      serverSelectionTimeoutMS: 5000, // 5 segundos para selección de servidor
+      socketTimeoutMS: 45000,         // 45 segundos para timeout de operaciones
+      family: 4,                      // Usar IPv4
+      maxPoolSize: 10,               // Máximo de conexiones en el pool
+      retryWrites: true,
+      w: 'majority'
+    });
+    
+    console.log('🚀 MongoDB conectado correctamente');
+  } catch (err) {
+    console.error('💥 FALLA CRÍTICA en conexión MongoDB:', err.message);
+    process.exit(1); // Termina la aplicación con error
+  }
+};
+
+// 3. Manejo de cierre de aplicación
 process.on('SIGINT', async () => {
-  await mongoose.connection.close();
-  console.log('🛑 Mongoose connection closed due to app termination');
-  process.exit(0);
+  try {
+    await mongoose.connection.close();
+    console.log('� Conexión a MongoDB cerrada por terminación de la app');
+    process.exit(0);
+  } catch (err) {
+    console.error('Error al cerrar conexión MongoDB:', err);
+    process.exit(1);
+  }
 });
 
-module.exports = connectDB;
+// 4. Exportar modelos (ajusta las rutas según tu estructura)
+const ActivityLogsModel = require('../model/nonRelational/ActivityLogs');
+const FavoritosModel = require('../model/nonRelational/favoritos');
+const MensajesModel = require('../model/nonRelational/mensajes');
+const NotificationsLogModel = require('../model/nonRelational/NotificationsLog');
+const UserPreferencesModel = require('../model/nonRelational/UserPreferences');
+
+module.exports = {
+  connectDB,
+  ActivityLogsModel,
+  FavoritosModel,
+  MensajesModel,
+  NotificationsLogModel,
+  UserPreferencesModel,
+};

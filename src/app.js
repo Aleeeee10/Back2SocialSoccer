@@ -140,8 +140,8 @@ async function createApp() {
   }
 
   // Base de datos MongoDB
-  const connectMongoDB = require('./dataBase/dataBase.mongo');
-  await connectMongoDB();
+  const { connectDB } = require('./dataBase/dataBase.mongo');
+  await connectDB();
   try {
     const UserPreferences = require('./model/nonRelational/UserPreferences');
     await UserPreferences.createCollection();
