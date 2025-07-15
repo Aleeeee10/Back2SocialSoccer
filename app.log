@@ -3299,3 +3299,853 @@ Require stack:
 2025-07-11 01:51:22 [info] ::1 - - [11/Jul/2025:06:51:22 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
 2025-07-11 01:51:22 [info] ::1 - - [11/Jul/2025:06:51:22 +0000] "GET /matches HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
 2025-07-11 01:51:22 [info] ::1 - - [11/Jul/2025:06:51:22 +0000] "GET /resultados HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:03 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-11 02:12:03 [info] Sincronización de la base de datos completada. 
+2025-07-11 02:12:08 [info] ::1 - - [11/Jul/2025:07:12:08 +0000] "POST /auth/login HTTP/1.1" 403 1478 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:10 [info] ::1 - - [11/Jul/2025:07:12:10 +0000] "GET /auth/preferences HTTP/1.1" 200 20 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:10 [info] ::1 - - [11/Jul/2025:07:12:10 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:15 [info] ::1 - - [11/Jul/2025:07:12:15 +0000] "POST /auth/login HTTP/1.1" 200 121 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:15 [info] ::1 - - [11/Jul/2025:07:12:15 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:15 [info] ::1 - - [11/Jul/2025:07:12:15 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:15 [info] ::1 - - [11/Jul/2025:07:12:15 +0000] "GET /auth/profile HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:15 [info] ::1 - - [11/Jul/2025:07:12:15 +0000] "GET /admin/dashboard HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:15 [info] ::1 - - [11/Jul/2025:07:12:15 +0000] "GET /auth/preferences HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:15 [info] ::1 - - [11/Jul/2025:07:12:15 +0000] "GET /news HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:19 [info] ::1 - - [11/Jul/2025:07:12:19 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:19 [info] ::1 - - [11/Jul/2025:07:12:19 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:20 [info] ::1 - - [11/Jul/2025:07:12:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:20 [info] ::1 - - [11/Jul/2025:07:12:20 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:20 [info] ::1 - - [11/Jul/2025:07:12:20 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:20 [info] ::1 - - [11/Jul/2025:07:12:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:20 [info] ::1 - - [11/Jul/2025:07:12:20 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:20 [info] ::1 - - [11/Jul/2025:07:12:20 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:20 [info] ::1 - - [11/Jul/2025:07:12:20 +0000] "GET /admin/dashboard HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:20 [info] ::1 - - [11/Jul/2025:07:12:20 +0000] "GET /news HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:22 [info] ::1 - - [11/Jul/2025:07:12:22 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:22 [info] ::1 - - [11/Jul/2025:07:12:22 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:22 [info] ::1 - - [11/Jul/2025:07:12:22 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:22 [info] ::1 - - [11/Jul/2025:07:12:22 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:22 [info] ::1 - - [11/Jul/2025:07:12:22 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:23 [info] ::1 - - [11/Jul/2025:07:12:23 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:23 [info] ::1 - - [11/Jul/2025:07:12:23 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:23 [info] ::1 - - [11/Jul/2025:07:12:23 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:23 [info] ::1 - - [11/Jul/2025:07:12:23 +0000] "GET /teams HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:23 [info] ::1 - - [11/Jul/2025:07:12:23 +0000] "GET /referees HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:23 [info] ::1 - - [11/Jul/2025:07:12:23 +0000] "GET /matches HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:24 [info] ::1 - - [11/Jul/2025:07:12:24 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:24 [info] ::1 - - [11/Jul/2025:07:12:24 +0000] "GET /matches HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:24 [info] ::1 - - [11/Jul/2025:07:12:24 +0000] "GET /resultados HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:25 [info] ::1 - - [11/Jul/2025:07:12:25 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:25 [info] ::1 - - [11/Jul/2025:07:12:25 +0000] "GET /matches HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:25 [info] ::1 - - [11/Jul/2025:07:12:25 +0000] "GET /players HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:25 [info] ::1 - - [11/Jul/2025:07:12:25 +0000] "GET /detalle-resultados HTTP/1.1" 404 157 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:28 [info] ::1 - - [11/Jul/2025:07:12:28 +0000] "GET /api/csrf-token HTTP/1.1" 200 52 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:28 [info] ::1 - - [11/Jul/2025:07:12:28 +0000] "GET /matches HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:12:28 [info] ::1 - - [11/Jul/2025:07:12:28 +0000] "GET /resultados HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" 
+2025-07-11 02:14:32 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-11 02:14:32 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:01:33 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:09:18 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:10:02 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:10:25 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:10:31 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:11:04 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:12:12 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:13:57 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:14:40 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:14:52 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:15:39 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:17:02 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:168:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:18:08 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:18:20 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:18:55 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:19:03 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:19:39 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:21:07 [error] uncaughtException: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32) Error: Cannot find module './router/detalleDivision'
+Require stack:
+- C:\Users\User\Desktop\practicas profesionales\Back\src\app.js
+- C:\Users\User\Desktop\practicas profesionales\Back\src\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1335:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\User\Desktop\practicas profesionales\Back\src\app.js:163:30)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+2025-07-14 00:25:18 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:25:18 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:41:07 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:41:07 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:44:20 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:44:20 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:47:14 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:47:14 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:48:08 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:48:08 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:48:57 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:48:57 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:49:49 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:49:49 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:55:06 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:55:06 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:55:15 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:55:15 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:55:51 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:55:51 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:56:23 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:56:23 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:56:57 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:56:57 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:57:44 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:57:44 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:58:11 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:58:11 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:58:41 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:58:41 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:59:12 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:59:12 [info] Sincronización de la base de datos completada. 
+2025-07-14 00:59:59 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 00:59:59 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:00:28 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:00:28 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:00:59 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:00:59 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:01:25 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:01:25 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:01:51 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:01:51 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:02:19 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:02:19 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:02:52 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:02:52 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:03:16 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:03:16 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:03:37 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:03:38 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:04:04 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:04:04 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:06:32 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:06:32 [info] Sincronización de la base de datos completada. 
+2025-07-14 01:08:20 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-14 01:08:20 [info] Sincronización de la base de datos completada. 
+2025-07-15 09:02:41 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:02:41 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:03:21 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:03:21 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:21 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:21 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:25 [error] Error al conectar a la base de datos MySQL: SequelizeConnectionError: Unknown database 'futbolsocial'
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:25 [error] Error al sincronizar la base de datos: SequelizeConnectionError: Unknown database 'futbolsocial'
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:102:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:30 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:30 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:35 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:35 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:42 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:42 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:47 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:06:47 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:09:23 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:09:23 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:14:34 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:14:35 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:16:04 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:16:04 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:16:07 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:16:07 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:16:17 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:16:17 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:22:32 [error] Error al conectar a la base de datos MySQL: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 09:22:32 [error] Error al sincronizar la base de datos: SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:94:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async C:\Users\User\Documents\Scanned Documents\Back\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32 
+2025-07-15 10:59:15 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 10:59:15 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:38:07 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:38:07 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:38:21 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:38:21 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:38:45 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:38:45 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:39:01 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:39:02 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:39:07 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:39:07 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:43:27 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:43:27 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:43:56 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:43:56 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:44:22 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:44:22 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:44:36 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:44:37 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:44:49 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:44:49 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:45:32 [error] uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (C:\Users\User\Documents\Scanned Documents\Back\node_modules\express\lib\application.js:635:24)
+    at C:\Users\User\Documents\Scanned Documents\Back\src\index.js:7:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (C:\Users\User\Documents\Scanned Documents\Back\node_modules\express\lib\application.js:635:24)
+    at C:\Users\User\Documents\Scanned Documents\Back\src\index.js:7:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-15 11:45:32 [error] Uncaught Exception: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Function.listen (C:\Users\User\Documents\Scanned Documents\Back\node_modules\express\lib\application.js:635:24)
+    at C:\Users\User\Documents\Scanned Documents\Back\src\index.js:7:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-07-15 11:46:07 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:46:07 [info] Sincronización de la base de datos completada. 
+2025-07-15 11:46:30 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 11:46:30 [info] Sincronización de la base de datos completada. 
+2025-07-15 12:15:44 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 12:15:44 [info] Sincronización de la base de datos completada. 
+2025-07-15 12:15:58 [info] Conexión a la base de datos MySQL establecida correctamente. 
+2025-07-15 12:15:58 [info] Sincronización de la base de datos completada. 
