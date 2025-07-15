@@ -66,6 +66,7 @@ const MensajesModel = require('../model/nonRelational/mensajes');
 const NotificationsLogModel = require('../model/nonRelational/NotificationsLog');
 const UserPreferencesModel = require('../model/nonRelational/UserPreferences');
 
+
 module.exports = {
   connectDB,
   ActivityLogsModel,

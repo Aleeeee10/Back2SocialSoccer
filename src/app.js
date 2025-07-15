@@ -329,11 +329,6 @@ async function createApp() {
   app.use('/agenda-entrenamientos', require('./router/agendaEntrenamientos'));
   app.use('/comentarios', require('./router/comentarios'));
 
-  // Rutas MONGO
-  app.use('/activity-logs', require('./router/activityLogs'));
-  app.use('/favoritos', require('./router/favoritos'));
-  app.use('/mensajes', require('./router/mensajes'));
-  app.use('/notifications-log', require('./router/notificationsLog'));
 
   // Configurar variables globales
   app.use((req, res, next) => {
