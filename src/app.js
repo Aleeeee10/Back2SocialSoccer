@@ -24,11 +24,10 @@ async function createApp() {
     credentials: true
   }));
 
-  // Middlewares de parsing
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 
-  // Helmet para seguridad
+  // Helmet
   app.use(
     helmet({
       contentSecurityPolicy: {
@@ -60,10 +59,10 @@ async function createApp() {
     })
   );
 
-  // Logger HTTP
+  // Logger
   app.use(morgan('dev'));
 
-  // Sesión
+  // Session
   const sessionStore = new MySQLStore({
     host: MYSQLHOST,
     port: MYSQLPORT,
@@ -79,7 +78,6 @@ async function createApp() {
     saveUninitialized: false,
   }));
 
-  // Passport y flash
   app.use(passport.initialize());
   app.use(passport.session());
   app.use(flash());
@@ -96,7 +94,7 @@ async function createApp() {
     res.json({ csrfToken: req.csrfToken() });
   });
 
-  // Logger con Winston
+  // Logger Winston
   const logger = winston.createLogger({
     level: 'info',
     format: winston.format.combine(
@@ -125,10 +123,9 @@ async function createApp() {
     }));
   }
 
-  // Puerto
   app.set('port', process.env.PORT || 3000);
 
-  // Base de datos MySQL
+  // DB Relacional (MySQL)
   const db = require('./dataBase/dataBase.orm');
   if (db.sequelize && db.sequelize.authenticate) {
     db.sequelize.authenticate()
@@ -139,7 +136,7 @@ async function createApp() {
       .catch(err => logger.error('Error al sincronizar la base de datos: ' + err.stack));
   }
 
-  // Base de datos MongoDB
+  // DB No Relacional (MongoDB)
   const connectMongoDB = require('./dataBase/dataBase.mongo');
   await connectMongoDB();
   try {
@@ -150,7 +147,7 @@ async function createApp() {
     console.error('Error creando colecciones en MongoDB:', err);
   }
 
-  // Rutas MYSQL
+  // Rutas Relacionales (MySQL)
   app.use('/users', require('./router/users'));
   app.use('/roles', require('./router/roles'));
   app.use('/detalle-rol', require('./router/detalleRol'));
@@ -174,22 +171,24 @@ async function createApp() {
   app.use('/agenda-entrenamientos', require('./router/agendaEntrenamientos'));
   app.use('/comentarios', require('./router/comentarios'));
 
-  // Rutas MONGO
+  // Rutas No Relacionales (MongoDB)
   app.use('/activity-logs', require('./router/activityLogs'));
   app.use('/favoritos', require('./router/favoritos'));
   app.use('/mensajes', require('./router/mensajes'));
   app.use('/notifications-log', require('./router/notificationsLog'));
+  app.use('/user-preferences', require('./router/userPreferences'));
+  app.use('/reportes-incidencias', require('./router/reportesIncidencias')); // ✅ Añadida
+  app.use('/historial-login', require('./router/historialLogin')); // ✅ Añadida
+  app.use('/logs-errores', require('./router/logsErrores')); // ✅ Añadida
+  app.use('/encuestas-feedback', require('./router/encuestasFeedback')); // ✅ Añadida
+  app.use('/historial-cambios-perfil', require('./router/historialCambiosPerfil')); // ✅ Añadida
 
-  // Middleware global de errores
+  // Middleware de errores
   app.use((err, req, res, next) => {
     if (res.headersSent) return next(err);
     logger.error(`${err.message}\n${err.stack}`);
-    if (err.code === 'ValidationError') {
-      return res.status(400).json({ error: err.message });
-    }
-    if (err.code === 'EBADCSRFTOKEN') {
-      return res.status(403).send('Invalid CSRF token');
-    }
+    if (err.code === 'ValidationError') return res.status(400).json({ error: err.message });
+    if (err.code === 'EBADCSRFTOKEN') return res.status(403).send('Invalid CSRF token');
     return res.status(500).send('Internal Server Error');
   });
 
@@ -197,6 +196,7 @@ async function createApp() {
     logger.error(`Uncaught Exception: ${error.stack}`);
     process.exit(1);
   });
+
   process.on('unhandledRejection', (reason, promise) => {
     logger.error(`Unhandled Rejection at: ${promise}, reason: ${reason.stack || reason}`);
   });
