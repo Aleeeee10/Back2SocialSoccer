@@ -12,6 +12,12 @@ module.exports = (sequelize, DataTypes) => {
     asistencias: {
       type: DataTypes.INTEGER,
       allowNull: true
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true, // Campo estado agregado para consistencia con otros modelos
+      comment: 'Estado del detalle estadística: true = activo, false = inactivo'
     }
   }, {
     freezeTableName: true,

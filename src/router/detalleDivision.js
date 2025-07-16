@@ -1,12 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const detalleDivisionController = require('../controller/detalleDivisionController');
+const { getAllDetalleDivision, mostrarDetalleDivision, createDetalleDivision, mandarDetalleDivision, getById, update, delete: deleteDetalleDivision } = require('../controller/detalleDivisionController');
 
-// Rutas básicas para Detalle Division
-router.get('/', detalleDivisionController.getAll);
-router.get('/:id', detalleDivisionController.getById);
-router.post('/', detalleDivisionController.create);
-router.put('/:id', detalleDivisionController.update);
-router.delete('/:id', detalleDivisionController.delete);
+// Rutas descriptivas para Detalle División
+router.get('/lista', getAllDetalleDivision);           // Lista básica con ORM
+router.get('/mostrar', mostrarDetalleDivision);        // Vista completa con SQL + JOIN
+router.get('/buscar/:id', getById);                    // Buscar por ID
+router.get('/mandar/:id', mandarDetalleDivision);      // Mandar con encriptación
+router.post('/crear', createDetalleDivision);          // Crear nuevo
+router.put('/actualizar/:id', update);                 // Actualizar existente
+router.delete('/eliminar/:id', deleteDetalleDivision); // Eliminar (lógico)
+
+// Rutas de compatibilidad (mantienen funcionalidad anterior)
 
 module.exports = router;

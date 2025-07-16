@@ -6,9 +6,10 @@ module.exports = (sequelize, DataTypes) => {
       autoIncrement: true
     },
     estado: {
-      type: DataTypes.STRING,
-      defaultValue: 'pendiente',
-      allowNull: false
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true, // Campo estado modificado para consistencia con otros modelos
+      comment: 'Estado de la inscripción: true = activa, false = inactiva'
     }
   }, {
     freezeTableName: false,  // permite pluralizar el nombre de la tabla a 'inscripcionesTorneos'

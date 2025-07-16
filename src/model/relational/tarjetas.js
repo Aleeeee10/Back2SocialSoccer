@@ -12,9 +12,13 @@ module.exports = (sequelize, DataTypes) => {
     minuto: {
       type: DataTypes.INTEGER,
       allowNull: true
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: true
     }
   }, {
-    freezeTableName: false,  // Permite pluralizar el nombre de la tabla
-    timestamps: false        // Desactiva createdAt y updatedAt automáticos
+    freezeTableName: false,  // Permite que Sequelize pluralice como 'tarjetas'
+    timestamps: false        // No se crean campos createdAt y updatedAt
   });
 };

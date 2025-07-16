@@ -1,12 +1,16 @@
-// router/agendaEntrenamientos.js
 const express = require('express');
 const router = express.Router();
-const controller = require('../controller/agendaEntrenamientosController');
+const { getAllAgendaEntrenamientos, mostrarAgendaEntrenamientos, createAgendaEntrenamientos, mandarAgendaEntrenamientos, getById, update, delete: deleteAgendaEntrenamientos } = require('../controller/agendaEntrenamientosController');
 
-router.get('/', controller.getAll);
-router.get('/:id', controller.getById);
-router.post('/', controller.create);
-router.put('/:id', controller.update);
-router.delete('/:id', controller.delete);
+// Rutas descriptivas para Agenda de Entrenamientos
+router.get('/lista', getAllAgendaEntrenamientos);           // Lista básica con ORM
+router.get('/mostrar', mostrarAgendaEntrenamientos);        // Vista completa con SQL + equipo y estado temporal
+router.get('/buscar/:id', getById);                         // Buscar por ID
+router.get('/mandar/:id', mandarAgendaEntrenamientos);      // Mandar con encriptación
+router.post('/crear', createAgendaEntrenamientos);          // Crear nueva
+router.put('/actualizar/:id', update);                      // Actualizar existente
+router.delete('/eliminar/:id', deleteAgendaEntrenamientos); // Eliminar (lógico)
+
+// Rutas de compatibilidad (mantienen funcionalidad anterior)
 
 module.exports = router;

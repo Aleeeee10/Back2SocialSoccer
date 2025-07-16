@@ -25,21 +25,14 @@ const { MYSQLHOST, MYSQLUSER, MYSQLPASSWORD, MYSQLDATABASE, MYSQLPORT } = requir
 require('./lib/passport');
 
 async function createApp() {
-  // Crear aplicación Express
   const app = express();
-
-  // ==================== CONFIGURACIÓN BÁSICA ====================
   app.set('port', process.env.PORT || 3000);
 
-  // ==================== CONFIGURACIÓN DE LOGS MEJORADA ====================
-
-  // 1. Configuración de directorio de logs
   const logDir = path.join(__dirname, '../logs');
   if (!fs.existsSync(logDir)) {
       fs.mkdirSync(logDir);
   }
 
-  // 2. Configuración de Winston para logs unificados (consola y archivo)
   const logger = winston.createLogger({
       level: 'info',
       format: winston.format.combine(
@@ -51,14 +44,12 @@ async function createApp() {
           })
       ),
       transports: [
-          // Transporte para archivo (siempre activo)
           new winston.transports.File({
               filename: path.join(logDir, 'app.log'),
-              maxsize: 10 * 1024 * 1024, // 10MB
+              maxsize: 10 * 1024 * 1024,
               maxFiles: 5,
               tailable: true
           }),
-          // Transporte para consola (siempre activo)
           new winston.transports.Console({
               format: winston.format.combine(
                   winston.format.colorize(),
@@ -68,28 +59,22 @@ async function createApp() {
       ]
   });
 
-  // Sobrescribir los métodos console para redirigir a Winston
   console.log = (...args) => logger.info(args.join(' '));
   console.info = (...args) => logger.info(args.join(' '));
   console.warn = (...args) => logger.warn(args.join(' '));
   console.error = (...args) => logger.error(args.join(' '));
   console.debug = (...args) => logger.debug(args.join(' '));
 
-  // 3. Configurar Morgan para usar Winston
   const morganFormat = process.env.NODE_ENV === 'production' ? 'combined' : 'dev';
   app.use(morgan(morganFormat, {
       stream: {
           write: (message) => {
-              // Eliminar saltos de línea innecesarios
               const cleanedMessage = message.replace(/\n$/, '');
               logger.info(cleanedMessage);
           }
       }
   }));
 
-  // ==================== CONFIGURACIÓN DE SEGURIDAD MEJORADA ====================
-
-  // 4. Middleware de protección contra sobrecarga del servidor
   app.use((req, res, next) => {
       if (toobusy()) {
           logger.warn('Server too busy!');
@@ -99,7 +84,6 @@ async function createApp() {
       }
   });
 
-  // 5. Habilitar CORS (configura según tus necesidades)
   app.use(cors({
     origin: process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : 'http://localhost:5173',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -107,14 +91,10 @@ async function createApp() {
     credentials: true
   }));
 
-  // 6. Protección contra HTTP Parameter Pollution
   app.use(hpp());
-
-  // 7. Limitar tamaño de payload
   app.use(express.json({ limit: '100kb' }));
   app.use(express.urlencoded({ extended: true, limit: '100kb' }));
 
-  // 8. Rate limiting para prevenir ataques de fuerza bruta
   const limiter = rateLimit({
       windowMs: 15 * 60 * 1000,
       max: 100,
@@ -127,7 +107,6 @@ async function createApp() {
   });
   app.use(limiter);
 
-  // 9. Configuración de Helmet mejorada
   app.use(
     helmet({
       contentSecurityPolicy: {
@@ -159,7 +138,6 @@ async function createApp() {
     })
   );
 
-  // 10. Headers de seguridad adicionales
   app.use((req, res, next) => {
       res.setHeader('X-Frame-Options', 'DENY');
       res.setHeader('X-Content-Type-Options', 'nosniff');
@@ -168,7 +146,6 @@ async function createApp() {
       next();
   });
 
-  // 11. Configuración avanzada de cookies
   app.use(cookieParser(
       process.env.COOKIE_SECRET || crypto.randomBytes(64).toString('hex'),
       {
@@ -179,7 +156,6 @@ async function createApp() {
       }
   ));
 
-  // 12. Configuración de sesiones seguras
   const sessionConfig = {
       store: new MySQLStore({
           host: MYSQLHOST,
@@ -211,7 +187,6 @@ async function createApp() {
   app.use(session(sessionConfig));
   app.use(flash());
 
-  // 13. CSRF Protection mejorada
   const csrfProtection = csrf({
       cookie: {
           httpOnly: true,
@@ -221,16 +196,12 @@ async function createApp() {
   });
   app.use(csrfProtection);
 
-  // 14. Validación de entrada global
   app.use((req, res, next) => {
-      // Sanitizar parámetros de consulta
       for (const key in req.query) {
           if (typeof req.query[key] === 'string') {
               req.query[key] = escape(req.query[key]);
           }
       }
-      
-      // Sanitizar cuerpo de la petición
       if (req.body) {
           for (const key in req.body) {
               if (typeof req.body[key] === 'string') {
@@ -238,13 +209,9 @@ async function createApp() {
               }
           }
       }
-      
       next();
   });
 
-  // ==================== MIDDLEWARE ADICIONAL ====================
-
-  // Configurar middleware de subida de archivos
   app.use(fileUpload({
       createParentPath: true,
       limits: { fileSize: 5 * 1024 * 1024 },
@@ -253,34 +220,25 @@ async function createApp() {
       preserveExtension: true
   }));
 
-  // Middleware de compresión
   app.use(compression());
-
-  // Configurar passport
   app.use(passport.initialize());
   app.use(passport.session());
 
-  // Middleware para pasar datos comunes a las respuestas
   app.use((req, res, next) => {
-      // Para API responses en JSON
       res.apiResponse = (data, status = 200, message = '') => {
-          const response = {
+          return res.status(status).json({
               success: status >= 200 && status < 300,
               message,
               data
-          };
-          return res.status(status).json(response);
+          });
       };
-      
       res.apiError = (message, status = 400, errors = null) => {
-          const response = {
+          return res.status(status).json({
               success: false,
               message,
               errors
-          };
-          return res.status(status).json(response);
+          });
       };
-
       res.locals.csrfToken = req.csrfToken();
       next();
   });
@@ -289,13 +247,11 @@ async function createApp() {
     res.json({ csrfToken: req.csrfToken() });
   });
 
-  // Base de datos MySQL
   const db = require('./dataBase/dataBase.orm');
   if (db.users) {
     logger.info('Conexión a la base de datos MySQL establecida correctamente.');
   }
 
-  // Base de datos MongoDB (conexión automática)
   require('./dataBase/dataBase.mongo');
   try {
     const UserPreferences = require('./model/nonRelational/UserPreferences');
@@ -305,7 +261,6 @@ async function createApp() {
     console.error('Error creando colecciones en MongoDB:', err);
   }
 
-  // Rutas MYSQL
   app.use('/users', require('./router/users'));
   app.use('/roles', require('./router/roles'));
   app.use('/detalle-rol', require('./router/detalleRol'));
@@ -329,8 +284,6 @@ async function createApp() {
   app.use('/agenda-entrenamientos', require('./router/agendaEntrenamientos'));
   app.use('/comentarios', require('./router/comentarios'));
 
-
-  // Configurar variables globales
   app.use((req, res, next) => {
       app.locals.message = req.flash('message');
       app.locals.success = req.flash('success');
@@ -338,36 +291,24 @@ async function createApp() {
       next();
   });
 
-  // ==================== MANEJO DE ERRORES ====================
-
-  // Middleware de manejo de errores mejorado para API
   app.use((err, req, res, next) => {
     if (res.headersSent) {
         return next(err);
     }
-
     logger.error(`Error: ${err.message}\nStack: ${err.stack}`);
-
-    // Respuestas de error estandarizadas
     if (err.name === 'ValidationError') {
         return res.apiError('Validation error', 400, err.errors);
     }
-
     if (err.code === 'EBADCSRFTOKEN') {
         return res.apiError('CSRF token validation failed', 403);
     }
-
-    // Error no manejado
-    const errorResponse = {
+    res.status(500).json({
         message: 'Internal server error',
         error: process.env.NODE_ENV === 'development' ? err.message : undefined,
         stack: process.env.NODE_ENV === 'development' ? err.stack : undefined
-    };
-    
-    res.status(500).json(errorResponse);
+    });
   });
 
-  // Middleware para rutas no encontradas (API)
   app.use((req, res, next) => {
       logger.warn(`404 Not Found: ${req.originalUrl}`);
       if (res.apiError) {
@@ -381,7 +322,7 @@ async function createApp() {
     logger.error(`Uncaught Exception: ${error.stack}`);
     process.exit(1);
   });
-  
+
   process.on('unhandledRejection', (reason, promise) => {
     logger.error(`Unhandled Rejection at: ${promise}, reason: ${reason.stack || reason}`);
   });

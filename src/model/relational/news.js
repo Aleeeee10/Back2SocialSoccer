@@ -1,3 +1,4 @@
+// Modelo de news - Define la estructura de la tabla news (noticias)
 module.exports = (sequelize, DataTypes) => {
   return sequelize.define('news', {
     id: {
@@ -20,6 +21,12 @@ module.exports = (sequelize, DataTypes) => {
     fecha: {
       type: DataTypes.DATE,
       defaultValue: DataTypes.NOW
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: true,
+      allowNull: false,
+      comment: 'Estado de la noticia: true = activo, false = inactivo'
     }
   }, {
     freezeTableName: false,  // permite pluralizar el nombre de la tabla a 'news'

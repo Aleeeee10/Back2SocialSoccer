@@ -1,12 +1,16 @@
-// router/comentarios.js
 const express = require('express');
 const router = express.Router();
-const controller = require('../controller/comentariosController');
+const { getAllComentarios, mostrarComentarios, createComentario, mandarComentario, getById, update, delete: deleteComentario } = require('../controller/comentariosController');
 
-router.get('/', controller.getAll);
-router.get('/:id', controller.getById);
-router.post('/', controller.create);
-router.put('/:id', controller.update);
-router.delete('/:id', controller.delete);
+// Rutas descriptivas para Comentarios
+router.get('/lista', getAllComentarios);           // Lista básica con ORM
+router.get('/mostrar', mostrarComentarios);        // Vista completa con SQL + JOIN
+router.get('/buscar/:id', getById);                // Buscar por ID
+router.get('/mandar/:id', mandarComentario);       // Mandar con encriptación
+router.post('/crear', createComentario);           // Crear nuevo
+router.put('/actualizar/:id', update);             // Actualizar existente
+router.delete('/eliminar/:id', deleteComentario); // Eliminar (lógico)
+
+// Rutas de compatibilidad (mantienen funcionalidad anterior)
 
 module.exports = router;

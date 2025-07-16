@@ -1,7 +1,19 @@
 // controller/usersController.js
 const usersCtl = {};
 const orm = require('../dataBase/dataBase.orm');
+const sql = require('../dataBase/dataBase.sql');
+const mongo = require('../dataBase/dataBase.mongo');
 const UserPreferences = require('../model/nonRelational/UserPreferences');
+const { cifrarDatos, descifrarDatos } = require('../lib/encrypDates')
+
+function safeDecrypt(data) {
+    try {
+        return descifrarDatos(data);
+    } catch (error) {
+        console.error('Error al descifrar datos:', error.message);
+        return ''; // Devolver una cadena vacía si ocurre un error
+    }
+}
 
 // FUNCIONES PARA USUARIOS (MySQL)
 usersCtl.getAllUsers = async (req, res) => {
@@ -10,6 +22,23 @@ usersCtl.getAllUsers = async (req, res) => {
     res.json(data);
   } catch (e) {
     res.status(500).json({ message: 'Error al obtener usuarios', error: e.message });
+  }
+};
+
+// FUNCIÓN PARA MOSTRAR USUARIOS CON SQL DIRECTO
+usersCtl.mostrarUsers = async (req, res) => {
+  try {
+    const [listaUsers] = await sql.promise().query('SELECT * FROM users');
+    const usuario = await UserPreferences.findOne({ userId: listaUsers[0]?.id?.toString() });
+    const usuarios = listaUsers[0];
+    const data = {
+      usuarios,
+      usuario
+    };
+    return data;
+  } catch (error) {
+    console.error('Error al mostrar usuarios:', error.message);
+    return { error: 'Error al obtener datos' };
   }
 };
 
@@ -53,6 +82,50 @@ usersCtl.createUser = async (req, res) => {
     });
   } catch (e) {
     res.status(400).json({ message: 'Error al crear usuario', error: e.message });
+  }
+};
+
+// FUNCIÓN PARA CREAR USUARIO CON SQL Y MONGO DIRECTO
+usersCtl.mandarUser = async (req, res) => {
+  const userId = req.user?.id || req.body.userId;
+  try {
+    const { nombre, email, contraseña, avatar, tema, notificaciones, idioma } = req.body;
+    
+    // Datos para MySQL usando ORM
+    const envioSQL = {
+      nombre,
+      email,
+      contraseña,
+      avatar,
+      estado: true,
+      createUser: new Date().toLocaleString(),
+    };
+    
+    const envioUser = await orm.users.create(envioSQL);
+    const idUser = envioUser.id;
+
+    // Datos para MongoDB
+    const envioMongo = {
+      userId: idUser.toString(),
+      tema: tema || 'claro',
+      notificaciones: notificaciones !== undefined ? notificaciones : true,
+      idioma: idioma || 'es',
+      createUserMongo: new Date().toLocaleString(),
+    };
+
+    await UserPreferences.create(envioMongo);
+    
+    res.status(201).json({
+      message: 'Exito al guardar usuario completo',
+      user: envioUser,
+      preferences: envioMongo
+    });
+    
+    return 'exito al guardar';
+
+  } catch (error) {
+    res.status(400).json({ message: 'Error al envio', error: error.message });
+    return error;
   }
 };
 

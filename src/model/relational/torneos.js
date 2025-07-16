@@ -20,9 +20,13 @@ module.exports = (sequelize, DataTypes) => {
     descripcion: {
       type: DataTypes.TEXT,
       allowNull: true
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: true
     }
   }, {
-    freezeTableName: false,  // Permite pluralizar a 'torneoses' (si aplica)
-    timestamps: false        // No agrega createdAt ni updatedAt
+    freezeTableName: false,  // Permite que Sequelize pluralice como 'torneos'
+    timestamps: false        // No se crean campos createdAt y updatedAt
   });
 };

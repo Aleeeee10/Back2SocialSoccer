@@ -4,14 +4,21 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const { MYSQLHOST, MYSQLUSER, MYSQLPASSWORD, MYSQLDATABASE, MYSQLPORT, MYSQL_URI } = require("../keys");
+const {
+    MYSQLHOST,
+    MYSQLUSER,
+    MYSQLPASSWORD,
+    MYSQLDATABASE,
+    MYSQLPORT,
+    MYSQL_URI
+} = require("../keys");
 
 let pool;
 
+// Crear el pool de conexión a la base de datos
 if (MYSQL_URI) {
     pool = createPool(MYSQL_URI);
 } else {
-    // Crear el pool de conexión a la base de datos
     pool = createPool({
         user: MYSQLUSER,
         password: MYSQLPASSWORD,
@@ -21,6 +28,7 @@ if (MYSQL_URI) {
     });
 }
 
+// Manejo de errores de conexión
 pool.getConnection((err, connection) => {
     if (err) {
         switch (err.code) {

@@ -1,12 +1,24 @@
 // router/teams.js
 const express = require('express');
 const router = express.Router();
-const controller = require('../controller/teamsController');
 
-router.get('/', controller.getAll);
-router.get('/:id', controller.getById);
-router.post('/', controller.create);
-router.put('/:id', controller.update);
-router.delete('/:id', controller.delete);
+const { 
+  getAllTeams, 
+  mostrarTeams,
+  getTeamById, 
+  createTeam,
+  mandarTeam,
+  updateTeam, 
+  deleteTeam
+} = require('../controller/teamsController');
+
+// RUTAS PRINCIPALES PARA EQUIPOS (MySQL)
+router.get('/lista', getAllTeams);
+router.get('/mostrar', mostrarTeams);
+router.get('/buscar/:id', getTeamById);
+router.post('/crear', createTeam);
+router.post('/mandar', mandarTeam);
+router.put('/actualizar/:id', updateTeam);
+router.delete('/eliminar/:id', deleteTeam);
 
 module.exports = router;

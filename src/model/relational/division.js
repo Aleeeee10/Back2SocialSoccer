@@ -12,6 +12,12 @@ module.exports = (sequelize, DataTypes) => {
     categoria: {
       type: DataTypes.STRING,
       allowNull: true
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true, // Campo estado agregado para consistencia con otros modelos
+      comment: 'Estado de la división: true = activa, false = inactiva'
     }
   }, {
     freezeTableName: false,  // permite pluralizar el nombre de la tabla a 'divisions'

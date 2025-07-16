@@ -1,11 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controller/mensajesController');
+const { getAllMensajes, mostrarMensajes, createMensajes, mandarMensajes, getById, update, delete: deleteMensajes } = require('../controller/mensajesController');
 
-router.get('/', controller.getAll);
-router.get('/:id', controller.getById);
-router.post('/', controller.create);
-router.put('/:id', controller.update);
-router.delete('/:id', controller.delete);
+// Rutas descriptivas para Mensajes
+router.get('/lista', getAllMensajes);           // Lista básica con MongoDB
+router.get('/mostrar', mostrarMensajes);        // Vista completa con agregación + estados y direcciones
+router.get('/buscar/:id', getById);             // Buscar por ID
+router.get('/mandar/:id', mandarMensajes);      // Mandar con encriptación
+router.post('/crear', createMensajes);          // Crear nuevo
+router.put('/actualizar/:id', update);          // Actualizar existente
+router.delete('/eliminar/:id', deleteMensajes); // Eliminar (lógico)
+
+// Rutas de compatibilidad (mantienen funcionalidad anterior)
 
 module.exports = router;

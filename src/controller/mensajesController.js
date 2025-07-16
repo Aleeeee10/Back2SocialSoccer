@@ -1,47 +1,128 @@
 const Mensajes = require('../model/nonRelational/mensajes');
+const { encryptDates } = require('../lib/helpers');
 
-module.exports = {
-  async getAll(req, res) {
+const mensajesCtl = {
+  // Obtener todos los mensajes usando MongoDB
+  getAllMensajes: async (req, res) => {
     try {
-      const data = await Mensajes.find();
+      const data = await Mensajes.find({ estado: { $ne: false } });
       res.json(data);
-    } catch (e) {
-      res.status(500).json({ message: 'Error al obtener mensajes', error: e.message });
+    } catch (error) {
+      res.status(500).json({ error: error.message });
     }
   },
-  async getById(req, res) {
+
+  // Mostrar mensajes con información completa (MongoDB con agregación)
+  mostrarMensajes: async (req, res) => {
     try {
-      const msg = await Mensajes.findById(req.params.id);
+      const data = await Mensajes.aggregate([
+        { $match: { estado: { $ne: false } } },
+        {
+          $addFields: {
+            estado_lectura: {
+              $cond: {
+                if: "$leido",
+                then: "✅ Leído",
+                else: "📬 No leído"
+              }
+            },
+            tiempo_transcurrido: {
+              $floor: {
+                $divide: [
+                  { $subtract: [new Date(), "$createdAt"] },
+                  1000 * 60 * 60 * 24
+                ]
+              }
+            },
+            direccion_mensaje: {
+              $concat: ["📤 De: ", "$de", " 📥 Para: ", "$para"]
+            }
+          }
+        },
+        { $sort: { createdAt: -1 } }
+      ]);
+      res.json(data);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  // Crear nuevo mensaje
+  createMensajes: async (req, res) => {
+    try {
+      const nuevo = new Mensajes({
+        ...req.body,
+        estado: true
+      });
+      await nuevo.save();
+      res.status(201).json(nuevo);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  },
+
+  // Mandar mensaje específico con encriptación
+  mandarMensajes: async (req, res) => {
+    try {
+      const msg = await Mensajes.findOne({
+        _id: req.params.id,
+        estado: { $ne: false }
+      });
+      
+      if (!msg) {
+        return res.status(404).json({ message: 'Mensaje no encontrado' });
+      }
+
+      const encryptedMsg = encryptDates(msg.toObject());
+      res.json(encryptedMsg);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  // Obtener mensaje por ID
+  getById: async (req, res) => {
+    try {
+      const msg = await Mensajes.findOne({
+        _id: req.params.id,
+        estado: { $ne: false }
+      });
       if (!msg) return res.status(404).json({ message: 'Mensaje no encontrado' });
       res.json(msg);
-    } catch (e) {
-      res.status(500).json({ message: 'Error al buscar mensaje', error: e.message });
+    } catch (error) {
+      res.status(500).json({ error: error.message });
     }
   },
-  async create(req, res) {
+
+  // Actualizar mensaje existente
+  update: async (req, res) => {
     try {
-      const nuevo = await Mensajes.create(req.body);
-      res.status(201).json(nuevo);
-    } catch (e) {
-      res.status(400).json({ message: 'Error al crear mensaje', error: e.message });
-    }
-  },
-  async update(req, res) {
-    try {
-      const actualizado = await Mensajes.findByIdAndUpdate(req.params.id, req.body, { new: true });
+      const actualizado = await Mensajes.findOneAndUpdate(
+        { _id: req.params.id, estado: { $ne: false } },
+        req.body,
+        { new: true }
+      );
       if (!actualizado) return res.status(404).json({ message: 'Mensaje no encontrado' });
       res.json(actualizado);
-    } catch (e) {
-      res.status(400).json({ message: 'Error al actualizar mensaje', error: e.message });
+    } catch (error) {
+      res.status(400).json({ error: error.message });
     }
   },
-  async delete(req, res) {
+
+  // Eliminar mensaje (eliminación lógica)
+  delete: async (req, res) => {
     try {
-      const eliminado = await Mensajes.findByIdAndDelete(req.params.id);
+      const eliminado = await Mensajes.findOneAndUpdate(
+        { _id: req.params.id, estado: { $ne: false } },
+        { estado: false },
+        { new: true }
+      );
       if (!eliminado) return res.status(404).json({ message: 'Mensaje no encontrado' });
-      res.json({ message: 'Mensaje eliminado' });
-    } catch (e) {
-      res.status(500).json({ message: 'Error al eliminar mensaje', error: e.message });
+      res.json({ message: 'Mensaje eliminado correctamente' });
+    } catch (error) {
+      res.status(500).json({ error: error.message });
     }
   }
 };
+
+module.exports = mensajesCtl;

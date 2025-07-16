@@ -1,3 +1,4 @@
+// Modelo de players - Define la estructura de la tabla players (jugadores)
 module.exports = (sequelize, DataTypes) => {
   return sequelize.define('players', {
     id: {
@@ -20,6 +21,12 @@ module.exports = (sequelize, DataTypes) => {
     edad: {
       type: DataTypes.INTEGER,
       allowNull: true
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: true,
+      allowNull: false,
+      comment: 'Estado del jugador: true = activo, false = inactivo'
     }
   }, {
     freezeTableName: false,  // Permite pluralizar el nombre de la tabla a 'players'

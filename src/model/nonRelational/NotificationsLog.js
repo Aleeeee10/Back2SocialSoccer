@@ -4,7 +4,8 @@ const NotificationsLogSchema = new mongoose.Schema({
   userId: { type: String, required: true },
   mensaje: { type: String, required: true },
   tipo: { type: String, default: 'info' }, // info, warning, success, error
-  leido: { type: Boolean, default: false }
+  leido: { type: Boolean, default: false },
+  estado: { type: Boolean, default: true } // Campo para eliminación lógica - consistencia con otros modelos
 }, {
   timestamps: true
 });

@@ -24,6 +24,11 @@ module.exports = (sequelize, DataTypes) => {
     creadoEn: {
       type: DataTypes.DATE,
       defaultValue: DataTypes.NOW
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: true,
+      comment: 'Campo para eliminación lógica - mantiene consistencia con otros modelos'
     }
   }, {
     freezeTableName: false,  // permite pluralizar la tabla a 'comentarios'

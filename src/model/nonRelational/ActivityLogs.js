@@ -4,7 +4,8 @@ const ActivityLogSchema = new mongoose.Schema({
   userId: { type: String, required: true },
   accion: { type: String, required: true }, // ejemplo: 'Inicio de sesión', 'Actualizó perfil', etc.
   ip: { type: String },
-  navegador: { type: String }
+  navegador: { type: String },
+  estado: { type: Boolean, default: true } // Campo agregado para consistencia con otros modelos
 }, {
   timestamps: true
 });

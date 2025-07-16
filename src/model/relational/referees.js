@@ -1,3 +1,4 @@
+// Modelo de referees - Define la estructura de la tabla referees (árbitros)
 module.exports = (sequelize, DataTypes) => {
   return sequelize.define('referees', {
     id: {
@@ -12,6 +13,12 @@ module.exports = (sequelize, DataTypes) => {
     experiencia: {
       type: DataTypes.STRING,
       allowNull: true
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: true,
+      allowNull: false,
+      comment: 'Estado del árbitro: true = activo, false = inactivo'
     }
   }, {
     freezeTableName: false,  // Permite pluralizar el nombre de la tabla a 'referees'

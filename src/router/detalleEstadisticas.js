@@ -1,12 +1,17 @@
-// router/detalleEstadisticas.js
+// router/detalleEstadisticas.js - Rutas para gestión de detalle estadísticas siguiendo patrón estándar
 const express = require('express');
 const router = express.Router();
-const controller = require('../controller/detalleEstadisticasController');
+const { getAllDetalleEstadisticas, mostrarDetalleEstadisticas, createDetalleEstadistica, mandarDetalleEstadistica, getById, update, delete: deleteDetalleEstadistica } = require('../controller/detalleEstadisticasController');
 
-router.get('/', controller.getAll);
-router.get('/:id', controller.getById);
-router.post('/', controller.create);
-router.put('/:id', controller.update);
-router.delete('/:id', controller.delete);
+// Rutas principales siguiendo el patrón estándar
+router.get('/lista', getAllDetalleEstadisticas);             // Lista de detalle estadísticas (ORM)
+router.get('/mostrar', mostrarDetalleEstadisticas);          // Mostrar detalle estadísticas (SQL directo)
+router.get('/buscar/:id', getById);                          // Buscar detalle estadística específico
+router.get('/mandar/:id', mandarDetalleEstadistica);         // Mandar/enviar detalle estadística
+router.post('/crear', createDetalleEstadistica);             // Crear nuevo detalle estadística
+router.put('/actualizar/:id', update);                      // Actualizar detalle estadística
+router.delete('/eliminar/:id', deleteDetalleEstadistica);   // Eliminar detalle estadística
+
+// Rutas de compatibilidad (mantener funcionalidad existente)
 
 module.exports = router;

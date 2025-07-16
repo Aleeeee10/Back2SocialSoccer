@@ -16,6 +16,11 @@ module.exports = (sequelize, DataTypes) => {
     descripcion: { 
       type: DataTypes.STRING, 
       allowNull: true  // mejor explicitar si puede ser null o no
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: true,
+      comment: 'Campo para eliminación lógica - mantiene consistencia con otros modelos'
     }
   }, {
     freezeTableName: false, // Sequelize pluralizará "agendaEntrenamientos" para la tabla

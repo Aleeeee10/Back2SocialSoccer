@@ -12,6 +12,12 @@ module.exports = (sequelize, DataTypes) => {
     nacionalidad: {
       type: DataTypes.STRING,
       allowNull: true
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true, // Campo estado agregado para consistencia con otros modelos
+      comment: 'Estado del detalle jugador: true = activo, false = inactivo'
     }
   }, {
     freezeTableName: false,  // permite pluralizar el nombre de la tabla a 'detalleJugadores'

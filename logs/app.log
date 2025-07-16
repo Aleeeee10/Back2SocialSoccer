@@ -192,3 +192,1525 @@
 2025-07-15 15:41:21 [INFO]: La aplicación corre en el puerto: 3000
 2025-07-15 15:41:21 [INFO]: Conexión establecida con la base de datos
 2025-07-15 15:41:22 [INFO]: Base de Datos sincronizadas
+2025-07-15 16:09:54 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 16:09:54 [INFO]: 🟢 Mongoose connected to DB
+2025-07-15 16:09:54 [INFO]: ✅ MongoDB Connected...
+2025-07-15 16:09:54 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 16:09:55 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 16:09:55 [INFO]: Conexión a la base de datos establecida correctamente.
+2025-07-15 16:09:55 [INFO]: Sincronización de la base de datos completada.
+2025-07-15 17:15:03 [INFO]: 🟡 Mongoose disconnected
+2025-07-15 17:15:13 [INFO]: 🟢 Mongoose connected to DB
+2025-07-15 18:12:12 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:12:13 [INFO]: 🟢 Mongoose connected to DB
+2025-07-15 18:12:13 [INFO]: ✅ MongoDB Connected...
+2025-07-15 18:12:13 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:12:13 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:12:13 [INFO]: Conexión a la base de datos establecida correctamente.
+2025-07-15 18:12:14 [INFO]: Sincronización de la base de datos completada.
+2025-07-15 18:16:31 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:16:32 [ERROR]: (node:5928) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:16:32 [ERROR]: (node:5928) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:16:32 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:16:32 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:16:32 [INFO]: Conexión a la base de datos establecida correctamente.
+2025-07-15 18:16:32 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:16:32 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:16:33 [INFO]: Sincronización de la base de datos completada.
+2025-07-15 18:16:46 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:16:47 [ERROR]: (node:14028) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:16:47 [ERROR]: (node:14028) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:16:47 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:16:47 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:16:47 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:16:47 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:16:47 [INFO]: Conexión a la base de datos establecida correctamente.
+2025-07-15 18:16:48 [INFO]: Sincronización de la base de datos completada.
+2025-07-15 18:17:04 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:17:05 [ERROR]: (node:17608) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:17:05 [ERROR]: (node:17608) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:17:05 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:17:05 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:17:05 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:17:05 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:17:05 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:17:06 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:17:25 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:17:25 [ERROR]: (node:25036) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:17:25 [ERROR]: (node:25036) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:17:25 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:17:25 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:17:25 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:17:25 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:17:25 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:17:26 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:17:49 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:17:49 [ERROR]: (node:10360) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:17:49 [ERROR]: (node:10360) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:17:49 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:17:49 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:17:49 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:17:49 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:17:49 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:17:51 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:17:59 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:18:00 [ERROR]: (node:15940) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:18:00 [ERROR]: (node:15940) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:18:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:18:00 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:18:00 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:18:00 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:18:00 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:18:01 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:18:21 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:18:21 [ERROR]: (node:15328) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:18:21 [ERROR]: (node:15328) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:18:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:18:21 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:18:21 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:18:21 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:18:21 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:18:22 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:20:44 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:20:44 [ERROR]: (node:11628) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:20:44 [ERROR]: (node:11628) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:20:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:20:45 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:20:45 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:20:45 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:20:45 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:20:46 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:21:03 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:21:04 [ERROR]: (node:1204) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:21:04 [ERROR]: (node:1204) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:21:04 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:21:04 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:21:04 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:21:04 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:21:04 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:21:05 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:23:23 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:23:23 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:23:24 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:23:33 [ERROR]: Error creando colecciones en MongoDB: MongooseError: Connection operation buffering timed out after 10000ms
+2025-07-15 18:23:33 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:24:04 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:24:04 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:24:05 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:24:14 [ERROR]: Error creando colecciones en MongoDB: MongooseError: Connection operation buffering timed out after 10000ms
+2025-07-15 18:29:04 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:29:05 [ERROR]: (node:27104) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+2025-07-15 18:29:05 [ERROR]: (node:27104) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+2025-07-15 18:29:05 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:29:05 [INFO]: � MongoDB conectado correctamente
+2025-07-15 18:29:05 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:29:05 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:29:05 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:29:06 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:31:02 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:31:02 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:31:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:31:02 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:31:02 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:31:02 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:31:03 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:31:11 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:31:12 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:31:12 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:31:12 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:31:12 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:31:12 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:31:13 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:33:44 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:33:44 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:33:44 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:33:44 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:33:44 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:33:44 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:33:46 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:34:25 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:34:25 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:34:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:34:25 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:34:25 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:34:25 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:34:26 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:34:55 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:34:56 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:34:56 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:34:56 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:34:56 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:34:56 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:34:57 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:36:33 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:36:33 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:36:33 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:36:33 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:36:33 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:36:33 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:36:34 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:36:40 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:36:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:36:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:36:41 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:36:41 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:36:41 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:36:42 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:46:51 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:46:51 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:46:51 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:46:51 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:46:51 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:46:51 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:46:53 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:47:25 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:47:25 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:47:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:47:25 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:47:25 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:47:25 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:47:26 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:54:33 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:54:34 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:54:34 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:54:34 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:54:34 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:54:34 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:54:35 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:54:41 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:54:42 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:54:42 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:54:42 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:54:42 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:54:42 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:54:43 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:55:46 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:55:46 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:55:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:55:46 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:55:46 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:55:47 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:55:48 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:55:52 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:55:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:55:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:55:52 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:55:52 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:55:52 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:55:53 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:58:41 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:58:42 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:58:42 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:58:42 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:58:42 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:58:42 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:58:42 [INFO]: Base de datos conectada
+2025-07-15 18:58:43 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:58:52 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:58:53 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:58:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:58:53 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:58:53 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:58:53 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:58:53 [INFO]: Base de datos conectada
+2025-07-15 18:58:54 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:59:10 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:59:10 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:59:10 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:59:10 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:59:10 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:59:10 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:59:10 [INFO]: Base de datos conectada
+2025-07-15 18:59:11 [INFO]: Base de Datos sincronizadas
+2025-07-15 18:59:27 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 18:59:27 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 18:59:27 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 18:59:27 [INFO]: Conexión establecida con la base de datos
+2025-07-15 18:59:27 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 18:59:27 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 18:59:27 [INFO]: Base de datos conectada
+2025-07-15 18:59:29 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:04:29 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:04:30 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:04:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:04:30 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:04:36 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:04:36 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:04:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:04:36 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:04:36 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:04:36 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:04:36 [INFO]: Base de datos conectada
+2025-07-15 19:04:37 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:05:15 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:05:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:05:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:05:15 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:05:15 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:05:15 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:05:15 [INFO]: Base de datos conectada
+2025-07-15 19:05:16 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:06:35 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:06:35 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:06:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:06:35 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:06:35 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:06:35 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:06:35 [INFO]: Base de datos conectada
+2025-07-15 19:06:36 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:10:26 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:10:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:10:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:10:26 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:11:16 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:11:17 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:11:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:11:17 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:18:11 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:18:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:18:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:18:11 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:18:11 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:18:11 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:18:11 [INFO]: Base de datos conectada
+2025-07-15 19:18:13 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:18:25 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:18:25 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:18:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:18:25 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:18:25 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:18:25 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:18:25 [INFO]: Base de datos conectada
+2025-07-15 19:18:27 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:18:52 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:18:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:18:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:18:53 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:18:53 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:18:53 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:18:53 [INFO]: Base de datos conectada
+2025-07-15 19:18:54 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:19:49 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:19:50 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:19:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:19:50 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:19:50 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:19:50 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:19:50 [INFO]: Base de datos conectada
+2025-07-15 19:19:51 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:33:23 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:33:24 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:33:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:33:24 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:33:36 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:33:36 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:33:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:33:36 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:33:47 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:33:48 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:33:48 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:33:48 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:33:48 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:33:48 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:33:48 [INFO]: Base de datos conectada
+2025-07-15 19:33:49 [INFO]: Base de Datos sincronizadas
+2025-07-15 19:34:50 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 19:34:51 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 19:34:51 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 19:34:51 [INFO]: Conexión establecida con la base de datos
+2025-07-15 19:34:51 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 19:34:51 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 19:34:51 [INFO]: Base de datos conectada
+2025-07-15 19:34:52 [INFO]: Base de Datos sincronizadas
+2025-07-15 21:19:26 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-15 21:19:36 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:12:37 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:12:37 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:12:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:12:37 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:12:37 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:12:37 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:12:37 [INFO]: Base de datos conectada
+2025-07-15 22:12:39 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:12:42 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:12:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:12:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:12:43 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:12:43 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:12:43 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:12:43 [INFO]: Base de datos conectada
+2025-07-15 22:12:44 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:13:09 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:13:10 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:13:10 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:13:10 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:13:10 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:13:10 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:13:10 [INFO]: Base de datos conectada
+2025-07-15 22:13:11 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:14:09 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:14:10 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:14:10 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:14:10 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:14:10 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:14:10 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:14:10 [INFO]: Base de datos conectada
+2025-07-15 22:14:11 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:19:03 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:19:04 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:19:04 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:19:04 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:19:15 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:19:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:19:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:19:15 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:19:25 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:19:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:19:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:19:26 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:19:26 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:19:26 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:19:26 [INFO]: Base de datos conectada
+2025-07-15 22:19:27 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:20:10 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:20:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:20:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:20:11 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:20:11 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:20:11 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:20:11 [INFO]: Base de datos conectada
+2025-07-15 22:20:13 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:20:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:20:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:20:13 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:20:13 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:20:13 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:20:13 [INFO]: Base de datos conectada
+2025-07-15 22:20:14 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:23:52 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:23:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:23:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:23:52 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:24:03 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:24:04 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:24:04 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:24:04 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:24:16 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:24:16 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:24:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:24:16 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:24:16 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:24:16 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:24:16 [INFO]: Base de datos conectada
+2025-07-15 22:24:17 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:24:34 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:24:34 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:24:34 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:24:34 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:24:34 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:24:35 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:24:35 [INFO]: Base de datos conectada
+2025-07-15 22:24:36 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:24:40 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:24:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:24:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:24:41 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:24:41 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:24:41 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:24:41 [INFO]: Base de datos conectada
+2025-07-15 22:24:42 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:26:27 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:26:27 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:26:27 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:26:27 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:26:27 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:26:27 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:26:27 [INFO]: Base de datos conectada
+2025-07-15 22:26:29 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:26:30 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:26:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:26:30 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:26:30 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:26:30 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:26:30 [INFO]: Base de datos conectada
+2025-07-15 22:26:31 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:27:53 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:27:53 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:27:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:27:53 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:28:05 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:28:05 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:28:05 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:28:05 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:28:18 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:28:18 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:28:18 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:28:18 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:28:18 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:28:18 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:28:18 [INFO]: Base de datos conectada
+2025-07-15 22:28:20 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:28:48 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:28:49 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:28:49 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:28:49 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:28:49 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:28:49 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:28:49 [INFO]: Base de datos conectada
+2025-07-15 22:28:50 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:28:53 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:28:53 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:28:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:28:53 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:28:53 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:28:53 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:28:53 [INFO]: Base de datos conectada
+2025-07-15 22:28:55 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:30:22 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:30:22 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:30:22 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:30:22 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:30:35 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:30:36 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:30:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:30:36 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:30:48 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:30:49 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:30:49 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:30:49 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:30:49 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:30:49 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:30:49 [INFO]: Base de datos conectada
+2025-07-15 22:30:50 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:31:11 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:31:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:31:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:31:11 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:31:11 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:31:11 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:31:11 [INFO]: Base de datos conectada
+2025-07-15 22:31:12 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:33:25 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:33:25 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:33:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:33:25 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:33:41 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:33:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:33:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:33:41 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:33:54 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:33:55 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:33:55 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:33:55 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:33:55 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:33:55 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:33:55 [INFO]: Base de datos conectada
+2025-07-15 22:33:56 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:34:15 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:34:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:34:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:34:16 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:34:16 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:34:17 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:34:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:34:17 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:34:17 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:34:17 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:34:17 [INFO]: Base de datos conectada
+2025-07-15 22:34:19 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:34:19 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:34:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:34:19 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:34:19 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:34:19 [INFO]: Base de datos conectada
+2025-07-15 22:34:19 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:34:21 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:34:24 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:34:24 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:34:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:34:24 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:34:24 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:34:24 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:34:24 [INFO]: Base de datos conectada
+2025-07-15 22:34:25 [INFO]: Base de Datos sincronizadas
+2025-07-15 22:36:59 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:36:59 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:36:59 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:37:00 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:37:13 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:37:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:37:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:37:13 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:37:26 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:37:27 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:37:27 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:37:27 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:37:27 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:37:27 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:37:27 [INFO]: Base de datos conectada
+2025-07-15 22:37:27 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:38:14 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:38:14 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:38:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:38:14 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:38:14 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:38:15 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:38:15 [INFO]: Base de datos conectada
+2025-07-15 22:38:15 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:38:19 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:38:19 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:38:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:38:19 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:38:19 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:38:19 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:38:19 [INFO]: Base de datos conectada
+2025-07-15 22:38:19 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:38:26 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:38:27 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:38:27 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:38:27 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:38:27 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:38:27 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:38:27 [INFO]: Base de datos conectada
+2025-07-15 22:38:27 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:38:40 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:38:40 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:38:40 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:38:41 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:38:41 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:38:41 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:38:41 [INFO]: Base de datos conectada
+2025-07-15 22:38:41 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:39:14 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:39:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:39:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:39:15 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:39:15 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:39:15 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:39:15 [INFO]: Base de datos conectada
+2025-07-15 22:39:15 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:39:45 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:39:46 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:39:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:39:46 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:39:46 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:39:46 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:39:46 [INFO]: Base de datos conectada
+2025-07-15 22:39:46 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:39:57 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:39:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:39:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:39:57 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:39:57 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:39:57 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:39:57 [INFO]: Base de datos conectada
+2025-07-15 22:39:57 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:40:32 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:40:32 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:40:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:40:32 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:40:32 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:40:32 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:40:32 [INFO]: Base de datos conectada
+2025-07-15 22:40:32 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:41:15 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:41:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:41:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:41:15 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:41:15 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:41:16 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:41:16 [INFO]: Base de datos conectada
+2025-07-15 22:41:16 [ERROR]: Error al sincronizar la Base de Datos: SequelizeDatabaseError: Too many keys specified; max 64 keys allowed
+2025-07-15 22:41:59 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:42:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:42:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:42:00 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:42:00 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:42:00 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:42:00 [INFO]: Base de datos conectada
+2025-07-15 22:51:54 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:51:54 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:51:54 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:51:54 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:51:54 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:51:54 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:51:54 [INFO]: Base de datos conectada
+2025-07-15 22:51:54 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 22:53:43 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:53:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:53:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:53:43 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:53:43 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:53:43 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:53:43 [INFO]: Base de datos conectada
+2025-07-15 22:53:43 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 22:53:44 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:53:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:53:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:53:45 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:53:45 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:53:45 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:53:45 [INFO]: Base de datos conectada
+2025-07-15 22:53:45 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 22:55:28 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:55:28 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:55:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:55:28 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:55:42 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:55:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:55:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:55:43 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:55:56 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:55:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:55:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:55:57 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:55:57 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:55:57 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:55:57 [INFO]: Base de datos conectada
+2025-07-15 22:55:57 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 22:56:16 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:56:16 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:56:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:56:16 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:56:16 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:56:16 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:56:16 [INFO]: Base de datos conectada
+2025-07-15 22:56:16 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 22:56:21 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:56:22 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:56:22 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:56:22 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:56:22 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:56:22 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:56:22 [INFO]: Base de datos conectada
+2025-07-15 22:56:22 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 22:57:28 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:57:29 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:57:29 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:57:29 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:58:43 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:58:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:58:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:58:43 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:58:59 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:59:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:59:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:59:00 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:59:00 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:59:00 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:59:00 [INFO]: Base de datos conectada
+2025-07-15 22:59:00 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 22:59:12 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:59:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:59:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:59:13 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:59:13 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:59:13 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:59:13 [INFO]: Base de datos conectada
+2025-07-15 22:59:13 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 22:59:17 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 22:59:17 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 22:59:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 22:59:17 [INFO]: Conexión establecida con la base de datos
+2025-07-15 22:59:17 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 22:59:17 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 22:59:17 [INFO]: Base de datos conectada
+2025-07-15 22:59:17 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:00:38 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:00:38 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:00:38 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:00:38 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:00:38 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:00:50 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:00:50 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:00:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:00:50 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:01:03 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:01:03 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:01:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:01:03 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:01:03 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:01:03 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:01:03 [INFO]: Base de datos conectada
+2025-07-15 23:01:03 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:02:44 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:02:44 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:02:44 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:02:44 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:02:44 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:02:44 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:02:44 [INFO]: Base de datos conectada
+2025-07-15 23:02:44 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:02:48 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:02:49 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:02:49 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:02:49 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:02:50 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:02:50 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:02:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:02:50 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:02:50 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:02:50 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:02:50 [INFO]: Base de datos conectada
+2025-07-15 23:02:50 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:04:21 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:04:22 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:04:22 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:04:22 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:04:34 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:04:34 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:04:34 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:04:34 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:04:46 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:04:47 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:04:47 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:04:47 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:04:47 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:04:47 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:04:47 [INFO]: Base de datos conectada
+2025-07-15 23:04:47 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:05:14 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:05:14 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:05:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:05:14 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:05:14 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:05:14 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:05:14 [INFO]: Base de datos conectada
+2025-07-15 23:05:14 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:06:17 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:06:17 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:06:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:06:17 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:06:30 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:06:30 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:06:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:06:30 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:06:48 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:06:49 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:06:49 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:06:49 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:06:49 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:06:49 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:06:49 [INFO]: Base de datos conectada
+2025-07-15 23:06:49 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:07:10 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:07:10 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:07:10 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:07:10 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:07:10 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:07:10 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:07:10 [INFO]: Base de datos conectada
+2025-07-15 23:07:10 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:07:14 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:07:14 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:07:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:07:14 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:07:14 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:07:14 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:07:14 [INFO]: Base de datos conectada
+2025-07-15 23:07:14 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:08:59 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:09:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:09:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:09:00 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:09:10 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:09:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:09:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:09:11 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:09:28 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:09:28 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:09:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:09:28 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:09:28 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:09:28 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:09:28 [INFO]: Base de datos conectada
+2025-07-15 23:09:28 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:09:45 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:09:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:09:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:09:45 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:09:45 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:09:45 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:09:45 [INFO]: Base de datos conectada
+2025-07-15 23:09:45 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:09:49 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:09:50 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:09:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:09:50 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:09:50 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:09:50 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:09:50 [INFO]: Base de datos conectada
+2025-07-15 23:09:50 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:11:17 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:11:17 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:11:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:11:17 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:11:17 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:11:31 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:11:31 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:11:31 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:11:31 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:11:50 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:11:50 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:11:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:11:50 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:11:50 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:11:50 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:11:50 [INFO]: Base de datos conectada
+2025-07-15 23:11:50 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:12:09 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:12:09 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:12:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:12:09 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:12:09 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:12:09 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:12:09 [INFO]: Base de datos conectada
+2025-07-15 23:12:09 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:12:42 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:12:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:12:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:12:43 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:12:43 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:12:43 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:12:43 [INFO]: Base de datos conectada
+2025-07-15 23:12:43 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:13:57 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:13:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:13:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:13:57 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:14:09 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:14:09 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:14:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:14:09 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:14:24 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:14:24 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:14:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:14:24 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:14:24 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:14:24 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:14:24 [INFO]: Base de datos conectada
+2025-07-15 23:14:24 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:14:47 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:14:48 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:14:48 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:14:48 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:14:48 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:14:48 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:14:48 [INFO]: Base de datos conectada
+2025-07-15 23:14:48 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:15:56 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:15:56 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:15:56 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:15:56 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:16:07 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:16:07 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:16:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:16:07 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:16:23 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:16:23 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:16:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:16:23 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:16:23 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:16:23 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:16:23 [INFO]: Base de datos conectada
+2025-07-15 23:16:23 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:16:43 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:16:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:16:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:16:43 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:16:43 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:16:44 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:16:44 [INFO]: Base de datos conectada
+2025-07-15 23:16:44 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:18:52 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:18:53 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:18:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:18:53 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:19:02 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:19:03 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:19:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:19:03 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:19:14 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:19:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:19:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:19:15 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:19:15 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:19:15 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:19:15 [INFO]: Base de datos conectada
+2025-07-15 23:19:15 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:19:32 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:19:32 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:19:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:19:32 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:19:32 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:19:32 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:19:32 [INFO]: Base de datos conectada
+2025-07-15 23:19:32 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:19:36 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:19:36 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:19:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:19:36 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:19:36 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:19:36 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:19:36 [INFO]: Base de datos conectada
+2025-07-15 23:19:36 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:19:45 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:19:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:19:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:19:45 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:19:45 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:19:45 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:19:45 [INFO]: Base de datos conectada
+2025-07-15 23:19:45 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:19:48 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:19:48 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:19:48 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:19:48 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:19:48 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:19:48 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:19:48 [INFO]: Base de datos conectada
+2025-07-15 23:19:48 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:21:20 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:21:20 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:21:20 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:21:20 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:21:46 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:21:46 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:21:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:21:46 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:22:06 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:22:06 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:22:06 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:22:06 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:22:06 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:22:06 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:22:06 [INFO]: Base de datos conectada
+2025-07-15 23:22:06 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:22:32 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:22:32 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:22:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:22:32 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:22:32 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:22:32 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:22:32 [INFO]: Base de datos conectada
+2025-07-15 23:22:32 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:22:37 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:22:37 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:22:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:22:37 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:22:37 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:22:37 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:22:37 [INFO]: Base de datos conectada
+2025-07-15 23:22:37 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:23:38 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:23:38 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:23:38 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:23:38 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:23:50 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:23:50 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:23:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:23:50 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:24:01 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:24:02 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:24:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:24:02 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:24:02 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:24:02 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:24:02 [INFO]: Base de datos conectada
+2025-07-15 23:24:02 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:24:24 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:24:24 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:24:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:24:24 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:24:24 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:24:25 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:24:25 [INFO]: Base de datos conectada
+2025-07-15 23:24:25 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:24:28 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:24:28 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:24:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:24:28 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:24:28 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:24:28 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:24:28 [INFO]: Base de datos conectada
+2025-07-15 23:24:28 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:25:37 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:25:37 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:25:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:25:37 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:25:50 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:25:51 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:25:51 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:25:51 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:26:03 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:26:03 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:26:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:26:03 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:26:03 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:26:03 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:26:03 [INFO]: Base de datos conectada
+2025-07-15 23:26:03 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:26:26 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:26:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:26:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:26:26 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:26:26 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:26:26 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:26:26 [INFO]: Base de datos conectada
+2025-07-15 23:26:26 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:26:30 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:26:30 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:26:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:26:30 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:26:30 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:26:30 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:26:30 [INFO]: Base de datos conectada
+2025-07-15 23:26:30 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:33:22 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:33:23 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:33:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:33:23 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:33:23 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:33:23 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:33:23 [INFO]: Base de datos conectada
+2025-07-15 23:33:23 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:33:34 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:33:34 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:33:34 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:33:34 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:33:34 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:33:34 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:33:34 [INFO]: Base de datos conectada
+2025-07-15 23:33:34 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:33:46 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:33:46 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:33:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:33:46 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:33:46 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:33:46 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:33:46 [INFO]: Base de datos conectada
+2025-07-15 23:33:46 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:33:57 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:33:58 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:33:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:33:58 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:33:58 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:33:58 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:33:58 [INFO]: Base de datos conectada
+2025-07-15 23:33:58 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:34:18 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:34:18 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:34:18 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:34:18 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:34:18 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:34:18 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:34:18 [INFO]: Base de datos conectada
+2025-07-15 23:34:18 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:34:19 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:34:20 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:34:20 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:34:20 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:34:20 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:34:20 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:34:20 [INFO]: Base de datos conectada
+2025-07-15 23:34:20 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:34:21 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:34:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:34:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:34:21 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:34:21 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:34:21 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:34:21 [INFO]: Base de datos conectada
+2025-07-15 23:34:21 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:34:24 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:34:24 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:34:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:34:24 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:34:24 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:34:24 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:34:25 [INFO]: Base de datos conectada
+2025-07-15 23:34:25 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:34:48 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:34:49 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:34:49 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:34:49 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:34:49 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:34:49 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:34:49 [INFO]: Base de datos conectada
+2025-07-15 23:34:49 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:37:09 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:37:09 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:37:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:37:09 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:37:09 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:37:09 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:37:09 [INFO]: Base de datos conectada
+2025-07-15 23:37:09 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:37:19 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:37:19 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:37:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:37:19 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:37:19 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:37:19 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:37:19 [INFO]: Base de datos conectada
+2025-07-15 23:37:19 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:37:31 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:37:31 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:37:31 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:37:31 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:37:31 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:37:31 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:37:31 [INFO]: Base de datos conectada
+2025-07-15 23:37:31 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:37:53 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:37:53 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:37:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:37:53 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:37:53 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:37:53 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:37:53 [INFO]: Base de datos conectada
+2025-07-15 23:37:53 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:37:56 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:37:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:37:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:37:57 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:37:57 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:37:57 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:37:57 [INFO]: Base de datos conectada
+2025-07-15 23:37:57 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:38:00 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:38:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:38:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:38:01 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:38:01 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:38:01 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:38:01 [INFO]: Base de datos conectada
+2025-07-15 23:38:01 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:39:11 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:39:12 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:39:12 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:39:12 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:39:12 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:39:12 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:39:12 [INFO]: Base de datos conectada
+2025-07-15 23:39:12 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:39:23 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:39:23 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:39:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:39:23 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:39:23 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:39:23 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:39:23 [INFO]: Base de datos conectada
+2025-07-15 23:39:23 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:39:35 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:39:35 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:39:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:39:35 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:39:35 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:39:35 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:39:35 [INFO]: Base de datos conectada
+2025-07-15 23:39:35 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:39:57 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:39:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:39:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:39:57 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:39:58 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:39:58 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:39:58 [INFO]: Base de datos conectada
+2025-07-15 23:39:58 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:40:01 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:40:01 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:40:01 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:40:01 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:40:01 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:40:01 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:40:01 [INFO]: Base de datos conectada
+2025-07-15 23:40:01 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:41:07 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:41:07 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:41:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:41:07 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:41:07 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:41:07 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:41:07 [INFO]: Base de datos conectada
+2025-07-15 23:41:07 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:41:16 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:41:17 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:41:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:41:17 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:41:17 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:41:17 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:41:17 [INFO]: Base de datos conectada
+2025-07-15 23:41:17 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:41:28 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:41:29 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:41:29 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:41:29 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:41:29 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:41:29 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:41:29 [INFO]: Base de datos conectada
+2025-07-15 23:41:29 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:41:41 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:41:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:41:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:41:41 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:41:41 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:41:41 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:41:41 [INFO]: Base de datos conectada
+2025-07-15 23:41:41 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:42:08 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:42:08 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:42:08 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:42:08 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:42:08 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:42:08 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:42:08 [INFO]: Base de datos conectada
+2025-07-15 23:42:10 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:42:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:42:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:42:11 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:42:11 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:42:11 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:42:11 [INFO]: Base de datos conectada
+2025-07-15 23:42:11 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:42:12 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:42:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:42:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:42:13 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:42:13 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:42:13 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:42:13 [INFO]: Base de datos conectada
+2025-07-15 23:42:13 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:44:34 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:44:34 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:44:34 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:44:34 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:44:34 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:44:34 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:44:34 [INFO]: Base de datos conectada
+2025-07-15 23:44:34 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:44:43 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:44:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:44:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:44:43 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:44:43 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:44:44 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:44:44 [INFO]: Base de datos conectada
+2025-07-15 23:44:44 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:44:52 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:44:53 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:44:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:44:53 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:44:53 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:44:53 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:44:53 [INFO]: Base de datos conectada
+2025-07-15 23:44:53 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:45:05 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:45:05 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:45:05 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:45:05 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:45:05 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:45:05 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:45:05 [INFO]: Base de datos conectada
+2025-07-15 23:45:05 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:46:41 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:46:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:46:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:46:41 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:46:41 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:46:41 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:46:41 [INFO]: Base de datos conectada
+2025-07-15 23:46:41 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:48:06 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:48:06 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:48:06 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:48:06 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:48:06 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:48:06 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:48:06 [INFO]: Base de datos conectada
+2025-07-15 23:48:06 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:48:15 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:48:16 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:48:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:48:16 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:48:16 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:48:16 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:48:16 [INFO]: Base de datos conectada
+2025-07-15 23:48:16 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:48:26 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:48:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:48:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:48:26 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:48:26 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:48:26 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:48:26 [INFO]: Base de datos conectada
+2025-07-15 23:48:26 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:48:38 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:48:39 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:48:39 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:48:39 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:48:39 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:48:39 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:48:39 [INFO]: Base de datos conectada
+2025-07-15 23:48:39 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:49:00 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:49:01 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:49:01 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:49:01 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:49:01 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:49:01 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:49:01 [INFO]: Base de datos conectada
+2025-07-15 23:49:03 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:49:03 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:49:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:49:03 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:49:03 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:49:03 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:49:03 [INFO]: Base de datos conectada
+2025-07-15 23:49:03 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:49:04 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:49:04 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:49:04 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:49:04 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:49:04 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:49:05 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:49:05 [INFO]: Base de datos conectada
+2025-07-15 23:49:05 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:50:40 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:50:40 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:50:40 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:50:40 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:50:40 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:50:41 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:50:41 [INFO]: Base de datos conectada
+2025-07-15 23:50:41 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:50:51 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:50:51 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:50:51 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:50:51 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:50:51 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:50:51 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:50:51 [INFO]: Base de datos conectada
+2025-07-15 23:50:51 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:51:01 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:51:01 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:51:01 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:51:01 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:51:01 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:51:01 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:51:01 [INFO]: Base de datos conectada
+2025-07-15 23:51:01 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:51:21 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:51:22 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:51:22 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:51:22 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:51:22 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:51:22 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:51:22 [INFO]: Base de datos conectada
+2025-07-15 23:51:22 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:51:23 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:51:24 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:51:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:51:24 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:51:24 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:51:24 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:51:24 [INFO]: Base de datos conectada
+2025-07-15 23:51:24 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:53:25 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:53:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:53:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:53:26 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:53:26 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:53:26 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:53:26 [INFO]: Base de datos conectada
+2025-07-15 23:53:26 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:53:34 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:53:35 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:53:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:53:35 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:53:35 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:53:35 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:53:35 [INFO]: Base de datos conectada
+2025-07-15 23:53:35 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:53:44 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:53:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:53:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:53:45 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:53:45 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:53:45 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:53:45 [INFO]: Base de datos conectada
+2025-07-15 23:53:45 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:53:58 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:53:59 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:53:59 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:53:59 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:53:59 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:53:59 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:53:59 [INFO]: Base de datos conectada
+2025-07-15 23:53:59 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:54:33 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:54:33 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:54:33 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:54:33 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:54:33 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:54:33 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:54:33 [INFO]: Base de datos conectada
+2025-07-15 23:54:33 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:54:35 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:54:36 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:54:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:54:36 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:54:36 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:54:36 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:54:36 [INFO]: Base de datos conectada
+2025-07-15 23:54:36 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:56:18 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:56:18 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:56:18 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:56:18 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:56:18 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:56:18 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:56:18 [INFO]: Base de datos conectada
+2025-07-15 23:56:18 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:56:28 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:56:28 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:56:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:56:28 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:56:28 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:56:28 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:56:28 [INFO]: Base de datos conectada
+2025-07-15 23:56:28 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:56:38 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:56:39 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:56:39 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:56:39 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:56:39 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:56:39 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:56:39 [INFO]: Base de datos conectada
+2025-07-15 23:56:39 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:57:15 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:57:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:57:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:57:15 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:57:15 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:57:15 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:57:15 [INFO]: Base de datos conectada
+2025-07-15 23:57:15 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-15 23:57:21 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-15 23:57:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-15 23:57:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-15 23:57:21 [INFO]: Conexión establecida con la base de datos
+2025-07-15 23:57:21 [INFO]: Colecciones de MongoDB listas.
+2025-07-15 23:57:21 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-15 23:57:21 [INFO]: Base de datos conectada
+2025-07-15 23:57:21 [INFO]: Base de Datos sincronizadas (modo seguro)

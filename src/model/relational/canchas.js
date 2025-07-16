@@ -12,6 +12,11 @@ module.exports = (sequelize, DataTypes) => {
     ubicacion: { 
       type: DataTypes.STRING, 
       allowNull: true  // explícito que puede ser null
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: true,
+      comment: 'Campo para eliminación lógica - mantiene consistencia con otros modelos'
     }
   }, {
     freezeTableName: false,  // permite pluralizar la tabla a 'canchas'

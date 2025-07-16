@@ -1,5 +1,12 @@
 const { Sequelize } = require("sequelize");
-const { MYSQLHOST, MYSQLUSER, MYSQLPASSWORD, MYSQLDATABASE, MYSQLPORT, MYSQL_URI } = require("../keys");
+const {
+    MYSQLHOST,
+    MYSQLUSER,
+    MYSQLPASSWORD,
+    MYSQLDATABASE,
+    MYSQLPORT,
+    MYSQL_URI
+} = require("../keys");
 
 let sequelize;
 
@@ -46,126 +53,127 @@ sequelize.authenticate()
         console.error("No se pudo conectar a la base de datos:", err.message);
     });
 
-// Sincronización de la base de datos
-const syncOptions = process.env.NODE_ENV === 'development' ? { force: true } : { alter: true };
+// Sincronización de la base de datos - Configuración segura para evitar "Too many keys"
+const syncOptions = { alter: false }; // No alterar estructura existente, solo verificar
 
 sequelize.sync(syncOptions)
     .then(() => {
-        console.log('Base de Datos sincronizadas');
+        console.log('Base de Datos sincronizadas (modo seguro)');
     })
     .catch((error) => {
         console.error('Error al sincronizar la Base de Datos:', error);
     });
 
-// Extracción de modelos
-const usersModel = require('../model/relational/users')
-const rolesModel = require('../model/relational/roles')
-const detalleRolModel = require('../model/relational/detalleRol')
-const teamsModel = require('../model/relational/teams')
-const playersModel = require('../model/relational/players')
-const refereesModel = require('../model/relational/referees')
-const matchesModel = require('../model/relational/matches')
-const newsModel = require('../model/relational/news')
-const divisionModel = require('../model/relational/division')
-const posicionesModel = require('../model/relational/posiciones')
-const estadisticasModel = require('../model/relational/estadisticas')
-const detalleEstadisticasModel = require('../model/relational/detalleEstadisticas')
-const resultadosModel = require('../model/relational/resultados')
-const detalleResultadosModel = require('../model/relational/detalleResultados')
-const tarjetasModel = require('../model/relational/tarjetas')
-const canchasModel = require('../model/relational/canchas')
-const detalleJugadoresModel = require('../model/relational/detalleJugadores')
-const detalleDivisionModel = require('../model/relational/detalleDivision')
-const torneosModel = require('../model/relational/torneos')
-const inscripcionesTorneoModel = require('../model/relational/inscripcionesTorneo')
-const agendaEntrenamientosModel = require('../model/relational/agendaEntrenamientos')
-const comentariosModel = require('../model/relational/comentarios')
+//extraccion de Modelos
+const usersModel = require('../model/relational/users');
+const rolesModel = require('../model/relational/roles');
+const detalleRolModel = require('../model/relational/detalleRol');
+const teamsModel = require('../model/relational/teams');
+const playersModel = require('../model/relational/players');
+const refereesModel = require('../model/relational/referees');
+const matchesModel = require('../model/relational/matches');
+const newsModel = require('../model/relational/news');
+const divisionModel = require('../model/relational/division');
+const posicionesModel = require('../model/relational/posiciones');
+const estadisticasModel = require('../model/relational/estadisticas');
+const detalleEstadisticasModel = require('../model/relational/detalleEstadisticas');
+const resultadosModel = require('../model/relational/resultados');
+const detalleResultadosModel = require('../model/relational/detalleResultados');
+const tarjetasModel = require('../model/relational/tarjetas');
+const canchasModel = require('../model/relational/canchas');
+const detalleJugadoresModel = require('../model/relational/detalleJugadores');
+const detalleDivisionModel = require('../model/relational/detalleDivision');
+const torneosModel = require('../model/relational/torneos');
+const inscripcionesTorneoModel = require('../model/relational/inscripcionesTorneo');
+const agendaEntrenamientosModel = require('../model/relational/agendaEntrenamientos');
+const comentariosModel = require('../model/relational/comentarios');
 
-// Instanciar los modelos a sincronizar
-const users = usersModel(sequelize, Sequelize)
-const roles = rolesModel(sequelize, Sequelize)
-const detalleRol = detalleRolModel(sequelize, Sequelize)
-const teams = teamsModel(sequelize, Sequelize)
-const players = playersModel(sequelize, Sequelize)
-const referees = refereesModel(sequelize, Sequelize)
-const matches = matchesModel(sequelize, Sequelize)
-const news = newsModel(sequelize, Sequelize)
-const division = divisionModel(sequelize, Sequelize)
-const posiciones = posicionesModel(sequelize, Sequelize)
-const estadisticas = estadisticasModel(sequelize, Sequelize)
-const detalleEstadisticas = detalleEstadisticasModel(sequelize, Sequelize)
-const resultados = resultadosModel(sequelize, Sequelize)
-const detalleResultados = detalleResultadosModel(sequelize, Sequelize)
-const tarjetas = tarjetasModel(sequelize, Sequelize)
-const canchas = canchasModel(sequelize, Sequelize)
-const detalleJugadores = detalleJugadoresModel(sequelize, Sequelize)
-const detalleDivision = detalleDivisionModel(sequelize, Sequelize)
-const torneos = torneosModel(sequelize, Sequelize)
-const inscripcionesTorneo = inscripcionesTorneoModel(sequelize, Sequelize)
-const agendaEntrenamientos = agendaEntrenamientosModel(sequelize, Sequelize)
-const comentarios = comentariosModel(sequelize, Sequelize)
+//instanciar los modelos a sincronizar
+const users = usersModel(sequelize, Sequelize.DataTypes);
+const roles = rolesModel(sequelize, Sequelize.DataTypes);
+const detalleRol = detalleRolModel(sequelize, Sequelize.DataTypes);
+const teams = teamsModel(sequelize, Sequelize.DataTypes);
+const players = playersModel(sequelize, Sequelize.DataTypes);
+const referees = refereesModel(sequelize, Sequelize.DataTypes);
+const matches = matchesModel(sequelize, Sequelize.DataTypes);
+const news = newsModel(sequelize, Sequelize.DataTypes);
+const division = divisionModel(sequelize, Sequelize.DataTypes);
+const posiciones = posicionesModel(sequelize, Sequelize.DataTypes);
+const estadisticas = estadisticasModel(sequelize, Sequelize.DataTypes);
+const detalleEstadisticas = detalleEstadisticasModel(sequelize, Sequelize.DataTypes);
+const resultados = resultadosModel(sequelize, Sequelize.DataTypes);
+const detalleResultados = detalleResultadosModel(sequelize, Sequelize.DataTypes);
+const tarjetas = tarjetasModel(sequelize, Sequelize.DataTypes);
+const canchas = canchasModel(sequelize, Sequelize.DataTypes);
+const detalleJugadores = detalleJugadoresModel(sequelize, Sequelize.DataTypes);
+const detalleDivision = detalleDivisionModel(sequelize, Sequelize.DataTypes);
+const torneos = torneosModel(sequelize, Sequelize.DataTypes);
+const inscripcionesTorneo = inscripcionesTorneoModel(sequelize, Sequelize.DataTypes);
+const agendaEntrenamientos = agendaEntrenamientosModel(sequelize, Sequelize.DataTypes);
+const comentarios = comentariosModel(sequelize, Sequelize.DataTypes);
 
-// Relaciones o foreingKeys
-users.belongsTo(roles, { foreignKey: 'idRol', as: 'rol' });
-roles.hasMany(users, { foreignKey: 'idRol', as: 'users' });
+//relaciones o foreignKeys - Optimizadas para evitar exceso de índices
+users.belongsTo(roles, { as: 'rol', foreignKey: 'roleId' });
+roles.hasMany(users, { as: 'users', foreignKey: 'roleId' });
 
-users.hasMany(detalleRol, { foreignKey: 'idUser' });
-detalleRol.belongsTo(users, { foreignKey: 'idUser' });
-roles.hasMany(detalleRol, { foreignKey: 'idRol' });
-detalleRol.belongsTo(roles, { foreignKey: 'idRol' });
+users.hasMany(detalleRol, { foreignKey: 'userId' });
+detalleRol.belongsTo(users, { foreignKey: 'userId' });
+roles.hasMany(detalleRol, { foreignKey: 'roleId' });
+detalleRol.belongsTo(roles, { foreignKey: 'roleId' });
 
-teams.hasMany(players);
-players.belongsTo(teams);
+teams.hasMany(players, { foreignKey: 'teamId' });
+players.belongsTo(teams, { foreignKey: 'teamId' });
 
 teams.belongsTo(division, { foreignKey: 'divisionId' });
 division.hasMany(teams, { foreignKey: 'divisionId' });
 
-matches.belongsTo(teams, { as: 'equipoLocal', foreignKey: 'localId' });
-matches.belongsTo(teams, { as: 'equipoVisitante', foreignKey: 'visitanteId' });
+matches.belongsTo(teams, { as: 'equipoLocal', foreignKey: 'equipoLocalId' });
+matches.belongsTo(teams, { as: 'equipoVisitante', foreignKey: 'equipoVisitanteId' });
 matches.belongsTo(referees, { foreignKey: 'refereeId' });
 
 matches.belongsTo(canchas, { foreignKey: 'canchaId' });
 canchas.hasMany(matches, { foreignKey: 'canchaId' });
 
-matches.hasMany(resultados);
-resultados.belongsTo(matches);
+matches.hasMany(resultados, { foreignKey: 'matchId' });
+resultados.belongsTo(matches, { foreignKey: 'matchId' });
 
-resultados.hasMany(detalleResultados);
-detalleResultados.belongsTo(resultados);
+resultados.hasMany(detalleResultados, { foreignKey: 'resultadoId' });
+detalleResultados.belongsTo(resultados, { foreignKey: 'resultadoId' });
 
-players.hasMany(detalleResultados);
-detalleResultados.belongsTo(players);
+players.hasMany(detalleResultados, { foreignKey: 'playerId' });
+detalleResultados.belongsTo(players, { foreignKey: 'playerId' });
 
-estadisticas.hasMany(detalleEstadisticas);
-detalleEstadisticas.belongsTo(estadisticas);
+estadisticas.hasMany(detalleEstadisticas, { foreignKey: 'estadisticaId' });
+detalleEstadisticas.belongsTo(estadisticas, { foreignKey: 'estadisticaId' });
 
-players.hasMany(detalleEstadisticas);
-detalleEstadisticas.belongsTo(players);
+players.hasMany(detalleEstadisticas, { foreignKey: 'playerId' });
+detalleEstadisticas.belongsTo(players, { foreignKey: 'playerId' });
 
-matches.hasMany(tarjetas);
-tarjetas.belongsTo(matches);
+matches.hasMany(tarjetas, { foreignKey: 'matchId' });
+tarjetas.belongsTo(matches, { foreignKey: 'matchId' });
 
-players.hasMany(tarjetas);
-tarjetas.belongsTo(players);
+players.hasMany(tarjetas, { foreignKey: 'playerId' });
+tarjetas.belongsTo(players, { foreignKey: 'playerId' });
 
-teams.hasMany(posiciones);
-posiciones.belongsTo(teams);
-division.hasMany(posiciones);
-posiciones.belongsTo(division);
+teams.hasMany(posiciones, { foreignKey: 'teamId' });
+posiciones.belongsTo(teams, { foreignKey: 'teamId' });
+division.hasMany(posiciones, { foreignKey: 'divisionId' });
+posiciones.belongsTo(division, { foreignKey: 'divisionId' });
 
-players.hasMany(detalleJugadores);
-detalleJugadores.belongsTo(players);
+players.hasMany(detalleJugadores, { foreignKey: 'playerId' });
+detalleJugadores.belongsTo(players, { foreignKey: 'playerId' });
 
-division.hasMany(detalleDivision);
-detalleDivision.belongsTo(division);
-players.hasMany(detalleDivision);
-detalleDivision.belongsTo(players);
+division.hasMany(detalleDivision, { foreignKey: 'divisionId' });
+detalleDivision.belongsTo(division, { foreignKey: 'divisionId' });
+players.hasMany(detalleDivision, { foreignKey: 'playerId' });
+detalleDivision.belongsTo(players, { foreignKey: 'playerId' });
 
-teams.hasMany(agendaEntrenamientos);
-agendaEntrenamientos.belongsTo(teams);
+teams.hasMany(agendaEntrenamientos, { foreignKey: 'teamId' });
+agendaEntrenamientos.belongsTo(teams, { foreignKey: 'teamId' });
 
 // Exportar el objeto sequelize
 module.exports = {
+    sequelize,
     users,
     roles,
     detalleRol,

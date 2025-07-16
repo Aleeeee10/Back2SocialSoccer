@@ -16,6 +16,12 @@ module.exports = (sequelize, DataTypes) => {
     descripcion: {
       type: DataTypes.TEXT,
       allowNull: true
+    },
+    estado: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true, // Campo estado agregado para consistencia con otros modelos
+      comment: 'Estado del partido: true = activo, false = inactivo'
     }
   }, {
     freezeTableName: false,  // permite pluralizar el nombre de la tabla a 'matches'

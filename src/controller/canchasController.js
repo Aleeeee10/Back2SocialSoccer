@@ -1,52 +1,125 @@
-// controller/canchasController.js
 const { canchas } = require('../dataBase/dataBase.orm');
+const pool = require('../dataBase/dataBase.sql');
+const { encryptDates } = require('../lib/helpers');
 
-module.exports = {
-  async getAll(req, res) {
+const canchasCtl = {
+  // Obtener todas las canchas usando ORM
+  getAllCanchas: async (req, res) => {
     try {
-      const data = await canchas.findAll();
+      const data = await canchas.findAll({
+        where: { estado: true }
+      });
       res.json(data);
-    } catch (e) {
-      res.status(500).json({ message: 'Error al obtener canchas', error: e.message });
+    } catch (error) {
+      res.status(500).json({ error: error.message });
     }
   },
-  async getById(req, res) {
+
+  // Mostrar canchas usando SQL directo con información completa
+  mostrarCanchas: async (req, res) => {
     try {
-      const cancha = await canchas.findByPk(req.params.id);
+      const query = `
+        SELECT c.*, 
+               COUNT(m.id) as total_partidos,
+               COUNT(CASE WHEN m.fecha >= CURDATE() THEN 1 END) as partidos_programados
+        FROM canchas c
+        LEFT JOIN matches m ON c.id = m.canchaId AND m.estado = true
+        WHERE c.estado = true
+        GROUP BY c.id, c.nombre, c.ubicacion, c.estado
+        ORDER BY c.nombre
+      `;
+      const data = await pool.query(query);
+      res.json(data);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  // Crear nueva cancha usando ORM
+  createCancha: async (req, res) => {
+    try {
+      const newCancha = await canchas.create({
+        ...req.body,
+        estado: true
+      });
+      res.status(201).json(newCancha);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  },
+
+  // Mandar cancha específica con encriptación
+  mandarCancha: async (req, res) => {
+    try {
+      const cancha = await canchas.findOne({
+        where: { 
+          id: req.params.id, 
+          estado: true 
+        }
+      });
+      
+      if (!cancha) {
+        return res.status(404).json({ message: 'Cancha no encontrada' });
+      }
+
+      const encryptedCancha = encryptDates(cancha.toJSON());
+      res.json(encryptedCancha);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  // Obtener cancha por ID
+  getById: async (req, res) => {
+    try {
+      const cancha = await canchas.findOne({
+        where: { 
+          id: req.params.id, 
+          estado: true 
+        }
+      });
       if (!cancha) return res.status(404).json({ message: 'Cancha no encontrada' });
       res.json(cancha);
-    } catch (e) {
-      res.status(500).json({ message: 'Error al buscar cancha', error: e.message });
+    } catch (error) {
+      res.status(500).json({ error: error.message });
     }
   },
-  async create(req, res) {
+
+  // Actualizar cancha existente
+  update: async (req, res) => {
     try {
-      const newCancha = await canchas.create(req.body);
-      res.status(201).json(newCancha);
-    } catch (e) {
-      res.status(400).json({ message: 'Error al crear cancha', error: e.message });
-    }
-  },
-  async update(req, res) {
-    try {
-      const id = req.params.id;
-      const cancha = await canchas.findByPk(id);
+      const cancha = await canchas.findOne({
+        where: { 
+          id: req.params.id, 
+          estado: true 
+        }
+      });
       if (!cancha) return res.status(404).json({ message: 'Cancha no encontrada' });
+
       await cancha.update(req.body);
       res.json(cancha);
-    } catch (e) {
-      res.status(400).json({ message: 'Error al actualizar cancha', error: e.message });
+    } catch (error) {
+      res.status(400).json({ error: error.message });
     }
   },
-  async delete(req, res) {
+
+  // Eliminar cancha (eliminación lógica)
+  delete: async (req, res) => {
     try {
-      const id = req.params.id;
-      const cancha = await canchas.findByPk(id);
+      const cancha = await canchas.findOne({
+        where: { 
+          id: req.params.id, 
+          estado: true 
+        }
+      });
       if (!cancha) return res.status(404).json({ message: 'Cancha no encontrada' });
-      await cancha.destroy();
-      res.json({ message: 'Cancha eliminada' });
-    } catch (e) {
-      res.status(500).json({ message: 'Error al eliminar cancha', error: e.message });
+
+      await cancha.update({ estado: false });
+      res.json({ message: 'Cancha eliminada correctamente' });
+    } catch (error) {
+      res.status(500).json({ error: error.message });
     }
   }
 };
+
+module.exports = canchasCtl;

@@ -65,7 +65,11 @@ const FavoritosModel = require('../model/nonRelational/favoritos');
 const MensajesModel = require('../model/nonRelational/mensajes');
 const NotificationsLogModel = require('../model/nonRelational/NotificationsLog');
 const UserPreferencesModel = require('../model/nonRelational/UserPreferences');
-
+const ReportesIncidenciasModel = require('../model/nonRelational/ReportesIncidencias');
+const LogsErroresModel = require('../model/nonRelational/LogsErrores');
+const HistorialLoginModel = require('../model/nonRelational/HistorialLogin');
+const HistorialCambiosPerfilModel = require('../model/nonRelational/HistorialCambiosPerfil');
+const EncuestasFeedbackModel = require('../model/nonRelational/EncuestasFeedback');
 
 module.exports = {
   connectDB,
@@ -74,4 +78,9 @@ module.exports = {
   MensajesModel,
   NotificationsLogModel,
   UserPreferencesModel,
+  ReportesIncidenciasModel,
+  LogsErroresModel,
+  HistorialLoginModel,
+  HistorialCambiosPerfilModel,
+  EncuestasFeedbackModel,
 };
