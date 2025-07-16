@@ -1,11 +1,22 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controller/userPreferencesController');
+const { 
+  getAllUserPreferences,
+  getUserPreferencesById,
+  getUserPreferencesByUserId,
+  createUserPreferences,
+  updateUserPreferences,
+  updateUserPreferencesByUserId,
+  deleteUserPreferences
+} = require('../controller/usersController');
 
-router.get('/', controller.getAll);
-router.get('/:userId', controller.getByUserId);
-router.post('/', controller.create);
-router.put('/:userId', controller.updateByUserId);
-router.delete('/:userId', controller.deleteByUserId);
+// Rutas para preferencias de usuario (MongoDB)
+router.get('/lista', getAllUserPreferences);
+router.get('/buscar/:id', getUserPreferencesById);
+router.get('/usuario/:userId', getUserPreferencesByUserId);
+router.post('/crear', createUserPreferences);
+router.put('/actualizar/:id', updateUserPreferences);
+router.put('/actualizar-usuario/:userId', updateUserPreferencesByUserId);
+router.delete('/eliminar/:id', deleteUserPreferences);
 
 module.exports = router;

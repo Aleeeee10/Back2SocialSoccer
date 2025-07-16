@@ -1,14 +1,6 @@
-(async () => {
-  try {
-    const createApp = require('./app');
-    const app = await createApp();
+const app = require('./app');
 
-    const port = app.get('port') || 3000;
-    app.listen(port, () => {
-      console.log(`La aplicación corre en el puerto: ${port}`);
-    });
-  } catch (err) {
-    console.error('Error al iniciar la aplicación:', err);
-    process.exit(1);
-  }
-})();
+const port = app.get('port');
+app.listen(port, () => {
+    console.log(`El servidor está escuchando en el puerto ${port}`);
+});

@@ -39,7 +39,7 @@ const guardarYSubirArchivo = async (archivo, filePath, columnName, idEstudent, u
                     const response = await axios.post(url, formData, {
                         headers: {
                             'Content-Type': 'multipart/form-data',
-                            'X-CSRF-Token': req.csrfToken(),
+                            // 'X-CSRF-Token': req.csrfToken(), // COMENTADO PARA PRUEBAS
                             'Cookie': req.headers.cookie
                         },
                     });

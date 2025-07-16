@@ -1714,3 +1714,219 @@
 2025-07-15 23:57:21 [INFO]: La aplicación corre en el puerto: 3000
 2025-07-15 23:57:21 [INFO]: Base de datos conectada
 2025-07-15 23:57:21 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 10:32:41 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 10:32:51 [ERROR]: No se pudo conectar a la base de datos: Unknown database 'futbolsocial'
+2025-07-16 10:32:51 [ERROR]: Error al sincronizar la Base de Datos: SequelizeConnectionError: Unknown database 'futbolsocial'
+2025-07-16 10:32:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 10:32:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 10:32:52 [INFO]: Colecciones de MongoDB listas.
+2025-07-16 10:32:52 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-16 10:32:52 [ERROR]: Error inesperado: Unknown database 'futbolsocial'
+2025-07-16 10:32:57 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-16 10:33:33 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 10:33:33 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 10:33:33 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 10:33:33 [INFO]: Colecciones de MongoDB listas.
+2025-07-16 10:33:33 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-16 10:33:33 [INFO]: Conexión establecida con la base de datos
+2025-07-16 10:33:33 [INFO]: Base de datos conectada
+2025-07-16 10:33:34 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 10:42:48 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 10:42:48 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 10:42:48 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 10:42:48 [INFO]: Colecciones de MongoDB listas.
+2025-07-16 10:42:48 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-16 10:42:48 [INFO]: Conexión establecida con la base de datos
+2025-07-16 10:42:48 [INFO]: Base de datos conectada
+2025-07-16 10:42:48 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 10:43:46 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 10:43:46 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 10:43:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 10:43:46 [INFO]: Colecciones de MongoDB listas.
+2025-07-16 10:43:46 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-16 10:43:46 [INFO]: Conexión establecida con la base de datos
+2025-07-16 10:43:46 [INFO]: Base de datos conectada
+2025-07-16 10:43:46 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 10:51:44 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 10:51:44 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 10:51:44 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 10:51:44 [INFO]: Colecciones de MongoDB listas.
+2025-07-16 10:51:44 [INFO]: La aplicación corre en el puerto: 3000
+2025-07-16 10:51:44 [INFO]: Conexión establecida con la base de datos
+2025-07-16 10:51:44 [INFO]: Base de datos conectada
+2025-07-16 10:51:44 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:04:52 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:04:53 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:04:53 [INFO]: Base de datos conectada
+2025-07-16 11:04:53 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:04:53 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:04:53 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:04:53 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:06:46 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:06:47 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:06:47 [INFO]: Base de datos conectada
+2025-07-16 11:06:47 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:06:47 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:06:47 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:06:47 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:07:16 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:07:17 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:07:17 [INFO]: Base de datos conectada
+2025-07-16 11:07:17 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:07:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:07:17 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:07:18 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:23:06 [ERROR]: Error: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Users\User\Desktop\BACK\Back\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\connect-flash\lib\flash.js:21:5
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+2025-07-16 11:23:06 [INFO]: [0mPOST /users/crear [31m500[0m 527.999 ms - 1262[0m
+2025-07-16 11:23:06 [ERROR]: TypeError: res.apiError is not a function
+    at C:\Users\User\Desktop\BACK\Back\src\app.js:349:20
+    at Layer.handle_error (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+2025-07-16 11:24:24 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:24:25 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:24:25 [INFO]: Base de datos conectada
+2025-07-16 11:24:25 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:24:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:24:25 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:24:25 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:29:46 [ERROR]: Error: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Users\User\Desktop\BACK\Back\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\connect-flash\lib\flash.js:21:5
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+2025-07-16 11:29:46 [INFO]: [0mPOST /users/crear [31m500[0m 102.262 ms - 1262[0m
+2025-07-16 11:29:46 [ERROR]: TypeError: res.apiError is not a function
+    at C:\Users\User\Desktop\BACK\Back\src\app.js:349:20
+    at Layer.handle_error (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+2025-07-16 11:29:54 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:29:54 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:29:54 [INFO]: Base de datos conectada
+2025-07-16 11:29:55 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:29:55 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:29:55 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:29:55 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:34:33 [ERROR]: Error: invalid csrf token
+Stack: ForbiddenError: invalid csrf token
+    at csrf (C:\Users\User\Desktop\BACK\Back\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\connect-flash\lib\flash.js:21:5
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+2025-07-16 11:34:33 [INFO]: [0mPOST /api/csrf-token [31m500[0m 17.886 ms - 1262[0m
+2025-07-16 11:34:33 [ERROR]: TypeError: res.apiError is not a function
+    at C:\Users\User\Desktop\BACK\Back\src\app.js:349:20
+    at Layer.handle_error (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle_error (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:67:12)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+2025-07-16 11:35:58 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:35:58 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:35:58 [INFO]: Base de datos conectada
+2025-07-16 11:35:58 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:35:58 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:35:58 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:35:58 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:36:05 [ERROR]: Error: req.csrfToken is not a function
+Stack: TypeError: req.csrfToken is not a function
+    at C:\Users\User\Desktop\BACK\Back\src\app.js:285:32
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\BACK\Back\node_modules\express\lib\router\index.js:280:10)
+    at strategy.pass (C:\Users\User\Desktop\BACK\Back\node_modules\passport\lib\middleware\authenticate.js:355:9)
+    at SessionStrategy.authenticate (C:\Users\User\Desktop\BACK\Back\node_modules\passport\lib\strategies\session.js:126:10)
+    at attempt (C:\Users\User\Desktop\BACK\Back\node_modules\passport\lib\middleware\authenticate.js:378:16)
+    at authenticate (C:\Users\User\Desktop\BACK\Back\node_modules\passport\lib\middleware\authenticate.js:379:7)
+2025-07-16 11:36:05 [INFO]: [0mGET /api/csrf-token [31m500[0m 41.011 ms - 35[0m
+2025-07-16 11:36:25 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:36:26 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:36:26 [INFO]: Base de datos conectada
+2025-07-16 11:36:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:36:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:36:26 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:36:26 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:37:15 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:37:15 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:37:15 [INFO]: Base de datos conectada
+2025-07-16 11:37:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:37:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:37:16 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:37:16 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:37:42 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:37:42 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:37:42 [INFO]: Base de datos conectada
+2025-07-16 11:37:42 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:37:42 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:37:42 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:37:42 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:38:14 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:38:14 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:38:14 [INFO]: Base de datos conectada
+2025-07-16 11:38:14 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:38:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:38:14 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:38:14 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:38:24 [INFO]: [0mPOST /users/crear [32m201[0m 96.596 ms - 204[0m
+2025-07-16 11:46:51 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:46:52 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:46:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:46:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:46:52 [INFO]: Base de datos conectada
+2025-07-16 11:46:52 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:46:52 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:48:00 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-16 11:48:00 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-16 11:48:00 [INFO]: Base de datos conectada
+2025-07-16 11:48:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-16 11:48:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-16 11:48:00 [INFO]: Conexión establecida con la base de datos
+2025-07-16 11:48:00 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-16 11:48:32 [INFO]: [0mPOST /user-preferences/crear [33m400[0m 104.188 ms - 59[0m
+2025-07-16 11:49:21 [INFO]: [0mPOST /user-preferences/crear [33m404[0m 4.151 ms - 35[0m
+2025-07-16 11:49:30 [INFO]: [0mPOST /user-preferences/crear [33m400[0m 9.371 ms - 59[0m
+2025-07-16 11:56:41 [INFO]: [0mPOST /mensajes/crear? [32m201[0m 26.020 ms - 329[0m
+2025-07-16 11:57:53 [INFO]: [0mPOST /notifications-log/crear [32m201[0m 5.738 ms - 277[0m
