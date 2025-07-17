@@ -4,7 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 const orm = require('../dataBase/dataBase.orm');
-const mongo = require('../Database/dataBase.mongo');
+const mongo = require('../dataBase/dataBase.mongo'); // Importar conexión a MongoDB
+const sql = require('../dataBase/dataBase.sql'); // Importar conexión a SQL
 //llamara al sql 
 const bcrypt = require('bcrypt');
 const FormData = require('form-data');
