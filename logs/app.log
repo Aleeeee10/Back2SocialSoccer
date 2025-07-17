@@ -1930,3 +1930,366 @@ Stack: TypeError: req.csrfToken is not a function
 2025-07-16 11:49:30 [INFO]: [0mPOST /user-preferences/crear [33m400[0m 9.371 ms - 59[0m
 2025-07-16 11:56:41 [INFO]: [0mPOST /mensajes/crear? [32m201[0m 26.020 ms - 329[0m
 2025-07-16 11:57:53 [INFO]: [0mPOST /notifications-log/crear [32m201[0m 5.738 ms - 277[0m
+2025-07-17 10:05:51 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-17 10:06:10 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 10:06:11 [INFO]: Base de datos conectada
+2025-07-17 10:06:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 10:06:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 10:06:11 [INFO]: Conexión establecida con la base de datos
+2025-07-17 10:06:11 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 11:23:34 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 11:23:35 [ERROR]: Error inesperado: connect ETIMEDOUT
+2025-07-17 11:23:35 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 11:23:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 11:23:35 [INFO]: Conexión establecida con la base de datos
+2025-07-17 11:23:35 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 11:23:48 [INFO]: Conexión a la base de datos MySQL establecida correctamente.
+2025-07-17 11:23:49 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 11:23:49 [INFO]: Base de datos conectada
+2025-07-17 11:23:49 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 11:23:49 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 11:23:49 [INFO]: Conexión establecida con la base de datos
+2025-07-17 11:23:49 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 11:25:11 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-17 11:25:23 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 11:25:23 [INFO]: Base de datos conectada
+2025-07-17 11:25:23 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 11:25:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 11:25:23 [INFO]: Conexión establecida con la base de datos
+2025-07-17 11:25:23 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 11:37:36 [INFO]: [0mPOST /users/crear [32m201[0m 675.887 ms - 195[0m
+2025-07-17 11:47:02 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 11:47:02 [INFO]: Base de datos conectada
+2025-07-17 11:47:02 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 11:47:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 11:47:02 [INFO]: Conexión establecida con la base de datos
+2025-07-17 11:47:02 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 11:47:56 [INFO]: [0mPOST /users/crear [32m201[0m 86.873 ms - 193[0m
+2025-07-17 11:58:39 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 11:58:39 [INFO]: Base de datos conectada
+2025-07-17 11:58:39 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 11:58:39 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 11:58:40 [INFO]: Conexión establecida con la base de datos
+2025-07-17 11:58:40 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 11:59:12 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 11:59:12 [INFO]: Base de datos conectada
+2025-07-17 11:59:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 11:59:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 11:59:13 [INFO]: Conexión establecida con la base de datos
+2025-07-17 11:59:13 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:26:06 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:26:06 [INFO]: Base de datos conectada
+2025-07-17 12:26:06 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:26:06 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:26:07 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:26:07 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:28:51 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:28:51 [INFO]: Base de datos conectada
+2025-07-17 12:28:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:28:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:28:52 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:28:52 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:28:57 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:28:57 [INFO]: Base de datos conectada
+2025-07-17 12:28:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:28:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:28:57 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:28:58 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:29:12 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:29:12 [INFO]: Base de datos conectada
+2025-07-17 12:29:12 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:29:12 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:29:13 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:29:13 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:29:28 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:29:28 [INFO]: Base de datos conectada
+2025-07-17 12:29:28 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:29:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:29:28 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:29:28 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:29:57 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:29:57 [INFO]: Base de datos conectada
+2025-07-17 12:29:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:29:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:30:04 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:30:04 [INFO]: Base de datos conectada
+2025-07-17 12:30:04 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:30:04 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:30:04 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:30:04 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:30:17 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:30:17 [INFO]: Base de datos conectada
+2025-07-17 12:30:17 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:30:17 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:30:17 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:30:17 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:30:41 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:30:41 [INFO]: Base de datos conectada
+2025-07-17 12:30:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:30:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:30:41 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:30:42 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:30:57 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:30:57 [INFO]: Base de datos conectada
+2025-07-17 12:30:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:30:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:30:57 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:30:58 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:31:11 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:31:12 [INFO]: Base de datos conectada
+2025-07-17 12:31:12 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:31:12 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:31:12 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:31:12 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:31:37 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:31:37 [INFO]: Base de datos conectada
+2025-07-17 12:31:37 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:31:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:31:38 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:31:38 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:32:19 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:32:19 [INFO]: Base de datos conectada
+2025-07-17 12:32:19 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:32:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:32:19 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:32:19 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:33:45 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:33:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:33:45 [INFO]: Base de datos conectada
+2025-07-17 12:33:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:33:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:33:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:33:45 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:33:45 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:34:11 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:34:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:34:11 [INFO]: Base de datos conectada
+2025-07-17 12:34:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:34:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:34:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:34:11 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:34:12 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:34:15 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:34:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:34:15 [INFO]: Base de datos conectada
+2025-07-17 12:34:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:34:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:34:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:34:15 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:34:16 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:35:29 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:35:29 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:35:29 [INFO]: Base de datos conectada
+2025-07-17 12:35:29 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:35:29 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:35:29 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:35:29 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:35:29 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:35:35 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:35:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:35:35 [INFO]: Base de datos conectada
+2025-07-17 12:35:35 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:35:35 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:35:35 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:35:35 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:35:35 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:36:08 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:36:08 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:36:08 [INFO]: Base de datos conectada
+2025-07-17 12:36:08 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:36:08 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:36:08 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:36:08 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:36:08 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:38:12 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:38:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:13 [INFO]: Base de datos conectada
+2025-07-17 12:38:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:38:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:38:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:13 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:38:13 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:38:15 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:38:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:16 [INFO]: Base de datos conectada
+2025-07-17 12:38:16 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:38:16 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:38:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:16 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:38:16 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:38:21 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:38:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:21 [INFO]: Base de datos conectada
+2025-07-17 12:38:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:38:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:38:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:21 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:38:21 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:38:26 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:38:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:26 [INFO]: Base de datos conectada
+2025-07-17 12:38:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:38:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:38:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:38:26 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:38:26 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:41:36 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:41:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:36 [INFO]: Base de datos conectada
+2025-07-17 12:41:36 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:36 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:36 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:41:36 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:41:40 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:41:40 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:40 [INFO]: Base de datos conectada
+2025-07-17 12:41:40 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:40 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:40 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:40 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:41:40 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:41:45 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:41:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:45 [INFO]: Base de datos conectada
+2025-07-17 12:41:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:46 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:41:46 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:41:52 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:41:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:52 [INFO]: Base de datos conectada
+2025-07-17 12:41:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:52 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:41:52 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:41:57 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:41:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:57 [INFO]: Base de datos conectada
+2025-07-17 12:41:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:57 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:41:57 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:41:57 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:41:57 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:42:36 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:42:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:42:37 [INFO]: Base de datos conectada
+2025-07-17 12:42:37 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:42:37 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:42:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:42:37 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:42:37 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:42:45 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:42:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:42:45 [INFO]: Base de datos conectada
+2025-07-17 12:42:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:42:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:42:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:42:45 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:42:45 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:43:00 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:43:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:43:00 [INFO]: Base de datos conectada
+2025-07-17 12:43:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:43:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:43:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:43:00 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:43:00 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:43:07 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:43:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:43:07 [INFO]: Base de datos conectada
+2025-07-17 12:43:07 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:43:07 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:43:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:43:07 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:43:07 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:43:25 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:43:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:43:25 [INFO]: Base de datos conectada
+2025-07-17 12:43:25 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:43:25 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:43:25 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:43:25 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:43:25 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:45:03 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:45:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:45:03 [INFO]: Base de datos conectada
+2025-07-17 12:45:03 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:45:03 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:45:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:45:03 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:45:03 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:46:23 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:46:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:46:23 [INFO]: Base de datos conectada
+2025-07-17 12:46:23 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:46:23 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:46:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:46:23 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:46:23 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:46:31 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:46:31 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:46:31 [INFO]: Base de datos conectada
+2025-07-17 12:46:31 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:46:31 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:46:31 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:46:31 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:46:31 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:46:37 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:46:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:46:37 [INFO]: Base de datos conectada
+2025-07-17 12:46:37 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:46:37 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:46:37 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:46:37 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:46:37 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:46:46 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:46:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:46:46 [INFO]: Base de datos conectada
+2025-07-17 12:46:46 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:46:46 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:46:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:46:46 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:46:46 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:54:14 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:54:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:54:14 [INFO]: Base de datos conectada
+2025-07-17 12:54:14 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:54:14 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:54:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:54:14 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:54:14 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:54:26 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:54:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:54:26 [INFO]: Base de datos conectada
+2025-07-17 12:54:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:54:26 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:54:26 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:54:26 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:54:26 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 12:54:32 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 12:54:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:54:32 [INFO]: Base de datos conectada
+2025-07-17 12:54:32 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:54:32 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 12:54:32 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 12:54:32 [INFO]: Conexión establecida con la base de datos
+2025-07-17 12:54:32 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 13:00:41 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 13:00:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 13:00:41 [INFO]: Base de datos conectada
+2025-07-17 13:00:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 13:00:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 13:00:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 13:00:41 [INFO]: Conexión establecida con la base de datos
+2025-07-17 13:00:41 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-17 18:31:20 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-17 18:31:20 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 18:31:21 [INFO]: Base de datos conectada
+2025-07-17 18:31:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 18:31:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-17 18:31:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-17 18:31:21 [INFO]: Conexión establecida con la base de datos
+2025-07-17 18:31:21 [INFO]: Base de Datos sincronizadas (modo seguro)

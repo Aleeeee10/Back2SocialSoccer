@@ -1,4 +1,4 @@
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, DataTypes) => { //exportar tupes 
   return sequelize.define('users', {
     id: {
       type: DataTypes.INTEGER,
@@ -23,11 +23,12 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: true
     },
     estado: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true
+      type: DataTypes.BOOLEAN, //el estado no true false, se transofrman  en por ejemplo uso mantenimiento
+      defaultValue: true //Fecha tipo string
     }
   }, {
     freezeTableName: false,  // Permite que Sequelize pluralice como 'users'
     timestamps: false        // No se crean campos createdAt y updatedAt
   });
 };
+ // no seria string sINO TIPO text 

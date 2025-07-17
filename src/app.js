@@ -294,12 +294,7 @@ app.get('/api/csrf-token', (req, res) => {
 */
 
 // ==================== CONEXIONES BASE DE DATOS ====================
-const db = require('./dataBase/dataBase.orm');
-if (db.users) {
-  logger.info('Conexión a la base de datos MySQL establecida correctamente.');
-}
 
-require('./dataBase/dataBase.mongo');
 
 // ==================== RUTAS API ====================
 // Importar y configurar rutas como API

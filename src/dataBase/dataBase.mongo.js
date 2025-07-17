@@ -72,7 +72,6 @@ const HistorialCambiosPerfilModel = require('../model/nonRelational/HistorialCam
 const EncuestasFeedbackModel = require('../model/nonRelational/EncuestasFeedback');
 
 module.exports = {
-  connectDB,
   ActivityLogsModel,
   FavoritosModel,
   MensajesModel,

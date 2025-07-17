@@ -112,68 +112,68 @@ const inscripcionesTorneo = inscripcionesTorneoModel(sequelize, Sequelize.DataTy
 const agendaEntrenamientos = agendaEntrenamientosModel(sequelize, Sequelize.DataTypes);
 const comentarios = comentariosModel(sequelize, Sequelize.DataTypes);
 
-//relaciones o foreignKeys - Optimizadas para evitar exceso de índices
-users.belongsTo(roles, { as: 'rol', foreignKey: 'roleId' });
-roles.hasMany(users, { as: 'users', foreignKey: 'roleId' });
+//relaciones o foreignKeys - Corrigiendo la lógica de relaciones
+//tabla del usuario es única, la foreign key debe ir a la tabla roles, el usuario nunca tiene una relación directa
+roles.belongsTo(users);
+users.hasMany(roles);
+//user no puede tener relaciones pero si puede dar las relaciones a las demas tablas alrevez el hasmany y belongsto
+users.hasMany(detalleRol);
+detalleRol.belongsTo(users);
+roles.hasMany(detalleRol);
+detalleRol.belongsTo(roles);
 
-users.hasMany(detalleRol, { foreignKey: 'userId' });
-detalleRol.belongsTo(users, { foreignKey: 'userId' });
-roles.hasMany(detalleRol, { foreignKey: 'roleId' });
-detalleRol.belongsTo(roles, { foreignKey: 'roleId' });
+teams.hasMany(players);
+players.belongsTo(teams);
 
-teams.hasMany(players, { foreignKey: 'teamId' });
-players.belongsTo(teams, { foreignKey: 'teamId' });
+teams.belongsTo(division);
+division.hasMany(teams);
 
-teams.belongsTo(division, { foreignKey: 'divisionId' });
-division.hasMany(teams, { foreignKey: 'divisionId' });
+matches.belongsTo(teams);
+matches.belongsTo(teams);
+matches.belongsTo(referees);
 
-matches.belongsTo(teams, { as: 'equipoLocal', foreignKey: 'equipoLocalId' });
-matches.belongsTo(teams, { as: 'equipoVisitante', foreignKey: 'equipoVisitanteId' });
-matches.belongsTo(referees, { foreignKey: 'refereeId' });
+matches.belongsTo(canchas);
+canchas.hasMany(matches);
 
-matches.belongsTo(canchas, { foreignKey: 'canchaId' });
-canchas.hasMany(matches, { foreignKey: 'canchaId' });
+matches.hasMany(resultados);
+resultados.belongsTo(matches);
 
-matches.hasMany(resultados, { foreignKey: 'matchId' });
-resultados.belongsTo(matches, { foreignKey: 'matchId' });
+resultados.hasMany(detalleResultados);
+detalleResultados.belongsTo(resultados);
 
-resultados.hasMany(detalleResultados, { foreignKey: 'resultadoId' });
-detalleResultados.belongsTo(resultados, { foreignKey: 'resultadoId' });
+players.hasMany(detalleResultados);
+detalleResultados.belongsTo(players);
 
-players.hasMany(detalleResultados, { foreignKey: 'playerId' });
-detalleResultados.belongsTo(players, { foreignKey: 'playerId' });
+estadisticas.hasMany(detalleEstadisticas);
+detalleEstadisticas.belongsTo(estadisticas);
 
-estadisticas.hasMany(detalleEstadisticas, { foreignKey: 'estadisticaId' });
-detalleEstadisticas.belongsTo(estadisticas, { foreignKey: 'estadisticaId' });
+players.hasMany(detalleEstadisticas);
+detalleEstadisticas.belongsTo(players);
 
-players.hasMany(detalleEstadisticas, { foreignKey: 'playerId' });
-detalleEstadisticas.belongsTo(players, { foreignKey: 'playerId' });
+matches.hasMany(tarjetas);
+tarjetas.belongsTo(matches);
 
-matches.hasMany(tarjetas, { foreignKey: 'matchId' });
-tarjetas.belongsTo(matches, { foreignKey: 'matchId' });
+players.hasMany(tarjetas);
+tarjetas.belongsTo(players);
 
-players.hasMany(tarjetas, { foreignKey: 'playerId' });
-tarjetas.belongsTo(players, { foreignKey: 'playerId' });
+teams.hasMany(posiciones);
+posiciones.belongsTo(teams);
+division.hasMany(posiciones);
+posiciones.belongsTo(division);
 
-teams.hasMany(posiciones, { foreignKey: 'teamId' });
-posiciones.belongsTo(teams, { foreignKey: 'teamId' });
-division.hasMany(posiciones, { foreignKey: 'divisionId' });
-posiciones.belongsTo(division, { foreignKey: 'divisionId' });
+players.hasMany(detalleJugadores);
+detalleJugadores.belongsTo(players);
 
-players.hasMany(detalleJugadores, { foreignKey: 'playerId' });
-detalleJugadores.belongsTo(players, { foreignKey: 'playerId' });
+division.hasMany(detalleDivision);
+detalleDivision.belongsTo(division);
+players.hasMany(detalleDivision);
+detalleDivision.belongsTo(players);
 
-division.hasMany(detalleDivision, { foreignKey: 'divisionId' });
-detalleDivision.belongsTo(division, { foreignKey: 'divisionId' });
-players.hasMany(detalleDivision, { foreignKey: 'playerId' });
-detalleDivision.belongsTo(players, { foreignKey: 'playerId' });
-
-teams.hasMany(agendaEntrenamientos, { foreignKey: 'teamId' });
-agendaEntrenamientos.belongsTo(teams, { foreignKey: 'teamId' });
+teams.hasMany(agendaEntrenamientos);
+agendaEntrenamientos.belongsTo(teams);
 
 // Exportar el objeto sequelize
 module.exports = {
-    sequelize,
     users,
     roles,
     detalleRol,

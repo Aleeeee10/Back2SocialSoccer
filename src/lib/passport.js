@@ -4,7 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 const orm = require('../dataBase/dataBase.orm');
-//const mongo = require('../Database/dataBase.mongo');
+const mongo = require('../Database/dataBase.mongo');
+//llamara al sql 
 const bcrypt = require('bcrypt');
 const FormData = require('form-data');
 //const { cifrarDatos, descifrarDatos } = require('./encrypDates');
@@ -108,7 +109,7 @@ passport.use(
     'local.studentSignup',
     new LocalStrategy(
         {
-            usernameField: 'username',
+            usernameField: 'username', //por postam user name password, 
             passwordField: 'password',
             passReqToCallback: true,
         },
@@ -205,7 +206,8 @@ passport.use(
         }
     )
 );
-
+//doble ingreso relacion no realcional
+// Utilizar un metodo de logeo para el usuario passport ayuda al metodo de logeo 
 passport.serializeUser((user, done) => {
     done(null, user);
 });

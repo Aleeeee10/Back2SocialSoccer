@@ -3,8 +3,10 @@ const usersCtl = {};
 const orm = require('../dataBase/dataBase.orm');
 const sql = require('../dataBase/dataBase.sql');
 const mongo = require('../dataBase/dataBase.mongo');
-const UserPreferences = require('../model/nonRelational/UserPreferences');
+const UserPreferences = require('../model/nonRelational/UserPreferences'); // No utilizar modelos de mongo eliminar esta liniea por que en mongo estan todos los modelos
 const { cifrarDatos, descifrarDatos } = require('../lib/encrypDates')
+
+//Varias consultas que se pueden hacer en los metodos
 
 function safeDecrypt(data) {
     try {
@@ -29,11 +31,11 @@ usersCtl.getAllUsers = async (req, res) => {
 usersCtl.mostrarUsers = async (req, res) => {
   try {
     const [listaUsers] = await sql.promise().query('SELECT * FROM users');
-    const usuario = await UserPreferences.findOne({ userId: listaUsers[0]?.id?.toString() });
+    const usuario = await UserPreferences.findOne({ userId: listaUsers[0].id }); //?.id?.toString() no se utiliza esto
     const usuarios = listaUsers[0];
     const data = {
       usuarios,
-      usuario
+      usuario   //contraseña no se hcae con el bycrypt si no con el crypto
     };
     return data;
   } catch (error) {

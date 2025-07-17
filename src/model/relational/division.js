@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     },
     categoria: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING, 
       allowNull: true
     },
     estado: {
