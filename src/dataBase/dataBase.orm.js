@@ -123,7 +123,7 @@ roles.hasMany(detalleRol);
 detalleRol.belongsTo(roles);
 
 teams.hasMany(players);
-players.belongsTo(teams);
+players.belongsTo(teams);  // esta tabla necesita una tabla de rompimiento  o tiene las 3 relaciones 
 
 teams.belongsTo(division);
 division.hasMany(teams);

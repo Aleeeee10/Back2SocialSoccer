@@ -2827,3 +2827,40 @@ Stack: TypeError: req.csrfToken is not a function
 2025-07-18 10:53:26 [INFO]: 🚀 MongoDB conectado correctamente
 2025-07-18 10:53:26 [INFO]: Conexión establecida con la base de datos
 2025-07-18 10:53:26 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-18 10:59:31 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-18 10:59:31 [INFO]: Base de datos conectada
+2025-07-18 10:59:31 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-18 10:59:31 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-18 10:59:31 [INFO]: Conexión establecida con la base de datos
+2025-07-18 10:59:31 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-18 11:11:38 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-18 11:11:38 [INFO]: Base de datos conectada
+2025-07-18 11:11:38 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-18 11:11:38 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-18 11:11:38 [INFO]: Conexión establecida con la base de datos
+2025-07-18 11:11:38 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-18 11:12:24 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-18 11:12:24 [INFO]: Base de datos conectada
+2025-07-18 11:12:24 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-18 11:12:24 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-18 11:12:24 [INFO]: Conexión establecida con la base de datos
+2025-07-18 11:12:24 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-18 11:12:28 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-18 11:12:28 [INFO]: Base de datos conectada
+2025-07-18 11:12:28 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-18 11:12:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-18 11:12:28 [INFO]: Conexión establecida con la base de datos
+2025-07-18 11:12:29 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-18 11:12:47 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-18 11:12:47 [INFO]: Base de datos conectada
+2025-07-18 11:12:47 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-18 11:12:47 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-18 11:12:47 [INFO]: Conexión establecida con la base de datos
+2025-07-18 11:12:48 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-18 11:13:13 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-18 11:13:13 [INFO]: Base de datos conectada
+2025-07-18 11:13:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-18 11:13:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-18 11:13:13 [INFO]: Conexión establecida con la base de datos
+2025-07-18 11:13:13 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-18 11:15:14 [INFO]: ⚠️  Mongoose desconectado de MongoDB
