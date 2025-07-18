@@ -201,8 +201,7 @@ if (process.env.NODE_ENV === 'production') {
 app.use(session(sessionConfig));
 app.use(flash());
 
-// 11. CSRF Protection mejorada (COMENTADO PARA PRUEBAS)
-/*
+// 11. CSRF Protection mejorada
 const csrfProtection = csrf({
     cookie: {
         httpOnly: true,
@@ -211,7 +210,6 @@ const csrfProtection = csrf({
     }
 });
 app.use(csrfProtection);
-*/
 
 // 12. Headers de seguridad adicionales
 app.use((req, res, next) => {
@@ -282,16 +280,14 @@ app.use((req, res, next) => {
         return res.status(status).json(response);
     };
     
-    // res.locals.csrfToken = req.csrfToken(); // COMENTADO PARA PRUEBAS
+    res.locals.csrfToken = req.csrfToken(); // CSRF token habilitado
     next();
 });
 
-// ==================== RUTAS CSRF TOKEN (COMENTADO PARA PRUEBAS) ====================
-/*
+// ==================== RUTAS CSRF TOKEN ====================
 app.get('/api/csrf-token', (req, res) => {
   res.json({ csrfToken: req.csrfToken() });
 });
-*/
 
 // ==================== CONEXIONES BASE DE DATOS ====================
 
@@ -320,10 +316,11 @@ app.use('/torneos', require('./router/torneos'));
 app.use('/inscripciones-torneo', require('./router/inscripcionesTorneo'));
 app.use('/agenda-entrenamientos', require('./router/agendaEntrenamientos'));
 app.use('/comentarios', require('./router/comentarios'));
-app.use('/mensajes', require('./router/mensajes'));
-app.use('/notifications-log', require('./router/notificationsLog'));
-app.use('/reportes-incidencias', require('./router/reportesIncidencias'));
+// app.use('/notifications-log', require('./router/notificationsLog')); // Comentado temporalmente - falta crear el router
 app.use('/user-preferences', require('./router/userPreferences'));
+
+// ==================== RUTAS DE AUTENTICACIÓN ====================
+app.use('/auth', require('./router/auth'));
 
 // Configurar variables globales
 app.use((req, res, next) => {
@@ -348,12 +345,10 @@ app.use((err, req, res, next) => {
         return res.apiError('Validation error', 400, err.errors);
     }
 
-    // COMENTADO PARA PRUEBAS SIN CSRF
-    /*
+    // CSRF token validation error
     if (err.code === 'EBADCSRFTOKEN') {
         return res.apiError('CSRF token validation failed', 403);
     }
-    */
 
     // Error no manejado
     const errorResponse = {

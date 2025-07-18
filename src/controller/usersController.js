@@ -3,8 +3,9 @@ const usersCtl = {};
 const orm = require('../dataBase/dataBase.orm');
 const sql = require('../dataBase/dataBase.sql');
 const mongo = require('../dataBase/dataBase.mongo');
-const UserPreferences = require('../model/nonRelational/UserPreferences'); // No utilizar modelos de mongo eliminar esta liniea por que en mongo estan todos los modelos
-const { cifrarDatos, descifrarDatos } = require('../lib/encrypDates')
+const UserPreferences = require('../model/nonRelational/UserPreferences');
+const NotificationsLog = require('../model/nonRelational/NotificationsLog');
+const { cifrarDatos, descifrarDatos } = require('../lib/encrypDates');
 
 //Varias consultas que se pueden hacer en los metodos
 
@@ -56,8 +57,9 @@ usersCtl.getUserById = async (req, res) => {
 
 usersCtl.createUser = async (req, res) => {
   try {
-    const { nombre, email, contraseña, avatar } = req.body;
+    const { nombre, email, contraseña, avatar, tema = 'claro', idioma = 'es', notificacionesEnabled = true } = req.body;
     
+    // 1. Crear usuario en MySQL
     const userData = {
       nombre,
       email,
@@ -67,22 +69,49 @@ usersCtl.createUser = async (req, res) => {
     };
     
     const newUser = await orm.users.create(userData);
-    
-    // Crear preferencias por defecto para el nuevo usuario
-    const defaultPreferences = {
+
+    // 2. Crear preferencias del usuario en MongoDB automáticamente
+    const userPreferences = new UserPreferences({
       userId: newUser.id.toString(),
-      tema: 'claro',
-      notificaciones: true,
-      idioma: 'es'
-    };
-    
-    await UserPreferences.create(defaultPreferences);
-    
+      tema,
+      notificaciones: notificacionesEnabled,
+      idioma,
+      estado: true
+    });
+
+    await userPreferences.save();
+
+    // 3. Crear notificación de bienvenida en MongoDB automáticamente
+    const welcomeNotification = new NotificationsLog({
+      userId: newUser.id.toString(),
+      mensaje: `¡Bienvenido ${nombre}! Tu cuenta ha sido creada exitosamente.`,
+      tipo: 'success',
+      leido: false,
+      estado: true
+    });
+
+    await welcomeNotification.save();
+
     res.status(201).json({
-      message: 'Usuario creado exitosamente',
-      user: newUser
+      message: 'Usuario, preferencias y notificación de bienvenida creados exitosamente',
+      usuario: newUser,
+      preferencias: userPreferences,
+      notificacionBienvenida: welcomeNotification
     });
   } catch (e) {
+    // Registrar error en notificaciones
+    try {
+      await NotificationsLog.create({
+        userId: '0', // Usuario temporal para errores
+        mensaje: `Error al crear cuenta: ${e.message}`,
+        tipo: 'error',
+        leido: false,
+        estado: true
+      });
+    } catch (notifError) {
+      console.error('Error al crear notificación de error:', notifError);
+    }
+    
     res.status(400).json({ message: 'Error al crear usuario', error: e.message });
   }
 };
@@ -330,6 +359,221 @@ usersCtl.getAllUsersWithPreferences = async (req, res) => {
     res.json(usersWithPreferences);
   } catch (e) {
     res.status(500).json({ message: 'Error al obtener usuarios con preferencias', error: e.message });
+  }
+};
+
+// FUNCIONES ESPECÍFICAS PARA USER PREFERENCES (MongoDB)
+
+// Obtener preferencias de un usuario específico
+usersCtl.getUserPreferences = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const preferences = await UserPreferences.findOne({ 
+      userId: userId.toString(), 
+      estado: true 
+    });
+    res.json(preferences);
+  } catch (e) {
+    res.status(500).json({ message: 'Error al obtener preferencias', error: e.message });
+  }
+};
+
+// Obtener usuario completo con preferencias y notificaciones
+usersCtl.getUserComplete = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    
+    // Obtener usuario de MySQL
+    const user = await orm.users.findByPk(userId);
+    if (!user) return res.status(404).json({ message: 'Usuario no encontrado' });
+    
+    // Obtener preferencias de MongoDB
+    const preferences = await UserPreferences.findOne({ 
+      userId: userId.toString(), 
+      estado: true 
+    });
+    
+    // Obtener notificaciones recientes de MongoDB
+    const notifications = await NotificationsLog.find({ 
+      userId: userId.toString(), 
+      estado: true 
+    }).sort({ createdAt: -1 }).limit(10);
+    
+    res.json({
+      usuario: user,
+      preferencias: preferences,
+      notificaciones: notifications,
+      totalNotificaciones: notifications.length,
+      notificacionesNoLeidas: notifications.filter(n => !n.leido).length
+    });
+  } catch (e) {
+    res.status(500).json({ message: 'Error al obtener datos completos', error: e.message });
+  }
+};
+
+// Actualizar preferencias del usuario
+usersCtl.updateUserPreferences = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { tema, notificaciones, idioma } = req.body;
+    
+    const updatedPreferences = await UserPreferences.findOneAndUpdate(
+      { userId: userId.toString(), estado: true },
+      { tema, notificaciones, idioma },
+      { new: true }
+    );
+    
+    if (!updatedPreferences) return res.status(404).json({ message: 'Preferencias no encontradas' });
+    
+    // Crear notificación de actualización
+    await NotificationsLog.create({
+      userId: userId.toString(),
+      mensaje: 'Tus preferencias han sido actualizadas exitosamente',
+      tipo: 'info',
+      leido: false,
+      estado: true
+    });
+    
+    res.json({ message: 'Preferencias actualizadas', preferencias: updatedPreferences });
+  } catch (e) {
+    res.status(400).json({ message: 'Error al actualizar preferencias', error: e.message });
+  }
+};
+
+// FUNCIONES ESPECÍFICAS PARA NOTIFICATIONS LOG (MongoDB)
+
+// Obtener notificaciones de un usuario específico
+usersCtl.getUserNotifications = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { limite = 20, pagina = 1 } = req.query;
+    
+    const notifications = await NotificationsLog.find({ 
+      userId: userId.toString(), 
+      estado: true 
+    })
+    .sort({ createdAt: -1 })
+    .limit(parseInt(limite))
+    .skip((parseInt(pagina) - 1) * parseInt(limite));
+    
+    res.json(notifications);
+  } catch (e) {
+    res.status(500).json({ message: 'Error al obtener notificaciones', error: e.message });
+  }
+};
+
+// Crear notificación manual para un usuario
+usersCtl.createNotification = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { mensaje, tipo } = req.body;
+    
+    const newNotification = new NotificationsLog({
+      userId: userId.toString(),
+      mensaje,
+      tipo: tipo || 'info',
+      leido: false,
+      estado: true
+    });
+    
+    await newNotification.save();
+    res.json({ message: 'Notificación creada', notificacion: newNotification });
+  } catch (e) {
+    res.status(400).json({ message: 'Error al crear notificación', error: e.message });
+  }
+};
+
+// Marcar notificación como leída
+usersCtl.markNotificationAsRead = async (req, res) => {
+  try {
+    const { userId, notificationId } = req.params;
+    
+    const updatedNotification = await NotificationsLog.findOneAndUpdate(
+      { _id: notificationId, userId: userId.toString() },
+      { leido: true },
+      { new: true }
+    );
+    
+    if (!updatedNotification) return res.status(404).json({ message: 'Notificación no encontrada' });
+    res.json({ message: 'Notificación marcada como leída', notificacion: updatedNotification });
+  } catch (e) {
+    res.status(400).json({ message: 'Error al marcar notificación', error: e.message });
+  }
+};
+
+// Marcar todas las notificaciones como leídas
+usersCtl.markAllNotificationsAsRead = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    
+    const result = await NotificationsLog.updateMany(
+      { userId: userId.toString(), leido: false, estado: true },
+      { leido: true }
+    );
+    
+    res.json({ 
+      message: 'Todas las notificaciones marcadas como leídas', 
+      actualizadas: result.modifiedCount 
+    });
+  } catch (e) {
+    res.status(400).json({ message: 'Error al marcar notificaciones', error: e.message });
+  }
+};
+
+// Eliminar notificaciones antiguas
+usersCtl.cleanOldNotifications = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { diasAtras = 30 } = req.body;
+    
+    const fechaLimite = new Date();
+    fechaLimite.setDate(fechaLimite.getDate() - diasAtras);
+    
+    const result = await NotificationsLog.deleteMany({
+      userId: userId.toString(),
+      createdAt: { $lt: fechaLimite },
+      leido: true
+    });
+    
+    res.json({ 
+      message: 'Notificaciones antiguas eliminadas', 
+      eliminadas: result.deletedCount 
+    });
+  } catch (e) {
+    res.status(500).json({ message: 'Error al limpiar notificaciones', error: e.message });
+  }
+};
+
+// Obtener estadísticas de notificaciones
+usersCtl.getNotificationStats = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    
+    const totalNotifications = await NotificationsLog.countDocuments({ 
+      userId: userId.toString(), 
+      estado: true 
+    });
+    
+    const unreadNotifications = await NotificationsLog.countDocuments({ 
+      userId: userId.toString(), 
+      estado: true, 
+      leido: false 
+    });
+    
+    const notificationsByType = await NotificationsLog.aggregate([
+      { $match: { userId: userId.toString(), estado: true } },
+      { $group: { _id: '$tipo', count: { $sum: 1 } } }
+    ]);
+    
+    res.json({
+      userId: userId,
+      totalNotificaciones: totalNotifications,
+      noLeidas: unreadNotifications,
+      leidas: totalNotifications - unreadNotifications,
+      porTipo: notificationsByType
+    });
+  } catch (e) {
+    res.status(500).json({ message: 'Error al obtener estadísticas', error: e.message });
   }
 };
 

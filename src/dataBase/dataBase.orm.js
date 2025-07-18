@@ -172,6 +172,22 @@ detalleDivision.belongsTo(players);
 teams.hasMany(agendaEntrenamientos);
 agendaEntrenamientos.belongsTo(teams);
 
+// Relaciones de torneos e inscripciones
+torneos.hasMany(inscripcionesTorneo);
+inscripcionesTorneo.belongsTo(torneos);
+teams.hasMany(inscripcionesTorneo);
+inscripcionesTorneo.belongsTo(teams);
+
+// Relaciones de noticias con usuarios
+users.hasMany(news);
+news.belongsTo(users);
+
+// Relaciones de comentarios
+users.hasMany(comentarios);
+comentarios.belongsTo(users);
+matches.hasMany(comentarios);
+comentarios.belongsTo(matches);
+
 // Exportar el objeto sequelize
 module.exports = {
     users,

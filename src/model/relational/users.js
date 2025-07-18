@@ -1,30 +1,36 @@
-module.exports = (sequelize, DataTypes) => { //exportar tupes 
+module.exports = (sequelize, types) => { //exportar tupes 
   return sequelize.define('users', {
     id: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
     nombre: {
-      type: DataTypes.STRING,
+      type: types.STRING,
       allowNull: false
     },
     email: {
-      type: DataTypes.STRING,
+      type: types.STRING,
       allowNull: false,
       unique: true
     },
     contraseña: {
-      type: DataTypes.STRING,
+      type: types.STRING,
       allowNull: false
     },
     avatar: {
-      type: DataTypes.STRING,
+      type: types.STRING,
       allowNull: true
     },
     estado: {
-      type: DataTypes.BOOLEAN, //el estado no true false, se transofrman  en por ejemplo uso mantenimiento
-      defaultValue: true //Fecha tipo string
+      type: types.STRING, //el estado no true false, se transofrman  en por ejemplo uso mantenimiento
+
+    },
+    fecha_creacion: {
+      type: types.STRING // Simplificado a tipo STRING
+    },
+    fecha_modificacion: {
+      type: types.STRING // Simplificado a tipo STRING
     }
   }, {
     freezeTableName: false,  // Permite que Sequelize pluralice como 'users'
@@ -32,3 +38,6 @@ module.exports = (sequelize, DataTypes) => { //exportar tupes
   });
 };
  // no seria string sINO TIPO text 
+
+
+

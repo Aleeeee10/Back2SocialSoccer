@@ -1,12 +1,30 @@
 const mongoose = require('mongoose');
 
-const LogsErroresSchema = new mongoose.Schema({
-  mensaje: { type: String, required: true },
-  stack: { type: String },
-  url: { type: String },
-  userId: { type: Number },
-  fecha: { type: Date, default: Date.now },
-  estado: { type: Boolean, default: true } // Campo para eliminación lógica - consistencia con otros modelos
+const logsErroresSchema = new mongoose.Schema({
+    rolId: Number,
+    mensaje: String,
+    tipoError: String,
+    stack: String,
+    url: String,
+    metodo: String,
+    userId: Number,
+    userRole: String,
+    severidad: String,
+    accionIntentan: String,
+    permisosFaltantes: [String],
+    contextoAdicional: {
+        ip: String,
+        userAgent: String,
+        parametros: String,
+        headers: String
+    },
+    fecha: String,
+    resuelto: String,
+    fechaResolucion: String,
+    notasResolucion: String,
+    estado: String
 });
 
-module.exports = mongoose.model('LogsErrores', LogsErroresSchema);
+const LogsErrores = mongoose.model('LogsErrores', logsErroresSchema);
+
+module.exports = LogsErrores;

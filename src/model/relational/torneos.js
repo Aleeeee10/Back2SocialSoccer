@@ -1,32 +1,41 @@
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, types) => {
   return sequelize.define('torneos', {
     id: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
     nombre: {
-      type: DataTypes.STRING,
+      type: types.STRING,
       allowNull: false
     },
     fechaInicio: {
-      type: DataTypes.DATE,
+      type: types.DATE,
       allowNull: false
     },
     fechaFin: {
-      type: DataTypes.DATE,
+      type: types.DATE,
       allowNull: true
     },
     descripcion: {
-      type: DataTypes.TEXT,
+      type: types.TEXT,
       allowNull: true
     },
     estado: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true
+      type: types.STRING,
+
+    },
+    fecha_creacion: {
+      type: types.STRING // Simplificado a tipo STRING
+    },
+    fecha_modificacion: {
+      type: types.STRING // Simplificado a tipo STRING
     }
   }, {
     freezeTableName: false,  // Permite que Sequelize pluralice como 'torneos'
     timestamps: false        // No se crean campos createdAt y updatedAt
   });
 };
+
+
+

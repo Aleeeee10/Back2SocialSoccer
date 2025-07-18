@@ -1,29 +1,37 @@
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, types) => {
   return sequelize.define('agendaEntrenamiento', {  // singular para que Sequelize pluralice automáticamente
     id: { 
-      type: DataTypes.INTEGER, 
+      type: types.INTEGER, 
       primaryKey: true, 
       autoIncrement: true 
     },
     fecha: { 
-      type: DataTypes.DATEONLY,  // solo fecha sin hora
+      type: types.DATEONLY,  // solo fecha sin hora
       allowNull: false 
     },
     hora: { 
-      type: DataTypes.TIME, 
+      type: types.TIME, 
       allowNull: false 
     },
     descripcion: { 
-      type: DataTypes.STRING, 
+      type: types.STRING, 
       allowNull: true  // mejor explicitar si puede ser null o no
     },
     estado: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true,
+      type: types.STRING,
       comment: 'Campo para eliminación lógica - mantiene consistencia con otros modelos'
+    },
+    fecha_creacion: {
+      type: types.STRING // Simplificado a tipo STRING
+    },
+    fecha_modificacion: {
+      type: types.STRING // Simplificado a tipo STRING
     }
   }, {
     freezeTableName: false, // Sequelize pluralizará "agendaEntrenamientos" para la tabla
     timestamps: false       // desactiva createdAt y updatedAt automáticos
   });
 };
+
+
+

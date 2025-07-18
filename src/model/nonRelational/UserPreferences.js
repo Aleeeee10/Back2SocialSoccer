@@ -1,14 +1,12 @@
 const mongoose = require('mongoose');
 
-const UserPreferencesSchema = new mongoose.Schema({
-  userId: { type: String, required: true },
-  tema: { type: String, default: 'claro' }, //no poner tupe: string lo mas sencillo posible
-  notificaciones: { type: Boolean, default: true },
-  idioma: { type: String, default: 'es' }
-}, {
-  timestamps: true
+const userPreferencesSchema = new mongoose.Schema({
+    userId: String,
+    tema: String,
+    notificaciones: String,
+    idioma: String
 });
 
-module.exports = mongoose.model('UserPreferences', UserPreferencesSchema);
+const UserPreferences = mongoose.model('UserPreferences', userPreferencesSchema);
 
-//userMensajes mejor para saber de que se trata el archivo
+module.exports = UserPreferences;

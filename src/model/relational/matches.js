@@ -1,30 +1,39 @@
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, types) => {
   return sequelize.define('matches', {
     id: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
     fecha: {
-      type: DataTypes.DATEONLY,  // solo fecha sin hora
+      type: types.DATEONLY,  // solo fecha sin hora
       allowNull: false
     },
     hora: {
-      type: DataTypes.TIME,
+      type: types.TIME,
       allowNull: false
     },
     descripcion: {
-      type: DataTypes.TEXT,
+      type: types.TEXT,
       allowNull: true
     },
     estado: {
-      type: DataTypes.BOOLEAN,
+      type: types.STRING,
       allowNull: false,
-      defaultValue: true, // Campo estado agregado para consistencia con otros modelos
+ // Campo estado agregado para consistencia con otros modelos
       comment: 'Estado del partido: true = activo, false = inactivo'
+    },
+    fecha_creacion: {
+      type: types.STRING // Simplificado a tipo STRING
+    },
+    fecha_modificacion: {
+      type: types.STRING // Simplificado a tipo STRING
     }
   }, {
     freezeTableName: false,  // permite pluralizar el nombre de la tabla a 'matches'
     timestamps: false        // desactiva createdAt y updatedAt automáticos
   });
 };
+
+
+

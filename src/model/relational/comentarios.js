@@ -1,37 +1,46 @@
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, types) => {
   return sequelize.define('comentario', {  // modelo en singular para que Sequelize pluralice
     id: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
     contenido: {
-      type: DataTypes.TEXT,
+      type: types.TEXT,
       allowNull: false
     },
     tipo: {
-      type: DataTypes.STRING,
+      type: types.STRING,
       allowNull: false
     },
     entidadId: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: false
     },
     autorId: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: false
     },
     creadoEn: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW
+      type: types.DATE,
+      defaultValue: types.NOW
     },
     estado: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true,
+      type: types.STRING,
+
       comment: 'Campo para eliminación lógica - mantiene consistencia con otros modelos'
+    },
+    fecha_creacion: {
+      type: types.STRING // Simplificado a tipo STRING
+    },
+    fecha_modificacion: {
+      type: types.STRING // Simplificado a tipo STRING
     }
   }, {
     freezeTableName: false,  // permite pluralizar la tabla a 'comentarios'
     timestamps: false        // desactiva createdAt y updatedAt automáticos
   });
 };
+
+
+

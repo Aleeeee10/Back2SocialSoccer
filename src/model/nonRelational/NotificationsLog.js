@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 
-const NotificationsLogSchema = new mongoose.Schema({
-  userId: { type: String, required: true },
-  mensaje: { type: String, required: true },
-  tipo: { type: String, default: 'info' }, // info, warning, success, error
-  leido: { type: Boolean, default: false },
-  estado: { type: Boolean, default: true } // Campo para eliminación lógica - consistencia con otros modelos
-}, {
-  timestamps: true
+const notificationsLogSchema = new mongoose.Schema({
+    userId: String,
+    mensaje: String,
+    tipo: String,
+    leido: String,
+    estado: String
 });
 
-module.exports = mongoose.model('NotificationsLog', NotificationsLogSchema);
+const NotificationsLog = mongoose.model('NotificationsLog', notificationsLogSchema);
+
+module.exports = NotificationsLog;

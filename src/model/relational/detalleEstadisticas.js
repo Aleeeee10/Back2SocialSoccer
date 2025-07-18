@@ -1,26 +1,35 @@
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, types) => {
   return sequelize.define('detalleEstadisticas', {
     id: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
     goles: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: true
     },
     asistencias: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: true
     },
     estado: {
-      type: DataTypes.BOOLEAN,
+      type: types.STRING,
       allowNull: false,
-      defaultValue: true, // Campo estado agregado para consistencia con otros modelos
+ // Campo estado agregado para consistencia con otros modelos
       comment: 'Estado del detalle estadística: true = activo, false = inactivo'
+    },
+    fecha_creacion: {
+      type: types.STRING // Simplificado a tipo STRING
+    },
+    fecha_modificacion: {
+      type: types.STRING // Simplificado a tipo STRING
     }
   }, {
     freezeTableName: true,
     timestamps: false
   });
 };
+
+
+

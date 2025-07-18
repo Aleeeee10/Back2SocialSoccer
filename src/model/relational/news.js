@@ -1,35 +1,44 @@
 // Modelo de news - Define la estructura de la tabla news (noticias)
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, types) => {
   return sequelize.define('news', {
     id: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
     titulo: {
-      type: DataTypes.STRING,
+      type: types.STRING,
       allowNull: false
     },
     contenido: {
-      type: DataTypes.TEXT,
+      type: types.TEXT,
       allowNull: true
     },
     autor: {
-      type: DataTypes.STRING,
+      type: types.STRING,
       allowNull: true
     },
     fecha: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW
+      type: types.DATE,
+      defaultValue: types.NOW
     },
     estado: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true,
+      type: types.STRING,
+
       allowNull: false,
       comment: 'Estado de la noticia: true = activo, false = inactivo'
+    },
+    fecha_creacion: {
+      type: types.STRING // Simplificado a tipo STRING
+    },
+    fecha_modificacion: {
+      type: types.STRING // Simplificado a tipo STRING
     }
   }, {
     freezeTableName: false,  // permite pluralizar el nombre de la tabla a 'news'
     timestamps: false        // desactiva createdAt y updatedAt automáticos
   });
 };
+
+
+

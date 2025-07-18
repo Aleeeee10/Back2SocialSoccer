@@ -1,39 +1,48 @@
 // Modelo de posiciones - Define la estructura de la tabla posiciones (tabla de puntuaciones)
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, types) => {
   return sequelize.define('posiciones', {
     id: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
     puntos: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: true
     },
     partidosJugados: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: true
     },
     partidosGanados: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: true
     },
     partidosEmpatados: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: true
     },
     partidosPerdidos: {
-      type: DataTypes.INTEGER,
+      type: types.INTEGER,
       allowNull: true
     },
     estado: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true,
+      type: types.STRING,
+
       allowNull: false,
       comment: 'Estado de la posición: true = activo, false = inactivo'
+    },
+    fecha_creacion: {
+      type: types.STRING // Simplificado a tipo STRING
+    },
+    fecha_modificacion: {
+      type: types.STRING // Simplificado a tipo STRING
     }
   }, {
     freezeTableName: false,  // Permite pluralizar el nombre de la tabla a 'posiciones'
     timestamps: false        // Desactiva createdAt y updatedAt automáticos
   });
 };
+
+
+

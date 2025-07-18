@@ -1,220 +1,170 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const fs = require('fs');
-const path = require('path');
-const axios = require('axios');
 const orm = require('../dataBase/dataBase.orm');
 const mongo = require('../dataBase/dataBase.mongo'); // Importar conexión a MongoDB
-const sql = require('../dataBase/dataBase.sql'); // Importar conexión a SQL
-//llamara al sql 
 const bcrypt = require('bcrypt');
-const FormData = require('form-data');
-//const { cifrarDatos, descifrarDatos } = require('./encrypDates');
+const { cifrarDatos, descifrarDatos } = require('./encrypDates');
+const UserPreferences = require('../model/nonRelational/UserPreferences');
+const NotificationsLog = require('../model/nonRelational/NotificationsLog');
 
 
-const guardarYSubirArchivo = async (archivo, filePath, columnName, idEstudent, url, req) => {
-    const validaciones = {
-        imagen: [".PNG", ".JPG", ".JPEG", ".GIF", ".TIF", ".png", ".jpg", ".jpeg", ".gif", ".tif", ".ico", ".ICO", ".webp", ".WEBP"],
-        pdf: [".pdf", ".PDF"]
-    };
-    const tipoArchivo = columnName === 'photoEstudent' ? 'imagen' : 'pdf';
-    const validacion = path.extname(archivo.name);
-
-    if (!validaciones[tipoArchivo].includes(validacion)) {
-        throw new Error('Archivo no compatible.');
-    }
-
-    return new Promise((resolve, reject) => {
-        archivo.mv(filePath, async (err) => {
-            if (err) {
-                return reject(new Error('Error al guardar el archivo.'));
-            } else {
-                try {
-                    await sql.promise().query(`UPDATE students SET ${columnName} = ? WHERE idEstudent = ?`, [archivo.name, idEstudent]);
-
-                    const formData = new FormData();
-                    formData.append('image', fs.createReadStream(filePath), {
-                        filename: archivo.name,
-                        contentType: archivo.mimetype,
-                    });
-
-                    const response = await axios.post(url, formData, {
-                        headers: {
-                            'Content-Type': 'multipart/form-data',
-                            // 'X-CSRF-Token': req.csrfToken(), // COMENTADO PARA PRUEBAS
-                            'Cookie': req.headers.cookie
-                        },
-                    });
-
-                    if (response.status !== 200) {
-                        throw new Error('Error al subir archivo al servidor externo.');
-                    }
-
-                    resolve();
-                } catch (uploadError) {
-                    console.error('Error al subir archivo al servidor externo:', uploadError.message);
-                    reject(new Error('Error al subir archivo al servidor externo.'));
-                }
-            }
-        });
-    });
-};
-
+// ==================== ESTRATEGIA DE LOGIN ====================
 passport.use(
-    'local.teacherSignin',
+    'local.signin',
     new LocalStrategy(
         {
-            usernameField: 'username',
-            passwordField: 'password',
+            usernameField: 'email',
+            passwordField: 'contraseña',
             passReqToCallback: true,
         },
-        async (req, username, password, done) => {
-            const [users] = await sql.promise().query('SELECT * FROM teachers WHERE usernameTeahcer = ?', [username]);
-            const usuario = users[0]
-            if (usuario.usernameTeahcer == username) {
-                if (password == usuario.passwordTeacher) {
-                    return done(null, usuario, req.flash("success", "Bienvenido" + " " + usuario.username));
-                } else {
-                    return done(null, false, req.flash("message", "Datos incorrecta"));
-                }
-            }
-            return done(null, false, req.flash("message", "El nombre de usuario no existe."));
-        }
-    )
-);
-
-passport.use(
-    'local.studentSignin',
-    new LocalStrategy(
-        {
-            usernameField: 'username',
-            passwordField: 'password',
-            passReqToCallback: true,
-        },
-        async (req, username, password, done) => {
-            const [users] = await sql.promise().query('SELECT * FROM students WHERE usernameEstudent = ?', [username]);
-            const usuario = users[0]
-            if (usuario.usernameEstudent == username) {
-                if (password == usuario.passwordEstudent) {
-                    return done(null, usuario, req.flash("success", "Bienvenido" + " " + usuario.username));
-                } else {
-                    return done(null, false, req.flash("message", "Datos incorrecta"));
-                }
-            }
-            return done(null, false, req.flash("message", "El nombre de usuario no existe."));
-        }
-    )
-);
-
-passport.use(
-    'local.studentSignup',
-    new LocalStrategy(
-        {
-            usernameField: 'username', //por postam user name password, 
-            passwordField: 'password',
-            passReqToCallback: true,
-        },
-        async (req, username, password, done) => {
+        async (req, email, contraseña, done) => {
             try {
-                const existingUser = await orm.student.findOne({ where: { usernameEstudent: cifrarDatos(username) } });
-                if (existingUser) {
-                    return done(null, false, req.flash('message', 'La cedula del usuario ya existe.'));
-                } else {
-                    const {
-                        idEstudent,
-                        completeNameEstudent,
-                        emailEstudent,
-                        celularEstudent,
-                        ubicacion,
-                    } = req.body;
-
-                    let newClient = {
-                        idEstudent: idEstudent,
-                        identificationCardTeacher: cifrarDatos(username),
-                        celularEstudent: cifrarDatos(celularEstudent),
-                        emailEstudent: cifrarDatos(emailEstudent),
-                        completeNameEstudent: cifrarDatos(completeNameEstudent),
-                        usernameEstudent: username,
-                        passwordEstudent: password,
-                        ubicationStudent: ubicacion,
-                        rolStudent: 'student',
-                        stateEstudent: 'Activar',
-                        createStudent: new Date().toLocaleString()
-                    };
-
-                    const guardar = await orm.student.create(newClient);
-
-                    if (req.files) {
-                        const { photoEstudent } = req.files;
-
-                        // Guardar y subir foto del profesor
-                        if (photoEstudent) {
-                            const photoFilePath = path.join(__dirname, '/../public/img/usuario/', photoEstudent.name);
-                            await guardarYSubirArchivo(photoEstudent, photoFilePath, 'photoEstudent', idEstudent, 'https://www.central.profego-edu.com/imagenEstudiante', req);
-                        }
-                    }
-
-                    newClient.id = guardar.insertId
-                    return done(null, newClient);
+                // Buscar usuario por email
+                const usuario = await orm.users.findOne({ where: { email: email } });
+                
+                if (!usuario) {
+                    return done(null, false, req.flash("message", "El usuario no existe."));
                 }
+
+                // Verificar si el usuario está activo
+                if (!usuario.estado) {
+                    return done(null, false, req.flash("message", "Usuario desactivado. Contacte al administrador."));
+                }
+
+                // Comparar contraseña (si usas hash)
+                // const isValidPassword = await bcrypt.compare(contraseña, usuario.contraseña);
+                // Si no usas hash, comparación directa:
+                const isValidPassword = contraseña === usuario.contraseña;
+
+                if (!isValidPassword) {
+                    return done(null, false, req.flash("message", "Contraseña incorrecta."));
+                }
+
+                // Obtener preferencias del usuario desde MongoDB
+                const userPreferences = await UserPreferences.findOne({ userId: usuario.id.toString() });
+
+                // Crear objeto de usuario completo para la sesión
+                const userComplete = {
+                    id: usuario.id,
+                    nombre: usuario.nombre,
+                    email: usuario.email,
+                    avatar: usuario.avatar,
+                    estado: usuario.estado,
+                    preferencias: userPreferences || null
+                };
+
+                return done(null, userComplete, req.flash("success", `¡Bienvenido ${usuario.nombre}!`));
+
             } catch (error) {
+                console.error('Error en login:', error);
                 return done(error);
             }
         }
     )
 );
 
+// ==================== ESTRATEGIA DE REGISTRO ====================
 passport.use(
-    'local.teacherSignup',
+    'local.signup',
     new LocalStrategy(
         {
-            usernameField: 'username',
-            passwordField: 'password',
+            usernameField: 'email',
+            passwordField: 'contraseña',
             passReqToCallback: true,
         },
-        async (req, username, password, done) => {
+        async (req, email, contraseña, done) => {
             try {
-                const existingUser = await orm.teacher.findOne({ where: { identificationCardTeacher: username } });
+                // Verificar si el usuario ya existe
+                const existingUser = await orm.users.findOne({ where: { email: email } });
                 if (existingUser) {
-                    return done(null, false, req.flash('message', 'La cedula del usuario ya existe.'));
-                } else {
-                    const {
-                        idTeacher,
-                        completeNmeTeacher,
-                        emailTeacher,
-                        phoneTeacher
-                    } = req.body;
-
-                    let newClient = {
-                        idTeacher: idTeacher,
-                        identificationCardTeacher: cifrarDatos(username),
-                        phoneTeacher: cifrarDatos(phoneTeacher),
-                        emailTeacher: cifrarDatos(emailTeacher),
-                        completeNmeTeacher: cifrarDatos(completeNmeTeacher),
-                        usernameTeahcer: username,
-                        passwordTeacher: password,
-                        rolTeacher: 'teacher',
-                        stateTeacher: 'pendiente',
-                        createTeahcer: new Date().toLocaleString()
-                    };
-                    const guardar = await orm.teacher.create(newClient);
-                    newClient.id = guardar.insertId
-                    return done(null, newClient);
+                    return done(null, false, req.flash('message', 'El email ya está registrado.'));
                 }
+
+                const { nombre, avatar, tema = 'claro', idioma = 'es', notificacionesEnabled = true } = req.body;
+
+                // Hashear contraseña (recomendado para producción)
+                // const hashedPassword = await bcrypt.hash(contraseña, 10);
+
+                // 1. Crear usuario en MySQL
+                const newUser = await orm.users.create({
+                    nombre,
+                    email,
+                    contraseña, // En producción usar: hashedPassword
+                    avatar: avatar || null,
+                    estado: true
+                });
+
+                // 2. Crear preferencias del usuario en MongoDB
+                const userPreferences = new UserPreferences({
+                    userId: newUser.id.toString(),
+                    tema,
+                    notificaciones: notificacionesEnabled,
+                    idioma,
+                    estado: true
+                });
+                await userPreferences.save();
+
+                // 3. Crear notificación de bienvenida
+                const welcomeNotification = new NotificationsLog({
+                    userId: newUser.id.toString(),
+                    mensaje: `¡Bienvenido ${nombre}! Tu cuenta ha sido creada exitosamente.`,
+                    tipo: 'success',
+                    leido: false,
+                    estado: true
+                });
+                await welcomeNotification.save();
+
+                // Objeto completo para la sesión
+                const userComplete = {
+                    id: newUser.id,
+                    nombre: newUser.nombre,
+                    email: newUser.email,
+                    avatar: newUser.avatar,
+                    estado: newUser.estado,
+                    preferencias: userPreferences
+                };
+
+                return done(null, userComplete, req.flash('success', `¡Cuenta creada exitosamente! Bienvenido ${nombre}.`));
+
             } catch (error) {
+                console.error('Error en registro:', error);
                 return done(error);
             }
         }
     )
 );
 //doble ingreso relacion no realcional
-// Utilizar un metodo de logeo para el usuario passport ayuda al metodo de logeo 
+// Serialización para manejo de sesiones
 passport.serializeUser((user, done) => {
-    done(null, user);
+    done(null, user.id);
 });
 
-passport.deserializeUser((user, done) => {
-    done(null, user);
+passport.deserializeUser(async (id, done) => {
+    try {
+        // Obtener usuario de MySQL
+        const usuario = await orm.users.findByPk(id);
+        if (!usuario) {
+            return done(null, false);
+        }
+
+        // Obtener preferencias de MongoDB
+        const userPreferences = await UserPreferences.findOne({ userId: id.toString() });
+
+        // Objeto completo del usuario
+        const userComplete = {
+            id: usuario.id,
+            nombre: usuario.nombre,
+            email: usuario.email,
+            avatar: usuario.avatar,
+            estado: usuario.estado,
+            preferencias: userPreferences || null
+        };
+
+        done(null, userComplete);
+    } catch (error) {
+        console.error('Error en deserialización:', error);
+        done(error, null);
+    }
 });
 
 module.exports = passport;

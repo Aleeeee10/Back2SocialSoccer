@@ -60,26 +60,25 @@ process.on('SIGINT', async () => {
 connectDB();
 
 // 5. Exportar modelos (ajusta las rutas según tu estructura)
-const ActivityLogsModel = require('../model/nonRelational/ActivityLogs');
 const FavoritosModel = require('../model/nonRelational/favoritos');
-const MensajesModel = require('../model/nonRelational/mensajes');
 const NotificationsLogModel = require('../model/nonRelational/NotificationsLog');
 const UserPreferencesModel = require('../model/nonRelational/UserPreferences');
-const ReportesIncidenciasModel = require('../model/nonRelational/ReportesIncidencias');
 const LogsErroresModel = require('../model/nonRelational/LogsErrores');
-const HistorialLoginModel = require('../model/nonRelational/HistorialLogin');
-const HistorialCambiosPerfilModel = require('../model/nonRelational/HistorialCambiosPerfil');
 const EncuestasFeedbackModel = require('../model/nonRelational/EncuestasFeedback');
+// Nuevos modelos con lógica
+const PlayerStatsModel = require('../model/nonRelational/PlayerStats');
+const MatchEventsModel = require('../model/nonRelational/MatchEvents');
+const TeamSocialModel = require('../model/nonRelational/TeamSocial');
+const TournamentBracketsModel = require('../model/nonRelational/TournamentBrackets');
 
 module.exports = {
-  ActivityLogsModel,
   FavoritosModel,
-  MensajesModel,
   NotificationsLogModel,
   UserPreferencesModel,
-  ReportesIncidenciasModel,
   LogsErroresModel,
-  HistorialLoginModel,
-  HistorialCambiosPerfilModel,
   EncuestasFeedbackModel,
+  PlayerStatsModel,
+  MatchEventsModel,
+  TeamSocialModel,
+  TournamentBracketsModel,
 };
