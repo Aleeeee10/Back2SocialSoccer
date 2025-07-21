@@ -1,5 +1,5 @@
 module.exports = (sequelize, types) => {
-  return sequelize.define('comentario', {  // modelo en singular para que Sequelize pluralice
+  return sequelize.define('comentarios', {  // modelo en singular para que Sequelize pluralice
     id: {
       type: types.INTEGER,
       primaryKey: true,
@@ -11,14 +11,6 @@ module.exports = (sequelize, types) => {
     },
     tipo: {
       type: types.STRING,
-      allowNull: false
-    },
-    entidadId: {
-      type: types.INTEGER,
-      allowNull: false
-    },
-    autorId: {
-      type: types.INTEGER,
       allowNull: false
     },
     creadoEn: {
