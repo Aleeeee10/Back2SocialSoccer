@@ -31,33 +31,26 @@ const app = express();
 app.set('port', process.env.PORT || 3000);
 
 // ==================== CONFIGURACIÓN DE LOGS MEJORADA ====================
-
-// 1. Configuración de directorio de logs
 const logDir = path.join(__dirname, '../logs');
 if (!fs.existsSync(logDir)) {
     fs.mkdirSync(logDir);
 }
 
-// 2. Configuración de Winston para logs unificados (consola y archivo)
 const logger = winston.createLogger({
     level: 'info',
     format: winston.format.combine(
         winston.format.timestamp({
             format: 'YYYY-MM-DD HH:mm:ss'
         }),
-        winston.format.printf(info => {
-            return `${info.timestamp} [${info.level.toUpperCase()}]: ${info.message}`;
-        })
+        winston.format.printf(info => `${info.timestamp} [${info.level.toUpperCase()}]: ${info.message}`)
     ),
     transports: [
-        // Transporte para archivo (siempre activo)
         new winston.transports.File({
             filename: path.join(logDir, 'app.log'),
-            maxsize: 10 * 1024 * 1024, // 10MB
+            maxsize: 10 * 1024 * 1024,
             maxFiles: 5,
             tailable: true
         }),
-        // Transporte para consola (siempre activo)
         new winston.transports.Console({
             format: winston.format.combine(
                 winston.format.colorize(),
@@ -67,38 +60,29 @@ const logger = winston.createLogger({
     ]
 });
 
-// Sobrescribir los métodos console para redirigir a Winston
 console.log = (...args) => logger.info(args.join(' '));
 console.info = (...args) => logger.info(args.join(' '));
 console.warn = (...args) => logger.warn(args.join(' '));
 console.error = (...args) => logger.error(args.join(' '));
 console.debug = (...args) => logger.debug(args.join(' '));
 
-// 3. Configurar Morgan para usar Winston
 const morganFormat = process.env.NODE_ENV === 'production' ? 'combined' : 'dev';
 app.use(morgan(morganFormat, {
     stream: {
-        write: (message) => {
-            // Eliminar saltos de línea innecesarios
-            const cleanedMessage = message.replace(/\n$/, '');
-            logger.info(cleanedMessage);
-        }
+        write: (message) => logger.info(message.trim())
     }
 }));
 
 // ==================== CONFIGURACIÓN DE SEGURIDAD MEJORADA ====================
-
-// 4. Middleware de protección contra sobrecarga del servidor
 app.use((req, res, next) => {
     if (toobusy()) {
-        logger.warn('Server too busy!');
-        res.status(503).json({ error: 'Server too busy. Please try again later.' });
+        res.status(503).send("Server Too Busy");
     } else {
         next();
     }
 });
 
-// Habilitar CORS (configura según tus necesidades)
+// Habilitar CORS
 app.use(cors({
   origin: process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : 'http://localhost:5173',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
@@ -106,9 +90,7 @@ app.use(cors({
   credentials: true
 }));
 
-// 5. Configuración de Helmet
-app.use(
-  helmet({
+app.use(helmet({
     contentSecurityPolicy: {
       directives: {
         ...helmet.contentSecurityPolicy.getDefaultDirectives(),
@@ -135,136 +117,73 @@ app.use(
       }
     },
     referrerPolicy: { policy: "strict-origin-when-cross-origin" }
-  })
-);
+}));
 
-// 6. Protección contra HTTP Parameter Pollution
 app.use(hpp());
+app.use(compression());
 
-// 7. Limitar tamaño de payload
-app.use(express.json({ limit: '100kb' }));
-app.use(express.urlencoded({ extended: true, limit: '100kb' }));
+// ==================== MIDDLEWARES BÁSICOS ====================
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ extended: true, limit: '50mb' }));
+app.use(cookieParser());
 
-// 8. Rate limiting para prevenir ataques de fuerza bruta
-const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000,
-    max: 100,
-    handler: (req, res) => {
-        logger.warn(`Rate limit exceeded for IP: ${req.ip}`);
-        res.status(429).json({
-            error: 'Too many requests, please try again later.'
-        });
+// ==================== CONFIGURACIÓN DE SESIONES ====================
+const sessionStore = new MySQLStore({
+    host: MYSQLHOST,
+    port: MYSQLPORT,
+    user: MYSQLUSER,
+    password: MYSQLPASSWORD,
+    database: MYSQLDATABASE,
+    createDatabaseTable: true,
+    schema: {
+        tableName: 'sessions',
+        columnNames: {
+            session_id: 'session_id',
+            expires: 'expires',
+            data: 'data'
+        }
     }
 });
-app.use(limiter);
 
-// 9. Configuración avanzada de cookies
-app.use(cookieParser(
-    process.env.COOKIE_SECRET || crypto.randomBytes(64).toString('hex'),
-    {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === 'production',
-        sameSite: 'strict',
-        maxAge: 24 * 60 * 60 * 1000
-    }
-));
-
-// 10. Configuración de sesiones seguras
-const sessionConfig = {
-    store: new MySQLStore({
-        host: MYSQLHOST,
-        port: MYSQLPORT,
-        user: MYSQLUSER,
-        password: MYSQLPASSWORD,
-        database: MYSQLDATABASE,
-        createDatabaseTable: true
-    }),
-    secret: process.env.SESSION_SECRET || crypto.randomBytes(64).toString('hex'),
+app.use(session({
+    secret: process.env.SESSION_SECRET || 'futbolsocial2024secret',
+    store: sessionStore,
     resave: false,
     saveUninitialized: false,
-    cookie: {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === 'production',
-        sameSite: 'strict',
-        maxAge: 24 * 60 * 60 * 1000
-    },
-    name: 'secureSessionId',
     rolling: true,
-    unset: 'destroy'
-};
+    cookie: {
+        secure: process.env.NODE_ENV === 'production',
+        httpOnly: true,
+        maxAge: 24 * 60 * 60 * 1000, // 24 horas
+        sameSite: 'lax'
+    },
+    name: 'futbolsocial.sid'
+}));
 
-if (process.env.NODE_ENV === 'production') {
-    app.set('trust proxy', 1);
-    sessionConfig.cookie.secure = true;
-}
-
-app.use(session(sessionConfig));
+// ==================== PASSPORT Y FLASH ====================
 app.use(flash());
+app.use(passport.initialize());
+app.use(passport.session());
 
-// 11. CSRF Protection mejorada
+// ==================== CONFIGURACIÓN CSRF ====================
 const csrfProtection = csrf({
     cookie: {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
-        sameSite: 'strict'
+        sameSite: 'lax'
     }
 });
-app.use(csrfProtection);
 
-// 12. Headers de seguridad adicionales
+// ✅ APLICAR CSRF SOLO A RUTAS ESPECÍFICAS
+app.use('/auth/register', csrfProtection);
+app.use('/auth/login', csrfProtection);
+
+// ==================== MIDDLEWARES PERSONALIZADOS ====================
 app.use((req, res, next) => {
-    res.setHeader('X-Frame-Options', 'DENY');
-    res.setHeader('X-Content-Type-Options', 'nosniff');
-    res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
-    res.setHeader('Feature-Policy', "geolocation 'none'; microphone 'none'; camera 'none'");
-    next();
-});
-
-// 13. Validación de entrada global
-app.use((req, res, next) => {
-    // Sanitizar parámetros de consulta
-    for (const key in req.query) {
-        if (typeof req.query[key] === 'string') {
-            req.query[key] = escape(req.query[key]);
-        }
-    }
-    
-    // Sanitizar cuerpo de la petición
-    if (req.body) {
-        for (const key in req.body) {
-            if (typeof req.body[key] === 'string') {
-                req.body[key] = escape(req.body[key]);
-            }
-        }
-    }
-    
-    next();
-});
-
-// ==================== MIDDLEWARE ADICIONAL ====================
-
-// Configurar middleware de subida de archivos
-app.use(fileUpload({
-    createParentPath: true,
-    limits: { fileSize: 5 * 1024 * 1024 },
-    abortOnLimit: true,
-    safeFileNames: true,
-    preserveExtension: true
-}));
-
-// Middleware de compresión
-app.use(compression());
-
-// Configurar passport
-app.use(passport.initialize());
-app.use(passport.session());
-
-// Middleware para pasar datos comunes a las respuestas
-app.use((req, res, next) => {
-    // Para API responses en JSON
-    res.apiResponse = (data, status = 200, message = '') => {
+    // ✅ Funciones helper para respuestas API
+    res.apiSuccess = (data, message = 'Success', status = 200) => {
         const response = {
-            success: status >= 200 && status < 300,
+            success: true,
             message,
             data
         };
@@ -280,20 +199,21 @@ app.use((req, res, next) => {
         return res.status(status).json(response);
     };
     
-    res.locals.csrfToken = req.csrfToken(); // CSRF token habilitado
+    // ✅ Solo agregar CSRF token si el middleware está activo
+    if (req.csrfToken) {
+        res.locals.csrfToken = req.csrfToken();
+    }
+    
     next();
 });
 
 // ==================== RUTAS CSRF TOKEN ====================
-app.get('/api/csrf-token', (req, res) => {
+app.get('/api/csrf-token', csrfProtection, (req, res) => {
   res.json({ csrfToken: req.csrfToken() });
 });
 
-// ==================== CONEXIONES BASE DE DATOS ====================
-
-
 // ==================== RUTAS API ====================
-// Importar y configurar rutas como API
+app.use('/auth', require('./router/auth'));
 app.use('/users', require('./router/users'));
 app.use('/roles', require('./router/roles'));
 app.use('/detalle-rol', require('./router/detalleRol'));
@@ -301,57 +221,40 @@ app.use('/teams', require('./router/teams'));
 app.use('/players', require('./router/players'));
 app.use('/referees', require('./router/referees'));
 app.use('/matches', require('./router/matches'));
-app.use('/news', require('./router/news'));
-app.use('/division', require('./router/division'));
-app.use('/detalle-division', require('./router/detalleDivision'));
+app.use('/tarjetas', require('./router/tarjetas'));
+app.use('/goles', require('./router/goles'));
+app.use('/asistencias', require('./router/asistencias'));
+app.use('/canchas', require('./router/canchas'));
+app.use('/agenda-entrenamientos', require('./router/agendaEntrenamientos'));
+app.use('/posiciones', require('./router/posiciones'));
 app.use('/estadisticas', require('./router/estadisticas'));
 app.use('/detalle-estadisticas', require('./router/detalleEstadisticas'));
 app.use('/resultados', require('./router/resultados'));
-app.use('/detalle-resultados', require('./router/detalleResultados'));
-app.use('/tarjetas', require('./router/tarjetas'));
-app.use('/canchas', require('./router/canchas'));
 app.use('/detalle-jugadores', require('./router/detalleJugadores'));
-app.use('/posiciones', require('./router/posiciones'));
-app.use('/torneos', require('./router/torneos'));
-app.use('/inscripciones-torneo', require('./router/inscripcionesTorneo'));
-app.use('/agenda-entrenamientos', require('./router/agendaEntrenamientos'));
+app.use('/activity-logs', require('./router/activityLogs'));
 app.use('/comentarios', require('./router/comentarios'));
-// app.use('/notifications-log', require('./router/notificationsLog')); // Comentado temporalmente - falta crear el router
+app.use('/likes', require('./router/likes'));
+app.use('/notificaciones', require('./router/notificaciones'));
 app.use('/user-preferences', require('./router/userPreferences'));
-
-// ==================== RUTAS DE AUTENTICACIÓN ====================
-app.use('/auth', require('./router/auth'));
-
-// Configurar variables globales
-app.use((req, res, next) => {
-    app.locals.message = req.flash('message');
-    app.locals.success = req.flash('success');
-    app.locals.user = req.user || null;
-    next();
-});
+app.use('/notifications-log', require('./router/notificationsLog'));
+app.use('/teams-social', require('./router/teamsSocial'));
+app.use('/mensajes', require('./router/mensajes'));
 
 // ==================== MANEJO DE ERRORES ====================
-
-// Middleware de manejo de errores mejorado para API
 app.use((err, req, res, next) => {
-    if (res.headersSent) {
-        return next(err);
-    }
-
-    logger.error(`Error: ${err.message}\nStack: ${err.stack}`);
-
-    // Respuestas de error estandarizadas
-    if (err.name === 'ValidationError') {
-        return res.apiError('Validation error', 400, err.errors);
-    }
-
+    console.error('Error Stack:', err.stack);
+    
     // CSRF token validation error
     if (err.code === 'EBADCSRFTOKEN') {
-        return res.apiError('CSRF token validation failed', 403);
+        return res.status(403).json({
+            success: false,
+            message: 'CSRF token validation failed'
+        });
     }
 
     // Error no manejado
     const errorResponse = {
+        success: false,
         message: 'Internal server error',
         error: process.env.NODE_ENV === 'development' ? err.message : undefined,
         stack: process.env.NODE_ENV === 'development' ? err.stack : undefined
@@ -360,20 +263,14 @@ app.use((err, req, res, next) => {
     res.status(500).json(errorResponse);
 });
 
-// Middleware para rutas no encontradas (API)
+// Middleware para rutas no encontradas
 app.use((req, res, next) => {
     logger.warn(`404 Not Found: ${req.originalUrl}`);
     
-    // Verificar si res.apiError está disponible, si no usar respuesta estándar
-    if (res.apiError) {
-        res.apiError('Endpoint not found', 404);
-    } else {
-        res.status(404).json({
-            success: false,
-            message: 'Endpoint not found'
-        });
-    }
+    res.status(404).json({
+        success: false,
+        message: 'Endpoint not found'
+    });
 });
 
-// Exportar la aplicación
 module.exports = app;

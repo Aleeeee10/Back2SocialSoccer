@@ -19,44 +19,53 @@ passport.use(
         },
         async (req, email, contraseña, done) => {
             try {
-                // Buscar usuario por email
-                const usuario = await orm.users.findOne({ where: { email: email } });
+                console.log('🔍 Intentando login para:', email)
                 
-                if (!usuario) {
-                    return done(null, false, req.flash("message", "El usuario no existe."));
+                // ✅ CORREGIR: Incluir información del rol en la consulta
+                const user = await orm.users.findOne({ 
+                    where: { emailUser: email },
+                    include: [{
+                        model: orm.roles,
+                        as: 'role', // Usar el alias de la relación
+                        attributes: ['idRoles', 'nameRole']
+                    }]
+                });
+
+                if (!user) {
+                    console.log('❌ Usuario no encontrado:', email)
+                    return done(null, false, req.flash('message', 'Usuario no encontrado'));
                 }
 
-                // Verificar si el usuario está activo
-                if (!usuario.estado) {
-                    return done(null, false, req.flash("message", "Usuario desactivado. Contacte al administrador."));
+                // Verificar contraseña
+                if (user.passwordUser !== contraseña) {
+                    console.log('❌ Contraseña incorrecta para:', email)
+                    return done(null, false, req.flash('message', 'Contraseña incorrecta'));
                 }
 
-                // Comparar contraseña (si usas hash)
-                // const isValidPassword = await bcrypt.compare(contraseña, usuario.contraseña);
-                // Si no usas hash, comparación directa:
-                const isValidPassword = contraseña === usuario.contraseña;
-
-                if (!isValidPassword) {
-                    return done(null, false, req.flash("message", "Contraseña incorrecta."));
-                }
-
-                // Obtener preferencias del usuario desde MongoDB
-                const userPreferences = await UserPreferences.findOne({ userId: usuario.id.toString() });
-
-                // Crear objeto de usuario completo para la sesión
+                // ✅ NUEVO: Crear objeto completo con información del rol
                 const userComplete = {
-                    id: usuario.id,
-                    nombre: usuario.nombre,
-                    email: usuario.email,
-                    avatar: usuario.avatar,
-                    estado: usuario.estado,
-                    preferencias: userPreferences || null
+                    id: user.idUsers,
+                    nombre: user.nameUser,
+                    email: user.emailUser,
+                    avatar: user.avatar || null,
+                    estado: user.stateUser,
+                    role: user.role?.nameRole || 'Usuario', // ✅ Nombre del rol
+                    roleId: user.idRole, // ✅ ID del rol
+                    telefono: user.phoneUser,
+                    username: user.usernameUser
                 };
 
-                return done(null, userComplete, req.flash("success", `¡Bienvenido ${usuario.nombre}!`));
+                console.log('✅ Usuario autenticado:', {
+                    id: userComplete.id,
+                    nombre: userComplete.nombre,
+                    role: userComplete.role,
+                    roleId: userComplete.roleId
+                })
+
+                return done(null, userComplete);
 
             } catch (error) {
-                console.error('Error en login:', error);
+                console.error('❌ Error en login:', error);
                 return done(error);
             }
         }
@@ -74,29 +83,63 @@ passport.use(
         },
         async (req, email, contraseña, done) => {
             try {
-                // Verificar si el usuario ya existe
-                const existingUser = await orm.users.findOne({ where: { email: email } });
+                // Verificar si el usuario ya existe - ✅ CORREGIDO: usar emailUser
+                const existingUser = await orm.users.findOne({ where: { emailUser: email } });
                 if (existingUser) {
                     return done(null, false, req.flash('message', 'El email ya está registrado.'));
                 }
 
-                const { nombre, avatar, tema = 'claro', idioma = 'es', notificacionesEnabled = true } = req.body;
+                const { nombre, avatar, tema = 'claro', idioma = 'es', notificacionesEnabled = true, idRole } = req.body;
 
-                // Hashear contraseña (recomendado para producción)
-                // const hashedPassword = await bcrypt.hash(contraseña, 10);
+                // ✅ NUEVO: Validar que el rol existe
+                let roleToAssign = idRole ? parseInt(idRole) : 2; // Por defecto rol 2 (Usuario)
+                
+                // ✅ CORREGIR: Permitir que los usuarios se registren con cualquier rol
+                if (roleToAssign) {
+                    const roleExists = await orm.roles.findOne({ 
+                        where: { 
+                            idRoles: roleToAssign, 
+                            stateRole: 'activo'
+                        } 
+                    });
+                    
+                    if (!roleExists) {
+                        return done(null, false, req.flash('message', 'El rol seleccionado no es válido.'));
+                    }
+                    
+                    // ✅ ELIMINAR ESTA PARTE que fuerza el rol a Usuario:
+                    /*
+                    if (roleExists.nameRole === 'Administrador' && !req.body.allowAdmin) {
+                        console.log('⚠️ Intento de registro como administrador sin permisos');
+                        roleToAssign = 2; // Forzar rol de usuario normal
+                    }
+                    */
+                    
+                    // ✅ OPCIONAL: Solo mostrar advertencia pero permitir el registro
+                    if (roleExists.nameRole === 'Administrador') {
+                        console.log('⚠️ Nuevo administrador registrado:', email);
+                    }
+                }
 
-                // 1. Crear usuario en MySQL
+                // Crear nuevo usuario
                 const newUser = await orm.users.create({
-                    nombre,
-                    email,
-                    contraseña, // En producción usar: hashedPassword
-                    avatar: avatar || null,
-                    estado: true
+                    nameUser: nombre,               
+                    emailUser: email,               
+                    passwordUser: contraseña,       
+                    phoneUser: req.body.telefono || null,
+                    usernameUser: req.body.username || null,
+                    stateUser: 'activo',           
+                    createUser: new Date().toISOString(),
+                    updateUser: new Date().toISOString(),
+                    idRole: roleToAssign  // ✅ Usar el rol seleccionado
                 });
 
-                // 2. Crear preferencias del usuario en MongoDB
+                // ✅ NUEVO: Obtener información del rol asignado
+                const assignedRole = await orm.roles.findByPk(roleToAssign);
+
+                // 2. Crear preferencias del usuario en MongoDB - ✅ CORREGIDO: usar idUsers
                 const userPreferences = new UserPreferences({
-                    userId: newUser.id.toString(),
+                    userId: newUser.idUsers.toString(),
                     tema,
                     notificaciones: notificacionesEnabled,
                     idioma,
@@ -104,27 +147,29 @@ passport.use(
                 });
                 await userPreferences.save();
 
-                // 3. Crear notificación de bienvenida
+                // 3. Crear notificación de bienvenida - ✅ CORREGIDO: usar idUsers y nameUser
                 const welcomeNotification = new NotificationsLog({
-                    userId: newUser.id.toString(),
-                    mensaje: `¡Bienvenido ${nombre}! Tu cuenta ha sido creada exitosamente.`,
+                    userId: newUser.idUsers.toString(),
+                    mensaje: `¡Bienvenido ${newUser.nameUser}! Tu cuenta ha sido creada exitosamente como ${assignedRole?.nameRole || 'Usuario'}.`,
                     tipo: 'success',
                     leido: false,
                     estado: true
                 });
                 await welcomeNotification.save();
 
-                // Objeto completo para la sesión
+                // Objeto completo para la sesión - ✅ CORREGIDO: incluir información de rol
                 const userComplete = {
-                    id: newUser.id,
-                    nombre: newUser.nombre,
-                    email: newUser.email,
-                    avatar: newUser.avatar,
-                    estado: newUser.estado,
+                    id: newUser.idUsers,
+                    nombre: newUser.nameUser,
+                    email: newUser.emailUser,
+                    avatar: newUser.avatar || null,
+                    estado: newUser.stateUser,
+                    role: assignedRole?.nameRole || 'Usuario',  // ✅ Nombre del rol
+                    roleId: roleToAssign,           // ✅ ID del rol
                     preferencias: userPreferences
                 };
 
-                return done(null, userComplete, req.flash('success', `¡Cuenta creada exitosamente! Bienvenido ${nombre}.`));
+                return done(null, userComplete, req.flash('success', `¡Cuenta creada exitosamente! Bienvenido ${newUser.nameUser} como ${assignedRole?.nombre || 'Usuario'}.`));
 
             } catch (error) {
                 console.error('Error en registro:', error);
@@ -133,16 +178,17 @@ passport.use(
         }
     )
 );
-//doble ingreso relacion no realcional
-// Serialización para manejo de sesiones
+
+//doble ingreso relacion no relacional
+// Serialización para manejo de sesiones - ✅ CORREGIDO: ya usa id (que será idUsers)
 passport.serializeUser((user, done) => {
-    done(null, user.id);
+    done(null, user.id); // Este será idUsers
 });
 
 passport.deserializeUser(async (id, done) => {
     try {
-        // Obtener usuario de MySQL
-        const usuario = await orm.users.findByPk(id);
+        // Obtener usuario de MySQL - ✅ CORREGIDO: usar idUsers como PK
+        const usuario = await orm.users.findByPk(id); // Busca por idUsers
         if (!usuario) {
             return done(null, false);
         }
@@ -150,13 +196,13 @@ passport.deserializeUser(async (id, done) => {
         // Obtener preferencias de MongoDB
         const userPreferences = await UserPreferences.findOne({ userId: id.toString() });
 
-        // Objeto completo del usuario
+        // Objeto completo del usuario - ✅ CORREGIDO: usar campos correctos
         const userComplete = {
-            id: usuario.id,
-            nombre: usuario.nombre,
-            email: usuario.email,
-            avatar: usuario.avatar,
-            estado: usuario.estado,
+            id: usuario.idUsers,            // ✅ Cambiar de id a idUsers
+            nombre: usuario.nameUser,       // ✅ Cambiar de nombre a nameUser
+            email: usuario.emailUser,       // ✅ Cambiar de email a emailUser
+            avatar: usuario.avatar || null,
+            estado: usuario.stateUser,      // ✅ Cambiar de estado a stateUser
             preferencias: userPreferences || null
         };
 

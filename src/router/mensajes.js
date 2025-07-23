@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-// Rutas básicas para preferencias de usuario
+// Rutas básicas para mensajes
 router.get('/', (req, res) => {
     res.json({
         success: true,
-        message: 'Router de preferencias de usuario funcionando',
+        message: 'Router de mensajes funcionando',
         data: []
     });
 });
@@ -13,14 +13,14 @@ router.get('/', (req, res) => {
 router.post('/crear', (req, res) => {
     res.json({
         success: true,
-        message: 'Endpoint para crear preferencias - En desarrollo'
+        message: 'Endpoint para crear mensajes - En desarrollo'
     });
 });
 
 router.get('/lista', (req, res) => {
     res.json({
         success: true,
-        message: 'Lista de preferencias - En desarrollo',
+        message: 'Lista de mensajes - En desarrollo',
         data: []
     });
 });

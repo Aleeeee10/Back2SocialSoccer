@@ -1,43 +1,66 @@
-module.exports = (sequelize, types) => { //exportar tupes 
-  return sequelize.define('users', {
-    id: {
+module.exports = (sequelize, types) => {
+  const Users = sequelize.define('users', {
+    idUsers: {  
       type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
-    nombre: {
+    nameUser: {  
       type: types.STRING,
       allowNull: false
     },
-    email: {
+    emailUser: {  
       type: types.STRING,
       allowNull: false,
       unique: true
     },
-    contraseña: {
-      type: types.STRING,
-      allowNull: false
-    },
-    avatar: {
+    phoneUser: {  
       type: types.STRING,
       allowNull: true
     },
-    estado: {
-      type: types.STRING, //el estado no true false, se transofrman  en por ejemplo uso mantenimiento
-
+    usernameUser: {  
+      type: types.STRING,
+      allowNull: true
     },
-    fecha_creacion: {
-      type: types.STRING // Simplificado a tipo STRING
+    passwordUser: {  
+      type: types.STRING,
+      allowNull: false
     },
-    fecha_modificacion: {
-      type: types.STRING // Simplificado a tipo STRING
+    stateUser: {  
+      type: types.STRING,
+      allowNull: false,
+      defaultValue: 'activo'
+    },
+    createUser: {  
+      type: types.STRING
+    },
+    updateUser: {  
+      type: types.STRING
+    },
+    idRole: {
+      type: types.INTEGER,
+      allowNull: true,
+      references: {
+        model: 'roles',
+        key: 'idRoles'  // ✅ CORREGIDO: cambiar de 'id' a 'idRoles'
+      }
     }
   }, {
-    freezeTableName: false,  // Permite que Sequelize pluralice como 'users'
-    timestamps: false        // No se crean campos createdAt y updatedAt
+    tableName: 'users',  
+    freezeTableName: true,  
+    timestamps: false
   });
+
+  // ✅ IMPORTANTE: Definir la asociación
+  Users.associate = (models) => {
+    Users.belongsTo(models.roles, {
+      foreignKey: 'idRole',
+      as: 'role'
+    });
+  };
+
+  return Users;
 };
- // no seria string sINO TIPO text 
 
 
 

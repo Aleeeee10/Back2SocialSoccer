@@ -1,5 +1,5 @@
 {
-  "name": "iotwaterejemplo",
+  "name": "socialsoccer",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "cookie-parser": "^1.4.6",
     "crypto-js": "^4.2.0",
     "csurf": "^1.2.2",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "express": "^4.19.2",
     "express-fileupload": "^1.5.1",
     "express-handlebars": "^8.0.1",

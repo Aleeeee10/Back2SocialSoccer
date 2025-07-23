@@ -92,9 +92,9 @@ router.post('/login', isNotLoggedIn, (req, res, next) => {
                 });
             }
 
-            res.json({
+            res.status(200).json({
                 success: true,
-                message: req.flash('success')[0] || 'Inicio de sesión exitoso',
+                message: `¡Bienvenido ${user.nombre}!`,
                 user: {
                     id: user.id,
                     nombre: user.nombre,
@@ -122,9 +122,20 @@ router.post('/logout', isLoggedIn, (req, res) => {
             });
         }
         
-        res.json({
-            success: true,
-            message: `¡Hasta luego ${userName}! Sesión cerrada exitosamente.`
+        // ✅ Destruir sesión completamente
+        req.session.destroy((err) => {
+            if (err) {
+                return res.status(500).json({
+                    success: false,
+                    message: 'Error al destruir sesión'
+                });
+            }
+            
+            res.clearCookie('futbolsocial.sid');
+            res.json({
+                success: true,
+                message: `¡Hasta luego ${userName}! Sesión cerrada exitosamente.`
+            });
         });
     });
 });
@@ -155,6 +166,43 @@ router.get('/status', (req, res) => {
             email: req.user.email
         } : null
     });
+});
+
+// ✅ NUEVA RUTA: Preferencias de usuario
+router.get('/preferences', isLoggedIn, (req, res) => {
+    res.json({
+        success: true,
+        preferencias: req.user.preferencias || {
+            tema: 'claro',
+            idioma: 'es',
+            notificaciones: true
+        }
+    });
+});
+
+// ✅ NUEVA: Ruta para obtener roles disponibles para registro
+router.get('/available-roles', async (req, res) => {
+    try {
+        const roles = await require('../dataBase/dataBase.orm').roles.findAll({
+            where: { 
+                estado: 'activo',
+                nombre: { [require('sequelize').Op.ne]: 'Administrador' } // Excluir admin
+            },
+            attributes: ['idRoles', 'nombre', 'descripcion'],
+            order: [['nombre', 'ASC']]
+        });
+        
+        res.json({
+            success: true,
+            roles: roles
+        });
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            message: 'Error al obtener roles',
+            error: error.message
+        });
+    }
 });
 
 module.exports = router;

@@ -1,41 +1,26 @@
 // router/teams.js
 const express = require('express');
 const router = express.Router();
+const teamsController = require('../controller/teamsController');
 
-const { 
-  getAllTeams, 
-  mostrarTeams,
-  getTeamById, 
-  createTeam,
-  mandarTeam,
-  updateTeam, 
-  deleteTeam,
-  // Funciones específicas para Team Social (MongoDB)
-  getTeamSocial,
-  getTeamWithSocial,
-  addPost,
-  updateSocialMedia,
-  updateFollowers,
-  likePost,
-  updateTeamInfo
-} = require('../controller/teamsController');
+// Rutas principales CRUD
+router.post('/create', teamsController.createTeam);
+router.get('/all', teamsController.getAllTeams);
+router.get('/mostrar', teamsController.mostrarTeams);
+router.get('/estadisticas', teamsController.getGeneralStats);
+router.get('/search', teamsController.searchTeams);
+router.get('/encrypted/:id', teamsController.mandarTeam);
+router.get('/:id', teamsController.getById);
+router.put('/update/:id', teamsController.update);
+router.delete('/delete/:id', teamsController.delete);
 
-// RUTAS PRINCIPALES PARA EQUIPOS (MySQL)
-router.get('/lista', getAllTeams);
-router.get('/mostrar', mostrarTeams);
-router.get('/buscar/:id', getTeamById);
-router.post('/crear', createTeam);
-router.post('/mandar', mandarTeam);
-router.put('/actualizar/:id', updateTeam);
-router.delete('/eliminar/:id', deleteTeam);
-
-// RUTAS ESPECÍFICAS PARA TEAM SOCIAL (MongoDB)
-router.get('/social/:teamId', getTeamSocial);
-router.get('/completo/:teamId', getTeamWithSocial);
-router.post('/publicacion/:teamId', addPost);
-router.put('/redes-sociales/:teamId', updateSocialMedia);
-router.put('/seguidores/:teamId', updateFollowers);
-router.patch('/like/:teamId/:postId', likePost);
-router.put('/informacion/:teamId', updateTeamInfo);
+// Rutas específicas para contenido social
+router.get('/social/:teamId', teamsController.getTeamSocial);
+router.get('/complete/:teamId', teamsController.getTeamWithSocial);
+router.post('/post/:teamId', teamsController.addPost);
+router.put('/social-media/:teamId', teamsController.updateSocialMedia);
+router.put('/followers/:teamId', teamsController.updateFollowers);
+router.put('/like/:teamId/:postId', teamsController.likePost);
+router.put('/info/:teamId', teamsController.updateTeamInfo);
 
 module.exports = router;

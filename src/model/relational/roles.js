@@ -1,34 +1,34 @@
 // Modelo de roles - Define la estructura de la tabla roles
 module.exports = (sequelize, types) => {
   return sequelize.define('roles', {
-    id: {
+    idRoles: {  
       type: types.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
-    nombre: {
+    nameRole: {  
       type: types.STRING,
       allowNull: false
     },
-    descripcion: {
+    descriptionRole: {  
       type: types.STRING,
       allowNull: true
     },
-    estado: {
+    stateRole: {  
       type: types.STRING,
-
       allowNull: false,
-      comment: 'Estado del rol: true = activo, false = inactivo'
+      defaultValue: 'activo'
     },
-    fecha_creacion: {
-      type: types.STRING // Simplificado a tipo STRING
+    createRole: {  
+      type: types.STRING
     },
-    fecha_modificacion: {
-      type: types.STRING // Simplificado a tipo STRING
+    updateRole: {  
+      type: types.STRING
     }
   }, {
-    freezeTableName: false,  // Permite pluralizar el nombre de la tabla a 'roles'
-    timestamps: false        // Desactiva createdAt y updatedAt automáticos
+    tableName: 'roles',
+    freezeTableName: true,
+    timestamps: false
   });
 };
 

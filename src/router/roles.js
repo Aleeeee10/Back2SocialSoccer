@@ -9,6 +9,7 @@ const {
   getById, 
   update, 
   delete: deleteRole,
+  getAvailableRoles, // ✅ NUEVA función
   // Funciones específicas para Logs Errores (MongoDB)
   getRoleLogs,
   getRoleWithLogs,
@@ -20,6 +21,7 @@ const {
 
 // Rutas principales de roles (SQL)
 router.get('/lista', getAllRoles);           // GET /roles/lista - Obtener todos los roles (ORM)
+router.get('/disponibles', getAvailableRoles); // ✅ NUEVA: GET /roles/disponibles - Roles para registro
 router.get('/mostrar', mostrarRoles);        // GET /roles/mostrar - Mostrar roles (SQL directo)
 router.get('/buscar/:id', getById);          // GET /roles/buscar/:id - Buscar rol por ID
 router.get('/mandar/:id', mandarRole);       // GET /roles/mandar/:id - Mandar rol específico

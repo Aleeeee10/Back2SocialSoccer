@@ -112,15 +112,13 @@ const inscripcionesTorneo = inscripcionesTorneoModel(sequelize, Sequelize.DataTy
 const agendaEntrenamientos = agendaEntrenamientosModel(sequelize, Sequelize.DataTypes);
 const comentarios = comentariosModel(sequelize, Sequelize.DataTypes);
 
-//relaciones o foreignKeys - Corrigiendo la lógica de relaciones
-//tabla del usuario es única, la foreign key debe ir a la tabla roles, el usuario nunca tiene una relación directa
-roles.belongsTo(users);
-users.hasMany(roles);
-//user no puede tener relaciones pero si puede dar las relaciones a las demas tablas alrevez el hasmany y belongsto
-users.hasMany(detalleRol);
-detalleRol.belongsTo(users);
-roles.hasMany(detalleRol);
-detalleRol.belongsTo(roles);
+//relaciones o foreignKeys - ✅ CORREGIDO: usar idRoles
+users.hasMany(detalleRol, { foreignKey: 'usuarioId', sourceKey: 'idUsers' });
+detalleRol.belongsTo(users, { foreignKey: 'usuarioId', targetKey: 'idUsers' });
+
+// ✅ CORREGIDO: Cambiar 'id' por 'idRoles'
+users.belongsTo(roles, { foreignKey: 'idRole', targetKey: 'idRoles' });
+roles.hasMany(users, { foreignKey: 'idRole', sourceKey: 'idRoles' });
 
 teams.hasMany(players);
 players.belongsTo(teams);  // esta tabla necesita una tabla de rompimiento  o tiene las 3 relaciones 
