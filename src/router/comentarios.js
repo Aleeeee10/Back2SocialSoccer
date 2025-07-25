@@ -1,11 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { 
-  getAllComentarios, 
-  createComentario,
-  getById, 
-  update, 
-  delete: deleteComentario 
+  getAllComentarios, createComentario,getById, update, delete: deleteComentario 
 } = require('../controller/comentariosController');
 
 // Rutas básicas de comentarios

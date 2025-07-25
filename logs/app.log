@@ -4942,3 +4942,191 @@ Stack: Error
 2025-07-24 18:23:16 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
 2025-07-24 18:23:16 [INFO]: ✅ Usuario autenticado: [object Object]
 2025-07-24 18:23:16 [INFO]: [0mPOST /auth/login [32m200[0m 285.369 ms - 140[0m
+2025-07-24 18:40:45 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-24 18:40:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-24 18:40:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-24 18:40:45 [INFO]: Base de datos conectada
+2025-07-24 18:40:46 [INFO]: Conexión establecida con la base de datos
+2025-07-24 18:40:50 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-24 18:41:10 [INFO]: [0mGET /auth/status [32m200[0m 198.766 ms - 97[0m
+2025-07-24 18:41:10 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-24 18:41:11 [INFO]: [0mGET /auth/preferences [36m304[0m 180.647 ms - -[0m
+2025-07-24 18:41:16 [INFO]: [0mGET /auth/status [36m304[0m 180.717 ms - -[0m
+2025-07-24 18:41:16 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-24 18:41:16 [INFO]: [0mGET /auth/preferences [36m304[0m 179.569 ms - -[0m
+2025-07-24 18:41:18 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.275 ms - 0[0m
+2025-07-24 18:41:18 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-24 18:41:18 [INFO]: [0mPOST /auth/logout [32m200[0m 443.353 ms - 84[0m
+2025-07-24 18:41:18 [INFO]: [0mGET /auth/status [32m200[0m 0.690 ms - 37[0m
+2025-07-24 18:41:18 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-24 18:41:18 [INFO]: [0mPOST /auth/logout [33m401[0m 1.270 ms - 88[0m
+2025-07-24 18:41:18 [INFO]: [0mGET /api/csrf-token [32m200[0m 1.171 ms - 52[0m
+2025-07-24 18:41:22 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.134 ms - 0[0m
+2025-07-24 18:41:22 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-24 18:41:22 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-24 18:41:23 [INFO]: [0mPOST /auth/login [32m200[0m 266.541 ms - 140[0m
+2025-07-24 18:41:26 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.219 ms - 0[0m
+2025-07-24 18:41:26 [INFO]: [0mGET /api/csrf-token [32m200[0m 178.786 ms - 52[0m
+2025-07-24 18:41:26 [INFO]: [0mOPTIONS /teams [32m204[0m 0.193 ms - 0[0m
+2025-07-24 18:41:26 [WARN]: 404 Not Found: /teams
+2025-07-24 18:41:26 [INFO]: [0mGET /teams [33m404[0m 180.300 ms - 48[0m
+2025-07-24 18:41:29 [INFO]: [0mGET /api/csrf-token [32m200[0m 180.143 ms - 52[0m
+2025-07-24 18:41:29 [INFO]: [0mOPTIONS /auth/profile [32m204[0m 0.179 ms - 0[0m
+2025-07-24 18:41:30 [WARN]: 404 Not Found: /auth/profile
+2025-07-24 18:41:30 [INFO]: [0mGET /auth/profile [33m404[0m 180.956 ms - 48[0m
+2025-07-24 18:41:32 [INFO]: [0mGET /auth/status [32m200[0m 181.571 ms - 97[0m
+2025-07-24 18:41:32 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-24 18:41:32 [INFO]: [0mGET /auth/preferences [36m304[0m 179.397 ms - -[0m
+2025-07-24 18:41:32 [INFO]: [0mGET /api/csrf-token [32m200[0m 179.237 ms - 52[0m
+2025-07-24 18:41:33 [WARN]: 404 Not Found: /auth/profile
+2025-07-24 18:41:33 [INFO]: [0mGET /auth/profile [33m404[0m 179.060 ms - 48[0m
+2025-07-24 21:31:55 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-24 21:31:55 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-24 21:31:55 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-24 21:31:55 [INFO]: Base de datos conectada
+2025-07-24 21:31:56 [INFO]: Conexión establecida con la base de datos
+2025-07-24 21:32:00 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-24 21:32:07 [INFO]: [0mGET /auth/status [36m304[0m 212.263 ms - -[0m
+2025-07-24 21:32:08 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-24 21:32:08 [INFO]: [0mGET /auth/preferences [36m304[0m 199.498 ms - -[0m
+2025-07-24 21:32:11 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.319 ms - 0[0m
+2025-07-24 21:32:12 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-24 21:32:12 [INFO]: [0mPOST /auth/logout [32m200[0m 488.401 ms - 84[0m
+2025-07-24 21:32:12 [INFO]: [0mGET /auth/status [32m200[0m 0.742 ms - 37[0m
+2025-07-24 21:32:12 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-24 21:32:12 [INFO]: [0mPOST /auth/logout [33m401[0m 1.129 ms - 88[0m
+2025-07-24 21:32:12 [INFO]: [0mGET /api/csrf-token [32m200[0m 1.142 ms - 52[0m
+2025-07-24 21:32:16 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.108 ms - 0[0m
+2025-07-24 21:32:16 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-24 21:32:16 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-24 21:32:16 [INFO]: [0mPOST /auth/login [32m200[0m 292.339 ms - 140[0m
+2025-07-24 21:38:33 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.119 ms - 0[0m
+2025-07-24 21:38:33 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-24 21:38:33 [INFO]: [0mPOST /auth/logout [32m200[0m 480.667 ms - 84[0m
+2025-07-24 21:38:33 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.102 ms - 0[0m
+2025-07-24 21:38:33 [INFO]: [0mGET /auth/status [36m304[0m 0.722 ms - -[0m
+2025-07-24 21:38:33 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-24 21:38:33 [INFO]: [0mPOST /auth/logout [33m401[0m 1.991 ms - 88[0m
+2025-07-24 21:38:33 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.155 ms - 0[0m
+2025-07-24 21:38:33 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.866 ms - 52[0m
+2025-07-24 21:38:34 [INFO]: [0mGET /auth/status [36m304[0m 0.628 ms - -[0m
+2025-07-24 21:38:34 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-24 21:38:34 [INFO]: [0mPOST /auth/logout [33m401[0m 1.109 ms - 88[0m
+2025-07-24 21:38:34 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.613 ms - 52[0m
+2025-07-24 21:38:34 [INFO]: [0mOPTIONS /roles/disponibles [32m204[0m 0.079 ms - 0[0m
+2025-07-24 21:38:35 [INFO]: [0mGET /roles/disponibles [36m304[0m 100.355 ms - -[0m
+2025-07-24 21:42:07 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.126 ms - 0[0m
+2025-07-24 21:42:07 [INFO]: [0mGET /auth/status [36m304[0m 0.445 ms - -[0m
+2025-07-24 21:42:07 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.069 ms - 0[0m
+2025-07-24 21:42:07 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-24 21:42:07 [INFO]: [0mPOST /auth/logout [33m401[0m 1.216 ms - 88[0m
+2025-07-24 21:42:09 [INFO]: [0mGET /auth/status [36m304[0m 0.481 ms - -[0m
+2025-07-24 21:42:09 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-24 21:42:09 [INFO]: [0mPOST /auth/logout [33m401[0m 0.953 ms - 88[0m
+2025-07-24 21:42:09 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.185 ms - 0[0m
+2025-07-24 21:42:09 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.528 ms - 52[0m
+2025-07-24 21:42:15 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.130 ms - 0[0m
+2025-07-24 21:42:15 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-24 21:42:15 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-24 21:42:15 [INFO]: [0mPOST /auth/login [32m200[0m 287.075 ms - 140[0m
+2025-07-24 22:32:43 [WARN]: 404 Not Found: /standings
+2025-07-24 22:32:43 [INFO]: [0mGET /standings [33m404[0m 2.045 ms - 48[0m
+2025-07-24 22:32:46 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.111 ms - 0[0m
+2025-07-24 22:32:46 [INFO]: [0mGET /api/csrf-token [32m200[0m 195.261 ms - 52[0m
+2025-07-24 22:32:46 [INFO]: [0mOPTIONS /matches [32m204[0m 0.086 ms - 0[0m
+2025-07-24 22:32:46 [WARN]: 404 Not Found: /matches
+2025-07-24 22:32:46 [INFO]: [0mGET /matches [33m404[0m 191.980 ms - 48[0m
+2025-07-24 22:32:50 [INFO]: [0mGET /api/csrf-token [32m200[0m 192.290 ms - 52[0m
+2025-07-24 22:32:50 [INFO]: [0mOPTIONS /players [32m204[0m 0.072 ms - 0[0m
+2025-07-24 22:32:50 [WARN]: 404 Not Found: /players
+2025-07-24 22:32:50 [INFO]: [0mGET /players [33m404[0m 195.952 ms - 48[0m
+2025-07-24 22:36:12 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.172 ms - 0[0m
+2025-07-24 22:36:13 [INFO]: [0mOPTIONS /players [32m204[0m 0.184 ms - 0[0m
+2025-07-24 22:36:13 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-24 22:36:13 [INFO]: [0mPOST /auth/logout [32m200[0m 490.934 ms - 84[0m
+2025-07-24 22:40:40 [WARN]: 404 Not Found: /news
+2025-07-24 22:40:40 [INFO]: [0mGET /news [33m404[0m 0.771 ms - 48[0m
+2025-07-24 22:41:03 [WARN]: 404 Not Found: /news
+2025-07-24 22:41:03 [INFO]: [0mGET /news [33m404[0m 0.728 ms - 48[0m
+2025-07-24 22:46:18 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-24 22:46:18 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-24 22:46:18 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-24 22:46:18 [INFO]: Base de datos conectada
+2025-07-24 22:46:19 [INFO]: Conexión establecida con la base de datos
+2025-07-24 22:46:25 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 10:11:16 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-25 10:11:16 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 10:11:16 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 10:11:17 [INFO]: Base de datos conectada
+2025-07-25 10:11:17 [INFO]: Conexión establecida con la base de datos
+2025-07-25 10:11:21 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 10:11:38 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 1.627 ms - 0[0m
+2025-07-25 10:11:38 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.308 ms - 0[0m
+2025-07-25 10:11:38 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:11:38 [INFO]: [0mPOST /auth/logout [33m401[0m 20.079 ms - 88[0m
+2025-07-25 10:11:38 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:11:38 [INFO]: [0mPOST /auth/logout [33m401[0m 3.319 ms - 88[0m
+2025-07-25 10:11:38 [INFO]: [0mOPTIONS /players [32m204[0m 0.171 ms - 0[0m
+2025-07-25 10:12:51 [INFO]: [0mGET /auth/status [36m304[0m 1.246 ms - -[0m
+2025-07-25 10:12:51 [INFO]: [0mGET /auth/status [36m304[0m 0.602 ms - -[0m
+2025-07-25 10:12:51 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.154 ms - 0[0m
+2025-07-25 10:12:51 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:12:51 [INFO]: [0mGET /auth/preferences [33m401[0m 0.868 ms - 88[0m
+2025-07-25 10:12:51 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.084 ms - 0[0m
+2025-07-25 10:12:51 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:12:51 [INFO]: [0mPOST /auth/logout [33m401[0m 1.466 ms - 88[0m
+2025-07-25 10:12:51 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:12:51 [INFO]: [0mPOST /auth/logout [33m401[0m 0.928 ms - 88[0m
+2025-07-25 10:13:28 [INFO]: [0mGET /auth/status [36m304[0m 0.768 ms - -[0m
+2025-07-25 10:13:28 [INFO]: [0mGET /auth/status [36m304[0m 0.846 ms - -[0m
+2025-07-25 10:13:28 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.108 ms - 0[0m
+2025-07-25 10:13:28 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.097 ms - 0[0m
+2025-07-25 10:13:28 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:13:28 [INFO]: [0mGET /auth/preferences [33m401[0m 0.827 ms - 88[0m
+2025-07-25 10:13:28 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:13:28 [INFO]: [0mPOST /auth/logout [33m401[0m 0.828 ms - 88[0m
+2025-07-25 10:13:28 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:13:28 [INFO]: [0mPOST /auth/logout [33m401[0m 1.645 ms - 88[0m
+2025-07-25 10:13:32 [INFO]: [0mGET /auth/status [36m304[0m 0.533 ms - -[0m
+2025-07-25 10:13:32 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:13:32 [INFO]: [0mPOST /auth/logout [33m401[0m 1.554 ms - 88[0m
+2025-07-25 10:13:32 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.992 ms - 52[0m
+2025-07-25 10:13:33 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.108 ms - 0[0m
+2025-07-25 10:13:33 [INFO]: [0mGET /auth/status [36m304[0m 0.676 ms - -[0m
+2025-07-25 10:13:33 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.329 ms - 0[0m
+2025-07-25 10:13:33 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 10:13:33 [INFO]: [0mPOST /auth/logout [33m401[0m 0.764 ms - 88[0m
+2025-07-25 10:13:33 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.120 ms - 0[0m
+2025-07-25 10:13:33 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.576 ms - 52[0m
+2025-07-25 10:13:33 [INFO]: [0mOPTIONS /roles/disponibles [32m204[0m 0.082 ms - 0[0m
+2025-07-25 10:13:34 [INFO]: [0mGET /roles/disponibles [32m200[0m 104.013 ms - 2[0m
+2025-07-25 10:17:07 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-25 10:17:07 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 10:17:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 10:17:08 [INFO]: Base de datos conectada
+2025-07-25 10:17:09 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-25 10:17:09 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 10:17:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 10:17:09 [INFO]: Base de datos conectada
+2025-07-25 10:17:10 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-25 10:17:10 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 10:17:10 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 10:17:10 [INFO]: Base de datos conectada
+2025-07-25 10:17:11 [INFO]: El servidor está escuchando en el puerto 3000
+2025-07-25 10:17:11 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 10:17:11 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 10:17:12 [INFO]: Base de datos conectada
+2025-07-25 10:17:12 [INFO]: Conexión establecida con la base de datos
+2025-07-25 10:17:17 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 10:28:05 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 10:28:05 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 10:28:05 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 10:28:05 [INFO]: Base de datos conectada
+2025-07-25 10:28:06 [INFO]: Conexión establecida con la base de datos
+2025-07-25 10:28:10 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 10:35:23 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 10:35:23 [INFO]: Base de datos conectada
+2025-07-25 10:35:23 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-25 10:35:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 10:35:24 [INFO]: Conexión establecida con la base de datos
+2025-07-25 10:35:28 [INFO]: Base de Datos sincronizadas (modo seguro)

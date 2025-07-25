@@ -28,7 +28,7 @@ require('./lib/passport');
 const app = express();
 
 // ==================== CONFIGURACIÓN BÁSICA ====================
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 2000);
 
 // ==================== CONFIGURACIÓN DE LOGS MEJORADA ====================
 const logDir = path.join(__dirname, '../logs');
