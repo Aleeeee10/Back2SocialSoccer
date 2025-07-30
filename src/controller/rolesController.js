@@ -144,7 +144,7 @@ rolesCtl.getById = async (req, res) => {
     const { id } = req.params;
     
     try {
-        const [rolesSQL] = await sql.promise().query("SELECT * FROM roles WHERE id = ? AND estado = 'activo'", [id]);
+        const [rolesSQL] = await sql.promise().query("SELECT * FROM roles WHERE idRoles = ? AND stateRole = 'activo'", [id]);
         
         if (rolesSQL.length === 0) {
             return res.status(404).json({ error: 'Rol no encontrado.' });
@@ -693,6 +693,86 @@ rolesCtl.getGeneralStats = async (req, res) => {
     } catch (error) {
         console.error('Error al obtener estadísticas generales:', error);
         res.status(500).json({ error: 'Error interno del servidor.' });
+    }
+};
+
+// 🚀 FUNCIÓN PARA INICIALIZAR ROLES AUTOMÁTICAMENTE
+rolesCtl.initializeDefaultRoles = async () => {
+    try {
+        console.log('🔄 Verificando e inicializando roles del sistema...');
+        
+        // 1. Verificar si existen roles en la tabla (usando los nombres correctos de columnas)
+        const [existingRoles] = await sql.promise().query("SELECT COUNT(*) as count FROM roles WHERE stateRole = 'activo'");
+        const roleCount = existingRoles[0].count;
+        
+        if (roleCount === 0) {
+            const now = new Date();
+            const formattedNow = formatLocalDateTime(now);
+            
+            // 2. Crear los 2 roles principales usando SQL directo
+            const rolesData = [
+                {
+                    nameRole: 'Administrador',
+                    descriptionRole: 'Administrador del sistema con acceso completo',
+                    stateRole: 'activo'
+                },
+                {
+                    nameRole: 'Usuario',
+                    descriptionRole: 'Usuario estándar del sistema',
+                    stateRole: 'activo'
+                }
+            ];
+            
+            // 3. Insertar roles usando SQL directo con nombres de columnas correctos
+            for (const role of rolesData) {
+                const [resultado] = await sql.promise().query(
+                    "INSERT INTO roles (nameRole, descriptionRole, stateRole, createRole, updateRole) VALUES (?, ?, ?, ?, ?)",
+                    [role.nameRole, role.descriptionRole, role.stateRole, formattedNow, formattedNow]
+                );
+                
+                // 4. Crear log inicial para cada rol en MongoDB
+                const logInicial = new LogsErrores({
+                    roleId: resultado.insertId.toString(),
+                    tipoError: 'sistema',
+                    mensaje: `Rol "${role.nameRole}" creado automáticamente durante la inicialización del sistema`,
+                    detalles: {
+                        accion: 'auto_creacion',
+                        timestamp: new Date(),
+                        sistema: 'Back2SocialSoccer'
+                    },
+                    resuelto: true,
+                    estado: true,
+                    fechaCreacion: new Date()
+                });
+                
+                await logInicial.save();
+            }
+            
+            console.log('✅ Roles creados automáticamente:');
+            console.log('   🔹 Administrador - Acceso completo al sistema');
+            console.log('   🔹 Usuario - Acceso estándar al sistema');
+            console.log('📋 Los usuarios ahora pueden registrarse con el rol "Usuario" por defecto');
+            
+        } else {
+            console.log('✅ Los roles ya existen en la base de datos');
+            
+            // Mostrar roles existentes con nombres de columnas correctos
+            const [roles] = await sql.promise().query("SELECT * FROM roles WHERE stateRole = 'activo' ORDER BY nameRole");
+            console.log('📋 Roles disponibles:');
+            roles.forEach(role => {
+                console.log(`   🔹 ${role.nameRole} - ${role.descriptionRole}`);
+            });
+        }
+        
+        return true;
+        
+    } catch (error) {
+        console.error('❌ Error al inicializar roles:', error.message);
+        console.error('💡 Asegúrate de que:');
+        console.error('   - La tabla "roles" existe en la base de datos');
+        console.error('   - La conexión a MySQL está funcionando');
+        console.error('   - Las credenciales de base de datos son correctas');
+        return false;
     }
 };
 

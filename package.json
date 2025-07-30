@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
+    "create-roles": "node scripts/createRoles.js",
+    "init-roles": "node utils/initRoles.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

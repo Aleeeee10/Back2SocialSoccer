@@ -51,7 +51,9 @@ router.post('/register', validateRegister, isNotLoggedIn, passport.authenticate(
                 nombre: req.user.nombre,
                 email: req.user.email,
                 avatar: req.user.avatar,
-                preferencias: req.user.preferencias
+                preferencias: req.user.preferencias,
+                role: req.user.role, // ✅ Incluir nombre del rol
+                roleId: req.user.roleId // ✅ Incluir ID del rol
             }
         });
     } catch (error) {
@@ -100,7 +102,9 @@ router.post('/login', isNotLoggedIn, (req, res, next) => {
                     nombre: user.nombre,
                     email: user.email,
                     avatar: user.avatar,
-                    preferencias: user.preferencias
+                    preferencias: user.preferencias,
+                    role: user.role, // ✅ Incluir nombre del rol
+                    roleId: user.roleId // ✅ Incluir ID del rol
                 }
             });
         });
@@ -151,7 +155,9 @@ router.get('/me', isLoggedIn, (req, res) => {
             nombre: req.user.nombre,
             email: req.user.email,
             avatar: req.user.avatar,
-            preferencias: req.user.preferencias
+            preferencias: req.user.preferencias,
+            role: req.user.role, // ✅ Incluir nombre del rol
+            roleId: req.user.roleId // ✅ Incluir ID del rol
         }
     });
 });
@@ -163,7 +169,9 @@ router.get('/status', (req, res) => {
         user: req.isAuthenticated() ? {
             id: req.user.id,
             nombre: req.user.nombre,
-            email: req.user.email
+            email: req.user.email,
+            role: req.user.role, // ✅ Incluir nombre del rol
+            roleId: req.user.roleId // ✅ Incluir ID del rol
         } : null
     });
 });

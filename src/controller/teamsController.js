@@ -131,19 +131,19 @@ teamsCtl.mostrarTeams = async (req, res) => {
     try {
         const query = `
             SELECT t.*,
-                   COUNT(j.id) as total_jugadores,
+                   COUNT(p.id) as total_jugadores,
                    CASE 
                      WHEN t.estado = 'activo' THEN '✅'
                      WHEN t.estado = 'inactivo' THEN '⏸️'
                      ELSE '❌'
                    END as icono_estado,
                    CASE 
-                     WHEN COUNT(j.id) = 0 THEN 'Sin jugadores'
-                     WHEN COUNT(j.id) = 1 THEN 'Un jugador'
-                     ELSE CONCAT(COUNT(j.id), ' jugadores')
+                     WHEN COUNT(p.id) = 0 THEN 'Sin jugadores'
+                     WHEN COUNT(p.id) = 1 THEN 'Un jugador'
+                     ELSE CONCAT(COUNT(p.id), ' jugadores')
                    END as descripcion_jugadores
             FROM teams t
-            LEFT JOIN jugadores j ON t.id = j.equipoId AND j.estado = 'activo'
+            LEFT JOIN players p ON t.id = p.teamId AND p.estado = 'activo'
             WHERE t.estado = 'activo'
             GROUP BY t.id, t.nombre, t.logo, t.entrenador, t.estado, t.fecha_creacion, t.fecha_modificacion
             ORDER BY t.nombre ASC
@@ -504,9 +504,9 @@ teamsCtl.searchTeams = async (req, res) => {
     try {
         let query = `
             SELECT t.*,
-                   COUNT(j.id) as total_jugadores
+                   COUNT(p.id) as total_jugadores
             FROM teams t
-            LEFT JOIN jugadores j ON t.id = j.equipoId AND j.estado = 'activo'
+            LEFT JOIN players p ON t.id = p.teamId AND p.estado = 'activo'
             WHERE t.estado != 'eliminado'
         `;
         
@@ -546,11 +546,11 @@ teamsCtl.getGeneralStats = async (req, res) => {
                 COUNT(CASE WHEN t.estado = 'activo' THEN 1 END) as equipos_activos,
                 COUNT(CASE WHEN t.estado = 'inactivo' THEN 1 END) as equipos_inactivos,
                 COUNT(CASE WHEN t.estado = 'eliminado' THEN 1 END) as equipos_eliminados,
-                COUNT(j.id) as total_jugadores,
-                COUNT(DISTINCT j.equipoId) as equipos_con_jugadores,
+                COUNT(p.id) as total_jugadores,
+                COUNT(DISTINCT p.teamId) as equipos_con_jugadores,
                 COUNT(t.id) as total_equipos
             FROM teams t
-            LEFT JOIN jugadores j ON t.id = j.equipoId AND j.estado = 'activo'
+            LEFT JOIN players p ON t.id = p.teamId AND p.estado = 'activo'
             WHERE t.estado != 'eliminado'
         `);
         

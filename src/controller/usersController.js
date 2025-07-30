@@ -6,7 +6,7 @@ const sql = require('../dataBase/dataBase.sql'); // MySQL directo
 const mongo = require('../dataBase/dataBase.mongo'); // Para Mongoose (MongoDB)
 const UserPreferences = require('../model/nonRelational/UserPreferences'); // Modelo no relacional para preferencias de usuario
 const NotificationsLog = require('../model/nonRelational/NotificationsLog'); // Modelo no relacional para log de notificaciones
-const { encryptDates, cifrarDato, descifrarDato } = require('../lib/helpers');
+const { encryptDates, decryptDates, cifrarDato, descifrarDato } = require('../lib/helpers');
 
 // --- Utilidad para Descifrado Seguro ---
 function safeDecrypt(data) {
@@ -33,16 +33,31 @@ function formatLocalDateTime(date) {
 
 // 1. CREAR NUEVO USUARIO
 usersCtl.createUser = async (req, res) => {
-    const { nombre, email, contraseña, avatar, tema = 'claro', idioma = 'es', notificacionesEnabled = true } = req.body;
+    const { nombre, email, contraseña, tema = 'claro', idioma = 'es', notificacionesEnabled = true, rolId } = req.body;
     try {
         const now = new Date();
         const formattedNow = formatLocalDateTime(now);
 
-        // 1. Crear usuario en MySQL usando SQL directo
-        const [resultado] = await sql.promise().query(
-            "INSERT INTO users (nombre, email, contraseña, avatar, estado, fecha_creacion) VALUES (?, ?, ?, ?, 'activo', ?)",
-            [nombre, email, contraseña, avatar, formattedNow]
-        );
+        // 🔐 Si no se especifica rol, asignar "Usuario" por defecto
+        let roleIdToUse = rolId;
+        if (!roleIdToUse) {
+            // Buscar el rol "Usuario" por defecto
+            const [defaultRole] = await sql.promise().query("SELECT idRoles FROM roles WHERE nameRole = 'Usuario' AND stateRole = 'activo' LIMIT 1");
+            if (defaultRole.length > 0) {
+                roleIdToUse = defaultRole[0].idRoles;
+                console.log(`✅ Asignando rol "Usuario" por defecto (ID: ${roleIdToUse}) al nuevo usuario`);
+            } else {
+                return res.status(500).json({ 
+                    error: 'No se encontró el rol "Usuario" en el sistema. Contacta al administrador.' 
+                });
+            }
+        }
+
+        // ✅ CORREGIDO: 1. Crear usuario en MySQL usando nombres de columnas correctos (SIN avatar)
+        const [resultado] = await sql.promise().query(`
+            INSERT INTO users (nameUser, emailUser, passwordUser, stateUser, createUser, idRole) 
+            VALUES (?, ?, ?, 'activo', ?, ?)
+        `, [nombre, email, contraseña, formattedNow, roleIdToUse]);
 
         const userId = resultado.insertId;
 
@@ -70,12 +85,20 @@ usersCtl.createUser = async (req, res) => {
 
         await welcomeNotification.save();
 
-        // 4. Obtener el usuario completo para la respuesta
-        const [usuarioCreado] = await sql.promise().query("SELECT * FROM users WHERE id = ?", [userId]);
+        // 4. Obtener el usuario completo para la respuesta (con información del rol)
+        const [usuarioCreado] = await sql.promise().query(`
+            SELECT u.*, r.nameRole as rol_nombre, r.descriptionRole as rol_descripcion 
+            FROM users u 
+            LEFT JOIN roles r ON u.idRole = r.idRoles 
+            WHERE u.idUsers = ?
+        `, [userId]);
 
         res.status(201).json({
             message: 'Usuario, preferencias y notificación de bienvenida creados exitosamente',
-            usuario: usuarioCreado[0],
+            usuario: {
+                ...usuarioCreado[0],
+                passwordUser: '***PROTEGIDA***' // No enviar contraseña al frontend
+            },
             preferencias: userPreferences,
             notificacionBienvenida: welcomeNotification
         });
@@ -88,7 +111,14 @@ usersCtl.createUser = async (req, res) => {
 // 2. OBTENER TODOS LOS USUARIOS (Usando SQL Directo)
 usersCtl.getAllUsers = async (req, res) => {
     try {
-        const [usersSQL] = await sql.promise().query("SELECT * FROM users WHERE estado = 'activo' ORDER BY nombre ASC");
+        // ✅ CORREGIDO: Usar stateUser en lugar de estado
+        const [usersSQL] = await sql.promise().query(`
+            SELECT u.*, r.nameRole as roleName 
+            FROM users u 
+            LEFT JOIN roles r ON u.idRole = r.idRoles 
+            WHERE u.stateUser = 'activo' 
+            ORDER BY u.nameUser ASC
+        `);
         
         res.status(200).json(usersSQL);
     } catch (error) {
@@ -102,7 +132,13 @@ usersCtl.getById = async (req, res) => {
     const { id } = req.params;
     
     try {
-        const [usersSQL] = await sql.promise().query("SELECT * FROM users WHERE id = ? AND estado = 'activo'", [id]);
+        // ✅ CORREGIDO: Usar idUsers y stateUser en lugar de id y estado
+        const [usersSQL] = await sql.promise().query(`
+            SELECT u.*, r.nameRole as roleName 
+            FROM users u 
+            LEFT JOIN roles r ON u.idRole = r.idRoles 
+            WHERE u.idUsers = ? AND u.stateUser = 'activo'
+        `, [id]);
         
         if (usersSQL.length === 0) {
             return res.status(404).json({ error: 'Usuario no encontrado.' });
@@ -120,22 +156,23 @@ usersCtl.getById = async (req, res) => {
 // 4. MOSTRAR USUARIOS CON INFORMACIÓN DETALLADA (Usando SQL Directo + MongoDB)
 usersCtl.mostrarUsers = async (req, res) => {
     try {
+        // ✅ CORREGIDO: Usar nombres de columnas correctos
         const query = `
             SELECT u.*,
                    CASE 
-                     WHEN u.estado = 'activo' THEN '✅ Activo'
-                     WHEN u.estado = 'inactivo' THEN '⏸️ Inactivo'
+                     WHEN u.stateUser = 'activo' THEN '✅ Activo'
+                     WHEN u.stateUser = 'inactivo' THEN '⏸️ Inactivo'
                      ELSE '❌ Eliminado'
                    END as estado_detallado,
                    CASE 
-                     WHEN u.fecha_creacion >= DATE_SUB(NOW(), INTERVAL 7 DAY) THEN '🆕 Nuevo'
-                     WHEN u.fecha_creacion >= DATE_SUB(NOW(), INTERVAL 30 DAY) THEN '⭐ Reciente'
+                     WHEN u.createUser >= DATE_SUB(NOW(), INTERVAL 7 DAY) THEN '🆕 Nuevo'
+                     WHEN u.createUser >= DATE_SUB(NOW(), INTERVAL 30 DAY) THEN '⭐ Reciente'
                      ELSE '👤 Usuario'
                    END as tipo_usuario,
-                   DATEDIFF(NOW(), u.fecha_creacion) as dias_registrado
+                   DATEDIFF(NOW(), u.createUser) as dias_registrado
             FROM users u
-            WHERE u.estado != 'eliminado'
-            ORDER BY u.fecha_creacion DESC
+            WHERE u.stateUser != 'eliminado'
+            ORDER BY u.createUser DESC
         `;
         
         const [usuarios] = await sql.promise().query(query);
@@ -144,7 +181,7 @@ usersCtl.mostrarUsers = async (req, res) => {
         let preferencesInfo = null;
         if (usuarios.length > 0) {
             preferencesInfo = await UserPreferences.findOne({ 
-                userId: usuarios[0].id.toString(), 
+                userId: usuarios[0].idUsers.toString(), // ✅ CORREGIDO: usar idUsers
                 estado: true 
             });
         }
@@ -155,7 +192,7 @@ usersCtl.mostrarUsers = async (req, res) => {
             preferencesInfo: preferencesInfo,
             total: usuarios.length,
             estadisticas: {
-                activos: usuarios.filter(u => u.estado === 'activo').length,
+                activos: usuarios.filter(u => u.stateUser === 'activo').length, // ✅ CORREGIDO
                 nuevos: usuarios.filter(u => u.tipo_usuario.includes('Nuevo')).length,
                 recientes: usuarios.filter(u => u.tipo_usuario.includes('Reciente')).length
             }
@@ -169,7 +206,7 @@ usersCtl.mostrarUsers = async (req, res) => {
 // 5. ACTUALIZAR USUARIO (Usando SQL Directo)
 usersCtl.update = async (req, res) => {
     const { id } = req.params;
-    const { nombre, email, contraseña, avatar, estado } = req.body;
+    const { nombre, email, contraseña, roleId } = req.body;
     
     try {
         // Preparar datos para SQL (solo los que no son undefined)
@@ -178,34 +215,32 @@ usersCtl.update = async (req, res) => {
         const now = new Date();
         const formattedNow = formatLocalDateTime(now);
 
+        // ✅ CORREGIDO: Usar nombres de columnas correctos (SIN avatar)
         if (nombre) {
-            campos.push('nombre = ?');
+            campos.push('nameUser = ?');
             valores.push(nombre);
         }
         if (email) {
-            campos.push('email = ?');
+            campos.push('emailUser = ?');
             valores.push(email);
         }
         if (contraseña) {
-            campos.push('contraseña = ?');
+            campos.push('passwordUser = ?');
             valores.push(contraseña);
         }
-        if (avatar) {
-            campos.push('avatar = ?');
-            valores.push(avatar);
-        }
-        if (estado) {
-            campos.push('estado = ?');
-            valores.push(estado);
+        if (roleId) {
+            campos.push('idRole = ?');
+            valores.push(roleId);
         }
         
-        // Siempre actualizar fecha_modificacion
-        campos.push('fecha_modificacion = ?');
+        // Siempre actualizar updateUser
+        campos.push('updateUser = ?');
         valores.push(formattedNow);
 
         if (campos.length > 0) {
             valores.push(id);
-            const consultaSQL = `UPDATE users SET ${campos.join(', ')} WHERE id = ? AND estado != 'eliminado'`;
+            // ✅ CORREGIDO: Usar idUsers y stateUser
+            const consultaSQL = `UPDATE users SET ${campos.join(', ')} WHERE idUsers = ? AND stateUser != 'eliminado'`;
             const [resultado] = await sql.promise().query(consultaSQL, valores);
             
             if (resultado.affectedRows === 0) {
@@ -228,8 +263,11 @@ usersCtl.delete = async (req, res) => {
         const now = new Date();
         const formattedNow = formatLocalDateTime(now);
 
-        // Obtener información del usuario antes de eliminarlo
-        const [userInfo] = await sql.promise().query("SELECT * FROM users WHERE id = ? AND estado != 'eliminado'", [id]);
+        // ✅ CORREGIDO: Usar nombres de columnas correctos
+        const [userInfo] = await sql.promise().query(`
+            SELECT * FROM users 
+            WHERE idUsers = ? AND stateUser != 'eliminado'
+        `, [id]);
         
         if (userInfo.length === 0) {
             return res.status(404).json({ error: 'Usuario no encontrado.' });
@@ -246,11 +284,12 @@ usersCtl.delete = async (req, res) => {
             { estado: false }
         );
 
-        // SQL directo para actualizar estado a 'eliminado'
-        const [resultado] = await sql.promise().query(
-            "UPDATE users SET estado = 'eliminado', fecha_modificacion = ? WHERE id = ? AND estado != 'eliminado'", 
-            [formattedNow, id]
-        );
+        // ✅ CORREGIDO: SQL directo para actualizar estado a 'eliminado'
+        const [resultado] = await sql.promise().query(`
+            UPDATE users 
+            SET stateUser = 'eliminado', updateUser = ? 
+            WHERE idUsers = ? AND stateUser != 'eliminado'
+        `, [formattedNow, id]);
         
         if (resultado.affectedRows === 0) {
             return res.status(404).json({ error: 'Usuario no encontrado.' });
@@ -263,7 +302,7 @@ usersCtl.delete = async (req, res) => {
     }
 };
 
-// 7. MANDAR USUARIO CON ENCRIPTACIÓN
+// 7. MANDAR USUARIO CON ENCRIPTACIÓN COMPLETA
 usersCtl.mandarUser = async (req, res) => {
     const { id } = req.params;
     
@@ -276,16 +315,35 @@ usersCtl.mandarUser = async (req, res) => {
         
         const userSQL = usersSQL[0];
         
-        // Encriptar fechas sensibles
+        // Encriptar datos sensibles del usuario
         const userEncriptado = {
             ...userSQL,
-            contraseña: '***PROTEGIDA***', // Ocultar contraseña
+            // 🔐 Datos sensibles que DEBEN encriptarse
+            contraseña: '***PROTEGIDA***', // Nunca enviar contraseña
+            email: userSQL.email ? encryptDates(userSQL.email) : null,
+            telefono: userSQL.telefono ? encryptDates(userSQL.telefono) : null,
+            
+            // 🔐 Fechas sensibles
             fecha_creacion: userSQL.fecha_creacion ? encryptDates(userSQL.fecha_creacion) : null,
             fecha_modificacion: userSQL.fecha_modificacion ? encryptDates(userSQL.fecha_modificacion) : null,
-            fechaConsulta: encryptDates(new Date())
+            fecha_ultimo_acceso: userSQL.fecha_ultimo_acceso ? encryptDates(userSQL.fecha_ultimo_acceso) : null,
+            
+            // 🔐 Metadatos de consulta
+            fechaConsulta: encryptDates(new Date()),
+            consultadoPor: req.user?.id || 'sistema',
+            
+            // 🔐 Datos públicos (NO encriptados)
+            nombre: userSQL.nombre,
+            avatar: userSQL.avatar,
+            estado: userSQL.estado,
+            id: userSQL.id
         };
         
-        res.status(200).json(userEncriptado);
+        res.status(200).json({
+            message: 'Usuario obtenido con datos encriptados',
+            usuario: userEncriptado,
+            nota: 'Los datos sensibles están encriptados'
+        });
     } catch (error) {
         console.error('Error al mandar el usuario:', error);
         res.status(500).json({ error: 'Error interno del servidor.' });
@@ -647,6 +705,197 @@ usersCtl.getGeneralStats = async (req, res) => {
         res.status(500).json({ error: 'Error interno del servidor.' });
     }
 };
+
+// 19. OBTENER USUARIO DESENCRIPTADO (SOLO ADMINISTRADORES)
+usersCtl.getUserDecrypted = async (req, res) => {
+    const { id } = req.params;
+    
+    try {
+        // 🛡️ Verificación de permisos (solo admin)
+        if (req.user?.role !== 'Administrador') {
+            return res.status(403).json({ 
+                error: 'Acceso denegado. Solo administradores pueden ver datos desencriptados.' 
+            });
+        }
+        
+        const [usersSQL] = await sql.promise().query("SELECT * FROM users WHERE id = ? AND estado != 'eliminado'", [id]);
+        
+        if (usersSQL.length === 0) {
+            return res.status(404).json({ error: 'Usuario no encontrado.' });
+        }
+        
+        const userSQL = usersSQL[0];
+        
+        // 🔓 Usuario con datos desencriptados (solo para admin)
+        const userDesencriptado = {
+            ...userSQL,
+            contraseña: '***PROTEGIDA***', // Nunca mostrar contraseña real
+            fechaConsulta: new Date(),
+            consultadoPorAdmin: req.user?.id,
+            nivelAcceso: 'ADMIN_FULL_ACCESS'
+        };
+        
+        res.status(200).json({
+            message: 'Usuario obtenido con acceso administrativo',
+            usuario: userDesencriptado,
+            advertencia: 'Datos sensibles visibles - Acceso administrativo'
+        });
+    } catch (error) {
+        console.error('Error al obtener usuario desencriptado:', error);
+        res.status(500).json({ error: 'Error interno del servidor.' });
+    }
+};
+
+// 20. CREAR USUARIO CON ENCRIPTACIÓN AUTOMÁTICA
+usersCtl.createUserEncrypted = async (req, res) => {
+    const { nombre, email, contraseña, avatar, telefono, tema = 'claro', idioma = 'es', notificacionesEnabled = true } = req.body;
+    try {
+        const now = new Date();
+        const formattedNow = formatLocalDateTime(now);
+
+        // 🔐 Encriptar datos sensibles antes de guardar
+        const emailEncriptado = encryptDates(email);
+        const telefonoEncriptado = telefono ? encryptDates(telefono) : null;
+
+        // 1. Crear usuario en MySQL con datos encriptados
+        const [resultado] = await sql.promise().query(
+            "INSERT INTO users (nombre, email, telefono, contraseña, avatar, estado, fecha_creacion) VALUES (?, ?, ?, ?, ?, 'activo', ?)",
+            [nombre, emailEncriptado, telefonoEncriptado, contraseña, avatar, formattedNow]
+        );
+
+        const userId = resultado.insertId;
+
+        // 2. Crear preferencias del usuario en MongoDB
+        const userPreferences = new UserPreferences({
+            userId: userId.toString(),
+            tema,
+            notificaciones: notificacionesEnabled,
+            idioma,
+            estado: true,
+            fechaCreacion: new Date()
+        });
+
+        await userPreferences.save();
+
+        // 3. Crear notificación de bienvenida
+        const welcomeNotification = new NotificationsLog({
+            userId: userId.toString(),
+            mensaje: `¡Bienvenido ${nombre}! Tu cuenta ha sido creada exitosamente con protección de datos.`,
+            tipo: 'success',
+            leido: false,
+            estado: true,
+            fechaCreacion: new Date()
+        });
+
+        await welcomeNotification.save();
+
+        res.status(201).json({
+            message: 'Usuario creado con encriptación de datos sensibles',
+            usuario: {
+                id: userId,
+                nombre: nombre,
+                estado: 'activo',
+                datosEncriptados: true
+            },
+            preferencias: userPreferences,
+            notificacionBienvenida: welcomeNotification
+        });
+    } catch (error) {
+        console.error('Error al crear el usuario encriptado:', error);
+        res.status(500).json({ error: 'Error interno del servidor.' });
+    }
+};
+
+// 21. ACTUALIZAR USUARIO CON ENCRIPTACIÓN
+usersCtl.updateUserEncrypted = async (req, res) => {
+    const { id } = req.params;
+    const { nombre, email, telefono, contraseña, avatar, estado } = req.body;
+    
+    try {
+        const campos = [];
+        const valores = [];
+        const now = new Date();
+        const formattedNow = formatLocalDateTime(now);
+
+        if (nombre) {
+            campos.push('nombre = ?');
+            valores.push(nombre);
+        }
+        if (email) {
+            // 🔐 Encriptar email antes de actualizar
+            campos.push('email = ?');
+            valores.push(encryptDates(email));
+        }
+        if (telefono) {
+            // 🔐 Encriptar teléfono antes de actualizar
+            campos.push('telefono = ?');
+            valores.push(encryptDates(telefono));
+        }
+        if (contraseña) {
+            campos.push('contraseña = ?');
+            valores.push(contraseña);
+        }
+        if (avatar) {
+            campos.push('avatar = ?');
+            valores.push(avatar);
+        }
+        if (estado) {
+            campos.push('estado = ?');
+            valores.push(estado);
+        }
+        
+        // Siempre actualizar fecha_modificacion
+        campos.push('fecha_modificacion = ?');
+        valores.push(formattedNow);
+
+        if (campos.length > 0) {
+            valores.push(id);
+            const consultaSQL = `UPDATE users SET ${campos.join(', ')} WHERE id = ? AND estado != 'eliminado'`;
+            const [resultado] = await sql.promise().query(consultaSQL, valores);
+            
+            if (resultado.affectedRows === 0) {
+                return res.status(404).json({ error: 'Usuario no encontrado.' });
+            }
+        }
+        
+        // Crear notificación de actualización
+        const updateNotification = new NotificationsLog({
+            userId: id.toString(),
+            mensaje: 'Tus datos han sido actualizados con protección de encriptación',
+            tipo: 'info',
+            leido: false,
+            estado: true,
+            fechaCreacion: new Date()
+        });
+        
+        await updateNotification.save();
+        
+        res.status(200).json({ 
+            message: 'Usuario actualizado con encriptación de datos sensibles',
+            datosEncriptados: true,
+            notificacion: updateNotification
+        });
+    } catch (error) {
+        console.error('Error al actualizar el usuario:', error);
+        res.status(500).json({ error: 'Error interno del servidor.' });
+    }
+};
+
+// 22. FUNCIÓN UTILITARIA PARA DESENCRIPTAR DATOS DE USUARIO (USO INTERNO)
+function decryptUserData(encryptedUser) {
+    try {
+        return {
+            ...encryptedUser,
+            email: encryptedUser.email ? decryptDates(encryptedUser.email) : null,
+            telefono: encryptedUser.telefono ? decryptDates(encryptedUser.telefono) : null,
+            fecha_creacion: encryptedUser.fecha_creacion ? decryptDates(encryptedUser.fecha_creacion) : null,
+            fecha_modificacion: encryptedUser.fecha_modificacion ? decryptDates(encryptedUser.fecha_modificacion) : null
+        };
+    } catch (error) {
+        console.error('Error al desencriptar datos del usuario:', error);
+        return encryptedUser; // Retornar datos originales si falla
+    }
+}
 
 module.exports = usersCtl;
 

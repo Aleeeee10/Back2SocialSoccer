@@ -5130,3 +5130,1432 @@ Stack: Error
 2025-07-25 10:35:23 [INFO]: 🚀 MongoDB conectado correctamente
 2025-07-25 10:35:24 [INFO]: Conexión establecida con la base de datos
 2025-07-25 10:35:28 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 15:15:59 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 15:15:59 [INFO]: Base de datos conectada
+2025-07-25 15:16:00 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-25 15:16:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 15:16:00 [INFO]: Conexión establecida con la base de datos
+2025-07-25 15:16:04 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 15:16:35 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 15:16:36 [INFO]: Base de datos conectada
+2025-07-25 15:16:36 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-25 15:16:36 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 15:16:36 [INFO]: Conexión establecida con la base de datos
+2025-07-25 15:16:41 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 18:07:06 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-25 20:32:09 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:32:09 [INFO]: Base de datos conectada
+2025-07-25 20:32:09 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:32:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:32:09 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:32:09 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:34:07 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:34:07 [INFO]: Base de datos conectada
+2025-07-25 20:34:07 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-25 20:34:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:34:08 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:34:12 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:34:12 [INFO]: Base de datos conectada
+2025-07-25 20:34:12 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:34:12 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:34:12 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:34:12 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:34:58 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:34:58 [INFO]: Base de datos conectada
+2025-07-25 20:34:59 [INFO]: ✅ Mongoose conectado a MongoDB en: 31.97.42.126
+2025-07-25 20:34:59 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:34:59 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:35:03 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:35:07 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:35:07 [INFO]: Base de datos conectada
+2025-07-25 20:35:07 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:35:07 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:35:07 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:35:07 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:44:01 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:44:01 [INFO]: Base de datos conectada
+2025-07-25 20:44:01 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:44:01 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:44:01 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:44:01 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:44:02 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:44:02 [INFO]: Base de datos conectada
+2025-07-25 20:44:02 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:44:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:44:02 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:44:02 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:44:19 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:44:19 [INFO]: Base de datos conectada
+2025-07-25 20:44:19 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:44:19 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:44:19 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:44:19 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:44:20 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:44:20 [INFO]: Base de datos conectada
+2025-07-25 20:44:20 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:44:20 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:44:20 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:44:21 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:44:43 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:44:43 [INFO]: Base de datos conectada
+2025-07-25 20:44:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:44:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:44:43 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:44:44 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:44:45 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:44:45 [INFO]: Base de datos conectada
+2025-07-25 20:44:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:44:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:44:45 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:44:45 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:45:02 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:45:02 [INFO]: Base de datos conectada
+2025-07-25 20:45:02 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:45:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:45:02 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:45:02 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:45:04 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:45:04 [INFO]: Base de datos conectada
+2025-07-25 20:45:04 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:45:04 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:45:04 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:45:04 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:45:40 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:45:40 [INFO]: Base de datos conectada
+2025-07-25 20:45:40 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:45:40 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:45:40 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:45:40 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:45:45 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:45:45 [INFO]: Base de datos conectada
+2025-07-25 20:45:45 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:45:45 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:45:45 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:45:45 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:46:03 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:46:03 [INFO]: Base de datos conectada
+2025-07-25 20:46:03 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:46:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:46:03 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:46:03 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:46:23 [INFO]: El servidor está escuchando en el puerto 2000
+2025-07-25 20:46:23 [INFO]: Base de datos conectada
+2025-07-25 20:46:23 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:46:23 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:46:23 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:46:23 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 20:46:57 [INFO]: [0mGET /auth/status [32m200[0m 9.000 ms - 37[0m
+2025-07-25 20:46:57 [INFO]: [0mGET /auth/status [36m304[0m 0.832 ms - -[0m
+2025-07-25 20:46:57 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.349 ms - 0[0m
+2025-07-25 20:46:57 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 20:46:57 [INFO]: [0mGET /auth/preferences [33m401[0m 1.347 ms - 88[0m
+2025-07-25 20:46:57 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.104 ms - 0[0m
+2025-07-25 20:46:57 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 20:46:57 [INFO]: [0mPOST /auth/logout [33m401[0m 13.486 ms - 88[0m
+2025-07-25 20:46:57 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 20:46:57 [INFO]: [0mPOST /auth/logout [33m401[0m 1.193 ms - 88[0m
+2025-07-25 20:46:57 [INFO]: [0mGET /auth/status [36m304[0m 0.561 ms - -[0m
+2025-07-25 20:46:57 [INFO]: [0mGET /auth/status [36m304[0m 0.467 ms - -[0m
+2025-07-25 20:46:57 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 20:46:57 [INFO]: [0mPOST /auth/logout [33m401[0m 1.888 ms - 88[0m
+2025-07-25 20:46:57 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 20:46:57 [INFO]: [0mPOST /auth/logout [33m401[0m 1.245 ms - 88[0m
+2025-07-25 20:46:57 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 20:46:57 [INFO]: [0mGET /auth/preferences [33m401[0m 0.598 ms - 88[0m
+2025-07-25 20:47:00 [INFO]: [0mGET /auth/status [36m304[0m 0.758 ms - -[0m
+2025-07-25 20:47:00 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 20:47:00 [INFO]: [0mPOST /auth/logout [33m401[0m 1.614 ms - 88[0m
+2025-07-25 20:47:00 [INFO]: [0mGET /api/csrf-token [32m200[0m 1.493 ms - 52[0m
+2025-07-25 20:47:00 [INFO]: [0mOPTIONS /roles/disponibles [32m204[0m 0.141 ms - 0[0m
+2025-07-25 20:47:00 [INFO]: [0mGET /roles/disponibles [32m200[0m 6.668 ms - 2[0m
+2025-07-25 20:53:00 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 20:53:00 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 20:53:00 [INFO]: Base de datos conectada
+2025-07-25 20:53:00 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 20:53:00 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 20:53:00 [ERROR]: ❌ Error al inicializar roles: Table 'futbolsocial.roles' doesn't exist
+2025-07-25 20:53:00 [ERROR]: 💡 Asegúrate de que:
+2025-07-25 20:53:00 [ERROR]:    - La tabla "roles" existe en la base de datos
+2025-07-25 20:53:00 [ERROR]:    - La conexión a MySQL está funcionando
+2025-07-25 20:53:00 [ERROR]:    - Las credenciales de base de datos son correctas
+2025-07-25 20:53:00 [INFO]: ==================================================
+2025-07-25 20:53:00 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 20:53:00 [INFO]: 📡 Puerto: 2000
+2025-07-25 20:53:00 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 20:53:00 [INFO]: 📊 Entorno: development
+2025-07-25 20:53:00 [INFO]: ==================================================
+2025-07-25 20:53:00 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 20:53:00 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 20:53:00 [INFO]: Conexión establecida con la base de datos
+2025-07-25 20:53:01 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:01:08 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:01:08 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:01:08 [INFO]: Base de datos conectada
+2025-07-25 21:01:08 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:01:08 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:01:08 [ERROR]: ❌ Error al inicializar roles: Table 'futbolsocial.roles' doesn't exist
+2025-07-25 21:01:08 [ERROR]: 💡 Asegúrate de que:
+2025-07-25 21:01:08 [ERROR]:    - La tabla "roles" existe en la base de datos
+2025-07-25 21:01:08 [ERROR]:    - La conexión a MySQL está funcionando
+2025-07-25 21:01:08 [ERROR]:    - Las credenciales de base de datos son correctas
+2025-07-25 21:01:08 [ERROR]: ❌ Error en la inicialización de roles
+2025-07-25 21:01:08 [INFO]: ==================================================
+2025-07-25 21:01:08 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:01:08 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:01:08 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:01:08 [INFO]: 📊 Entorno: development
+2025-07-25 21:01:08 [INFO]: ==================================================
+2025-07-25 21:01:08 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:01:08 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:01:08 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:01:08 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:05:38 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:05:38 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:05:38 [INFO]: Base de datos conectada
+2025-07-25 21:05:38 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:05:38 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:05:38 [ERROR]: ❌ Error al inicializar roles: Unknown column 'estado' in 'where clause'
+2025-07-25 21:05:38 [ERROR]: 💡 Asegúrate de que:
+2025-07-25 21:05:38 [ERROR]:    - La tabla "roles" existe en la base de datos
+2025-07-25 21:05:38 [ERROR]:    - La conexión a MySQL está funcionando
+2025-07-25 21:05:38 [ERROR]:    - Las credenciales de base de datos son correctas
+2025-07-25 21:05:38 [ERROR]: ❌ Error en la inicialización de roles
+2025-07-25 21:05:38 [INFO]: ==================================================
+2025-07-25 21:05:38 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:05:38 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:05:38 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:05:38 [INFO]: 📊 Entorno: development
+2025-07-25 21:05:38 [INFO]: ==================================================
+2025-07-25 21:05:38 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:05:38 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:05:38 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:05:38 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:05:46 [INFO]: [0mGET /auth/status [36m304[0m 5.117 ms - -[0m
+2025-07-25 21:05:46 [INFO]: [0mGET /auth/status [36m304[0m 0.749 ms - -[0m
+2025-07-25 21:05:46 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.289 ms - 0[0m
+2025-07-25 21:05:46 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:05:46 [INFO]: [0mGET /auth/preferences [33m401[0m 1.140 ms - 88[0m
+2025-07-25 21:05:46 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:05:46 [INFO]: [0mPOST /auth/logout [33m401[0m 7.136 ms - 88[0m
+2025-07-25 21:05:46 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:05:46 [INFO]: [0mPOST /auth/logout [33m401[0m 0.989 ms - 88[0m
+2025-07-25 21:05:50 [INFO]: [0mGET /auth/status [36m304[0m 0.617 ms - -[0m
+2025-07-25 21:05:50 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:05:50 [INFO]: [0mPOST /auth/logout [33m401[0m 1.163 ms - 88[0m
+2025-07-25 21:05:50 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.597 ms - 52[0m
+2025-07-25 21:05:50 [INFO]: [0mOPTIONS /roles/disponibles [32m204[0m 0.116 ms - 0[0m
+2025-07-25 21:05:50 [INFO]: [0mGET /roles/disponibles [32m200[0m 2.046 ms - 181[0m
+2025-07-25 21:06:06 [INFO]: [0mOPTIONS /auth/register [32m204[0m 0.159 ms - 0[0m
+2025-07-25 21:06:06 [INFO]: ⚠️ Nuevo administrador registrado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:06:06 [ERROR]: (node:8280) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-25 21:06:06 [INFO]: [0mPOST /auth/register [32m201[0m 57.608 ms - 271[0m
+2025-07-25 21:06:09 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.104 ms - 0[0m
+2025-07-25 21:06:09 [INFO]: [0mGET /auth/status [32m200[0m 17.962 ms - 97[0m
+2025-07-25 21:07:43 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:07:43 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:07:43 [INFO]: Base de datos conectada
+2025-07-25 21:07:43 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:07:43 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:07:44 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:07:44 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:07:44 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:07:44 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:07:44 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:07:44 [INFO]: ==================================================
+2025-07-25 21:07:44 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:07:44 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:07:44 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:07:44 [INFO]: 📊 Entorno: development
+2025-07-25 21:07:44 [INFO]: ==================================================
+2025-07-25 21:07:44 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:07:44 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:07:44 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:07:44 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:08:02 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:08:02 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:08:02 [INFO]: Base de datos conectada
+2025-07-25 21:08:03 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:08:03 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:08:03 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:08:03 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:08:03 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:08:03 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:08:03 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:08:03 [INFO]: ==================================================
+2025-07-25 21:08:03 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:08:03 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:08:03 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:08:03 [INFO]: 📊 Entorno: development
+2025-07-25 21:08:03 [INFO]: ==================================================
+2025-07-25 21:08:03 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:08:03 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:08:03 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:08:03 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:09:14 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:09:14 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:09:14 [INFO]: Base de datos conectada
+2025-07-25 21:09:14 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:09:14 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:09:14 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:09:14 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:09:14 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:09:14 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:09:14 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:09:14 [INFO]: ==================================================
+2025-07-25 21:09:14 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:09:14 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:09:14 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:09:14 [INFO]: 📊 Entorno: development
+2025-07-25 21:09:14 [INFO]: ==================================================
+2025-07-25 21:09:14 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:09:14 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:09:14 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:09:14 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:16:40 [INFO]: [0mGET /auth/status [36m304[0m 25.456 ms - -[0m
+2025-07-25 21:16:40 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:16:40 [INFO]: [0mGET /auth/preferences [32m200[0m 5.858 ms - 140[0m
+2025-07-25 21:16:52 [INFO]: [0mGET /auth/status [36m304[0m 7.068 ms - -[0m
+2025-07-25 21:16:52 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:16:52 [INFO]: [0mGET /auth/preferences [36m304[0m 4.724 ms - -[0m
+2025-07-25 21:18:34 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.339 ms - 0[0m
+2025-07-25 21:18:34 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:18:34 [INFO]: [0mPOST /auth/logout [32m200[0m 19.199 ms - 84[0m
+2025-07-25 21:18:34 [INFO]: [0mGET /auth/status [32m200[0m 0.734 ms - 37[0m
+2025-07-25 21:18:34 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:18:34 [INFO]: [0mPOST /auth/logout [33m401[0m 1.188 ms - 88[0m
+2025-07-25 21:18:34 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.809 ms - 52[0m
+2025-07-25 21:18:38 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.135 ms - 0[0m
+2025-07-25 21:18:38 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:18:38 [INFO]: ❌ Contraseña incorrecta para: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:18:38 [ERROR]: (node:4520) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-25 21:18:38 [INFO]: [0mPOST /auth/login [33m401[0m 7.564 ms - 52[0m
+2025-07-25 21:18:42 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:18:42 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 21:18:42 [INFO]: [0mPOST /auth/login [32m200[0m 8.657 ms - 140[0m
+2025-07-25 21:18:47 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.152 ms - 0[0m
+2025-07-25 21:18:47 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.277 ms - 52[0m
+2025-07-25 21:18:47 [INFO]: [0mOPTIONS /auth/profile [32m204[0m 0.077 ms - 0[0m
+2025-07-25 21:18:47 [WARN]: 404 Not Found: /auth/profile
+2025-07-25 21:18:47 [INFO]: [0mGET /auth/profile [33m404[0m 5.322 ms - 48[0m
+2025-07-25 21:18:56 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.102 ms - 0[0m
+2025-07-25 21:18:56 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.270 ms - 52[0m
+2025-07-25 21:18:56 [INFO]: [0mOPTIONS /auth/profile [32m204[0m 0.115 ms - 0[0m
+2025-07-25 21:18:56 [WARN]: 404 Not Found: /auth/profile
+2025-07-25 21:18:56 [INFO]: [0mGET /auth/profile [33m404[0m 6.010 ms - 48[0m
+2025-07-25 21:19:07 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.133 ms - 0[0m
+2025-07-25 21:19:07 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.329 ms - 52[0m
+2025-07-25 21:19:07 [INFO]: [0mOPTIONS /auth/profile [32m204[0m 0.139 ms - 0[0m
+2025-07-25 21:19:07 [WARN]: 404 Not Found: /auth/profile
+2025-07-25 21:19:07 [INFO]: [0mGET /auth/profile [33m404[0m 4.017 ms - 48[0m
+2025-07-25 21:24:18 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:24:18 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:24:18 [INFO]: Base de datos conectada
+2025-07-25 21:24:18 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:24:18 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:24:18 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:24:18 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:24:18 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:24:18 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:24:18 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:24:18 [INFO]: ==================================================
+2025-07-25 21:24:18 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:24:18 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:24:18 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:24:18 [INFO]: 📊 Entorno: development
+2025-07-25 21:24:18 [INFO]: ==================================================
+2025-07-25 21:24:18 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:24:18 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:24:18 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:24:18 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:24:18 [INFO]: [0mGET /auth/status [32m200[0m 20.634 ms - 97[0m
+2025-07-25 21:24:18 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:24:18 [INFO]: [0mGET /auth/preferences [36m304[0m 4.584 ms - -[0m
+2025-07-25 21:24:26 [INFO]: [0mGET /auth/status [36m304[0m 6.180 ms - -[0m
+2025-07-25 21:24:27 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:24:27 [INFO]: [0mGET /auth/preferences [36m304[0m 3.837 ms - -[0m
+2025-07-25 21:25:20 [INFO]: [0mGET /auth/status [36m304[0m 6.681 ms - -[0m
+2025-07-25 21:25:20 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:25:20 [INFO]: [0mGET /auth/preferences [36m304[0m 3.896 ms - -[0m
+2025-07-25 21:29:21 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:29:21 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:29:21 [INFO]: Base de datos conectada
+2025-07-25 21:29:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:29:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:29:21 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:29:21 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:29:21 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:29:21 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:29:21 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:29:21 [INFO]: ==================================================
+2025-07-25 21:29:21 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:29:21 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:29:21 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:29:21 [INFO]: 📊 Entorno: development
+2025-07-25 21:29:21 [INFO]: ==================================================
+2025-07-25 21:29:21 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:29:21 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:29:21 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:29:22 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:29:30 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:29:30 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:29:30 [INFO]: Base de datos conectada
+2025-07-25 21:29:30 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:29:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:29:30 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:29:30 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:29:30 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:29:30 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:29:30 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:29:30 [INFO]: ==================================================
+2025-07-25 21:29:30 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:29:30 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:29:30 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:29:30 [INFO]: 📊 Entorno: development
+2025-07-25 21:29:30 [INFO]: ==================================================
+2025-07-25 21:29:30 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:29:30 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:29:30 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:29:30 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:29:38 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:29:38 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:29:38 [INFO]: Base de datos conectada
+2025-07-25 21:29:38 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:29:38 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:29:38 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:29:38 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:29:38 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:29:38 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:29:38 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:29:38 [INFO]: ==================================================
+2025-07-25 21:29:38 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:29:38 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:29:38 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:29:38 [INFO]: 📊 Entorno: development
+2025-07-25 21:29:38 [INFO]: ==================================================
+2025-07-25 21:29:38 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:29:38 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:29:38 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:29:38 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:29:46 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:29:46 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:29:46 [INFO]: Base de datos conectada
+2025-07-25 21:29:46 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:29:46 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:29:46 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:29:46 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:29:46 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:29:46 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:29:46 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:29:46 [INFO]: ==================================================
+2025-07-25 21:29:46 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:29:46 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:29:46 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:29:46 [INFO]: 📊 Entorno: development
+2025-07-25 21:29:46 [INFO]: ==================================================
+2025-07-25 21:29:46 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:29:46 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:29:46 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:29:46 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:32:15 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:32:15 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:32:15 [INFO]: Base de datos conectada
+2025-07-25 21:32:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:32:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:32:15 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:32:15 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:32:15 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:32:15 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:32:15 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:32:15 [INFO]: ==================================================
+2025-07-25 21:32:15 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:32:15 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:32:15 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:32:15 [INFO]: 📊 Entorno: development
+2025-07-25 21:32:15 [INFO]: ==================================================
+2025-07-25 21:32:15 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:32:15 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:32:15 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:32:15 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:32:22 [INFO]: [0mGET /auth/status [36m304[0m 21.983 ms - -[0m
+2025-07-25 21:32:22 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:32:22 [INFO]: [0mGET /auth/preferences [36m304[0m 5.547 ms - -[0m
+2025-07-25 21:32:28 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.220 ms - 0[0m
+2025-07-25 21:32:28 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:32:28 [INFO]: [0mPOST /auth/logout [32m200[0m 18.536 ms - 84[0m
+2025-07-25 21:32:28 [INFO]: [0mGET /auth/status [32m200[0m 0.817 ms - 37[0m
+2025-07-25 21:32:28 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:32:28 [INFO]: [0mPOST /auth/logout [33m401[0m 1.142 ms - 88[0m
+2025-07-25 21:32:28 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.811 ms - 52[0m
+2025-07-25 21:32:32 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.124 ms - 0[0m
+2025-07-25 21:32:32 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:32:32 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 21:32:32 [INFO]: [0mPOST /auth/login [32m200[0m 9.316 ms - 174[0m
+2025-07-25 21:32:34 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.133 ms - 0[0m
+2025-07-25 21:32:34 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.650 ms - 52[0m
+2025-07-25 21:32:34 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.123 ms - 0[0m
+2025-07-25 21:32:34 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 21:32:34 [INFO]: [0mGET /admin/dashboard [33m404[0m 5.547 ms - 48[0m
+2025-07-25 21:32:34 [INFO]: [0mOPTIONS /news [32m204[0m 0.112 ms - 0[0m
+2025-07-25 21:32:34 [WARN]: 404 Not Found: /news
+2025-07-25 21:32:34 [INFO]: [0mGET /news [33m404[0m 4.131 ms - 48[0m
+2025-07-25 21:32:41 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.111 ms - 0[0m
+2025-07-25 21:32:41 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.517 ms - 52[0m
+2025-07-25 21:32:41 [INFO]: [0mOPTIONS /teams [32m204[0m 0.143 ms - 0[0m
+2025-07-25 21:32:41 [WARN]: 404 Not Found: /teams
+2025-07-25 21:32:41 [INFO]: [0mGET /teams [33m404[0m 4.755 ms - 48[0m
+2025-07-25 21:32:50 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.102 ms - 0[0m
+2025-07-25 21:32:50 [INFO]: [0mGET /api/csrf-token [32m200[0m 5.396 ms - 52[0m
+2025-07-25 21:32:50 [INFO]: [0mOPTIONS /users [32m204[0m 0.100 ms - 0[0m
+2025-07-25 21:32:50 [WARN]: 404 Not Found: /users
+2025-07-25 21:32:50 [INFO]: [0mGET /users [33m404[0m 4.575 ms - 48[0m
+2025-07-25 21:32:55 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.264 ms - 52[0m
+2025-07-25 21:32:55 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.126 ms - 0[0m
+2025-07-25 21:32:55 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 21:32:55 [INFO]: [0mGET /admin/dashboard [33m404[0m 3.838 ms - 48[0m
+2025-07-25 21:32:55 [INFO]: [0mOPTIONS /news [32m204[0m 0.094 ms - 0[0m
+2025-07-25 21:32:55 [WARN]: 404 Not Found: /news
+2025-07-25 21:32:55 [INFO]: [0mGET /news [33m404[0m 2.878 ms - 48[0m
+2025-07-25 21:33:10 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.098 ms - 0[0m
+2025-07-25 21:33:10 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.283 ms - 52[0m
+2025-07-25 21:33:10 [INFO]: [0mOPTIONS /users [32m204[0m 0.095 ms - 0[0m
+2025-07-25 21:33:10 [WARN]: 404 Not Found: /users
+2025-07-25 21:33:10 [INFO]: [0mGET /users [33m404[0m 3.336 ms - 48[0m
+2025-07-25 21:33:12 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.167 ms - 52[0m
+2025-07-25 21:33:12 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.075 ms - 0[0m
+2025-07-25 21:33:12 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 21:33:12 [INFO]: [0mGET /admin/dashboard [33m404[0m 2.882 ms - 48[0m
+2025-07-25 21:33:12 [INFO]: [0mOPTIONS /news [32m204[0m 0.087 ms - 0[0m
+2025-07-25 21:33:12 [WARN]: 404 Not Found: /news
+2025-07-25 21:33:12 [INFO]: [0mGET /news [33m404[0m 2.981 ms - 48[0m
+2025-07-25 21:33:17 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.115 ms - 0[0m
+2025-07-25 21:33:17 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.672 ms - 52[0m
+2025-07-25 21:33:17 [INFO]: [0mOPTIONS /auth/profile [32m204[0m 0.100 ms - 0[0m
+2025-07-25 21:33:17 [WARN]: 404 Not Found: /auth/profile
+2025-07-25 21:33:17 [INFO]: [0mGET /auth/profile [33m404[0m 3.342 ms - 48[0m
+2025-07-25 21:40:38 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.085 ms - 0[0m
+2025-07-25 21:40:38 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:40:38 [INFO]: [0mPOST /auth/logout [32m200[0m 9.512 ms - 84[0m
+2025-07-25 21:40:38 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.072 ms - 0[0m
+2025-07-25 21:40:38 [INFO]: [0mGET /auth/status [36m304[0m 0.595 ms - -[0m
+2025-07-25 21:40:38 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:40:38 [INFO]: [0mPOST /auth/logout [33m401[0m 0.881 ms - 88[0m
+2025-07-25 21:40:38 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.107 ms - 0[0m
+2025-07-25 21:40:38 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.556 ms - 52[0m
+2025-07-25 21:40:39 [INFO]: [0mGET /auth/status [36m304[0m 0.475 ms - -[0m
+2025-07-25 21:40:39 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:40:39 [INFO]: [0mPOST /auth/logout [33m401[0m 0.860 ms - 88[0m
+2025-07-25 21:40:39 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.498 ms - 52[0m
+2025-07-25 21:40:39 [INFO]: [0mOPTIONS /roles/disponibles [32m204[0m 0.064 ms - 0[0m
+2025-07-25 21:40:39 [INFO]: [0mGET /roles/disponibles [36m304[0m 1.386 ms - -[0m
+2025-07-25 21:40:54 [INFO]: [0mOPTIONS /auth/register [32m204[0m 0.091 ms - 0[0m
+2025-07-25 21:40:54 [ERROR]: (node:33008) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-25 21:40:54 [INFO]: [0mPOST /auth/register [32m201[0m 21.561 ms - 296[0m
+2025-07-25 21:40:56 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.091 ms - 0[0m
+2025-07-25 21:40:56 [INFO]: [0mGET /auth/status [32m200[0m 2.583 ms - 94[0m
+2025-07-25 21:41:09 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.096 ms - 0[0m
+2025-07-25 21:41:09 [INFO]: Usuario autenticado: dgc.morocho@yavirac.edu.ec
+2025-07-25 21:41:09 [INFO]: [0mPOST /auth/logout [32m200[0m 8.893 ms - 79[0m
+2025-07-25 21:41:09 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.062 ms - 0[0m
+2025-07-25 21:41:09 [INFO]: [0mGET /auth/status [32m200[0m 0.397 ms - 37[0m
+2025-07-25 21:41:09 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:41:09 [INFO]: [0mPOST /auth/logout [33m401[0m 0.938 ms - 88[0m
+2025-07-25 21:41:09 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.087 ms - 0[0m
+2025-07-25 21:41:09 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.438 ms - 52[0m
+2025-07-25 21:41:14 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.093 ms - 0[0m
+2025-07-25 21:41:14 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:41:14 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 21:41:14 [INFO]: [0mPOST /auth/login [32m200[0m 4.427 ms - 174[0m
+2025-07-25 21:41:15 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.093 ms - 0[0m
+2025-07-25 21:41:15 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.392 ms - 52[0m
+2025-07-25 21:41:15 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.076 ms - 0[0m
+2025-07-25 21:41:15 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 21:41:15 [INFO]: [0mGET /admin/dashboard [33m404[0m 3.189 ms - 48[0m
+2025-07-25 21:41:15 [INFO]: [0mOPTIONS /news [32m204[0m 0.107 ms - 0[0m
+2025-07-25 21:41:15 [WARN]: 404 Not Found: /news
+2025-07-25 21:41:15 [INFO]: [0mGET /news [33m404[0m 3.071 ms - 48[0m
+2025-07-25 21:44:39 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.093 ms - 0[0m
+2025-07-25 21:44:39 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.127 ms - 52[0m
+2025-07-25 21:44:39 [INFO]: [0mOPTIONS /users [32m204[0m 0.069 ms - 0[0m
+2025-07-25 21:44:39 [WARN]: 404 Not Found: /users
+2025-07-25 21:44:39 [INFO]: [0mGET /users [33m404[0m 2.631 ms - 48[0m
+2025-07-25 21:47:24 [INFO]: [0mGET /auth/status [32m200[0m 5.462 ms - 97[0m
+2025-07-25 21:47:24 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:47:24 [INFO]: [0mGET /auth/preferences [36m304[0m 3.783 ms - -[0m
+2025-07-25 21:47:24 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.401 ms - 52[0m
+2025-07-25 21:47:24 [INFO]: [0mOPTIONS /users [32m204[0m 0.113 ms - 0[0m
+2025-07-25 21:47:24 [WARN]: 404 Not Found: /users
+2025-07-25 21:47:24 [INFO]: [0mGET /users [33m404[0m 3.731 ms - 48[0m
+2025-07-25 21:50:03 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.112 ms - 0[0m
+2025-07-25 21:50:03 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.405 ms - 52[0m
+2025-07-25 21:50:03 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.110 ms - 0[0m
+2025-07-25 21:50:03 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:50:03 [INFO]: [0mGET /users/all [31m500[0m 3.944 ms - 39[0m
+2025-07-25 21:50:03 [INFO]: [0mOPTIONS /roles [32m204[0m 0.095 ms - 0[0m
+2025-07-25 21:50:03 [WARN]: 404 Not Found: /roles
+2025-07-25 21:50:03 [INFO]: [0mGET /roles [33m404[0m 3.122 ms - 48[0m
+2025-07-25 21:50:16 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.091 ms - 0[0m
+2025-07-25 21:50:16 [INFO]: [0mGET /api/csrf-token [32m200[0m 2.550 ms - 52[0m
+2025-07-25 21:50:16 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.104 ms - 0[0m
+2025-07-25 21:50:16 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:50:16 [INFO]: [0mGET /users/all [31m500[0m 3.485 ms - 39[0m
+2025-07-25 21:50:16 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.088 ms - 0[0m
+2025-07-25 21:50:16 [INFO]: [0mGET /roles/lista [32m200[0m 3.091 ms - 375[0m
+2025-07-25 21:50:29 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.163 ms - 0[0m
+2025-07-25 21:50:29 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.976 ms - 52[0m
+2025-07-25 21:50:29 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.091 ms - 0[0m
+2025-07-25 21:50:29 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:50:29 [INFO]: [0mGET /users/all [31m500[0m 3.837 ms - 39[0m
+2025-07-25 21:50:29 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.138 ms - 0[0m
+2025-07-25 21:50:29 [INFO]: [0mGET /roles/lista [36m304[0m 4.782 ms - -[0m
+2025-07-25 21:50:38 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.167 ms - 0[0m
+2025-07-25 21:50:38 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.015 ms - 52[0m
+2025-07-25 21:50:38 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.068 ms - 0[0m
+2025-07-25 21:50:38 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:50:38 [INFO]: [0mGET /users/all [31m500[0m 4.466 ms - 39[0m
+2025-07-25 21:50:38 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.162 ms - 0[0m
+2025-07-25 21:50:38 [INFO]: [0mGET /roles/lista [36m304[0m 3.813 ms - -[0m
+2025-07-25 21:51:17 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.160 ms - 0[0m
+2025-07-25 21:51:17 [INFO]: [0mGET /api/csrf-token [32m200[0m 5.273 ms - 52[0m
+2025-07-25 21:51:17 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.152 ms - 0[0m
+2025-07-25 21:51:17 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:51:17 [INFO]: [0mGET /users/all [31m500[0m 5.220 ms - 39[0m
+2025-07-25 21:51:17 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.189 ms - 0[0m
+2025-07-25 21:51:17 [INFO]: [0mGET /roles/lista [36m304[0m 3.808 ms - -[0m
+2025-07-25 21:51:27 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.192 ms - 0[0m
+2025-07-25 21:51:27 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:51:27 [INFO]: [0mGET /users/all [31m500[0m 4.303 ms - 39[0m
+2025-07-25 21:51:27 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.105 ms - 0[0m
+2025-07-25 21:51:27 [INFO]: [0mGET /roles/lista [36m304[0m 4.566 ms - -[0m
+2025-07-25 21:51:42 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:51:42 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:51:42 [INFO]: Base de datos conectada
+2025-07-25 21:51:42 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:51:42 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:51:42 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:51:42 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:51:42 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:51:42 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:51:42 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:51:42 [INFO]: ==================================================
+2025-07-25 21:51:42 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:51:42 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:51:42 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:51:42 [INFO]: 📊 Entorno: development
+2025-07-25 21:51:42 [INFO]: ==================================================
+2025-07-25 21:51:42 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:51:42 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:51:43 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:51:43 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:52:50 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:52:50 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:52:50 [INFO]: Base de datos conectada
+2025-07-25 21:52:50 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:52:50 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:52:50 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:52:50 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:52:50 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:52:50 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:52:50 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:52:50 [INFO]: ==================================================
+2025-07-25 21:52:50 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:52:50 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:52:50 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:52:50 [INFO]: 📊 Entorno: development
+2025-07-25 21:52:50 [INFO]: ==================================================
+2025-07-25 21:52:50 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:52:50 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:52:50 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:52:50 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:52:54 [INFO]: [0mGET /auth/status [36m304[0m 27.533 ms - -[0m
+2025-07-25 21:52:54 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:52:54 [INFO]: [0mGET /auth/preferences [36m304[0m 5.774 ms - -[0m
+2025-07-25 21:52:56 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.217 ms - 0[0m
+2025-07-25 21:52:56 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:52:56 [INFO]: [0mPOST /auth/logout [32m200[0m 18.286 ms - 84[0m
+2025-07-25 21:52:56 [INFO]: [0mGET /auth/status [32m200[0m 0.817 ms - 37[0m
+2025-07-25 21:52:56 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:52:56 [INFO]: [0mPOST /auth/logout [33m401[0m 1.033 ms - 88[0m
+2025-07-25 21:52:57 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.779 ms - 52[0m
+2025-07-25 21:53:01 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.110 ms - 0[0m
+2025-07-25 21:53:01 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:53:01 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 21:53:01 [INFO]: [0mPOST /auth/login [32m200[0m 10.707 ms - 174[0m
+2025-07-25 21:53:03 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.133 ms - 0[0m
+2025-07-25 21:53:03 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.635 ms - 52[0m
+2025-07-25 21:53:03 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.127 ms - 0[0m
+2025-07-25 21:53:03 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 21:53:03 [INFO]: [0mGET /admin/dashboard [33m404[0m 5.680 ms - 48[0m
+2025-07-25 21:53:03 [INFO]: [0mOPTIONS /news [32m204[0m 0.103 ms - 0[0m
+2025-07-25 21:53:03 [WARN]: 404 Not Found: /news
+2025-07-25 21:53:03 [INFO]: [0mGET /news [33m404[0m 3.429 ms - 48[0m
+2025-07-25 21:53:06 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.211 ms - 0[0m
+2025-07-25 21:53:06 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:53:06 [INFO]: [0mGET /users/all [31m500[0m 5.153 ms - 39[0m
+2025-07-25 21:53:06 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.125 ms - 0[0m
+2025-07-25 21:53:06 [INFO]: [0mGET /roles/lista [36m304[0m 4.202 ms - -[0m
+2025-07-25 21:53:11 [INFO]: [0mGET /auth/status [32m200[0m 5.421 ms - 97[0m
+2025-07-25 21:53:11 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:53:11 [INFO]: [0mGET /auth/preferences [36m304[0m 4.244 ms - -[0m
+2025-07-25 21:53:11 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:53:11 [INFO]: [0mGET /users/all [31m500[0m 4.172 ms - 39[0m
+2025-07-25 21:53:11 [INFO]: [0mGET /roles/lista [36m304[0m 5.320 ms - -[0m
+2025-07-25 21:53:37 [INFO]: [0mGET /auth/status [36m304[0m 3.709 ms - -[0m
+2025-07-25 21:53:37 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:53:37 [INFO]: [0mGET /auth/preferences [36m304[0m 5.558 ms - -[0m
+2025-07-25 21:53:40 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.112 ms - 0[0m
+2025-07-25 21:53:40 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:53:40 [INFO]: [0mPOST /auth/logout [32m200[0m 12.273 ms - 84[0m
+2025-07-25 21:53:40 [INFO]: [0mGET /auth/status [32m200[0m 1.659 ms - 37[0m
+2025-07-25 21:53:40 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 21:53:40 [INFO]: [0mPOST /auth/logout [33m401[0m 1.083 ms - 88[0m
+2025-07-25 21:53:40 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.612 ms - 52[0m
+2025-07-25 21:53:44 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.113 ms - 0[0m
+2025-07-25 21:53:44 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:53:44 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 21:53:44 [INFO]: [0mPOST /auth/login [32m200[0m 5.171 ms - 174[0m
+2025-07-25 21:53:46 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.181 ms - 0[0m
+2025-07-25 21:53:46 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.499 ms - 52[0m
+2025-07-25 21:53:46 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.144 ms - 0[0m
+2025-07-25 21:53:46 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 21:53:46 [INFO]: [0mGET /admin/dashboard [33m404[0m 4.798 ms - 48[0m
+2025-07-25 21:53:46 [INFO]: [0mOPTIONS /news [32m204[0m 0.098 ms - 0[0m
+2025-07-25 21:53:46 [WARN]: 404 Not Found: /news
+2025-07-25 21:53:46 [INFO]: [0mGET /news [33m404[0m 7.151 ms - 48[0m
+2025-07-25 21:53:52 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.182 ms - 0[0m
+2025-07-25 21:53:52 [ERROR]: Error al obtener todos los usuarios: Error: Unknown column 'estado' in 'where clause'
+2025-07-25 21:53:52 [INFO]: [0mGET /users/all [31m500[0m 4.857 ms - 39[0m
+2025-07-25 21:53:52 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.135 ms - 0[0m
+2025-07-25 21:53:52 [INFO]: [0mGET /roles/lista [36m304[0m 3.997 ms - -[0m
+2025-07-25 21:59:21 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 21:59:21 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 21:59:21 [INFO]: Base de datos conectada
+2025-07-25 21:59:21 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 21:59:21 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 21:59:21 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 21:59:21 [INFO]: 📋 Roles disponibles:
+2025-07-25 21:59:21 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 21:59:21 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 21:59:21 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 21:59:21 [INFO]: ==================================================
+2025-07-25 21:59:21 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 21:59:21 [INFO]: 📡 Puerto: 2000
+2025-07-25 21:59:21 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 21:59:21 [INFO]: 📊 Entorno: development
+2025-07-25 21:59:21 [INFO]: ==================================================
+2025-07-25 21:59:21 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 21:59:21 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 21:59:21 [INFO]: Conexión establecida con la base de datos
+2025-07-25 21:59:21 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 21:59:29 [INFO]: [0mGET /auth/status [32m200[0m 28.618 ms - 97[0m
+2025-07-25 21:59:29 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 21:59:29 [INFO]: [0mGET /auth/preferences [36m304[0m 5.610 ms - -[0m
+2025-07-25 21:59:29 [INFO]: [0mGET /users/all [32m200[0m 7.345 ms - 549[0m
+2025-07-25 21:59:29 [INFO]: [0mGET /roles/lista [36m304[0m 4.209 ms - -[0m
+2025-07-25 21:59:52 [INFO]: [0mOPTIONS /users/update/1 [32m204[0m 0.198 ms - 0[0m
+2025-07-25 21:59:53 [ERROR]: Error al actualizar el usuario: Error: Unknown column 'id' in 'where clause'
+2025-07-25 21:59:53 [INFO]: [0mPUT /users/update/1 [31m500[0m 13.333 ms - 39[0m
+2025-07-25 22:00:03 [INFO]: [0mOPTIONS /users/update/1 [32m204[0m 0.131 ms - 0[0m
+2025-07-25 22:00:03 [ERROR]: Error al actualizar el usuario: Error: Unknown column 'id' in 'where clause'
+2025-07-25 22:00:03 [INFO]: [0mPUT /users/update/1 [31m500[0m 4.138 ms - 39[0m
+2025-07-25 22:02:09 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 22:02:09 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 22:02:09 [INFO]: Base de datos conectada
+2025-07-25 22:02:10 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 22:02:10 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 22:02:10 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 22:02:10 [INFO]: 📋 Roles disponibles:
+2025-07-25 22:02:10 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 22:02:10 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 22:02:10 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 22:02:10 [INFO]: ==================================================
+2025-07-25 22:02:10 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 22:02:10 [INFO]: 📡 Puerto: 2000
+2025-07-25 22:02:10 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 22:02:10 [INFO]: 📊 Entorno: development
+2025-07-25 22:02:10 [INFO]: ==================================================
+2025-07-25 22:02:10 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 22:02:10 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 22:02:10 [INFO]: Conexión establecida con la base de datos
+2025-07-25 22:02:10 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 22:02:28 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 22:02:28 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 22:02:28 [INFO]: Base de datos conectada
+2025-07-25 22:02:28 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 22:02:28 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 22:02:28 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 22:02:28 [INFO]: 📋 Roles disponibles:
+2025-07-25 22:02:28 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 22:02:28 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 22:02:28 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 22:02:28 [INFO]: ==================================================
+2025-07-25 22:02:28 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 22:02:28 [INFO]: 📡 Puerto: 2000
+2025-07-25 22:02:28 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 22:02:28 [INFO]: 📊 Entorno: development
+2025-07-25 22:02:28 [INFO]: ==================================================
+2025-07-25 22:02:28 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 22:02:28 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 22:02:28 [INFO]: Conexión establecida con la base de datos
+2025-07-25 22:02:28 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 22:02:54 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 22:02:54 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 22:02:54 [INFO]: Base de datos conectada
+2025-07-25 22:02:54 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 22:02:54 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 22:02:54 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 22:02:54 [INFO]: 📋 Roles disponibles:
+2025-07-25 22:02:54 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 22:02:54 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 22:02:54 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 22:02:54 [INFO]: ==================================================
+2025-07-25 22:02:54 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 22:02:54 [INFO]: 📡 Puerto: 2000
+2025-07-25 22:02:54 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 22:02:54 [INFO]: 📊 Entorno: development
+2025-07-25 22:02:54 [INFO]: ==================================================
+2025-07-25 22:02:54 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 22:02:54 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 22:02:54 [INFO]: Conexión establecida con la base de datos
+2025-07-25 22:02:54 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 22:03:11 [INFO]: [0mGET /users/all [36m304[0m 25.584 ms - -[0m
+2025-07-25 22:03:11 [INFO]: [0mGET /roles/lista [36m304[0m 5.008 ms - -[0m
+2025-07-25 22:04:09 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 22:04:09 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 22:04:09 [INFO]: Base de datos conectada
+2025-07-25 22:04:09 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 22:04:09 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 22:04:09 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 22:04:09 [INFO]: 📋 Roles disponibles:
+2025-07-25 22:04:09 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 22:04:09 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 22:04:09 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 22:04:09 [INFO]: ==================================================
+2025-07-25 22:04:09 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 22:04:09 [INFO]: 📡 Puerto: 2000
+2025-07-25 22:04:09 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 22:04:09 [INFO]: 📊 Entorno: development
+2025-07-25 22:04:09 [INFO]: ==================================================
+2025-07-25 22:04:09 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 22:04:09 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 22:04:09 [INFO]: Conexión establecida con la base de datos
+2025-07-25 22:04:09 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 22:04:13 [INFO]: [0mGET /auth/status [36m304[0m 25.497 ms - -[0m
+2025-07-25 22:04:13 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:04:13 [INFO]: [0mGET /auth/preferences [36m304[0m 8.601 ms - -[0m
+2025-07-25 22:04:16 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.217 ms - 0[0m
+2025-07-25 22:04:16 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:04:16 [INFO]: [0mPOST /auth/logout [32m200[0m 18.235 ms - 84[0m
+2025-07-25 22:04:16 [INFO]: [0mGET /auth/status [32m200[0m 0.710 ms - 37[0m
+2025-07-25 22:04:16 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 22:04:16 [INFO]: [0mPOST /auth/logout [33m401[0m 1.340 ms - 88[0m
+2025-07-25 22:04:16 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.952 ms - 52[0m
+2025-07-25 22:04:20 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.421 ms - 0[0m
+2025-07-25 22:04:20 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:04:20 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 22:04:20 [INFO]: [0mPOST /auth/login [32m200[0m 13.853 ms - 174[0m
+2025-07-25 22:04:21 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.209 ms - 0[0m
+2025-07-25 22:04:21 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.869 ms - 52[0m
+2025-07-25 22:04:21 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.123 ms - 0[0m
+2025-07-25 22:04:21 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 22:04:21 [INFO]: [0mGET /admin/dashboard [33m404[0m 4.104 ms - 48[0m
+2025-07-25 22:04:22 [INFO]: [0mOPTIONS /news [32m204[0m 0.114 ms - 0[0m
+2025-07-25 22:04:22 [WARN]: 404 Not Found: /news
+2025-07-25 22:04:22 [INFO]: [0mGET /news [33m404[0m 4.388 ms - 48[0m
+2025-07-25 22:04:23 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.113 ms - 0[0m
+2025-07-25 22:04:23 [INFO]: [0mGET /users/all [36m304[0m 4.743 ms - -[0m
+2025-07-25 22:04:23 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.300 ms - 0[0m
+2025-07-25 22:04:23 [INFO]: [0mGET /roles/lista [36m304[0m 7.187 ms - -[0m
+2025-07-25 22:04:33 [INFO]: [0mOPTIONS /users/update/1 [32m204[0m 0.120 ms - 0[0m
+2025-07-25 22:04:33 [INFO]: [0mPUT /users/update/1 [32m200[0m 6.839 ms - 48[0m
+2025-07-25 22:04:33 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.131 ms - 0[0m
+2025-07-25 22:04:33 [INFO]: [0mGET /users/all [32m200[0m 6.069 ms - 546[0m
+2025-07-25 22:10:01 [INFO]: [0mOPTIONS /users/create [32m204[0m 0.115 ms - 0[0m
+2025-07-25 22:10:01 [ERROR]: Error al crear el usuario: Error: Unknown column 'avatar' in 'field list'
+2025-07-25 22:10:01 [INFO]: [0mPOST /users/create [31m500[0m 4.967 ms - 39[0m
+2025-07-25 22:10:07 [INFO]: [0mOPTIONS /users/create [32m204[0m 0.092 ms - 0[0m
+2025-07-25 22:10:07 [ERROR]: Error al crear el usuario: Error: Unknown column 'avatar' in 'field list'
+2025-07-25 22:10:07 [INFO]: [0mPOST /users/create [31m500[0m 3.938 ms - 39[0m
+2025-07-25 22:18:15 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 22:18:15 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 22:18:15 [INFO]: Base de datos conectada
+2025-07-25 22:18:15 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 22:18:15 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 22:18:15 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 22:18:15 [INFO]: 📋 Roles disponibles:
+2025-07-25 22:18:15 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 22:18:15 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 22:18:15 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 22:18:15 [INFO]: ==================================================
+2025-07-25 22:18:15 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 22:18:15 [INFO]: 📡 Puerto: 2000
+2025-07-25 22:18:15 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 22:18:15 [INFO]: 📊 Entorno: development
+2025-07-25 22:18:15 [INFO]: ==================================================
+2025-07-25 22:18:15 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 22:18:15 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 22:18:15 [INFO]: Conexión establecida con la base de datos
+2025-07-25 22:18:15 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 22:18:26 [INFO]: [0mGET /auth/status [32m200[0m 38.653 ms - 99[0m
+2025-07-25 22:18:26 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:18:26 [INFO]: [0mGET /auth/preferences [36m304[0m 8.281 ms - -[0m
+2025-07-25 22:18:26 [INFO]: [0mGET /users/all [36m304[0m 6.255 ms - -[0m
+2025-07-25 22:18:26 [INFO]: [0mGET /roles/lista [36m304[0m 3.935 ms - -[0m
+2025-07-25 22:18:30 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.296 ms - 0[0m
+2025-07-25 22:18:30 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:18:30 [INFO]: [0mPOST /auth/logout [32m200[0m 19.009 ms - 86[0m
+2025-07-25 22:18:30 [INFO]: [0mGET /auth/status [32m200[0m 1.279 ms - 37[0m
+2025-07-25 22:18:30 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 22:18:30 [INFO]: [0mPOST /auth/logout [33m401[0m 1.854 ms - 88[0m
+2025-07-25 22:18:30 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.033 ms - 52[0m
+2025-07-25 22:18:34 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.135 ms - 0[0m
+2025-07-25 22:18:34 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:18:34 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 22:18:34 [INFO]: [0mPOST /auth/login [32m200[0m 9.268 ms - 178[0m
+2025-07-25 22:18:36 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.158 ms - 0[0m
+2025-07-25 22:18:36 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.674 ms - 52[0m
+2025-07-25 22:18:36 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.105 ms - 0[0m
+2025-07-25 22:18:36 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 22:18:36 [INFO]: [0mGET /admin/dashboard [33m404[0m 7.169 ms - 48[0m
+2025-07-25 22:18:36 [INFO]: [0mOPTIONS /news [32m204[0m 0.131 ms - 0[0m
+2025-07-25 22:18:36 [WARN]: 404 Not Found: /news
+2025-07-25 22:18:36 [INFO]: [0mGET /news [33m404[0m 5.772 ms - 48[0m
+2025-07-25 22:18:38 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.260 ms - 0[0m
+2025-07-25 22:18:38 [INFO]: [0mGET /users/all [36m304[0m 6.921 ms - -[0m
+2025-07-25 22:18:38 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.114 ms - 0[0m
+2025-07-25 22:18:38 [INFO]: [0mGET /roles/lista [36m304[0m 4.708 ms - -[0m
+2025-07-25 22:18:58 [INFO]: [0mOPTIONS /users/create [32m204[0m 0.137 ms - 0[0m
+2025-07-25 22:18:58 [INFO]: [0mPOST /users/create [32m201[0m 21.090 ms - 731[0m
+2025-07-25 22:18:58 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.112 ms - 0[0m
+2025-07-25 22:18:58 [INFO]: [0mGET /users/all [32m200[0m 3.445 ms - 789[0m
+2025-07-25 22:19:11 [INFO]: [0mOPTIONS /users/update/3 [32m204[0m 0.121 ms - 0[0m
+2025-07-25 22:19:11 [INFO]: [0mPUT /users/update/3 [32m200[0m 5.660 ms - 48[0m
+2025-07-25 22:19:11 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.148 ms - 0[0m
+2025-07-25 22:19:11 [INFO]: [0mGET /users/all [32m200[0m 4.097 ms - 812[0m
+2025-07-25 22:19:16 [INFO]: [0mOPTIONS /users/delete/3 [32m204[0m 0.105 ms - 0[0m
+2025-07-25 22:19:16 [INFO]: [0mDELETE /users/delete/3 [32m200[0m 10.626 ms - 68[0m
+2025-07-25 22:19:16 [INFO]: [0mGET /users/all [32m200[0m 3.597 ms - 546[0m
+2025-07-25 22:19:24 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.083 ms - 0[0m
+2025-07-25 22:19:24 [INFO]: [0mGET /api/csrf-token [32m200[0m 2.583 ms - 52[0m
+2025-07-25 22:19:24 [INFO]: [0mOPTIONS /teams [32m204[0m 0.110 ms - 0[0m
+2025-07-25 22:19:24 [WARN]: 404 Not Found: /teams
+2025-07-25 22:19:24 [INFO]: [0mGET /teams [33m404[0m 3.470 ms - 48[0m
+2025-07-25 22:19:28 [INFO]: [0mGET /auth/status [32m200[0m 3.471 ms - 99[0m
+2025-07-25 22:19:28 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:19:28 [INFO]: [0mGET /auth/preferences [36m304[0m 5.410 ms - -[0m
+2025-07-25 22:19:28 [INFO]: [0mGET /api/csrf-token [32m200[0m 6.057 ms - 52[0m
+2025-07-25 22:19:29 [WARN]: 404 Not Found: /teams
+2025-07-25 22:19:29 [INFO]: [0mGET /teams [33m404[0m 5.725 ms - 48[0m
+2025-07-25 22:31:29 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 22:31:29 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 22:31:29 [INFO]: Base de datos conectada
+2025-07-25 22:31:29 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 22:31:29 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 22:31:29 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 22:31:29 [INFO]: 📋 Roles disponibles:
+2025-07-25 22:31:29 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 22:31:29 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 22:31:29 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 22:31:29 [INFO]: ==================================================
+2025-07-25 22:31:29 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 22:31:29 [INFO]: 📡 Puerto: 2000
+2025-07-25 22:31:29 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 22:31:29 [INFO]: 📊 Entorno: development
+2025-07-25 22:31:29 [INFO]: ==================================================
+2025-07-25 22:31:29 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 22:31:29 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 22:31:29 [INFO]: Conexión establecida con la base de datos
+2025-07-25 22:31:29 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 22:31:35 [INFO]: [0mGET /auth/status [36m304[0m 30.232 ms - -[0m
+2025-07-25 22:31:35 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:31:35 [INFO]: [0mGET /auth/preferences [36m304[0m 7.106 ms - -[0m
+2025-07-25 22:31:37 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.218 ms - 0[0m
+2025-07-25 22:31:37 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:31:37 [INFO]: [0mPOST /auth/logout [32m200[0m 19.764 ms - 86[0m
+2025-07-25 22:31:37 [INFO]: [0mGET /auth/status [32m200[0m 0.999 ms - 37[0m
+2025-07-25 22:31:37 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 22:31:37 [INFO]: [0mPOST /auth/logout [33m401[0m 1.218 ms - 88[0m
+2025-07-25 22:31:37 [INFO]: [0mGET /api/csrf-token [32m200[0m 1.211 ms - 52[0m
+2025-07-25 22:31:42 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.128 ms - 0[0m
+2025-07-25 22:31:42 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:31:42 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 22:31:42 [INFO]: [0mPOST /auth/login [32m200[0m 9.770 ms - 178[0m
+2025-07-25 22:31:43 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.177 ms - 0[0m
+2025-07-25 22:31:43 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.285 ms - 52[0m
+2025-07-25 22:31:43 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.129 ms - 0[0m
+2025-07-25 22:31:43 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 22:31:43 [INFO]: [0mGET /admin/dashboard [33m404[0m 5.428 ms - 48[0m
+2025-07-25 22:31:43 [INFO]: [0mOPTIONS /news [32m204[0m 0.239 ms - 0[0m
+2025-07-25 22:31:43 [WARN]: 404 Not Found: /news
+2025-07-25 22:31:43 [INFO]: [0mGET /news [33m404[0m 5.584 ms - 48[0m
+2025-07-25 22:31:48 [INFO]: [0mGET /api/csrf-token [32m200[0m 6.383 ms - 52[0m
+2025-07-25 22:31:48 [INFO]: [0mOPTIONS /teams [32m204[0m 0.096 ms - 0[0m
+2025-07-25 22:31:48 [WARN]: 404 Not Found: /teams
+2025-07-25 22:31:48 [INFO]: [0mGET /teams [33m404[0m 4.013 ms - 48[0m
+2025-07-25 22:31:52 [INFO]: [0mGET /auth/status [32m200[0m 8.018 ms - 99[0m
+2025-07-25 22:31:52 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:31:52 [INFO]: [0mGET /auth/preferences [36m304[0m 5.183 ms - -[0m
+2025-07-25 22:31:52 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.726 ms - 52[0m
+2025-07-25 22:31:52 [WARN]: 404 Not Found: /teams
+2025-07-25 22:31:52 [INFO]: [0mGET /teams [33m404[0m 4.463 ms - 48[0m
+2025-07-25 22:39:52 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 22:39:52 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 22:39:52 [INFO]: Base de datos conectada
+2025-07-25 22:39:52 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 22:39:52 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 22:39:52 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 22:39:52 [INFO]: 📋 Roles disponibles:
+2025-07-25 22:39:52 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-25 22:39:52 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-25 22:39:52 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-25 22:39:52 [INFO]: ==================================================
+2025-07-25 22:39:52 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-25 22:39:52 [INFO]: 📡 Puerto: 2000
+2025-07-25 22:39:52 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-25 22:39:52 [INFO]: 📊 Entorno: development
+2025-07-25 22:39:52 [INFO]: ==================================================
+2025-07-25 22:39:52 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-25 22:39:52 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-25 22:39:52 [INFO]: Conexión establecida con la base de datos
+2025-07-25 22:39:52 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-25 22:39:56 [INFO]: [0mGET /auth/status [36m304[0m 29.285 ms - -[0m
+2025-07-25 22:39:56 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:39:56 [INFO]: [0mGET /auth/preferences [36m304[0m 5.179 ms - -[0m
+2025-07-25 22:39:58 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.216 ms - 0[0m
+2025-07-25 22:39:58 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:39:58 [INFO]: [0mPOST /auth/logout [32m200[0m 17.832 ms - 86[0m
+2025-07-25 22:39:58 [INFO]: [0mGET /auth/status [32m200[0m 0.824 ms - 37[0m
+2025-07-25 22:39:58 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 22:39:58 [INFO]: [0mPOST /auth/logout [33m401[0m 1.268 ms - 88[0m
+2025-07-25 22:39:58 [INFO]: [0mGET /api/csrf-token [32m200[0m 1.371 ms - 52[0m
+2025-07-25 22:40:03 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.217 ms - 0[0m
+2025-07-25 22:40:03 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:40:03 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 22:40:03 [INFO]: [0mPOST /auth/login [32m200[0m 12.642 ms - 178[0m
+2025-07-25 22:40:04 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.153 ms - 0[0m
+2025-07-25 22:40:04 [INFO]: [0mGET /api/csrf-token [32m200[0m 5.377 ms - 52[0m
+2025-07-25 22:40:04 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.202 ms - 0[0m
+2025-07-25 22:40:04 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 22:40:04 [INFO]: [0mGET /admin/dashboard [33m404[0m 7.894 ms - 48[0m
+2025-07-25 22:40:04 [INFO]: [0mOPTIONS /news [32m204[0m 0.172 ms - 0[0m
+2025-07-25 22:40:04 [WARN]: 404 Not Found: /news
+2025-07-25 22:40:04 [INFO]: [0mGET /news [33m404[0m 5.684 ms - 48[0m
+2025-07-25 22:40:06 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.550 ms - 52[0m
+2025-07-25 22:40:06 [INFO]: [0mOPTIONS /teams [32m204[0m 0.101 ms - 0[0m
+2025-07-25 22:40:06 [WARN]: 404 Not Found: /teams
+2025-07-25 22:40:06 [INFO]: [0mGET /teams [33m404[0m 4.205 ms - 48[0m
+2025-07-25 22:48:36 [INFO]: [0mGET /teams/all [32m200[0m 1.847 ms - 2[0m
+2025-07-25 22:49:13 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-25 22:49:13 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-25 22:49:13 [INFO]: Base de datos conectada
+2025-07-25 22:49:13 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-25 22:49:13 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-25 22:49:13 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-25 22:50:09 [INFO]: [0mGET /auth/status [32m200[0m 7.218 ms - 99[0m
+2025-07-25 22:50:09 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:50:09 [INFO]: [0mGET /auth/preferences [36m304[0m 5.711 ms - -[0m
+2025-07-25 22:50:11 [INFO]: [0mGET /auth/status [36m304[0m 4.024 ms - -[0m
+2025-07-25 22:50:11 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:50:11 [INFO]: [0mGET /auth/preferences [36m304[0m 3.397 ms - -[0m
+2025-07-25 22:50:12 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.112 ms - 0[0m
+2025-07-25 22:50:12 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:50:13 [INFO]: [0mPOST /auth/logout [32m200[0m 9.902 ms - 86[0m
+2025-07-25 22:50:13 [INFO]: [0mGET /auth/status [32m200[0m 0.499 ms - 37[0m
+2025-07-25 22:50:13 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-25 22:50:13 [INFO]: [0mPOST /auth/logout [33m401[0m 1.219 ms - 88[0m
+2025-07-25 22:50:13 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.506 ms - 52[0m
+2025-07-25 22:50:17 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.104 ms - 0[0m
+2025-07-25 22:50:17 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-25 22:50:17 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-25 22:50:17 [INFO]: [0mPOST /auth/login [32m200[0m 4.606 ms - 178[0m
+2025-07-25 22:50:19 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.157 ms - 0[0m
+2025-07-25 22:50:19 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.319 ms - 52[0m
+2025-07-25 22:50:19 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.142 ms - 0[0m
+2025-07-25 22:50:19 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-25 22:50:19 [INFO]: [0mGET /admin/dashboard [33m404[0m 3.571 ms - 48[0m
+2025-07-25 22:50:19 [INFO]: [0mOPTIONS /news [32m204[0m 0.156 ms - 0[0m
+2025-07-25 22:50:19 [WARN]: 404 Not Found: /news
+2025-07-25 22:50:19 [INFO]: [0mGET /news [33m404[0m 3.380 ms - 48[0m
+2025-07-25 22:50:20 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.184 ms - 52[0m
+2025-07-25 22:50:20 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.079 ms - 0[0m
+2025-07-25 22:50:20 [INFO]: [0mGET /teams/all [32m200[0m 3.208 ms - 2[0m
+2025-07-25 22:50:44 [INFO]: [0mOPTIONS /teams/create [32m204[0m 0.101 ms - 0[0m
+2025-07-25 22:50:44 [INFO]: [0mPOST /teams/create [32m201[0m 27.744 ms - 965[0m
+2025-07-25 22:50:44 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.078 ms - 0[0m
+2025-07-25 22:50:44 [INFO]: [0mGET /teams/all [32m200[0m 3.181 ms - 295[0m
+2025-07-25 22:50:53 [INFO]: [0mOPTIONS /teams/update/1 [32m204[0m 0.080 ms - 0[0m
+2025-07-25 22:50:53 [INFO]: [0mPUT /teams/update/1 [32m200[0m 5.216 ms - 47[0m
+2025-07-25 22:50:53 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.097 ms - 0[0m
+2025-07-25 22:50:53 [INFO]: [0mGET /teams/all [32m200[0m 3.262 ms - 323[0m
+2025-07-25 22:51:17 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.089 ms - 0[0m
+2025-07-25 22:51:17 [INFO]: [0mGET /api/csrf-token [32m200[0m 2.926 ms - 52[0m
+2025-07-25 22:51:17 [INFO]: [0mOPTIONS /auth/profile [32m204[0m 0.102 ms - 0[0m
+2025-07-25 22:51:17 [WARN]: 404 Not Found: /auth/profile
+2025-07-25 22:51:17 [INFO]: [0mGET /auth/profile [33m404[0m 3.254 ms - 48[0m
+2025-07-25 22:51:18 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.685 ms - 52[0m
+2025-07-25 22:51:18 [INFO]: [0mOPTIONS /teams [32m204[0m 0.063 ms - 0[0m
+2025-07-25 22:51:18 [WARN]: 404 Not Found: /teams
+2025-07-25 22:51:18 [INFO]: [0mGET /teams [33m404[0m 2.946 ms - 48[0m
+2025-07-25 22:51:21 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.179 ms - 52[0m
+2025-07-25 22:51:21 [WARN]: 404 Not Found: /auth/profile
+2025-07-25 22:51:21 [INFO]: [0mGET /auth/profile [33m404[0m 4.147 ms - 48[0m
+2025-07-25 22:51:21 [INFO]: [0mGET /api/csrf-token [32m200[0m 4.442 ms - 52[0m
+2025-07-25 22:51:21 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.072 ms - 0[0m
+2025-07-25 22:51:21 [INFO]: [0mGET /teams/all [36m304[0m 3.127 ms - -[0m
+2025-07-25 22:51:25 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.094 ms - 0[0m
+2025-07-25 22:51:25 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.407 ms - 52[0m
+2025-07-25 22:51:25 [INFO]: [0mOPTIONS /teams [32m204[0m 0.083 ms - 0[0m
+2025-07-25 22:51:25 [WARN]: 404 Not Found: /teams
+2025-07-25 22:51:25 [INFO]: [0mGET /teams [33m404[0m 2.838 ms - 48[0m
+2025-07-25 22:51:25 [INFO]: [0mOPTIONS /referees [32m204[0m 0.091 ms - 0[0m
+2025-07-25 22:51:25 [INFO]: [0mGET /referees [32m200[0m 3.908 ms - 2[0m
+2025-07-25 22:51:25 [INFO]: [0mOPTIONS /matches [32m204[0m 0.058 ms - 0[0m
+2025-07-25 22:51:25 [WARN]: 404 Not Found: /matches
+2025-07-25 22:51:25 [INFO]: [0mGET /matches [33m404[0m 2.355 ms - 48[0m
+2025-07-25 22:51:30 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.321 ms - 52[0m
+2025-07-25 22:51:30 [INFO]: [0mGET /referees [36m304[0m 2.613 ms - -[0m
+2025-07-25 22:51:32 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.082 ms - 0[0m
+2025-07-25 22:51:32 [INFO]: [0mGET /api/csrf-token [32m200[0m 2.960 ms - 52[0m
+2025-07-25 22:51:32 [INFO]: [0mOPTIONS /matches [32m204[0m 0.087 ms - 0[0m
+2025-07-25 22:51:32 [WARN]: 404 Not Found: /matches
+2025-07-25 22:51:32 [INFO]: [0mGET /matches [33m404[0m 2.916 ms - 48[0m
+2025-07-25 22:51:32 [INFO]: [0mOPTIONS /resultados [32m204[0m 0.076 ms - 0[0m
+2025-07-25 22:51:32 [WARN]: 404 Not Found: /resultados
+2025-07-25 22:51:32 [INFO]: [0mGET /resultados [33m404[0m 3.558 ms - 48[0m
+2025-07-25 22:55:22 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-27 19:16:41 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-27 19:16:41 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-27 19:16:41 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-27 19:16:41 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-27 19:16:41 [INFO]: Base de datos conectada
+2025-07-27 19:16:41 [INFO]: Conexión establecida con la base de datos
+2025-07-27 19:16:41 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-27 19:16:41 [INFO]: 📋 Roles disponibles:
+2025-07-27 19:16:41 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-27 19:16:41 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-27 19:16:41 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-27 19:16:41 [INFO]: ==================================================
+2025-07-27 19:16:41 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-27 19:16:41 [INFO]: 📡 Puerto: 2000
+2025-07-27 19:16:41 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-27 19:16:41 [INFO]: 📊 Entorno: development
+2025-07-27 19:16:41 [INFO]: ==================================================
+2025-07-27 19:16:41 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-27 19:16:41 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-27 19:16:41 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-27 19:19:47 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-27 19:19:47 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-27 19:19:47 [INFO]: Base de datos conectada
+2025-07-27 19:19:47 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-27 19:19:47 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-27 19:19:47 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-27 19:19:47 [INFO]: 📋 Roles disponibles:
+2025-07-27 19:19:47 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-27 19:19:47 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-27 19:19:47 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-27 19:19:47 [INFO]: ==================================================
+2025-07-27 19:19:47 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-27 19:19:47 [INFO]: 📡 Puerto: 2000
+2025-07-27 19:19:47 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-27 19:19:47 [INFO]: 📊 Entorno: development
+2025-07-27 19:19:47 [INFO]: ==================================================
+2025-07-27 19:19:47 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-27 19:19:47 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-27 19:19:47 [INFO]: Conexión establecida con la base de datos
+2025-07-27 19:19:47 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-27 19:20:15 [INFO]: [0mGET /auth/status [36m304[0m 13.982 ms - -[0m
+2025-07-27 19:20:15 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 1.409 ms - 0[0m
+2025-07-27 19:20:15 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-27 19:20:15 [INFO]: [0mGET /auth/preferences [33m401[0m 6.256 ms - 88[0m
+2025-07-27 19:20:15 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-27 19:20:15 [INFO]: [0mPOST /auth/logout [33m401[0m 19.563 ms - 88[0m
+2025-07-27 19:20:17 [INFO]: [0mGET /auth/status [36m304[0m 0.682 ms - -[0m
+2025-07-27 19:20:17 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-27 19:20:17 [INFO]: [0mPOST /auth/logout [33m401[0m 1.571 ms - 88[0m
+2025-07-27 19:20:17 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.836 ms - 52[0m
+2025-07-27 19:20:20 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.112 ms - 0[0m
+2025-07-27 19:20:20 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-27 19:20:20 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-27 19:20:20 [INFO]: [0mPOST /auth/login [32m200[0m 14.970 ms - 178[0m
+2025-07-27 19:20:22 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.141 ms - 0[0m
+2025-07-27 19:20:22 [INFO]: [0mGET /api/csrf-token [32m200[0m 27.898 ms - 52[0m
+2025-07-27 19:20:22 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.229 ms - 0[0m
+2025-07-27 19:20:22 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-27 19:20:22 [INFO]: [0mGET /admin/dashboard [33m404[0m 4.936 ms - 48[0m
+2025-07-27 19:20:22 [INFO]: [0mOPTIONS /news [32m204[0m 0.110 ms - 0[0m
+2025-07-27 19:20:22 [WARN]: 404 Not Found: /news
+2025-07-27 19:20:22 [INFO]: [0mGET /news [33m404[0m 4.640 ms - 48[0m
+2025-07-29 18:08:08 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-29 18:08:08 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-29 18:08:08 [ERROR]: La conexión a la base de datos fue rechazada
+2025-07-29 18:08:08 [ERROR]: ❌ Error al inicializar roles: 
+2025-07-29 18:08:08 [ERROR]: 💡 Asegúrate de que:
+2025-07-29 18:08:08 [ERROR]:    - La tabla "roles" existe en la base de datos
+2025-07-29 18:08:08 [ERROR]:    - La conexión a MySQL está funcionando
+2025-07-29 18:08:08 [ERROR]:    - Las credenciales de base de datos son correctas
+2025-07-29 18:08:08 [ERROR]: ❌ Error en la inicialización de roles
+2025-07-29 18:08:08 [INFO]: ==================================================
+2025-07-29 18:08:08 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-29 18:08:08 [INFO]: 📡 Puerto: 2000
+2025-07-29 18:08:08 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-29 18:08:08 [INFO]: 📊 Entorno: development
+2025-07-29 18:08:08 [INFO]: ==================================================
+2025-07-29 18:08:08 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-29 18:08:08 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-29 18:08:08 [ERROR]: No se pudo conectar a la base de datos: 
+2025-07-29 18:08:08 [ERROR]: Error al sincronizar la Base de Datos: SequelizeConnectionRefusedError
+2025-07-29 18:08:08 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-29 18:08:08 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 18:08:30 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-29 18:08:30 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-29 18:08:30 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-29 18:08:30 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-29 18:08:30 [INFO]: Base de datos conectada
+2025-07-29 18:08:30 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-29 18:08:30 [INFO]: 📋 Roles disponibles:
+2025-07-29 18:08:30 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-29 18:08:30 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-29 18:08:30 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-29 18:08:30 [INFO]: ==================================================
+2025-07-29 18:08:30 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-29 18:08:30 [INFO]: 📡 Puerto: 2000
+2025-07-29 18:08:30 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-29 18:08:30 [INFO]: 📊 Entorno: development
+2025-07-29 18:08:30 [INFO]: ==================================================
+2025-07-29 18:08:30 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-29 18:08:30 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-29 18:08:30 [INFO]: Conexión establecida con la base de datos
+2025-07-29 18:08:30 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-29 18:08:34 [INFO]: [0mGET /auth/status [32m200[0m 6.665 ms - 37[0m
+2025-07-29 18:08:34 [INFO]: [0mGET /auth/status [36m304[0m 0.833 ms - -[0m
+2025-07-29 18:08:34 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.413 ms - 0[0m
+2025-07-29 18:08:34 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-29 18:08:34 [INFO]: [0mGET /auth/preferences [33m401[0m 1.830 ms - 88[0m
+2025-07-29 18:08:34 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-29 18:08:34 [INFO]: [0mPOST /auth/logout [33m401[0m 12.182 ms - 88[0m
+2025-07-29 18:08:34 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-29 18:08:34 [INFO]: [0mPOST /auth/logout [33m401[0m 1.716 ms - 88[0m
+2025-07-29 18:08:36 [INFO]: [0mGET /auth/status [36m304[0m 1.087 ms - -[0m
+2025-07-29 18:08:36 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-29 18:08:36 [INFO]: [0mPOST /auth/logout [33m401[0m 0.913 ms - 88[0m
+2025-07-29 18:08:36 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.950 ms - 52[0m
+2025-07-29 18:08:39 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.126 ms - 0[0m
+2025-07-29 18:08:39 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-29 18:08:39 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-29 18:08:40 [INFO]: [0mPOST /auth/login [32m200[0m 14.460 ms - 178[0m
+2025-07-29 18:08:41 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.098 ms - 0[0m
+2025-07-29 18:08:41 [INFO]: [0mGET /api/csrf-token [32m200[0m 25.816 ms - 52[0m
+2025-07-29 18:08:41 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.101 ms - 0[0m
+2025-07-29 18:08:41 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-29 18:08:41 [INFO]: [0mGET /admin/dashboard [33m404[0m 4.939 ms - 48[0m
+2025-07-29 18:08:41 [INFO]: [0mOPTIONS /news [32m204[0m 0.073 ms - 0[0m
+2025-07-29 18:08:41 [WARN]: 404 Not Found: /news
+2025-07-29 18:08:41 [INFO]: [0mGET /news [33m404[0m 4.294 ms - 48[0m
+2025-07-29 18:08:50 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.147 ms - 0[0m
+2025-07-29 18:08:50 [INFO]: [0mGET /users/all [36m304[0m 5.928 ms - -[0m
+2025-07-29 18:08:50 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.119 ms - 0[0m
+2025-07-29 18:08:50 [INFO]: [0mGET /roles/lista [36m304[0m 4.078 ms - -[0m
+2025-07-29 18:09:13 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.121 ms - 0[0m
+2025-07-29 18:09:13 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.021 ms - 52[0m
+2025-07-29 18:09:13 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.214 ms - 0[0m
+2025-07-29 18:09:13 [INFO]: [0mGET /teams/all [36m304[0m 5.114 ms - -[0m
+2025-07-29 18:09:22 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.176 ms - 0[0m
+2025-07-29 18:09:22 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.885 ms - 52[0m
+2025-07-29 18:09:22 [INFO]: [0mOPTIONS /teams [32m204[0m 0.095 ms - 0[0m
+2025-07-29 18:09:22 [WARN]: 404 Not Found: /teams
+2025-07-29 18:09:22 [INFO]: [0mGET /teams [33m404[0m 6.039 ms - 48[0m
+2025-07-29 18:09:22 [INFO]: [0mOPTIONS /referees [32m204[0m 0.099 ms - 0[0m
+2025-07-29 18:09:22 [INFO]: [0mGET /referees [36m304[0m 6.159 ms - -[0m
+2025-07-29 18:09:22 [INFO]: [0mOPTIONS /matches [32m204[0m 0.062 ms - 0[0m
+2025-07-29 18:09:22 [WARN]: 404 Not Found: /matches
+2025-07-29 18:09:22 [INFO]: [0mGET /matches [33m404[0m 3.452 ms - 48[0m
+2025-07-29 18:09:24 [INFO]: [0mGET /api/csrf-token [32m200[0m 2.790 ms - 52[0m
+2025-07-29 18:09:24 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.086 ms - 0[0m
+2025-07-29 18:09:24 [INFO]: [0mGET /teams/all [36m304[0m 3.575 ms - -[0m
+2025-07-29 20:54:19 [INFO]: [0mGET /auth/status [32m200[0m 74.613 ms - 99[0m
+2025-07-29 20:54:19 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-29 20:54:19 [INFO]: [0mGET /auth/preferences [36m304[0m 10.457 ms - -[0m
+2025-07-29 20:54:19 [INFO]: [0mGET /api/csrf-token [32m200[0m 3.607 ms - 52[0m
+2025-07-29 20:54:19 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.101 ms - 0[0m
+2025-07-29 20:54:19 [INFO]: [0mGET /teams/all [36m304[0m 8.376 ms - -[0m
+2025-07-29 22:14:25 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-30 09:21:37 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-30 09:21:37 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-30 09:21:37 [INFO]: Base de datos conectada
+2025-07-30 09:21:37 [INFO]: Conexión establecida con la base de datos
+2025-07-30 09:21:37 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-30 09:21:37 [INFO]: 📋 Roles disponibles:
+2025-07-30 09:21:37 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-30 09:21:37 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-30 09:21:37 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-30 09:21:37 [INFO]: ==================================================
+2025-07-30 09:21:37 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-30 09:21:37 [INFO]: 📡 Puerto: 2000
+2025-07-30 09:21:37 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-30 09:21:37 [INFO]: 📊 Entorno: development
+2025-07-30 09:21:37 [INFO]: ==================================================
+2025-07-30 09:21:37 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-30 09:21:37 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-30 09:21:37 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-30 09:22:06 [INFO]: ⚠️  Mongoose desconectado de MongoDB
+2025-07-30 09:24:02 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-30 09:24:02 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-30 09:24:02 [INFO]: Base de datos conectada
+2025-07-30 09:24:02 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-30 09:24:02 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 09:24:02 [INFO]: ✅ Los roles ya existen en la base de datos
+2025-07-30 09:24:02 [INFO]: 📋 Roles disponibles:
+2025-07-30 09:24:02 [INFO]:    🔹 Administrador - Administrador del sistema con acceso completo
+2025-07-30 09:24:02 [INFO]:    🔹 Usuario - Usuario estándar del sistema
+2025-07-30 09:24:02 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-30 09:24:02 [INFO]: ==================================================
+2025-07-30 09:24:02 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-30 09:24:02 [INFO]: 📡 Puerto: 2000
+2025-07-30 09:24:02 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-30 09:24:02 [INFO]: 📊 Entorno: development
+2025-07-30 09:24:02 [INFO]: ==================================================
+2025-07-30 09:24:02 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-30 09:24:02 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-30 09:24:02 [INFO]: Conexión establecida con la base de datos
+2025-07-30 09:24:02 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-30 09:30:20 [INFO]: 🚀 Iniciando Back2SocialSoccer...
+2025-07-30 09:30:20 [INFO]: 🔄 Verificando e inicializando roles del sistema...
+2025-07-30 09:30:20 [INFO]: ✅ Mongoose conectado a MongoDB en: localhost
+2025-07-30 09:30:20 [INFO]: 🚀 MongoDB conectado correctamente
+2025-07-30 09:30:21 [INFO]: Base de datos conectada
+2025-07-30 09:30:21 [INFO]: ✅ Roles creados automáticamente:
+2025-07-30 09:30:21 [INFO]:    🔹 Administrador - Acceso completo al sistema
+2025-07-30 09:30:21 [INFO]:    🔹 Usuario - Acceso estándar al sistema
+2025-07-30 09:30:21 [INFO]: 📋 Los usuarios ahora pueden registrarse con el rol "Usuario" por defecto
+2025-07-30 09:30:21 [INFO]: 🎯 Inicialización de roles completada exitosamente
+2025-07-30 09:30:21 [INFO]: ==================================================
+2025-07-30 09:30:21 [INFO]: 🎯 Servidor Back2SocialSoccer ejecutándose
+2025-07-30 09:30:21 [INFO]: 📡 Puerto: 2000
+2025-07-30 09:30:21 [INFO]: 🌐 URL: http://localhost:2000
+2025-07-30 09:30:21 [INFO]: 📊 Entorno: development
+2025-07-30 09:30:21 [INFO]: ==================================================
+2025-07-30 09:30:21 [INFO]: ✅ ¡Servidor listo para recibir conexiones!
+2025-07-30 09:30:21 [INFO]: 📝 Ahora puedes registrar usuarios desde el frontend
+2025-07-30 09:30:21 [INFO]: Conexión establecida con la base de datos
+2025-07-30 09:30:26 [INFO]: Base de Datos sincronizadas (modo seguro)
+2025-07-30 09:30:29 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.915 ms - 0[0m
+2025-07-30 09:30:29 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-30 09:30:29 [INFO]: [0mPOST /auth/logout [33m401[0m 114.048 ms - 88[0m
+2025-07-30 09:30:29 [INFO]: [0mGET /auth/status [32m200[0m 98.861 ms - 37[0m
+2025-07-30 09:30:29 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-30 09:30:29 [INFO]: [0mPOST /auth/logout [33m401[0m 99.974 ms - 88[0m
+2025-07-30 09:30:29 [INFO]: [0mGET /api/csrf-token [32m200[0m 353.349 ms - 52[0m
+2025-07-30 09:37:54 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.103 ms - 0[0m
+2025-07-30 09:37:54 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-30 09:37:54 [INFO]: ❌ Usuario no encontrado: maa.ortiz@yavirac.edu.ec
+2025-07-30 09:37:54 [ERROR]: (node:7592) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-30 09:37:54 [INFO]: [0mPOST /auth/login [33m401[0m 194.288 ms - 51[0m
+2025-07-30 09:37:58 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.107 ms - 0[0m
+2025-07-30 09:37:58 [INFO]: [0mGET /auth/status [36m304[0m 89.208 ms - -[0m
+2025-07-30 09:37:58 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.111 ms - 0[0m
+2025-07-30 09:37:58 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.138 ms - 0[0m
+2025-07-30 09:37:58 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-30 09:37:58 [INFO]: [0mPOST /auth/logout [33m401[0m 87.431 ms - 88[0m
+2025-07-30 09:37:58 [INFO]: [0mGET /api/csrf-token [32m200[0m 98.539 ms - 52[0m
+2025-07-30 09:37:58 [INFO]: [0mOPTIONS /roles/disponibles [32m204[0m 0.184 ms - 0[0m
+2025-07-30 09:37:58 [INFO]: [0mGET /roles/disponibles [36m304[0m 199.272 ms - -[0m
+2025-07-30 09:38:12 [INFO]: [0mOPTIONS /auth/register [32m204[0m 0.110 ms - 0[0m
+2025-07-30 09:38:12 [INFO]: ⚠️ Nuevo administrador registrado: maa.ortiz@yavirac.edu.ec
+2025-07-30 09:38:13 [INFO]: [0mPOST /auth/register [32m201[0m 823.682 ms - 305[0m
+2025-07-30 09:38:15 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.117 ms - 0[0m
+2025-07-30 09:38:16 [INFO]: [0mGET /auth/status [32m200[0m 208.698 ms - 97[0m
+2025-07-30 09:38:24 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.099 ms - 0[0m
+2025-07-30 09:38:24 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-30 09:38:25 [INFO]: [0mPOST /auth/logout [32m200[0m 494.332 ms - 84[0m
+2025-07-30 09:38:25 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.093 ms - 0[0m
+2025-07-30 09:38:25 [INFO]: [0mGET /auth/status [32m200[0m 0.535 ms - 37[0m
+2025-07-30 09:38:25 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-30 09:38:25 [INFO]: [0mPOST /auth/logout [33m401[0m 1.119 ms - 88[0m
+2025-07-30 09:38:25 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.102 ms - 0[0m
+2025-07-30 09:38:25 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.445 ms - 52[0m
+2025-07-30 09:38:29 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.100 ms - 0[0m
+2025-07-30 09:38:29 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-30 09:38:29 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-30 09:38:29 [INFO]: [0mPOST /auth/login [32m200[0m 299.537 ms - 174[0m
+2025-07-30 09:38:31 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.111 ms - 0[0m
+2025-07-30 09:38:31 [INFO]: [0mGET /api/csrf-token [32m200[0m 198.635 ms - 52[0m
+2025-07-30 09:38:31 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.075 ms - 0[0m
+2025-07-30 09:38:31 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-30 09:38:32 [INFO]: [0mGET /admin/dashboard [33m404[0m 199.027 ms - 48[0m
+2025-07-30 09:38:32 [INFO]: [0mOPTIONS /news [32m204[0m 0.081 ms - 0[0m
+2025-07-30 09:38:32 [WARN]: 404 Not Found: /news
+2025-07-30 09:38:32 [INFO]: [0mGET /news [33m404[0m 200.758 ms - 48[0m
+2025-07-30 09:38:48 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.094 ms - 0[0m
+2025-07-30 09:38:49 [INFO]: [0mGET /users/all [32m200[0m 299.987 ms - 281[0m
+2025-07-30 09:38:49 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.100 ms - 0[0m
+2025-07-30 09:38:49 [INFO]: [0mGET /roles/lista [32m200[0m 295.752 ms - 375[0m
+2025-07-30 09:39:17 [INFO]: [0mOPTIONS /users/update/1 [32m204[0m 0.084 ms - 0[0m
+2025-07-30 09:39:17 [INFO]: [0mPUT /users/update/1 [32m200[0m 302.124 ms - 48[0m
+2025-07-30 09:39:17 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.098 ms - 0[0m
+2025-07-30 09:39:18 [INFO]: [0mGET /users/all [32m200[0m 295.941 ms - 288[0m
+2025-07-30 09:39:37 [INFO]: [0mOPTIONS /users/create [32m204[0m 0.093 ms - 0[0m
+2025-07-30 09:39:37 [INFO]: [0mPOST /users/create [32m201[0m 399.494 ms - 717[0m
+2025-07-30 09:39:37 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.141 ms - 0[0m
+2025-07-30 09:39:37 [INFO]: [0mGET /users/all [32m200[0m 296.983 ms - 521[0m
+2025-07-30 09:39:41 [INFO]: [0mOPTIONS /users/delete/2 [32m204[0m 0.098 ms - 0[0m
+2025-07-30 09:39:42 [INFO]: [0mDELETE /users/delete/2 [32m200[0m 400.811 ms - 68[0m
+2025-07-30 09:39:42 [INFO]: [0mGET /users/all [32m200[0m 295.808 ms - 288[0m
+2025-07-30 09:39:45 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.097 ms - 0[0m
+2025-07-30 09:39:45 [INFO]: [0mGET /api/csrf-token [32m200[0m 199.452 ms - 52[0m
+2025-07-30 09:39:45 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.071 ms - 0[0m
+2025-07-30 09:39:46 [INFO]: [0mGET /teams/all [32m200[0m 296.197 ms - 2[0m
+2025-07-30 09:40:34 [INFO]: [0mOPTIONS /teams/create [32m204[0m 0.094 ms - 0[0m
+2025-07-30 09:40:35 [INFO]: [0mPOST /teams/create [32m201[0m 419.931 ms - 943[0m
+2025-07-30 09:40:35 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.077 ms - 0[0m
+2025-07-30 09:40:35 [INFO]: [0mGET /teams/all [32m200[0m 296.499 ms - 275[0m
+2025-07-30 09:40:55 [INFO]: [0mOPTIONS /auth/logout [32m204[0m 0.097 ms - 0[0m
+2025-07-30 09:40:55 [INFO]: Usuario autenticado: maa.ortiz@yavirac.edu.ec
+2025-07-30 09:40:55 [INFO]: [0mPOST /auth/logout [32m200[0m 493.621 ms - 96[0m
+2025-07-30 09:40:55 [INFO]: [0mOPTIONS /auth/status [32m204[0m 0.094 ms - 0[0m
+2025-07-30 09:40:55 [INFO]: [0mGET /auth/status [36m304[0m 0.681 ms - -[0m
+2025-07-30 09:40:55 [INFO]: Usuario no autenticado, acceso denegado
+2025-07-30 09:40:55 [INFO]: [0mPOST /auth/logout [33m401[0m 0.842 ms - 88[0m
+2025-07-30 09:40:55 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.111 ms - 0[0m
+2025-07-30 09:40:55 [INFO]: [0mGET /api/csrf-token [32m200[0m 0.461 ms - 52[0m
+2025-07-30 09:50:39 [INFO]: [0mOPTIONS /auth/login [32m204[0m 0.097 ms - 0[0m
+2025-07-30 09:50:39 [INFO]: 🔍 Intentando login para: maa.ortiz@yavirac.edu.ec
+2025-07-30 09:50:39 [INFO]: ✅ Usuario autenticado: [object Object]
+2025-07-30 09:50:40 [INFO]: [0mPOST /auth/login [32m200[0m 297.978 ms - 198[0m
+2025-07-30 09:50:41 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.157 ms - 0[0m
+2025-07-30 09:50:42 [INFO]: [0mGET /api/csrf-token [32m200[0m 198.737 ms - 52[0m
+2025-07-30 09:50:42 [INFO]: [0mOPTIONS /admin/dashboard [32m204[0m 0.117 ms - 0[0m
+2025-07-30 09:50:42 [WARN]: 404 Not Found: /admin/dashboard
+2025-07-30 09:50:42 [INFO]: [0mGET /admin/dashboard [33m404[0m 199.400 ms - 48[0m
+2025-07-30 09:50:42 [INFO]: [0mOPTIONS /news [32m204[0m 0.077 ms - 0[0m
+2025-07-30 09:50:42 [WARN]: 404 Not Found: /news
+2025-07-30 09:50:42 [INFO]: [0mGET /news [33m404[0m 200.315 ms - 48[0m
+2025-07-30 09:50:44 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.103 ms - 0[0m
+2025-07-30 09:50:45 [INFO]: [0mGET /users/all [36m304[0m 297.080 ms - -[0m
+2025-07-30 09:50:45 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.078 ms - 0[0m
+2025-07-30 09:50:45 [INFO]: [0mGET /roles/lista [36m304[0m 295.183 ms - -[0m
+2025-07-30 09:50:46 [INFO]: [0mGET /api/csrf-token [32m200[0m 198.790 ms - 52[0m
+2025-07-30 09:50:46 [INFO]: [0mOPTIONS /teams/all [32m204[0m 0.102 ms - 0[0m
+2025-07-30 09:50:47 [INFO]: [0mGET /teams/all [36m304[0m 295.324 ms - -[0m
+2025-07-30 09:50:47 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.129 ms - 0[0m
+2025-07-30 09:50:48 [INFO]: [0mGET /api/csrf-token [32m200[0m 197.764 ms - 52[0m
+2025-07-30 09:50:48 [INFO]: [0mOPTIONS /teams [32m204[0m 0.074 ms - 0[0m
+2025-07-30 09:50:48 [WARN]: 404 Not Found: /teams
+2025-07-30 09:50:48 [INFO]: [0mGET /teams [33m404[0m 197.369 ms - 48[0m
+2025-07-30 09:50:48 [INFO]: [0mOPTIONS /referees [32m204[0m 0.085 ms - 0[0m
+2025-07-30 09:50:48 [INFO]: [0mGET /referees [36m304[0m 296.861 ms - -[0m
+2025-07-30 09:50:48 [INFO]: [0mOPTIONS /matches [32m204[0m 0.130 ms - 0[0m
+2025-07-30 09:50:48 [WARN]: 404 Not Found: /matches
+2025-07-30 09:50:49 [INFO]: [0mGET /matches [33m404[0m 198.712 ms - 48[0m
+2025-07-30 09:50:50 [INFO]: [0mGET /api/csrf-token [32m200[0m 197.626 ms - 52[0m
+2025-07-30 09:50:50 [INFO]: [0mOPTIONS /users/all [32m204[0m 0.100 ms - 0[0m
+2025-07-30 09:50:51 [INFO]: [0mGET /teams/all [36m304[0m 296.199 ms - -[0m
+2025-07-30 09:50:51 [INFO]: [0mGET /users/all [36m304[0m 263.109 ms - -[0m
+2025-07-30 09:50:51 [INFO]: [0mOPTIONS /roles/lista [32m204[0m 0.082 ms - 0[0m
+2025-07-30 09:50:51 [INFO]: [0mGET /roles/lista [36m304[0m 270.632 ms - -[0m
+2025-07-30 09:50:54 [INFO]: [0mOPTIONS /api/csrf-token [32m204[0m 0.153 ms - 0[0m
+2025-07-30 09:50:54 [INFO]: [0mGET /api/csrf-token [32m200[0m 185.326 ms - 52[0m
+2025-07-30 09:50:54 [INFO]: [0mOPTIONS /referees [32m204[0m 0.098 ms - 0[0m
+2025-07-30 09:50:54 [INFO]: [0mGET /referees [36m304[0m 270.753 ms - -[0m
